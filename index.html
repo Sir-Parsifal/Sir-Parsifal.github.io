@@ -11,9 +11,17 @@
 </head>
 
 <body>
-<iframe 	
-        src="https://www.openstreetmap.org/export/embed.html?bbox=-142.11914062500003%2C20.05593126519445%2C-55.98632812500001%2C50.3454604086048&amp;layer=mapnik" 
-        style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"
+<div id="map" style="width: 600px; height: 400px;"></div>
+<script>
+
+	const map = L.map('map').setView([48.9, -105.5], 13);
+
+	const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		maxZoom: 19,
+		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+	}).addTo(map);
+
+</script>
 </body>
 </html>
 
