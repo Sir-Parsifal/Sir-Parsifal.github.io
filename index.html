@@ -1,3 +1,4 @@
+@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html>
 
@@ -8,28 +9,14 @@
 <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
      crossorigin=""></script>
-	 
-<style>
-        body {
-            padding: 0;
-            margin: 0;
-        }
-        html, body, #map {
-            height: 100%;
-            width: 100%;
-        }
-		.alert {
-		padding: 5px;
-		background-color: #257ce3;
-		color: white;
-		}
 </head>
 
 <body>
-<div id="map" ></div>
+<div id="map" style="width: 600px; height: 400px;"></div>
 <script>
 
 	const map = L.map('map').setView([48.9, -105.5], 13);
+	const map = L.map('map').setView([48.9, -105.5], 3);
 
 	const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 		maxZoom: 19,
