@@ -21,6 +21,20 @@ internationalleague = {
 				[[43.158267, -77.619794], "1997", "now"]
 						]
 		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Ottawa Lynx", "1993", "2007"],
+				["Lehigh Valley IronPigs", "2008", "now"]
+						],
+			"leagues" : [
+				["International League", "1993", "now"]
+						],
+			"coords": 	[
+				[[45.420142, -75.653569], "1993", "2007"],
+				[[40.626111, -75.4525], "2008", "now"]
+						]
+		},
 	]
 }
 	
