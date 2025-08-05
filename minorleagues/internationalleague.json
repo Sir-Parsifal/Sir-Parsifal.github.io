@@ -34,6 +34,320 @@ internationalleague = {
 				[[45.420142, -75.653569], "1993", "2007"],
 				[[40.626111, -75.4525], "2008", "now"]
 						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Toronto Maple Leafs", "1896", "1967"],
+				["Louisville Colonels", "1968", "1972"],
+				["Pawtucket Red Sox", "1973", "1975"],
+				["Rhode Island Red Sox", "1976", "1976"],
+				["Pawtucket Red Sox", "1977", "2020"],
+				["Worcester Red Sox", "2021", "now"]
+						],
+			"leagues" : [
+				["Eastern League", "1896", "1911"],
+				["International League", "1912", "now"]
+						],
+			"coords": 	[
+				[[43.657778, -79.351944 ], "1896", "1896"],
+				[[43.627, -79.3916], "1897", "1900"],
+				[[43.6373, -79.4235], "1901", "1907"],
+				[[43.627, -79.3916], "1908", "1925"],
+				[[43.635261, -79.400222], "1926", "1967"],
+				[[38.202222, -85.742778], "1968", "1972"],
+				[[41.873164, -71.370039], "1973", "2020"],
+				[[42.256944, -71.8], "2021", "now"]
+
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Asheville Tourists", "1959", "1971"],
+				["Asheville Orioles", "1972", "1975"],
+				["Charlotte Orioles", "1976", "1987"],
+				["Charlotte Knights", "1988", "now"]
+						],
+			"leagues" : [
+				["South Atlantic League", "1959", "1963"],
+				["Southern League", "1964", "1966"],
+				["Carolina League", "1967", "1967"],
+				["Southern League", "1968", "1970"],
+				["Dixie Association", "1971", "1971"],
+				["Southern League", "1972", "1992"],
+				["International League", "1993", "now"]
+						],
+			"coords": 	[
+				[[35.587222, -82.549167], "1959", "1975"],
+				[[35.203611, -80.858889], "1976", "1987"],
+				[[35.0525, -80.954444 ], "1988", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Jacksonville Suns", "1970", "1984"],
+				["Jacksonville Expos", "1985", "1990"],
+				["Jacksonville Suns", "1991", "2016"],
+				["Jacksonville Jumbo Shrimp", "2017", "now"]
+						],
+			"leagues" : [
+				["Southern League", "1970", "2020"],
+				["International League", "2021", "now"]
+						],
+			"coords": 	[
+				[[30.325888, -81.639844], "1970", "2002"],
+				[[30.324968, -81.643069], "2003", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Havana Cubanos", "1946", "1953"],
+				["Havana Sugar Kings", "1954", "1959"],
+				["Jersey City Jerseys", "1960", "1961"],
+				["Jacksonville Suns", "1962", "1968"],
+				["Tidewater Tides", "1969", "1993"],
+				["Norfolk Tides", "1994", "now"]
+						],
+			"leagues" : [
+				["Florida International League", "1946", "1953"],
+				["International League", "1954", "now"]
+						],
+			"coords": 	[
+				[[23.118333, -82.376111 ], "1946", "1959"],
+				[[40.706389, -74.105 ], "1960", "1961"],
+				[[30.325888, -81.639844 ], "1962", "1968"],
+				[[36.878, -76.206 ], "1969", "1993"],
+				[[36.842789, -76.278869], "1994", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Montreal Royals", "1928", "1960"],
+				["Syracuse Chiefs", "1961", "1996"],
+				["Syracuse SkyChiefs", "1997", "2006"],
+				["Syracuse Chiefs", "2007", "2018"],
+				["Syracuse Mets", "2019", "now"]
+						],
+			"leagues" : [
+				["International League", "1928", "now"]
+						],
+			"coords": 	[
+				[[45.528333, -73.5575], "1928", "1960"],
+				[[43.076657, -76.162959 ], "1961", "1996"],
+				[[43.079078, -76.165358 ], "1997", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Reading Coal Barons", "1919", "1919"],
+				["Reading Marines", "1920", "1920"],
+				["Reading Aces", "1921", "1921"],
+				["Reading Keystones", "1922", "1932-07-05"],
+				["Albany Senators", "1932-07-06", "1936"],
+				["Jersey City Giants", "1937", "1950"],
+				["Ottawa Giants", "1951", "1951"],
+				["Ottawa Athletics", "1952", "1954"],
+				["Columbus Jets", "1955", "1970"],
+				["Charleston Charlies", "1971", "1976"],
+				["Columbus Clippers", "1977", "now"]
+						],
+			"leagues" : [
+				["International League", "1919", "now"]
+						],
+			"coords": 	[
+				[[40.341667, -75.926389 ], "1919", "1932-07-05"],
+				[[42.6525, -73.757222 ], "1932-07-06", "1936"],
+				[[40.706389, -74.105 ], "1937", "1950"],
+				[[45.398056, -75.683611 ], "1951", "1954"],
+				[[39.946406, -83.028217 ], "1955", "1970"],
+				[[38.327778, -81.6  ], "1971", "1976"],
+				[[39.946406, -83.028217 ], "1977", "2008"],
+				[[39.968619, -83.010743 ], "2009", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Atlanta Crackers", "1902", "1965"],
+				["Richmond Braves", "1965", "2008"],
+				["Gwinnett Braves", "2009", "2017"],
+				["Gwinnett Stripers", "2018", "now"]
+						],
+			"leagues" : [
+				["International League", "1902", "1961"],
+				["International League", "1962", "now"]
+						],
+			"coords": 	[
+				[[33.786111, -84.373333 ], "1902", "1906"],
+				[[33.774983, -84.365242 ], "1907", "1964"],
+				[[33.739, -84.389 ], "1965", "1965"],
+				[[37.571806, -77.463722 ], "1966", "1985"],
+				[[37.571806, -77.463733 ], "1986", "2008"],
+				[[34.040583, -83.992389 ], "2009", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Indianapolis Indians", "1902", "now"]
+						],
+			"leagues" : [
+				["American Association", "1902", "1962"],
+				["International League", "1963", "1963"],
+				["Pacific Coast League", "1964", "1968"],
+				["American Association", "1969", "1997"],
+				["International League", "1998", "now"]
+						],
+			"coords": 	[
+				[[39.768333, -86.113333 ], "1902", "1904"],
+				[[39.766944, -86.181667 ], "1905", "1931"],
+				[[39.788056, -86.188611 ], "1932", "1996"],
+				[[39.765, -86.168333 ], "1997", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Iowa Oaks", "1969", "1981"],
+				["Iowa Cubs", "1982", "now"]
+						],
+			"leagues" : [
+				["American Association", "1969", "1997"],
+				["Pacific Coast League", "1998", "2020"],
+				["International League", "2021", "now"]
+						],
+			"coords": 	[
+				[[41.580278, -93.615833 ], "1969", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Tulsa Oilers", "1919", "1929"],
+				["Topeka Senators", "1930", "1931"],
+				["Tulsa Oilers", "1932", "1976"],
+				["New Orleans Pelicans", "1977", "1977"],
+				["Springfield Redbirds", "1978", "1981"],
+				["Louisville Redbirds", "1982", "1998"],
+				["Louisville Redbirds", "1999", "2001"],
+				["Louisville Redbirds", "2002", "now"]
+						],
+			"leagues" : [
+				["WesternLeague", "1919", "1932"],
+				["Texas League", "1933", "1965"],
+				["Pacific Coast League", "1966", "1968"],
+				["American Association", "1969", "1997"],
+				["International League", "1998", "now"]
+						],
+			"coords": 	[
+				[[36.139722, -95.926944 ], "1919", "1929"],
+				[[39.034722, -95.695556 ], "1930", "1931"],
+				[[36.139722, -95.926944 ], "1932", "1976"],
+				[[29.950833, -90.081111 ], "1977", "1977"],
+				[[39.817074, -89.6364  ], "1978", "1981"],
+				[[38.202222, -85.742778 ], "1982", "1999"],
+				[[38.256186, -85.744653  ], "2000", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Memphis Redbirds", "1998", "now"]
+						],
+			"leagues" : [
+				["Pacific Coast League", "1998", "2020"],
+				["International League", "2021", "now"]
+						],
+			"coords": 	[
+				[[35.123611, -89.98  ], "1998", "1999"],
+				[[35.143056, -90.049167 ], "2000", "now"],
+						]
+		},
+		
+		{ 
+			"type": "team",
+			"names": 	[
+				["Nashville Sounds", "1978", "now"]
+						],
+			"leagues" : [
+				["Southern League", "1978", "1984"],
+				["American Association", "1985", "1997"],
+				["Pacific Coast League", "1998", "2020"],
+				["International League", "2021", "now"]
+						],
+			"coords": 	[
+				[[36.143333, -86.773611 ], "1978", "2015"],
+				[[36.172778, -86.784722 ], "2016", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Omaha Royals", "1969", "1998"],
+				["Omaha Golden Spikes", "1999", "2001"],
+				["Omaha Royals", "2002", "2010"],
+				["Omaha Storm Chasers", "2011", "now"]
+						],
+			"leagues" : [
+				["American Association", "1969", "1997"],
+				["Pacific Coast League", "1998", "2020"],
+				["International League", "2021", "now"]
+						],
+			"coords": 	[
+				[[41.225833, -95.931111 ], "1969", "2010"],
+				[[41.151806, -96.106472 ], "2011", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["St. Paul Saints", "1993", "now"]
+						],
+			"leagues" : [
+				["Northern League", "1993", "2005"],
+				["American Association", "2006", "2020"],
+				["International League", "2021", "now"]
+						],
+			"coords": 	[
+				[[44.9725, -93.173889 ], "1993", "2014"],
+				[[44.950861, -93.084194 ], "2015", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Baltimore Orioles", "1916", "1953"],
+				["Richmond Virginians", "1954", "1964"],
+				["Toledo Mud Hens", "1965", "now"],
+						],
+			"leagues" : [
+				["International League", "1916", "now"]
+						],
+			"coords": 	[
+				[[39.323889, -76.611111 ], "1916", "1953"],
+				[[37.571806, -77.463722 ], "1954", "1964"],
+				[[41.58456, -83.644203 ], "1965", "2001"],
+				[[41.648333, -83.538889 ], "2002", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Durham Bulls", "1980", "now"]
+						],
+			"leagues" : [
+				["Carolina League", "1980", "1997"],
+				["International League", "1998", "now"]
+						],
+			"coords": 	[
+				[[36.002789, -78.902794 ], "1980", "1994"],
+				[[35.991689, -78.904186 ], "1995", "now"],
+						]
 		}
 	]
 }

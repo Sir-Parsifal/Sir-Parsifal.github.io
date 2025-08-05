@@ -68,7 +68,7 @@
 <script>
 
 //creates the actual map
-var map = L.map('map').setView([42.7, -74.9], 6);
+var map = L.map('map').setView([39.833333, -98.583333 ], 5);
 //L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 //    maxZoom: 19,
 //    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
@@ -210,11 +210,11 @@ function addGeoJSONTeamsToLeagues (geoJSONTeam, league) {
 		case "NationalAssociation": 			NationalAssociation.features.push(geoJSONTeam); 			break;
 		case "NationalLeague": 					NationalLeague.features.push(geoJSONTeam); 					break;
 		case "NorthwesternLeague":				NorthwesternLeague.features.push(geoJSONTeam); 				break;	
-		case "PacificCoastLeague": 				PacificCoastLeague.features.push(geoJSONTeam); 				break;
+		case "Pacific Coast League": 			PacificCoastLeague.features.push(geoJSONTeam); 				break;
 		case "PacificCoastInternationalLeague":	PacificCoastInternationalLeague.features.push(geoJSONTeam); break;	
 		case "Players League": 					PlayersLeague.features.push(geoJSONTeam);					break;
 		case "South Atlantic League":			SouthAtlanticLeague.features.push(geoJSONTeam); 			break;	
-		case "TexasLeague":						TexasLeague.features.push(geoJSONTeam); 					break;		
+		case "Texas League":					TexasLeague.features.push(geoJSONTeam); 					break;		
 		case "WesternLeague": 					WesternLeague.features.push(geoJSONTeam); 					break;		
 		}}
 
@@ -495,6 +495,6 @@ addTeamToMap(CentralLeague, blueIcon);
 //addFileToMap(notableBirths);
 
 timelineControl.addTo(map);
-
+timelineControl.setTime(cleanDates("now", "end"));
 
 </script> </body> </html>

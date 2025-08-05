@@ -14,7 +14,7 @@ pacificcoastleague = {
 			"fate": "",
 			"fatetxt": "",
 			"leagues" : [
-				["PacificCoastLeague", "1903", "now"]
+				["Pacific Coast League", "1903", "now"]
 						],
 			"coords": 	[
 				[[34.030773, -118.267197], "1903", "1910"],
@@ -34,7 +34,7 @@ pacificcoastleague = {
 				["Sacramento River Cats", "2000", "now"]
 						],
 			"leagues" : [
-				["PacificCoastLeague", "1978", "now"]
+				["Pacific Coast League", "1978", "now"]
 						],
 			"coords": 	[
 				[[49.2431, -123.1063], "1978", "1999"],
@@ -53,9 +53,9 @@ pacificcoastleague = {
 				["Albuquerque Isotopes", "2003", "now"]
 						],
 			"leagues" : [
-				["PacificCoastLeague", "1903", "1962"],
+				["Pacific Coast League", "1903", "1962"],
 				["Inactive", "1963", "1964"],
-				["PacificCoastLeague", "1965", "now"]
+				["Pacific Coast League", "1965", "now"]
 						],
 			"coords": 	[
 				[[37.831389, -122.285278], "1903", "1911"],
@@ -83,9 +83,9 @@ pacificcoastleague = {
 				
 						],
 			"leagues" : [
-				["PacificCoastLeague", "1903", "1917"],
+				["Pacific Coast League", "1903", "1917"],
 				["PacificCoastInternationalLeague", "1918", "1918"],
-				["PacificCoastLeague", "1919", "now"]
+				["Pacific Coast League", "1919", "now"]
 						],
 			"coords": 	[
 				[[45.537, -122.701], "1903", "1955"],
@@ -106,7 +106,7 @@ pacificcoastleague = {
 				
 						],
 			"leagues" : [
-				["PacificCoastLeague", "1978", "now"]
+				["Pacific Coast League", "1978", "now"]
 						],
 			"coords": 	[
 				[[45.521389, -122.691667], "1978", "1993"],
@@ -128,7 +128,7 @@ pacificcoastleague = {
 				
 						],
 			"leagues" : [
-				["PacificCoastLeague", "1903", "now"]
+				["Pacific Coast League", "1903", "now"]
 						],
 			"coords": 	[
 				[[37.772778, -122.423333], "1903", "1913"],
@@ -163,7 +163,7 @@ pacificcoastleague = {
 				
 						],
 			"leagues" : [
-				["PacificCoastLeague", "1903", "now"]
+				["Pacific Coast League", "1903", "now"]
 						],
 			"coords": 	[
 				[[34.001111, -118.211111], "1903", "1912"],
@@ -198,9 +198,9 @@ pacificcoastleague = {
 				["Round Rock Express", "2005", "now"]
 						],
 			"leagues" : [
-				["PacificCoastLeague", "1903", "1906"],
+				["Pacific Coast League", "1903", "1906"],
 				["CaliforniaLeague", "1907", "1908"],
-				["PacificCoastLeague", "1909", "now"]
+				["Pacific Coast League", "1909", "now"]
 						],
 			"coords": 	[
 				[[38.581667, -121.494444], "1903", "1903"],
@@ -232,8 +232,8 @@ pacificcoastleague = {
 				["San Antonio Missions", "2019", "now"]
 						],
 			"leagues" : [
-				["PacificCoastLeague", "1918", "2020"],
-				["TexasLeague", "2021", "now"]
+				["Pacific Coast League", "1918", "2020"],
+				["Texas League", "2021", "now"]
 						],
 			"coords": 	[
 				[[38.56288, -121.49823], "1918", "1960"],
@@ -257,9 +257,9 @@ pacificcoastleague = {
 				["Fresno Grizzlies", "1998", "now"]
 						],
 			"leagues" : [
-				["PacificCoastLeague", "1903", "1906"],
+				["Pacific Coast League", "1903", "1906"],
 				["NorthwesternLeague", "1907", "1918"],
-				["PacificCoastLeague", "1919", "2020"],
+				["Pacific Coast League", "1919", "2020"],
 				["CaliforniaLeague", "2021", "now"],
 						],
 			"coords": 	[
@@ -270,7 +270,49 @@ pacificcoastleague = {
 				[[36.813477, -119.755699], "1998", "2001"],
 				[[36.7321, -119.7905], "2002", "now"]
 						]
-		}
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Sugar Land Skeeters", "2012", "2021"],
+				["Sugar Land Space Cowboys", "2022", "now"],
+						],
+			"leagues" : [
+				["Atlantic League", "2012", "2020"],
+				["Pacific Coast League", "2021", "now"]
+						],
+			"coords": 	[
+				[[29.622751, -95.647179 ], "2012", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Houston Buffaloes", "1907", "1961"],
+				["Oklahoma City 89ers", "1962", "1997"],
+				["Oklahoma RedHawks", "1998", "2008"],
+				["Oklahoma City RedHawks", "2009", "2014"],
+				["Oklahoma City Dodgers", "2015", "2023"],
+				["Oklahoma City Baseball Club", "2024", "2024"],
+				["Oklahoma City Comets", "2025", "now"]
+						],
+			"leagues" : [
+				["Texas League", "1907", "1942"],
+				["World War II", "1943", "1945"],
+				["Texas League", "1946", "1958"],
+				["American Association", "1959", "1962"],
+				["Pacific Coast League", "1963", "1968"],
+				["American Association", "1969", "1997"],
+				["Pacific Coast League", "1998", "now"]
+				
+						],
+			"coords": 	[
+				[[29.75493, -95.37443 ], "1907", "1927"],
+				[[29.734722, -95.341944 ], "1928", "1961"],
+				[[35.47615, -97.57679 ], "1962", "1997"],
+				[[35.464961, -97.50805 ], "1998", "now"]
+						]
+		},
 	]
 }
 	
