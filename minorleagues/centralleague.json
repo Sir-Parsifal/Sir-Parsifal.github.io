@@ -1,0 +1,93 @@
+centralleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Flint Arrows", "1948", "1951"]
+						],
+			"leagues" : [
+				["Central League", "1948", "1951"]
+						],
+			"coords": 	[
+				[[43.017085, -83.702682], "1948", "1951"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Dayton Indians", "1946", "1951"]
+						],
+			"leagues" : [
+				["Ohio State League", "1946", "1947"],
+				["Central League", "1948", "1951"]
+						],
+			"coords": 	[
+				[[39.751543, -84.23295], "1946", "1951"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Fort Wayne Generals", "1948", "1948"]
+						],
+			"leagues" : [
+				["Central League", "1948", "1948"]
+						],
+			"coords": 	[
+				[[41.088889, -85.161389], "1948", "1948"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Muskegon Clippers", "1948", "1950"],
+				["Muskegon Reds", "1951", "1951"],
+						],
+			"leagues" : [
+				["Central League", "1948", "1951"]
+						],
+			"coords": 	[
+				[[43.2187, -86.243], "1948", "1951"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Saginaw Bears", "1948", "1950"],
+				["Saginaw Jacks", "1951", "1951"],
+						],
+			"leagues" : [
+				["Central League", "1948", "1951"]
+						],
+			"coords": 	[
+				[[43.42, -83.95], "1948", "1951"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Grand Rapids Jets", "1948", "1951"]
+						],
+			"leagues" : [
+				["Central League", "1948", "1951"]
+						],
+			"coords": 	[
+				[[42.963333, -85.667778], "1948", "1951"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Charleston Senators", "1949", "1951"]
+						],
+			"leagues" : [
+				["Central League", "1949", "1951"]
+						],
+			"coords": 	[
+				[[38.327778, -81.6], "1948", "1951"]
+						]
+		}
+	]
+}
+	

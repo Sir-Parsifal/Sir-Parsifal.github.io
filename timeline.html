@@ -41,6 +41,8 @@
 <script src="minorleagues/internationalleague.json" type="text/javascript"></script> 
 <script src="majorleagues/playersleague.json" type="text/javascript"></script>
 <script src="majorleagues/americanassociation.json" type="text/javascript"></script>
+<script src="minorleagues/centralleague.json" type="text/javascript"></script> 
+
 
 <div id="map" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
     <style>
@@ -188,6 +190,7 @@ var IllinoisStateLeague				= {"type": 'FeatureCollection', "features": []}
 var MississippiOhioValleyLeague		= {"type": 'FeatureCollection', "features": []}
 var SouthAtlanticLeague				= {"type": 'FeatureCollection', "features": []}
 var NorthwesternLeague				= {"type": 'FeatureCollection', "features": []}
+var CentralLeague					= {"type": 'FeatureCollection', "features": []}
 
 function addGeoJSONTeamsToLeagues (geoJSONTeam, league) {
 	switch (league) {
@@ -195,6 +198,7 @@ function addGeoJSONTeamsToLeagues (geoJSONTeam, league) {
 		case "AmericanLeague": 					AmericanLeague.features.push(geoJSONTeam); 					break;
 		case "American Association": 			AmericanAssociation.features.push(geoJSONTeam); 			break;				
 		case "CaliforniaLeague":				CaliforniaLeague.features.push(geoJSONTeam); 				break;
+		case "Central League":					CentralLeague.features.push(geoJSONTeam); 					break;
 		case "Eastern League": 					EasternLeague.features.push(geoJSONTeam); 					break;
 		case "Illinois-Indiana-Iowa League": 	IllinoisIndianaIowaLeague.features.push(geoJSONTeam); 		break;
 		case "Illinois State League": 			IllinoisStateLeague.features.push(geoJSONTeam); 			break;
@@ -215,7 +219,7 @@ function addGeoJSONTeamsToLeagues (geoJSONTeam, league) {
 		}}
 
 
-function convertTeamToGeoJSON(team, nameArray, leagueArray, coordArray){
+function convertTeamToGeoJSON(team, nameArray, leagueArray, coordArray){ 
 	let latlng 		= 	[coordArray[0][1], coordArray[0][0]];
 	let nameStart 	= 	cleanDates(nameArray[1], 	"start");
 	let nameEnd 	= 	cleanDates(nameArray[2], 	"end");
@@ -442,7 +446,7 @@ loadTeams(midwestleague) //also contains the predecessor leagues Illinois State 
 loadTeams(internationalleague)
 loadTeams(playersleague)
 loadTeams(americanassociation)
-
+loadTeams(centralleague);
 
 
 //some code here to analyze the league arrays and make the map league names
@@ -463,7 +467,7 @@ addTeamToMap(InterstateAssociation, violetIcon);
 addTeamToMap(PacificCoastLeague, goldIcon);	
 addTeamToMap(CaliforniaLeague, blueIcon);		
 addTeamToMap(NorthwesternLeague, darkgreenIcon);	
-addTeamToMap(TexasLeague, orangeIcon);	
+addTeamToMap(TexasLeague, pinkIcon);	
 addTeamToMap(AlabamaTennesseeLeague, orangeIcon);
 addTeamToMap(PacificCoastInternationalLeague, aquamarineIcon);		
 addTeamToMap(IllinoisStateLeague, greyIcon);	
@@ -472,7 +476,7 @@ addTeamToMap(MidwestLeague, greyIcon);
 addTeamToMap(IllinoisIndianaIowaLeague, violetIcon);		
 addTeamToMap(SouthAtlanticLeague, violetIcon);
 addTeamToMap(PlayersLeague, blackIcon);
-
+addTeamToMap(CentralLeague, blueIcon);
 
 //addFileToMap(greatcentralleague1994, redIcon);
 //addFileToMap(midamericaleague1995, greenIcon);
