@@ -173,22 +173,30 @@ internationalleague = {
 		{ 
 			"type": "team",
 			"names": 	[
-				["Atlanta Crackers", "1902", "1965"],
-				["Richmond Braves", "1965", "2008"],
+				["Jersey City Skeeters", "1918", "1933"],
+				["Syracuse Chiefs", "1934", "1955"],
+				["Miami Marlins", "1956", "1960"],
+				["San Juan Marlins", "1961", "1961-5-18"],
+				["Charleston Marlins", "1961-5-19", "1961"],
+				["Atlanta Crackers", "1962", "1965"],
+				["Richmond Braves", "1966", "2008"],
 				["Gwinnett Braves", "2009", "2017"],
 				["Gwinnett Stripers", "2018", "now"]
 						],
 			"leagues" : [
-				["International League", "1902", "1961"],
-				["International League", "1962", "now"]
+				["International League", "1918", "now"]
 						],
 			"coords": 	[
-				[[33.786111, -84.373333 ], "1902", "1906"],
-				[[33.774983, -84.365242 ], "1907", "1964"],
+				[[40.72464, -74.080939 ], "1918", "1933"],
+				[[43.076657, -76.162959 ], "1934", "1955"],
+				[[25.79907, -80.210978 ], "1956", "1960"],
+				[[18.406389, -66.063889  ], "1961", "1961-5-18"],
+				[[38.327778, -81.6  ], "1961-5-19", "1961"],			
+				[[33.774983, -84.365242 ], "1962", "1964"],
 				[[33.739, -84.389 ], "1965", "1965"],
 				[[37.571806, -77.463722 ], "1966", "1985"],
 				[[37.571806, -77.463733 ], "1986", "2008"],
-				[[34.040583, -83.992389 ], "2009", "now"],
+				[[34.040583, -83.992389 ], "2009", "now"]
 						]
 		},
 		{ 
@@ -234,8 +242,8 @@ internationalleague = {
 				["New Orleans Pelicans", "1977", "1977"],
 				["Springfield Redbirds", "1978", "1981"],
 				["Louisville Redbirds", "1982", "1998"],
-				["Louisville Redbirds", "1999", "2001"],
-				["Louisville Redbirds", "2002", "now"]
+				["Louisville RiverBats", "1999", "2001"],
+				["Louisville Bats", "2002", "now"]
 						],
 			"leagues" : [
 				["WesternLeague", "1919", "1932"],
@@ -323,7 +331,7 @@ internationalleague = {
 			"names": 	[
 				["Baltimore Orioles", "1916", "1953"],
 				["Richmond Virginians", "1954", "1964"],
-				["Toledo Mud Hens", "1965", "now"],
+				["Toledo Mud Hens", "1965", "now"]
 						],
 			"leagues" : [
 				["International League", "1916", "now"]
@@ -332,7 +340,7 @@ internationalleague = {
 				[[39.323889, -76.611111 ], "1916", "1953"],
 				[[37.571806, -77.463722 ], "1954", "1964"],
 				[[41.58456, -83.644203 ], "1965", "2001"],
-				[[41.648333, -83.538889 ], "2002", "now"],
+				[[41.648333, -83.538889 ], "2002", "now"]
 						]
 		},
 		{ 
@@ -348,7 +356,86 @@ internationalleague = {
 				[[36.002789, -78.902794 ], "1980", "1994"],
 				[[35.991689, -78.904186 ], "1995", "now"],
 						]
-		}
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Baltimore Orioles", "1903", "1914"],
+				["Richmond Climbers", "1915", "1916"],
+				["Richmond Virginians", "1917", "1917"]
+						],
+			"leagues" : [
+				["Eastern League", "1903", "1911"],
+				["International League", "1912", "1917"]
+						],
+			"coords": 	[
+				[[39.322778, -76.610278 ], "1903", "1914"],
+				[[37.540833, -77.436667 ], "1915", "1917"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Montreal Royals", "1897", "1917"]
+						],
+			"leagues" : [
+				["Eastern League", "1897", "1911"],
+				["International League", "1912", "1917"]
+						],
+			"coords": 	[
+				[[45.5, -73.57  ], "1897", "1917"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Newark Indians", "1908", "1915-07-01"],
+				["Harrisburg Senators", "1915-07-02", "1915"],
+				["Newark Indians", "1916", "1916"],
+				["Newark Bears", "1917", "1919"],
+				["Akron Buckeyes", "1920", "1920"],
+				["Newark Bears", "1921", "1949"],
+				["Springfield Cubs", "1950", "1953"]
+						],
+			"leagues" : [
+				["Eastern League", "1908", "1911"],
+				["International League", "1912", "1953"]
+						],
+			"coords": 	[
+				[[40.735556, -74.172222], "1908", "1915-07-01"],
+				[[40.269722, -76.875556], "1915-07-02", "1915"],
+				[[40.735556, -74.172222], "1916", "1919"],
+				[[41.080556, -81.522222 ], "1920", "1920"],
+				[[40.735556, -74.172222], "1921", "1949"],
+				[[42.1102, -72.6103 ], "1950", "1953"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Providence Grays", "1899", "1919"]
+						],
+			"leagues" : [
+				["Eastern League", "1899", "1911"],
+				["International League", "1912", "1919"]
+						],
+			"coords": 	[
+				[[41.823611, -71.422222 ], "1899", "1919"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Binghamton Bingoes", "1901", "1919"]
+						],
+			"leagues" : [
+				["New York State League", "1901", "1917"],
+				["International League", "1918", "1919"]
+						],
+			"coords": 	[
+				[[42.098889, -75.910833 ], "1899", "1919"]
+						]
+		},
 	]
 }
 	
