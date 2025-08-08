@@ -42,7 +42,11 @@
 <script src="majorleagues/playersleague.json" type="text/javascript"></script>
 <script src="majorleagues/americanassociation.json" type="text/javascript"></script>
 <script src="minorleagues/centralleague.json" type="text/javascript"></script> 
-
+<script src="indyleagues/northcentralleague.json" type="text/javascript"></script> 
+<script src="indyleagues/greatcentralleague.json" type="text/javascript"></script> 
+<script src="indyleagues/midamericaleague.json" type="text/javascript"></script> 
+<script src="indyleagues/prairieleague.json" type="text/javascript"></script> 
+<script src="indyleagues/bigsouthleague.json" type="text/javascript"></script> 
 
 <div id="map" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
     <style>
@@ -177,6 +181,14 @@ var MidwestLeague					= {"type": 'FeatureCollection', "features": []}
 //extant low-A
 var CaliforniaLeague				= {"type": 'FeatureCollection', "features": []}
 
+
+//defunct Indy 
+var NorthCentralLeague				= {"type": 'FeatureCollection', "features": []}
+var GreatCentralLeague				= {"type": 'FeatureCollection', "features": []}
+var MidAmericaLeague				= {"type": 'FeatureCollection', "features": []}
+var PrairieLeague					= {"type": 'FeatureCollection', "features": []}
+var BigSouthLeague					= {"type": 'FeatureCollection', "features": []}
+
 //defunct
 var WesternLeague					= {"type": 'FeatureCollection', "features": []}
 var InternationalAssociation		= {"type": 'FeatureCollection', "features": []}
@@ -192,27 +204,34 @@ var SouthAtlanticLeague				= {"type": 'FeatureCollection', "features": []}
 var NorthwesternLeague				= {"type": 'FeatureCollection', "features": []}
 var CentralLeague					= {"type": 'FeatureCollection', "features": []}
 
+
+
 function addGeoJSONTeamsToLeagues (geoJSONTeam, league) {
 	switch (league) {
 		case "Alabama-Tennessee League":		AlabamaTennesseeLeague.features.push(geoJSONTeam); 			break;					
 		case "AmericanLeague": 					AmericanLeague.features.push(geoJSONTeam); 					break;
-		case "American Association": 			AmericanAssociation.features.push(geoJSONTeam); 			break;				
+		case "American Association": 			AmericanAssociation.features.push(geoJSONTeam); 			break;			
+		case "Big South League": 				BigSouthLeague.features.push(geoJSONTeam); 					break;			
 		case "CaliforniaLeague":				CaliforniaLeague.features.push(geoJSONTeam); 				break;
 		case "Central League":					CentralLeague.features.push(geoJSONTeam); 					break;
 		case "Eastern League": 					EasternLeague.features.push(geoJSONTeam); 					break;
+		case "Great Central League": 			GreatCentralLeague.features.push(geoJSONTeam); 				break;
 		case "Illinois-Indiana-Iowa League": 	IllinoisIndianaIowaLeague.features.push(geoJSONTeam); 		break;
 		case "Illinois State League": 			IllinoisStateLeague.features.push(geoJSONTeam); 			break;
 		case "InternationalAssociation": 		InternationalAssociation.features.push(geoJSONTeam); 		break;
 		case "International League": 			InternationalLeague.features.push(geoJSONTeam);				break;
 		case "InterstateAssociation": 			InterstateAssociation.features.push(geoJSONTeam); 			break;	
+		case "Mid-America League": 				MidAmericaLeague.features.push(geoJSONTeam); 				break;
 		case "Midwest League": 					MidwestLeague.features.push(geoJSONTeam); 					break;	
 		case "Mississippi-Ohio Valley League": 	MississippiOhioValleyLeague.features.push(geoJSONTeam); 	break;		
 		case "NationalAssociation": 			NationalAssociation.features.push(geoJSONTeam); 			break;
 		case "NationalLeague": 					NationalLeague.features.push(geoJSONTeam); 					break;
 		case "NorthwesternLeague":				NorthwesternLeague.features.push(geoJSONTeam); 				break;	
+		case "North Central League":			NorthCentralLeague.features.push(geoJSONTeam); 				break;
 		case "Pacific Coast League": 			PacificCoastLeague.features.push(geoJSONTeam); 				break;
 		case "PacificCoastInternationalLeague":	PacificCoastInternationalLeague.features.push(geoJSONTeam); break;	
 		case "Players League": 					PlayersLeague.features.push(geoJSONTeam);					break;
+		case "Prairie League": 					PrairieLeague.features.push(geoJSONTeam); 					break;
 		case "South Atlantic League":			SouthAtlanticLeague.features.push(geoJSONTeam); 			break;	
 		case "Texas League":					TexasLeague.features.push(geoJSONTeam); 					break;		
 		case "WesternLeague": 					WesternLeague.features.push(geoJSONTeam); 					break;		
@@ -447,6 +466,11 @@ loadTeams(internationalleague)
 loadTeams(playersleague)
 loadTeams(americanassociation)
 loadTeams(centralleague);
+loadTeams(northcentralleague);
+loadTeams(greatcentralleague);
+loadTeams(midamericaleague);
+loadTeams(prairieleague);
+loadTeams(bigsouthleague);
 
 
 //some code here to analyze the league arrays and make the map league names
@@ -477,6 +501,13 @@ addTeamToMap(IllinoisIndianaIowaLeague, violetIcon);
 addTeamToMap(SouthAtlanticLeague, violetIcon);
 addTeamToMap(PlayersLeague, blackIcon);
 addTeamToMap(CentralLeague, blueIcon);
+
+
+addTeamToMap(NorthCentralLeague, blueIcon);
+addTeamToMap(GreatCentralLeague, aquamarineIcon);
+addTeamToMap(MidAmericaLeague, greenIcon);
+addTeamToMap(PrairieLeague, pinkIcon);
+addTeamToMap(BigSouthLeague, blackIcon);
 
 //addFileToMap(greatcentralleague1994, redIcon);
 //addFileToMap(midamericaleague1995, greenIcon);

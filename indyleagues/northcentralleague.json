@@ -1,0 +1,131 @@
+northcentralleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Minneapolis Loons", "1994", "1995"],
+				["Southern Minny Stars", "1996", "1999"],
+				["Minot Greenheads", "2000", "2000"]
+						],
+			"leagues" : [
+				["North Central League", "1994", "1994"],
+				["Prairie League", "1995", "1997"],
+				["Northwoods League", "1998", "2000"]
+						],
+			"coords": 	[
+				[[ 44.9826,  -93.2297], "1994", "1995"],
+				[[43.67, -92.980556], "1996", "1999"],
+				[[48.234482,-101.301101], "2000", "2000"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Regina Cyclones", "1994", "1997"]
+						],
+			"leagues" : [
+				["North Central League", "1994", "1994"],
+				["Prairie League", "1995", "1997"]
+						],
+			"coords": 	[
+				[[50.454722, -104.606667 ], "1994", "1997"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Brainerd Bears", "1994", "1995"]
+						],
+			"leagues" : [
+				["North Central League", "1994", "1995"]
+						],
+			"coords": 	[
+				[[ 46.358056, -94.200833 ], "1994", "1995"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Huron Heaters", "1994", "1994"]
+						],
+			"leagues" : [
+				["North Central League", "1994", "1994"]
+						],
+			"coords": 	[
+				[[ 44.359167, -98.218056  ], "1994", "1994"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Saskatoon Riot", "1994", "1995"],
+				["Saskatoon Smokin' Guns", "1996", "1996"],
+				["Saskatoon Stallions", "1997", "1997"]
+						],
+			"leagues" : [
+				["North Central League", "1994", "1994"],
+				["Prairie League", "1995", "1997"]
+						],
+			"coords": 	[
+				[[ 52.111273, -106.697089   ], "1994", "1997"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Minnesota Skeeters", "1995", "1995"]
+						],
+			"leagues" : [
+				["North Central League", "1995", "1995"]
+						],
+			"coords": 	[
+				[[ 47.417222,  -92.938333  ], "1995", "1995"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Chaska Valley Buccaneers", "1995", "1995"]
+						],
+			"leagues" : [
+				["North Central League", "1995", "1995"]
+						],
+			"coords": 	[
+				[[  44.816667, -93.616667 ], "1995", "1995"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Marshall Mallards", "1994", "1994"]
+						],
+			"leagues" : [
+				["North Central League", "1994", "1994"]
+						],
+			"coords": 	[
+				[[   44.448889, -95.789444 ], "1994", "1994"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Will County Claws", "1995", "1995"],
+				["Will County Cheetahs", "1996", "1997"],
+				["Cook County Cheetahs", "1998", "2003"],
+				["Windy City Thunderbolts", "2004", "now"],
+						],
+			"leagues" : [
+				["North Central League", "1995", "1995"],
+				["Heartland League", "1996", "1998"],
+				["Frontier League", "1999", "now"]
+						],
+			"coords": 	[
+				[[ 41.64 , -88.058   ], "1995", "1997"],
+				[[41.626389, -87.721389  ], "1998", "1998"],
+				[[41.637056, -87.731688  ], "1999", "now"]
+						]
+		}
+	]
+}
+	

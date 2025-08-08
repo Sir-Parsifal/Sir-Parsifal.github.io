@@ -1,0 +1,91 @@
+prairieleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Aberdeen Pheasants", "1995", "1997"]
+						],
+			"leagues" : [
+				["Prairie League", "1995", "1997"]
+						],
+			"coords": 	[
+				[[45.464722,-98.468611], "1995", "1997"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Grand Forks Varmints", "1996", "1997"]
+						],
+			"leagues" : [
+				["Prairie League", "1996", "1997"]
+						],
+			"coords": 	[
+				[[ -97.087328,47.919595], "1996", "1997"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Brainerd Bobcats", "1997", "1997"]
+						],
+			"leagues" : [
+				["Prairie League", "1997", "1997"]
+						],
+			"coords": 	[
+				[[ 46.358056, -94.200833], "1997", "1997"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Brandon Grey Owls", "1995", "1996"],
+				["West Manitoba Wranglers", "1997", "1997"],
+						],
+			"leagues" : [
+				["Prairie League", "1995", "1997"]
+						],
+			"coords": 	[
+				[[49.846944, -99.952222], "1995", "1997"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Green Bay Sultans", "1996", "1996"]
+						],
+			"leagues" : [
+				["Prairie League", "1996", "1996"]
+						],
+			"coords": 	[
+				[[44.513333, -88.015833], "1996", "1996"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Minot Mallards", "1995", "1997"]
+						],
+			"leagues" : [
+				["Prairie League", "1995", "1997"]
+						],
+			"coords": 	[
+				[[48.234482, -101.301101 ], "1995", "1997"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Moose Jaw Diamond Dogs", "1995", "1997-07-26"]
+						],
+			"leagues" : [
+				["Prairie League", "1995", "1997-07-26"]
+						],
+			"coords": 	[
+				[[50.393333, -105.551944 ], "1995", "1997-07-26"]
+						]
+		},
+	]
+}
+	

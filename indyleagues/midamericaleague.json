@@ -1,0 +1,43 @@
+midamericaleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Merrillville Muddogs", "1995", "1995"]
+						],
+			"leagues" : [
+				["Mid-America League", "1995", "1995"]
+						],
+			"coords": 	[
+				[[ 41.485556, -87.335278], "1995", "1995"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["East Chicago Conquistadors", "1995", "1995"]
+						],
+			"leagues" : [
+				["Mid-America League", "1995", "1995"]
+						],
+			"coords": 	[
+				[[41.638889, -87.459444], "1995", "1995"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Anderson Lawmen", "1995", "1997"]
+						],
+			"leagues" : [
+				["Mid-America League", "1995", "1995"],
+				["Heartland League", "1996", "1997"],
+						],
+			"coords": 	[
+				[[40.105556, -85.688889 ], "1995", "1997"]
+						]
+		}
+	]
+}
+	

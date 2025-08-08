@@ -1,0 +1,56 @@
+greatcentralleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Champaign-Urbana Bandits", "1994", "1994"]
+						],
+			"leagues" : [
+				["Great Central League", "1994", "1994"]
+						],
+			"coords": 	[
+				[[ 40.116389, -88.243611], "1994", "1994"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Lafayette Leopards", "1994", "1996"]
+						],
+			"leagues" : [
+				["Great Central League", "1994", "1994"],
+				["Mid-America League", "1995", "1995"],
+				["Heartland League", "1996", "1996"],
+						],
+			"coords": 	[
+				[[ 40.411667, -86.871667], "1994", "1996"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Minneapolis Millers", "1994", "1994"]
+						],
+			"leagues" : [
+				["Great Central League", "1994", "1994"]
+						],
+			"coords": 	[
+				[[ 44.970833,-93.291944 ], "1994", "1994"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Mason City Bats", "1994", "1994"]
+						],
+			"leagues" : [
+				["Great Central League", "1994", "1994"]
+						],
+			"coords": 	[
+				[[  43.148611, -93.201944, ], "1994", "1994"]
+						]
+		},
+	]
+}
+	

@@ -1,0 +1,107 @@
+bigsouthleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Tennessee Tomahawks", "1996", "1998"]
+						],
+			"leagues" : [
+				["Big South League", "1996", "1996"],
+				["Heartland League", "1997", "1998"],
+						],
+			"coords": 	[
+				[[35.188333,-86.1125], "1996", "1998"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Columbia Mules", "1996", "1997"]
+						],
+			"leagues" : [
+				["Big South League", "1996", "1996"],
+				["Heartland League", "1997", "1997"],
+						],
+			"coords": 	[
+				[[35.615022,-87.044464], "1996", "1997"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Clarksville Coyotes", "1996", "1997"]
+						],
+			"leagues" : [
+				["Big South League", "1996", "1996"],
+				["Heartland League", "1997", "1997"],
+						],
+			"coords": 	[
+				[[36.537442,-87.355988], "1996", "1997"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Pine Bluff Locomotives", "1996", "1996"]
+						],
+			"leagues" : [
+				["Big South League", "1996", "1996"]
+						],
+			"coords": 	[
+				[[34.228333,-92], "1996", "1996"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Meridian Brakemen", "1996", "1997"]
+						],
+			"leagues" : [
+				["Big South League", "1996", "1997"]
+						],
+			"coords": 	[
+				[[32.374722, -88.704167], "1996", "1997"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Greenville Bluesmen", "1996", "2001"]
+						],
+			"leagues" : [
+				["Big South League", "1996", "1997"],
+				["Texas-Louisiana League", "1998", "2001"]
+						],
+			"coords": 	[
+				[[33.384722,-91.048333], "1996", "2001"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Tennessee Walkers", "1997", "1997"]
+						],
+			"leagues" : [
+				["Big South League", "1997", "1997"],
+						],
+			"coords": 	[
+				[[35.368611,-86.213333], "1997", "1997"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Tupelo Tornado", "1997", "1998-06-17"]
+						],
+			"leagues" : [
+				["Big South League", "1997", "1997"],
+				["Heartland League", "1998", "1998-06-17"],
+						],
+			"coords": 	[
+				[[ 34.259722,-88.725833], "1997", "1998-06-17"]
+						]
+		},
+	]
+}
+	
