@@ -1,0 +1,250 @@
+westernbaseballleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Bend Bandits", "1995", "1999"]
+						],
+			"leagues" : [
+				["Western Baseball League", "1995", "1999"]
+						],
+			"coords": 	[
+				[[44.043, -121.299 ], "1995", "1999"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Tri-City Posse", "1995", "2000"]
+						],
+			"leagues" : [
+				["Western Baseball League", "1995", "2000"]
+						],
+			"coords": 	[
+				[[46.267, -119.172 ], "1995", "2000"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Surrey Glaciers", "1995", "1995"]
+						],
+			"leagues" : [
+				["Western Baseball League", "1995", "1995"]
+						],
+			"coords": 	[
+				[[49.115, -122.726944 ], "1995", "1995"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Grays Harbor Gulls", "1995", "1997"]
+						],
+			"leagues" : [
+				["Western Baseball League", "1995", "1997"]
+						],
+			"coords": 	[
+				[[46.978056, -123.858889 ], "1995", "1997"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Salinas Peppers", "1995", "1997"]
+						],
+			"leagues" : [
+				["Western Baseball League", "1995", "1997"]
+						],
+			"coords": 	[
+				[[36.697019, -121.647074  ], "1995", "1997"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Long Beach Barracuda", "1995", "1995"],
+				["Long Beach Riptide", "1996", "1996"]
+						],
+			"leagues" : [
+				["Western Baseball League", "1995", "1996"]
+						],
+			"coords": 	[
+				[[33.777778, -118.138333 ], "1995", "1996"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Sonoma County Crushers", "1995", "2002"]
+						],
+			"leagues" : [
+				["Western Baseball League", "1995", "2002"]
+						],
+			"coords": 	[
+				[[38.35241, -122.72193] , "1995", "2002"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Palm Springs Suns", "1995", "1996"]
+						],
+			"leagues" : [
+				["Western Baseball League", "1995", "1996"]
+						],
+			"coords": 	[
+				[[33.818333, -116.525833]  , "1995", "1996"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Reno Chukars", "1996", "1998"]
+						],
+			"leagues" : [
+				["Western Baseball League", "1996", "1998"]
+						],
+			"coords": 	[
+				[[39.490157, -119.801397]  , "1996", "1998"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Chico Heat", "1997", "2002"]
+						],
+			"leagues" : [
+				["Western Baseball League", "1997", "2002"]
+						],
+			"coords": 	[
+				[[39.730726, -121.852229]  , "1997", "2002"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Mission Viejo Vigilantes", "1997", "1998"]
+						],
+			"leagues" : [
+				["Western Baseball League", "1997", "1998"]
+						],
+			"coords": 	[
+				[[33.55135156116473, -117.66403555051033]  , "1997", "1998"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Pacific Suns", "1998", "1998"]
+						],
+			"leagues" : [
+				["Western Baseball League", "1998", "1998"]
+						],
+			"coords": 	[
+				[[34.16484296299356, -119.15252220526455]  , "1998", "1998"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Reno BlackJacks", "1999", "1999"]
+						],
+			"leagues" : [
+				["Western Baseball League", "1999", "1999"]
+						],
+			"coords": 	[
+				[[39.490157, -119.801397]  , "1999", "1999"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Zion Pioneerzz", "1999", "2000"],
+				["St. George Pioneerzz", "2001", "2001"],
+						],
+			"leagues" : [
+				["Western Baseball League", "1999", "2001"]
+						],
+			"coords": 	[
+				[[37.099167, -113.565833 ]  , "1999", "2001"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Sacramento Steelheads", "1999", "1999"],
+				["Solano Steelheads", "2000", "2002"],
+						],
+			"leagues" : [
+				["Western Baseball League", "1999", "2002"]
+						],
+			"coords": 	[
+				[[38.54043314194801, -121.48884668510294 ]  , "1999", "1999"],
+				[[38.3677, -121.9573 ]  , "2000", "2002"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Feather River Mudcats", "2000", "2000"]
+						],
+			"leagues" : [
+				["Western Baseball League", "2000", "2000"]
+						],
+			"coords": 	[
+				[[39.1509, -121.5881 ]  , "2000", "2000"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Yuma Bullfrogs", "2000", "2002"]
+						],
+			"leagues" : [
+				["Western Baseball League", "2000", "2002"]
+						],
+			"coords": 	[
+				[[32.663056, -114.636389  ]  , "2000", "2002"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Valley Vipers", "2000", "2000"]
+						],
+			"leagues" : [
+				["Western Baseball League", "2000", "2000"]
+						],
+			"coords": 	[
+				[[33.488333, -111.921111 ]  , "2000", "2000"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Long Beach Breakers", "2001", "2002"]
+						],
+			"leagues" : [
+				["Western Baseball League", "2001", "2002"]
+						],
+			"coords": 	[
+				[[33.777778, -118.138333  ]  , "2001", "2002"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Yuba-Sutter Gold Sox", "2002", "2002"]
+						],
+			"leagues" : [
+				["Western Baseball League", "2002", "2002"]
+						],
+			"coords": 	[
+				[[39.1509, -121.5881  ]  , "2002", "2002"]
+						]
+		},
+	]
+}
+	
