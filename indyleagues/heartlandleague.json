@@ -1,0 +1,18 @@
+heartlandleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Dubois County Dragons", "1996", "1998"]
+						],
+			"leagues" : [
+				["Heartland League", "1996", "1998"]
+						],
+			"coords": 	[
+				[[38.290294, -86.945125 ], "1996", "1998"]
+						]
+		}
+	]
+}
+	

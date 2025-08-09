@@ -1,0 +1,78 @@
+southcoastleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["South Georgia Peanuts", "1997", "1997"]
+						],
+			"leagues" : [
+				["South Coast League", "1997", "1997"]
+						],
+			"coords": 	[
+				[[31.600944, -84.129878 ], "1997", "1997"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Macon Music", "1997", "1997"]
+						],
+			"leagues" : [
+				["South Coast League", "1997", "1997"]
+						],
+			"coords": 	[
+				[[32.828889, -83.614167 ], "1997", "1997"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Bradenton Juice", "1997", "1997"]
+						],
+			"leagues" : [
+				["South Coast League", "1997", "1997"]
+						],
+			"coords": 	[
+				[[27.439069, -82.594421  ], "1997", "1997"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Aiken Foxhounds", "1997", "1997"]
+						],
+			"leagues" : [
+				["South Coast League", "1997", "1997"]
+						],
+			"coords": 	[
+				[[33.574958, -81.776197  ], "1997", "1997"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Anderson Joes", "1997", "1997"]
+						],
+			"leagues" : [
+				["South Coast League", "1997", "1997"]
+						],
+			"coords": 	[
+				[[34.482759, -82.628619  ], "1997", "1997"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Charlotte County Redfish", "1997", "1997"]
+						],
+			"leagues" : [
+				["South Coast League", "1997", "1997"]
+						],
+			"coords": 	[
+				[[26.999167, -82.181667 ], "1997", "1997"]
+						]
+		},
+	]
+}
+	

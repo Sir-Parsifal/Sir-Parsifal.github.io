@@ -1,0 +1,302 @@
+northernleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Rochester Aces", "1993", "1993"],
+				["Winnipeg Goldeyes", "1994", "now"]
+						],
+			"leagues" : [
+				["Northern League", "1993", "2010"],
+				["American Association", "2011", "now"],
+						],
+			"coords": 	[
+				[[44.025, -92.456667], "1993", "1993"],
+				[[49.88957, -97.19832 ], "1994", "1998"],
+				[[49.893831, -97.133314 ], "1999", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Thunder Bay Whiskey Jacks", "1993", "1998"],
+				["Schaumburg Flyers", "1999", "2010"]
+						],
+			"leagues" : [
+				["Northern League", "1993", "2010"]
+						],
+			"coords": 	[
+				[[48.423333, -89.239722 ], "1993", "1998"],
+				[[41.992828, -88.118089  ], "1999", "2010"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Sioux City Explorers", "1993", "now"]
+						],
+			"leagues" : [
+				["Northern League", "1993", "2005"],
+				["American Association", "2006", "now"],
+						],
+			"coords": 	[
+				[[42.443047, -96.364217 ], "1993", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Sioux Falls Canaries", "1993", "2009"],
+				["Sioux Falls Fighting Pheasants", "2010", "2012"],
+				["Sioux Falls Canaries", "2013", "now"],
+						],
+			"leagues" : [
+				["Northern League", "1993", "2005"],
+				["American Association", "2006", "now"],
+						],
+			"coords": 	[
+				[[43.559721, -96.7492  ], "1993", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Duluth-Superior Dukes", "1993", "2002"],
+				["Kansas City T-Bones", "2003", "2020"],
+				["Kansas City Monarchs", "2021", "now"],
+						],
+			"leagues" : [
+				["Northern League", "1993", "2010"],
+				["American Association", "2011", "now"],
+						],
+			"coords": 	[
+				[[46.754444, -92.143611  ], "1993", "2002"],
+				[[39.124444, -94.830833  ], "2003", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Madison Black Wolf", "1993", "2000"],
+				["Kansas City T-Bones", "2001", "now"],
+						],
+			"leagues" : [
+				["Northern League", "1993", "2005"],
+				["American Association", "2006", "now"],
+						],
+			"coords": 	[
+				[[43.131111, -89.366944 ], "1993", "2000"],
+				[[40.82279, -96.71391 ], "2001", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Fargo-Moorhead RedHawks", "1996", "2000"],
+						],
+			"leagues" : [
+				["Northern League", "1996", "2010"],
+				["American Association", "2011", "now"],
+						],
+			"coords": 	[
+				[[46.898489, -96.804269  ], "1996", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Gary SouthShore RailCats", "2002", "now"],
+						],
+			"leagues" : [
+				["Northern League", "2002", "2010"],
+				["American Association", "2011", "now"],
+						],
+			"coords": 	[
+				[[41.602869, -87.332217 ], "2002", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Joliet JackHammers", "2002", "2010"],
+				["Joliet Slammers", "2011", "now"]
+						],
+			"leagues" : [
+				["Northern League", "2002", "2010"],
+				["Frontier League", "2011", "now"],
+						],
+			"coords": 	[
+				[[41.525711, -88.0779 ], "2002", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Calgary Vipers", "2005", "2011"]
+						],
+			"leagues" : [
+				["Northern League", "2005", "2007"],
+				["Golden Baseball League", "2008", "2010"],
+				["North American League", "2011", "2011"],
+						],
+			"coords": 	[
+				[[51.073436, -114.120636  ], "2005", "2011"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Edmonton Cracker-Cats", "2005", "2008"],
+				["Calgary Capitals", "2009", "2011"],
+						],
+			"leagues" : [
+				["Northern League", "2005", "2007"],
+				["Golden Baseball League", "2008", "2010"],
+				["North American League", "2011", "2011"],
+						],
+			"coords": 	[
+				[[53.531667, -113.496667 ], "2005", "2011"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Lake County Fielders", "2010", "2011"]
+						],
+			"leagues" : [
+				["Northern League", "2010", "2010"],
+				["North American League", "2011", "2011"],
+						],
+			"coords": 	[
+				[[42.46587, -87.87961 ], "2010", "2011"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Rockford RiverHawks", "2002", "2012"],
+				["Rockford Aviators", "2013", "2015"],
+						],
+			"leagues" : [
+				["Frontier League", "2002", "2009"],
+				["Northern League", "2010", "2010"],
+				["Frontier League", "2011", "2015"],
+						],
+			"coords": 	[
+				[[42.249555, -89.100924 ], "2002", "2005"],
+				[[42.324167, -88.955 ], "2006", "2015"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["St. Joe Blacksnakes", "2006", "2007"]
+						],
+			"leagues" : [
+				["American Association", "2006", "2007"]
+						],
+			"coords": 	[
+				[[39.738333, -94.827222 ], "2006", "2007"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Wichita Wingnuts", "2008", "2018"]
+						],
+			"leagues" : [
+				["American Association", "2008", "2018"]
+						],
+			"coords": 	[
+				[[37.681389, -97.345833  ], "2008", "2018"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Grand Prairie AirHogs", "2008", "2015"],
+				["Texas AirHogs", "2016", "2020"]
+						],
+			"leagues" : [
+				["American Association", "2008", "2020"]
+						],
+			"coords": 	[
+				[[32.768056, -96.986389 ], "2008", "2020"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Laredo Lemurs", "2012", "2016"]
+						],
+			"leagues" : [
+				["American Association", "2012", "2016"]
+						],
+			"coords": 	[
+				[[27.55399, -99.45544  ], "2012", "2016"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Joplin Blasters", "2015", "2016"]
+						],
+			"leagues" : [
+				["American Association", "2015", "2016"]
+						],
+			"coords": 	[
+				[[37.08883, -94.49883 ], "2015", "2016"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Cleburne Railroaders", "2017", "now"]
+						],
+			"leagues" : [
+				["American Association", "2017", "now"]
+						],
+			"coords": 	[
+				[[32.374417, -97.412694  ], "2017", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Chicago Dogs", "2018", "now"]
+						],
+			"leagues" : [
+				["American Association", "2018", "now"]
+						],
+			"coords": 	[
+				[[41.978213, -87.871736  ], "2018", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Milwaukee Milkmen", "2019", "now"]
+						],
+			"leagues" : [
+				["American Association", "2019", "now"]
+						],
+			"coords": 	[
+				[[42.918611, -88.016389 ], "2019", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Lake Country DockHounds", "2021", "now"]
+						],
+			"leagues" : [
+				["American Association", "2021", "now"]
+						],
+			"coords": 	[
+				[[43.0665, -88.4755  ], "2021", "now"]
+						]
+		},
+	]
+}
+	

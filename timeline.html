@@ -47,6 +47,13 @@
 <script src="indyleagues/midamericaleague.json" type="text/javascript"></script> 
 <script src="indyleagues/prairieleague.json" type="text/javascript"></script> 
 <script src="indyleagues/bigsouthleague.json" type="text/javascript"></script> 
+<script src="indyleagues/northatlanticleague.json" type="text/javascript"></script> 
+<script src="indyleagues/heartlandleague.json" type="text/javascript"></script> 
+<script src="indyleagues/texaslouisianaleague.json" type="text/javascript"></script> 
+<script src="indyleagues/allamericanassociation.json" type="text/javascript"></script> 
+<script src="indyleagues/northernleague.json" type="text/javascript"></script> 
+<script src="indyleagues/southcoastleague.json" type="text/javascript"></script> 
+
 
 <div id="map" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
     <style>
@@ -117,6 +124,8 @@ var greenIcon 		= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-green
 	aquamarineIcon 	= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-aquamarine.png'}),
 	pinkIcon 		= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-pink.png'}),
 	violetIcon 		= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-violet.png'});
+	darkblueIcon 	= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-darkblue.png'});
+	brownIcon 		= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-brown.png'});
 
 var defunctIcon		= new L.Icon({iconUrl: 'defunct1.png', iconAnchor: [15, 35]});
 var birthIcon 		= new L.Icon({iconUrl: 'birthIcon.png'});
@@ -188,6 +197,16 @@ var GreatCentralLeague				= {"type": 'FeatureCollection', "features": []}
 var MidAmericaLeague				= {"type": 'FeatureCollection', "features": []}
 var PrairieLeague					= {"type": 'FeatureCollection', "features": []}
 var BigSouthLeague					= {"type": 'FeatureCollection', "features": []}
+var NorthAtlanticLeague				= {"type": 'FeatureCollection', "features": []}
+var HeartlandLeague					= {"type": 'FeatureCollection', "features": []}
+var TexasLouisianaLeague			= {"type": 'FeatureCollection', "features": []}
+var CentralBaseballLeague			= {"type": 'FeatureCollection', "features": []}
+var UnitedLeagueBaseball			= {"type": 'FeatureCollection', "features": []}
+var NorthAmericanLeague				= {"type": 'FeatureCollection', "features": []}
+var AllAmericanAssociation			= {"type": 'FeatureCollection', "features": []}
+var SoutheasternLeague				= {"type": 'FeatureCollection', "features": []}
+var NorthernLeague					= {"type": 'FeatureCollection', "features": []}
+var SouthCoastLeague				= {"type": 'FeatureCollection', "features": []}
 
 //defunct
 var WesternLeague					= {"type": 'FeatureCollection', "features": []}
@@ -208,14 +227,17 @@ var CentralLeague					= {"type": 'FeatureCollection', "features": []}
 
 function addGeoJSONTeamsToLeagues (geoJSONTeam, league) {
 	switch (league) {
-		case "Alabama-Tennessee League":		AlabamaTennesseeLeague.features.push(geoJSONTeam); 			break;					
+		case "Alabama-Tennessee League":		AlabamaTennesseeLeague.features.push(geoJSONTeam); 			break;				
+		case "All-American Association":		AllAmericanAssociation.features.push(geoJSONTeam); 			break;			
 		case "AmericanLeague": 					AmericanLeague.features.push(geoJSONTeam); 					break;
 		case "American Association": 			AmericanAssociation.features.push(geoJSONTeam); 			break;			
 		case "Big South League": 				BigSouthLeague.features.push(geoJSONTeam); 					break;			
 		case "CaliforniaLeague":				CaliforniaLeague.features.push(geoJSONTeam); 				break;
+		case "Central Baseball League":			CentralBaseballLeague.features.push(geoJSONTeam); 			break;
 		case "Central League":					CentralLeague.features.push(geoJSONTeam); 					break;
 		case "Eastern League": 					EasternLeague.features.push(geoJSONTeam); 					break;
 		case "Great Central League": 			GreatCentralLeague.features.push(geoJSONTeam); 				break;
+		case "Heartland League": 				HeartlandLeague.features.push(geoJSONTeam); 				break;
 		case "Illinois-Indiana-Iowa League": 	IllinoisIndianaIowaLeague.features.push(geoJSONTeam); 		break;
 		case "Illinois State League": 			IllinoisStateLeague.features.push(geoJSONTeam); 			break;
 		case "InternationalAssociation": 		InternationalAssociation.features.push(geoJSONTeam); 		break;
@@ -226,6 +248,9 @@ function addGeoJSONTeamsToLeagues (geoJSONTeam, league) {
 		case "Mississippi-Ohio Valley League": 	MississippiOhioValleyLeague.features.push(geoJSONTeam); 	break;		
 		case "NationalAssociation": 			NationalAssociation.features.push(geoJSONTeam); 			break;
 		case "NationalLeague": 					NationalLeague.features.push(geoJSONTeam); 					break;
+		case "North Atlantic League":			NorthAtlanticLeague.features.push(geoJSONTeam); 			break;	
+		case "North American League":			NorthAmericanLeague.features.push(geoJSONTeam); 			break;
+		case "Northern League":					NorthernLeague.features.push(geoJSONTeam); 					break;
 		case "NorthwesternLeague":				NorthwesternLeague.features.push(geoJSONTeam); 				break;	
 		case "North Central League":			NorthCentralLeague.features.push(geoJSONTeam); 				break;
 		case "Pacific Coast League": 			PacificCoastLeague.features.push(geoJSONTeam); 				break;
@@ -233,7 +258,11 @@ function addGeoJSONTeamsToLeagues (geoJSONTeam, league) {
 		case "Players League": 					PlayersLeague.features.push(geoJSONTeam);					break;
 		case "Prairie League": 					PrairieLeague.features.push(geoJSONTeam); 					break;
 		case "South Atlantic League":			SouthAtlanticLeague.features.push(geoJSONTeam); 			break;	
+		case "South Coast League":				SouthCoastLeague.features.push(geoJSONTeam); 				break;	
+		case "Southeastern League":				SoutheasternLeague.features.push(geoJSONTeam); 				break;
 		case "Texas League":					TexasLeague.features.push(geoJSONTeam); 					break;		
+		case "Texas-Louisiana League":			TexasLouisianaLeague.features.push(geoJSONTeam); 			break;
+		case "United League Baseball":			UnitedLeagueBaseball.features.push(geoJSONTeam); 			break;		
 		case "WesternLeague": 					WesternLeague.features.push(geoJSONTeam); 					break;		
 		}}
 
@@ -250,7 +279,7 @@ function convertTeamToGeoJSON(team, nameArray, leagueArray, coordArray){
 	endTime 		= 	Math.min(nameEnd,leagueEnd,coordEnd);
 	let geoJSONteam = { 
 		"type": "Feature",
-	    "properties": 	{"start": startTime, "end": endTime, "name": nameArray[0]},
+	    "properties": 	{"start": startTime, "end": endTime, "name": nameArray[0], "league": leagueArray[0]},
 		"geometry" : 	{"coordinates" : latlng, "type": "Point"}} 
 	addGeoJSONTeamsToLeagues(geoJSONteam, leagueArray[0]);
 	return geoJSONteam;
@@ -288,7 +317,7 @@ function drawCoordMovingLines(latlon1, latlon2, time, league, nextleague, name){
 	//convertTeamToGeoJSON("brett", nameArray, leagueArray, coordArray);
 	let geoJSONteam = { 
 		"type": "Feature",
-	    "properties": 	{"start": time, "end": time, "name": name},
+	    "properties": 	{"start": time, "end": time, "name": name, "league": nextleague},
 		"geometry" : 	{"coordinates" : [latlon2[1], latlon2[0]], "type": "Point"}} 
 	//console.log(geoJSONteam, nextleague);
 	addGeoJSONTeamsToLeagues(geoJSONteam, nextleague);		//but the extra marker goes with the joining league
@@ -338,7 +367,7 @@ function addTeamToMap(team, ballIcon){
 							if (feature.properties.marker) {
 								return L.marker(latlng, {icon:feature.properties.marker}).setZIndexOffset(1000)}
 														
-							return L.marker(latlng, {icon:ballIcon}).bindPopup(feature.properties.name)}
+							return L.marker(latlng, {icon:ballIcon}).bindPopup(feature.properties.name + "<br>" + feature.properties.league)}
 							}		
 							
 							)
@@ -471,7 +500,12 @@ loadTeams(greatcentralleague);
 loadTeams(midamericaleague);
 loadTeams(prairieleague);
 loadTeams(bigsouthleague);
-
+loadTeams(northatlanticleague);
+loadTeams(heartlandleague);
+loadTeams(texaslouisianaleague); //includes Central Baseball League
+loadTeams(allamericanassociation); //includes Southeastern League
+loadTeams(northernleague); //includes American Association (indy). 2 travel teams not represented
+loadTeams(southcoastleague);
 
 //some code here to analyze the league arrays and make the map league names
 //console.log(PlayersLeague);
@@ -501,13 +535,21 @@ addTeamToMap(IllinoisIndianaIowaLeague, violetIcon);
 addTeamToMap(SouthAtlanticLeague, violetIcon);
 addTeamToMap(PlayersLeague, blackIcon);
 addTeamToMap(CentralLeague, blueIcon);
-
+addTeamToMap(NorthAtlanticLeague, blueIcon);
 
 addTeamToMap(NorthCentralLeague, blueIcon);
 addTeamToMap(GreatCentralLeague, aquamarineIcon);
 addTeamToMap(MidAmericaLeague, greenIcon);
 addTeamToMap(PrairieLeague, pinkIcon);
 addTeamToMap(BigSouthLeague, blackIcon);
+addTeamToMap(NorthAtlanticLeague, yellowIcon);
+addTeamToMap(HeartlandLeague, darkblueIcon);
+addTeamToMap(TexasLouisianaLeague, brownIcon);
+addTeamToMap(CentralBaseballLeague, brownIcon);
+addTeamToMap(SoutheasternLeague, aquamarineIcon);
+addTeamToMap(AllAmericanAssociation, blueIcon);
+addTeamToMap(NorthernLeague, darkgreenIcon);
+addTeamToMap(SouthCoastLeague, blueIcon);
 
 //addFileToMap(greatcentralleague1994, redIcon);
 //addFileToMap(midamericaleague1995, greenIcon);

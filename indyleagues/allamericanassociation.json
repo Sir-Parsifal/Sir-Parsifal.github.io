@@ -1,0 +1,117 @@
+allamericanassociation = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Tennessee T's", "2001", "2001"]
+						],
+			"leagues" : [
+				["All-American Association", "2001", "2001"]
+						],
+			"coords": 	[
+				[[35.20823, -86.12629 ], "2001", "2001"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Albany Polecats", "2001", "2001"]
+						],
+			"leagues" : [
+				["All-American Association", "2001", "2001"]
+						],
+			"coords": 	[
+				[[31.600944, -84.129878  ], "2001", "2001"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Montgomery Wings", "2001", "2003"]
+						],
+			"leagues" : [
+				["All-American Association", "2001", "2001"],
+				["Southeastern League", "2002", "2003"],
+						],
+			"coords": 	[
+				[[32.382127, -86.291353  ], "2001", "2003"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Baton Rouge Blue Marlins", "2001", "2001"],
+				["Baton Rouge River Rats", "2002", "2003"]
+						],
+			"leagues" : [
+				["All-American Association", "2001", "2001"],
+				["Southeastern League", "2002", "2003"],
+						],
+			"coords": 	[
+				[[30.4588, -91.1721  ], "2001", "2003"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Selma Cloverleafs", "2002", "2003"]
+						],
+			"leagues" : [
+				["Southeastern League", "2002", "2003"],
+						],
+			"coords": 	[
+				[[32.40455, -87.040306  ], "2002", "2003"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Americus Arrows", "2002", "2002-07-05"]
+						],
+			"leagues" : [
+				["Southeastern League", "2002", "2002-07-05"],
+						],
+			"coords": 	[
+				[[32.075278, -84.226667  ], "2002", "2002-07-05"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Ozark Patriots", "2002", "2002-07-18"]
+						],
+			"leagues" : [
+				["Southeastern League", "2002", "2002-07-18"],
+						],
+			"coords": 	[
+				[[31.448169, -85.642009 ], "2002", "2002-07-18"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Macon Peaches", "2003", "2003"]
+						],
+			"leagues" : [
+				["Southeastern League", "2003", "2003"],
+						],
+			"coords": 	[
+				[[32.828889, -83.614167  ], "2003", "2003"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Macon Peaches", "2003", "2003"]
+						],
+			"leagues" : [
+				["Southeastern League", "2003", "2003"],
+						],
+			"coords": 	[
+				[[29.5875, -90.716111 ], "2003", "2003"]
+						]
+		},
+	]
+}
+	

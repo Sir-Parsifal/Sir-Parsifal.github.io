@@ -1,0 +1,98 @@
+northatlanticleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Massachussetts Mad Dogs", "1996", "1999"]
+						],
+			"leagues" : [
+				["North Atlantic League", "1996", "1996"],
+				["Northeast League", "1997", "1999"]
+						],
+			"coords": 	[
+				[[42.473678,-70.953431], "1996", "1999"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Newark Barge Bandits", "1995", "1996"]
+						],
+			"leagues" : [
+				["North Atlantic League", "1995", "1996"]
+						],
+			"coords": 	[
+				[[40.735556, -74.172222], "1995", "1996"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Nashua Hawks", "1995", "1996"]
+						],
+			"leagues" : [
+				["North Atlantic League", "1995", "1996"]
+						],
+			"coords": 	[
+				[[42.769086, -71.473194], "1995", "1996"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Welland Aqua-Ducks", "1995", "1996"]
+						],
+			"leagues" : [
+				["North Atlantic League", "1995", "1996"]
+						],
+			"coords": 	[
+				[[42.983333,-79.233333], "1995", "1996"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Niagara Falls Mallards", "1995", "1995"]
+						],
+			"leagues" : [
+				["North Atlantic League", "1995", "1995"]
+						],
+			"coords": 	[
+				[[43.100317, -79.024948], "1995", "1995"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Altoona Rail Kings", "1996", "1997"],
+				["Huntington Rail Kings", "1998", "1998-07-16"],
+						],
+			"leagues" : [
+				["North Atlantic League", "1996", "1996"],
+				["Heartland League", "1997", "1998-07-16"],
+						],
+			"coords": 	[
+				[[40.51, -78.4], "1996", "1997"],
+				[[38.41925, -82.445153], "1998", "1998-07-16"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Catskill Cougars", "1996", "2000"]
+						],
+			"leagues" : [
+				["North Atlantic League", "1996", "1996"],
+				["Northeast League", "1997", "1998"],
+				["NotActive", "1999", "1999"],
+				["Northeast League", "2000", "2000"],
+						],
+			"coords": 	[
+				[[41.689444,-74.531389], "1996", "2000"]
+						]
+		}
+
+	]
+}
+	

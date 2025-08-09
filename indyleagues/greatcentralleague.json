@@ -16,15 +16,15 @@ greatcentralleague = {
 		{ 
 			"type": "team",
 			"names": 	[
-				["Lafayette Leopards", "1994", "1996"]
+				["Lafayette Leopards", "1994", "1998"]
 						],
 			"leagues" : [
 				["Great Central League", "1994", "1994"],
 				["Mid-America League", "1995", "1995"],
-				["Heartland League", "1996", "1996"],
+				["Heartland League", "1996", "1998"],
 						],
 			"coords": 	[
-				[[ 40.411667, -86.871667], "1994", "1996"]
+				[[ 40.411667, -86.871667], "1994", "1998"]
 						]
 		},
 		{ 
