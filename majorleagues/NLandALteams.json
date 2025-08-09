@@ -434,7 +434,7 @@ NLandALteams = {
 		{ 
 			"type": "team",
 			"names": 	[
-				["Cincinnati Red Stockings", "1881", "1889"],
+				["Cincinnati Red Stockings", "1882", "1889"],
 				["Cincinnati Reds", "1890", "1952"],
 				["Cincinnati Redlegs", "1953", "1958"],
 				["Cincinnati Reds", "1959", "now"]
@@ -442,11 +442,11 @@ NLandALteams = {
 			"fate": "exists",
 			"fatetxt": "",
 			"leagues" : [
-				["American Association", "1881", "1889"],
+				["American Association", "1882", "1889"],
 				["NationalLeague", "1890", "now"]
 						],
 			"coords": 	[
-				[[39.120281, -84.538187], "1881", "1883"],
+				[[39.120281, -84.538187], "1882", "1883"],
 				[[39.116944, -84.536667], "1884", "1893"],
 				[[39.116944, -84.536667], "1894", "1901"],
 				[[39.116944, -84.536667], "1902", "1911"],

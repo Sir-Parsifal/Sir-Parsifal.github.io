@@ -4,13 +4,13 @@ westernbaseballleague = {
 		{ 
 			"type": "team",
 			"names": 	[
-				["Bend Bandits", "1995", "1999"]
+				["Bend Bandits", "1995", "1998"]
 						],
 			"leagues" : [
-				["Western Baseball League", "1995", "1999"]
+				["Western Baseball League", "1995", "1998"]
 						],
 			"coords": 	[
-				[[44.043, -121.299 ], "1995", "1999"]
+				[[44.043, -121.299 ], "1995", "1998"]
 						]
 		},
 		{ 
