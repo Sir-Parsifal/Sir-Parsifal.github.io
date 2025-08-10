@@ -44,7 +44,7 @@
 <script src="minorleagues/centralleague.json" type="text/javascript"></script> 
 <script src="minorleagues/carolinaleague.json" type="text/javascript"></script> 
 <script src="minorleagues/southatlanticleague.json" type="text/javascript"></script> 
-
+<script src="minorleagues/appalachianleague.json" type="text/javascript"></script> 
 
 <script src="indyleagues/northcentralleague.json" type="text/javascript"></script> 
 <script src="indyleagues/greatcentralleague.json" type="text/javascript"></script> 
@@ -198,6 +198,9 @@ var MidwestLeague					= {"type": 'FeatureCollection', "features": []}
 var CaliforniaLeague				= {"type": 'FeatureCollection', "features": []}
 var CarolinaLeague					= {"type": 'FeatureCollection', "features": []}
 
+
+var AppalachianLeague				= {"type": 'FeatureCollection', "features": []}
+
 //defunct Indy 
 var NorthCentralLeague				= {"type": 'FeatureCollection', "features": []}
 var GreatCentralLeague				= {"type": 'FeatureCollection', "features": []}
@@ -239,7 +242,8 @@ function addGeoJSONTeamsToLeagues (geoJSONTeam, league) {
 		case "Alabama-Tennessee League":		AlabamaTennesseeLeague.features.push(geoJSONTeam); 			break;				
 		case "All-American Association":		AllAmericanAssociation.features.push(geoJSONTeam); 			break;			
 		case "AmericanLeague": 					AmericanLeague.features.push(geoJSONTeam); 					break;
-		case "American Association": 			AmericanAssociation.features.push(geoJSONTeam); 			break;			
+		case "American Association": 			AmericanAssociation.features.push(geoJSONTeam); 			break;
+		case "Appalachian League": 				AppalachianLeague.features.push(geoJSONTeam); 				break;		
 		case "Big South League": 				BigSouthLeague.features.push(geoJSONTeam); 					break;			
 		case "CaliforniaLeague":				CaliforniaLeague.features.push(geoJSONTeam); 				break;
 		case "Carolina League":					CarolinaLeague.features.push(geoJSONTeam); 					break;
@@ -525,7 +529,7 @@ loadTeams(goldenbaseballleague); //includes some North American League teams. al
 //console.log(PlayersLeague);
 loadTeams(carolinaleague);
 loadTeams(southatlanticleague);
-
+loadTeams(appalachianleague);
 
 //these are camelcased and refer to the ARRAY
 //lowercase refers to the JSON file
@@ -554,6 +558,8 @@ addTeamToMap(PlayersLeague, blackIcon);
 addTeamToMap(CentralLeague, blueIcon);
 addTeamToMap(NorthAtlanticLeague, blueIcon);
 addTeamToMap(CarolinaLeague, brightorangeIcon);
+addTeamToMap(AppalachianLeague, pinkIcon);
+
 
 addTeamToMap(NorthCentralLeague, blueIcon);
 addTeamToMap(GreatCentralLeague, aquamarineIcon);
