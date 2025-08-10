@@ -280,16 +280,17 @@ internationalleague = {
 		{ 
 			"type": "team",
 			"names": 	[
-				["Nashville Sounds", "1978", "now"]
+				["Evansville Triplets", "1970", "1984"],
+				["Nashville Sounds", "1985", "now"],
 						],
 			"leagues" : [
-				["Southern League", "1978", "1984"],
-				["American Association", "1985", "1997"],
+				["American Association", "1970", "1997"],
 				["Pacific Coast League", "1998", "2020"],
 				["International League", "2021", "now"]
 						],
 			"coords": 	[
-				[[36.143333, -86.773611 ], "1978", "2015"],
+				[[37.992778, -87.562222 ], "1970", "1984"],
+				[[36.143333, -86.773611 ], "1985", "2015"],
 				[[36.172778, -86.784722 ], "2016", "now"],
 						]
 		},

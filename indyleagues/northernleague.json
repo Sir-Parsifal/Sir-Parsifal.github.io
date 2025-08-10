@@ -93,7 +93,7 @@ northernleague = {
 		{ 
 			"type": "team",
 			"names": 	[
-				["Fargo-Moorhead RedHawks", "1996", "2000"],
+				["Fargo-Moorhead RedHawks", "1996", "now"],
 						],
 			"leagues" : [
 				["Northern League", "1996", "2010"],

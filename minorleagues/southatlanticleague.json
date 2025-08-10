@@ -1,0 +1,180 @@
+southatlanticleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Asheville Tourists", "1976", "now"],
+						],
+			"leagues" : [
+				["Western Carolinas League", "1976", "1979"],
+				["South Atlantic League", "1980", "now"]
+						],
+			"coords": 	[
+				[[35.587222, -82.549167 ], "1976", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Greenwood Braves", "1968", "1979"],
+				["Anderson Braves", "1980", "1984"],
+				["Sumter Braves", "1985", "1990"],
+				["Macon Braves", "1991", "2002"],
+				["Rome Braves", "2003", "2023"],
+				["Rome Emperors", "2024", "now"],
+						],
+			"leagues" : [
+				["Western Carolinas League", "1968", "1979"],
+				["South Atlantic League", "1980", "now"]
+						],
+			"coords": 	[
+				[[34.195278, -82.161667 ], "1968", "1979"],
+				[[34.482759, -82.628619  ], "1980", "1984"],
+				[[33.934891, -80.345673 ], "1985", "1990"],
+				[[32.828889, -83.614167  ], "1991", "2002"],
+				[[34.285833, -85.167222  ], "2003", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Shelby Reds", "1977", "1978"],
+				["Shelby Reds", "1979", "1980"],
+				["Shelby Mets", "1981", "1982"],
+				["Columbia Mets", "1983", "1992"],
+				["Capital City Bombers", "1993", "2004"],
+				["Greenville Bombers", "2005", "2005"],
+				["Greenville Drive", "2006", "now"],
+						],
+			"leagues" : [
+				["Western Carolinas League", "1977", "1979"],
+				["South Atlantic League", "1980", "now"]
+						],
+			"coords": 	[
+				[[35.27280820601114, -81.53507306767688 ], "1977", "1982"],
+				[[33.983528, -81.028333  ], "1983", "2004"],
+				[[34.779884, -82.351263  ], "2005", "2005"],
+				[[34.8422, -82.4082  ], "2006", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Florence Blue Jays", "1981", "1986"],
+				["Myrtle Beach Blue Jays", "1987", "1990"],
+				["Myrtle Beach Hurricanes", "1991", "1992"],
+				["Hagerstown Suns", "1993", "2020"],
+						],
+			"leagues" : [
+				["South Atlantic League", "1981", "2020"]
+						],
+			"coords": 	[
+				[[34.194406, -79.713396  ], "1981", "1986"],
+				[[33.794722, -79.011667  ], "1987", "1992"],
+				[[39.632778, -77.7125  ], "1993", "2020"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Charleston Wheelers", "1987", "1994"],
+				["Charleston Alley Cats", "1995", "2004"],
+				["West Virginia Power", "2005", "2021"],
+				["Charleston Dirty Birds", "2022", "now"],
+						],
+			"leagues" : [
+				["South Atlantic League", "1987", "2020"],
+				["Atlantic League", "2021", "now"],
+						],
+			"coords": 	[
+				[[38.327778, -81.6 ], "1987", "2004"],
+				[[38.349028, -81.625111  ], "2005", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Fayetteville Generals", "1987", "1996"],
+				["Cape Fear Crocs", "1997", "2000"],
+				["Lakewood BlueClaws", "2001", "2020"],
+				["Jersey Shore BlueClaws", "2021", "now"],
+						],
+			"leagues" : [
+				["South Atlantic League", "1987", "now"]
+						],
+			"coords": 	[
+				[[35.008223, -78.909656 ], "1987", "2000"],
+				[[40.0751, -74.187 ], "2001", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Lexington Legends", "2001", "2022"],
+				["Lexington Counter Clocks", "2023", "2023"],
+				["Lexington Legends", "2024", "now"],
+						],
+			"leagues" : [
+				["South Atlantic League", "2001", "2020"],
+				["Atlantic League", "2021", "now"],
+						],
+			"coords": 	[
+				[[38.06545, -84.47852  ], "2001", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Utica Blue Jays", "1977", "1980"],
+				["Utica Blue Sox", "1981", "2001"],
+				["Aberdeen IronBirds", "2002", "now"],
+						],
+			"leagues" : [
+				["New York-Penn League", "1977", "2020"],
+				["South Atlantic League", "2021", "now"],
+						],
+			"coords": 	[
+				[[43.090193, -75.261616 ], "1977", "2001"],
+				[[39.530873, -76.185985  ], "2002", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["St. Catherines Blue Jays", "1986", "1994"],
+				["St. Catherines Stompers", "1995", "1999"],
+				["Queens Kings", "2000", "2000"],
+				["Brooklyn Cyclones", "2001", "now"],
+						],
+			"leagues" : [
+				["New York-Penn League", "1986", "2020"],
+				["South Atlantic League", "2021", "now"],
+						],
+			"coords": 	[
+				[[43.143078, -79.212574 ], "1986", "1999"],
+				[[40.723647, -73.791704 ], "2000", "2000"],
+				[[40.574444, -73.984167  ], "2001", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Newark Orioles", "1983", "1987"],
+				["Erie Orioles", "1988", "1989"],
+				["Erie Sailors", "1990", "1993"],
+				["Hudson Valley Renegades", "1994", "now"],
+						],
+			"leagues" : [
+				["New York-Penn League", "1983", "2020"],
+				["South Atlantic League", "2021", "now"],
+						],
+			"coords": 	[
+				[[43.047861, -77.074167  ], "1983", "1987"],
+				[[42.104, -80.1023  ], "1988", "1993"],
+				[[41.527911, -73.961067  ], "1994", "now"],
+						]
+		},
+	]
+}
+	
