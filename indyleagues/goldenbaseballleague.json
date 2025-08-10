@@ -1,0 +1,206 @@
+goldenbaseballleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Chico Outlaws", "2005", "2011"]
+						],
+			"leagues" : [
+				["Golden Baseball League", "2005", "2010"],
+				["North American League", "2011", "2011"]
+						],
+			"coords": 	[
+				[[39.730726, -121.852229], "2005", "2011"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Long Beach Armada", "2005", "2009"]
+						],
+			"leagues" : [
+				["Golden Baseball League", "2005", "2009"]
+						],
+			"coords": 	[
+				[[33.777778, -118.138333 ], "2005", "2009"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["San Diego Surf Dawgs", "2005", "2006"]
+						],
+			"leagues" : [
+				["Golden Baseball League", "2005", "2006"]
+						],
+			"coords": 	[
+				[[32.77437, -117.07845 ], "2005", "2006"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Fullerton Flyers", "2005", "2006"],
+				["Orange County Flyers", "2007", "2010"]
+						],
+			"leagues" : [
+				["Golden Baseball League", "2005", "2010"]
+						],
+			"coords": 	[
+				[[33.8866, -117.8855  ], "2005", "2010"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Mesa Miners", "2005", "2005"]
+						],
+			"leagues" : [
+				["Golden Baseball League", "2005", "2005"]
+						],
+			"coords": 	[
+				[[33.438838, -111.82894], "2005", "2005"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Yuma Scorpions", "2005", "2011"]
+						],
+			"leagues" : [
+				["Golden Baseball League", "2005", "2010"],
+				["North American League", "2011", "2011"]
+						],
+			"coords": 	[
+				[[32.663056, -114.636389 ], "2005", "2011"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Surprise Fightin' Falcons", "2005", "2005"]
+						],
+			"leagues" : [
+				["Golden Baseball League", "2005", "2005"]
+						],
+			"coords": 	[
+				[[33.627778, -112.377778 ], "2005", "2005"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Reno Silver Sox", "2006", "2008"]
+						],
+			"leagues" : [
+				["Golden Baseball League", "2006", "2008"]
+						],
+			"coords": 	[
+				[[39.548597, -119.812894  ], "2006", "2008"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["St. George Roadrunners", "2006", "2010"]
+						],
+			"leagues" : [
+				["Golden Baseball League", "2006", "2010"]
+						],
+			"coords": 	[
+				[[37.099167, -113.565833   ], "2006", "2010"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Tucson Toros", "2009", "2010"]
+						],
+			"leagues" : [
+				["Golden Baseball League", "2009", "2010"]
+						],
+			"coords": 	[
+				[[32.213333, -110.919167  ], "2009", "2010"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Victoria Seals", "2009", "2010"]
+						],
+			"leagues" : [
+				["Golden Baseball League", "2009", "2010"]
+						],
+			"coords": 	[
+				[[48.4312, -123.3541 ], "2009", "2010"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Na Koa Ikaika Maui", "2010", "2013"]
+						],
+			"leagues" : [
+				["Golden Baseball League", "2010", "2010"],
+				["North American League", "2011", "2012"],
+				["Pacific Association", "2013", "2013"],
+						],
+			"coords": 	[
+				[[20.894704, -156.48775 ], "2010", "2013"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Tijuana Cimmarones", "2010", "2010"]
+						],
+			"leagues" : [
+				["Golden Baseball League", "2010", "2010"]
+						],
+			"coords": 	[
+				[[32.483212, -116.91748  ], "2010", "2010"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["San Rafael Pacifics", "2012", "now"]
+						],
+			"leagues" : [
+				["North American League", "2012", "2012"],
+				["Pacific Association", "2013", "2019"],
+				["Pecos League", "2020", "now"],
+						],
+			"coords": 	[
+				[[37.969, -122.528 ], "2012", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Abilene Prairie Dogs", "2012", "2012"]
+						],
+			"leagues" : [
+				["North American League", "2012", "2012"]
+						],
+			"coords": 	[
+				[[32.428803123655456, -99.74603971124529], "2012", "2012"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Hawaii Stars", "2012", "2013"]
+						],
+			"leagues" : [
+				["North American League", "2012", "2012"],
+				["Pacific Association", "2013", "2013"]
+						],
+			"coords": 	[
+				[[19.719, -155.068 ], "2012", "2013"]
+						]
+		},
+	]
+}
+	

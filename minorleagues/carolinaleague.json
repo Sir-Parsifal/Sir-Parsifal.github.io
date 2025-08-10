@@ -1,0 +1,577 @@
+carolinaleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Burlington Bees", "1945", "1951"],
+				["Burlington-Graham Pirates", "1952", "1955"]
+						],
+			"leagues" : [
+				["Carolina League", "1945", "1955"]
+						],
+			"coords": 	[
+				[[36.076111, -79.468056 ], "1945", "1955"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Burlington Indians", "1958", "1964"],
+				["Burlington Senators", "1965", "1971"],
+				["Burlington Rangers", "1972", "1971"],
+						],
+			"leagues" : [
+				["Carolina League", "1958", "1972"]
+						],
+			"coords": 	[
+				[[36.076111, -79.468056 ], "1958", "1972"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Danville Leafs", "1945", "1958"],
+						],
+			"leagues" : [
+				["Carolina League", "1945", "1958"]
+						],
+			"coords": 	[
+				[[36.587222, -79.404444  ], "1945", "1958"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Durham Bulls", "1945", "1967"],
+				["Raleigh-Durham Mets", "1968", "1968"],
+				["Raleigh-Durham Phillies", "1969", "1969"],
+				["Raleigh-Durham Triangles", "1970", "1971"],
+						],
+			"leagues" : [
+				["Carolina League", "1945", "1971"]
+						],
+			"coords": 	[
+				[[36.002789, -78.902794 ], "1945", "1971"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Greensboro Patriots", "1945", "1957"],
+				["Greensboro Yankees", "1958", "1967"],
+				["Greensboro Patriots", "1968", "1968"]
+						],
+			"leagues" : [
+				["Carolina League", "1945", "1968"]
+						],
+			"coords": 	[
+				[[36.079722, -79.777222 ], "1945", "1968"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Leaksville-Draper-Spray Triplets", "1945", "1948-06-17"],
+				["Abingdon Triplets", "1948-06-18", "1948"],
+						],
+			"leagues" : [
+				["Carolina League", "1945", "1947"],
+				["Blue Ridge League", "1948", "1948"],
+						],
+			"coords": 	[
+				[[36.502778, -79.741389  ], "1945", "1948-06-17"],
+				[[36.709722, -81.975556  ], "1948-06-18", "1948"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Martinsville A's", "1945", "1949"]
+						],
+			"leagues" : [
+				["Carolina League", "1945", "1949"]
+						],
+			"coords": 	[
+				[[36.69665, -79.85391  ], "1945", "1949"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Raleigh Capitals", "1945", "1953"]
+						],
+			"leagues" : [
+				["Carolina League", "1945", "1953"]
+						],
+			"coords": 	[
+				[[35.790278, -78.643611  ], "1945", "1953"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Raleigh Capitals", "1958", "1962"],
+				["Raleigh Mets", "1963", "1963"],
+				["Raleigh Cardinals", "1964", "1965"],
+				["Raleigh Pirates", "1966", "1967"],
+						],
+			"leagues" : [
+				["Carolina League", "1958", "1967"]
+						],
+			"coords": 	[
+				[[35.790278, -78.643611  ], "1958", "1967"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Winston-Salem Cardinals", "1945", "1953"],
+				["Winston-Salem Twins", "1954", "1956"],
+				["Winston-Salem Red Birds", "1957", "1960"],
+				["Winston-Salem Red Sox", "1961", "1983"],
+				["Winston-Salem Spirits", "1984", "1994"],
+				["Winston-Salem Warthogs", "1995", "2008"],
+				["Winston-Salem Dash", "2009", "now"],
+						],
+			"leagues" : [
+				["Carolina League", "1945", "2020"],
+				["South Atlantic League", "2021", "now"],
+						],
+			"coords": 	[
+				[[36.0755, -80.2364  ], "1945", "1955"],
+				[[36.129722, -80.252222 ], "1956", "2009"],
+				[[36.091602, -80.255962 ], "2010", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Reidsville Luckies", "1947", "1954"],
+				["Reidsville Phillies", "1955", "1955"],
+						],
+			"leagues" : [
+				["Tri-State League", "1947", "1947"],
+				["Carolina League", "1948", "1953"]
+						],
+			"coords": 	[
+				[[36.337778, -79.6725 ], "1945", "1953"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Fayetteville Cubs", "1946", "1948"],
+				["Fayetteville Scotties", "1949", "1949"],
+				["Fayetteville A's", "1950", "1952"],
+				["Fayetteville Highlanders", "1953", "1956"],
+						],
+			"leagues" : [
+				["Coastal Plain League", "1946", "1946"],
+				["Tri-State League", "1947", "1948"],
+				["Tobacco State League", "1949", "1949"],
+				["Carolina League", "1950", "1956"]
+						],
+			"coords": 	[
+				[[35.085, -78.977222 ], "1946", "1956"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Thomasville Dodgers", "1945", "1947"],
+				["High Point-Thomasville Hi-Toms", "1948", "1958"]
+						],
+			"leagues" : [
+				["North Carolina State League", "1945", "1952"],
+				["Tar Heel League", "1953", "1953"],
+				["Carolina League", "1954", "1958"]
+						],
+			"coords": 	[
+				[[35.912453, -80.062642  ], "1945", "1958"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["High Point-Thomasville Hi-Toms", "1968", "1968"],
+				["High Point-Thomasville Royals", "1969", "1969"]
+						],
+			"leagues" : [
+				["Carolina League", "1968", "1969"]
+						],
+			"coords": 	[
+				[[35.912453, -80.062642  ], "1968", "1969"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Kinston Eagles", "1956", "1957"]
+						],
+			"leagues" : [
+				["Carolina League", "1956", "1957"]
+						],
+			"coords": 	[
+				[[35.27, -77.574167 ], "1956", "1957"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Wilson Tobs", "1956", "1968"],
+				["Red Springs Twins", "1969", "1969"],
+						],
+			"leagues" : [
+				["Carolina League", "1956", "1969"]
+						],
+			"coords": 	[
+				[[35.718382, -77.930338  ], "1956", "1968"],
+				[[34.804722, -79.182222 ], "1969", "1969"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Kinston Eagles", "1962", "1973"],
+				["Kinston Expos", "1974", "1974"],
+						],
+			"leagues" : [
+				["Carolina League", "1974", "1974"]
+						],
+			"coords": 	[
+				[[35.27, -77.574167 ], "1962", "1974"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Rocky Mount Leafs", "1962", "1963"],
+				["Rocky Mount Senators", "1964", "1964"],
+				["Rocky Mount Leafs", "1965", "1972"],
+				["Rocky Mount Phillies", "1973", "1975"],
+						],
+			"leagues" : [
+				["Carolina League", "1962", "1975"]
+						],
+			"coords": 	[
+				[[35.968333, -77.804444  ], "1962", "1975"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Peninsula Senators", "1963", "1963"],
+				["Peninsula Grays", "1964", "1968"],
+				["Peninsula Astros", "1969", "1969"],
+				["Peninsula Phillies", "1970", "1971"],
+						],
+			"leagues" : [
+				["Carolina League", "1963", "1971"]
+						],
+			"coords": 	[
+				[[37.009304, -76.387736 ], "1963", "1971"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Portsmouth-Norfolk Tides", "1963", "1968"],
+				["Tidewater Tides", "1963", "1968"]
+						],
+			"leagues" : [
+				["South Atlantic League", "1961", "1962"],
+				["Carolina League", "1963", "1968"]
+						],
+			"coords": 	[
+				[[36.834444, -76.341667 ], "1961", "1968"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Lynchburg White Sox", "1963", "1969"],
+				["Lynchburg Twins", "1970", "1974"],
+				["Lynchburg Rangers", "1975", "1975"],
+				["Lynchburg Mets", "1976", "1987"],
+				["Lynchburg Red Sox", "1988", "1994"],
+				["Lynchburg Hillcats", "1995", "now"]
+						],
+			"leagues" : [
+				["Carolina League", "1963", "now"]
+						],
+			"coords": 	[
+				[[37.392816, -79.165623  ], "1963", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Salem Rebels", "1957", "1971"],
+				["Salem Pirates", "1972", "1980"],
+				["Salem Redbirds", "1981", "1986"],
+				["Salem Buccaneers", "1987", "1994"],
+				["Salem Avalanche", "1995", "2008"],
+				["Salem Red Sox", "2009", "now"]
+						],
+			"leagues" : [
+				["Appalachian League", "1957", "1967"],
+				["Carolina League", "1968", "now"]
+						],
+			"coords": 	[
+				[[37.286233, -80.047535  ], "1957", "1994"],
+				[[37.285278, -80.036667 ], "1995", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Wilson Pennants", "1973", "1973"],
+				["Peninsula Pennants", "1974", "1974"]
+						],
+			"leagues" : [
+				["Carolina League", "1973", "1974"]
+						],
+			"coords": 	[
+				[[35.718382, -77.930338 ], "1973", "1973"],
+				[[37.009304, -76.387736 ], "1974", "1974"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Peninsula Pilots", "1976", "1985"],
+				["Peninsula White Sox", "1986", "1987"],
+				["Virginia Generals", "1988", "1988"],
+				["Peninsula Pilots", "1989", "1992"],
+				["Wilmington Blue Rocks", "1993", "now"],
+						],
+			"leagues" : [
+				["Carolina League", "1973", "2020"],
+				["South Atlantic League", "2021", "now"]
+						],
+			"coords": 	[
+				[[37.009304, -76.387736 ], "1976", "1992"],
+				[[39.732222, -75.564444  ], "1993", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Kinston Eagles", "1978", "1981"],
+				["Kinston Blue Jays", "1982", "1985"],
+				["Kinston Eagles", "1986", "1986"],
+				["Kinston Indians", "1987", "2011"],
+				["Carolina Mudcats", "2012", "now"],
+						],
+			"leagues" : [
+				["Carolina League", "1978", "now"]
+						],
+			"coords": 	[
+				[[35.27, -77.574167 ], "1978", "2011"],
+				[[35.817222, -78.27 ], "2012", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Alexandria Dukes", "1978", "1948"],
+				["Alexandria Mariners", "1979", "1979"],
+				["Alexandria Dukes", "1980", "1983"],
+				["Prince William Pirates", "1984", "1986"],
+				["Prince William Yankees", "1987", "1988"],
+				["Prince William Cannons", "1989", "1998"],
+				["Potomac Cannons", "1999", "2004"],
+				["Potomac Nationals", "2005", "2019"],
+				["Fredericksburg Nationals", "2020", "now"],
+						],
+			"leagues" : [
+				["Carolina League", "1978", "now"]
+						],
+			"coords": 	[
+				[[38.83861301789165, -77.05746742869377 ], "1978", "1983"],
+				[[38.684167, -77.3525 ], "1984", "2019"],
+				[[38.318056, -77.509722  ], "2020", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Rocky Mount Pines", "1980", "1980"],
+				["Hagerstown Suns", "1981", "1988"],
+				["Frederick Keys", "1989", "now"],
+						],
+			"leagues" : [
+				["Carolina League", "1980", "2020"],
+				["MLB Draft League", "2021", "now"],
+						],
+			"coords": 	[
+				[[35.968333, -77.804444  ], "1980", "1980"],
+				[[39.623333, -77.736667 ], "1981", "1988"],
+				[[39.41, -77.423333 ], "1989", "1989"],
+				[[39.401389, -77.413333  ], "1990", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Durham Bulls", "1980", "1997"],
+				["Danville 97s", "1998", "1998"],
+				["Myrtle Beach Pelicans", "1999", "now"],
+						],
+			"leagues" : [
+				["Carolina League", "1980", "now"]
+						],
+			"coords": 	[
+				[[36.002789, -78.902794  ], "1980", "1994"],
+				[[35.991689, -78.904186  ], "1995", "1997"],
+				[[36.575833, -79.3725 ], "1998", "1998"]
+				[[33.711682, -78.8845 ], "1999", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Buies Creek Astros", "2017", "2018"],
+				["Fayetteville Woodpeckers", "2019", "now"],
+						],
+			"leagues" : [
+				["Carolina League", "2017", "now"],
+						],
+			"coords": 	[
+				[[35.41049, -78.73546 ], "2017", "2018"],
+				[[35.055914, -78.883382 ], "2019", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Down East Wood Ducks", "2017", "2024"],
+				["Hub City Spartanburgers", "2025", "now"],
+						],
+			"leagues" : [
+				["Carolina League", "2017", "2024"],
+				["South Atlantic League", "2025", "now"],
+						],
+			"coords": 	[
+				[[35.27, -77.574167 ], "2017", "2024"],
+				[[34.945, -81.935833  ], "2025", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Sumter Flyers", "1991", "1991"],
+				["Albany Polecats", "1992", "1995"],
+				["Delmarva Shorebirds", "1996", "now"],
+						],
+			"leagues" : [
+				["South Atlantic League", "1991", "2020"],
+				["Carolina League", "2021", "now"],
+						],
+			"coords": 	[
+				[[33.934891, -80.345673 ], "1991", "1991"],
+				[[31.600944, -84.129878 ], "1992", "1995"],
+				[[38.369722, -75.529444 ], "1996", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Macon Peaches", "1980", "1982"],
+				["Macon Redbirds", "1983", "1983"],
+				["Macon Pirates", "1984", "1987"],
+				["Augusta Pirates", "1988", "1993"],
+				["August GreenJackets", "1994", "now"],
+						],
+			"leagues" : [
+				["South Atlantic League", "1980", "2020"],
+				["Carolina League", "2021", "now"],
+						],
+			"coords": 	[
+				[[32.828889, -83.614167  ], "1980", "1987"],
+				[[33.495, -82.000556 ], "1988", "1994"],
+				[[33.495, -82.000556 ], "1995", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Charleston Royals", "1980", "1984"],
+				["Charleston Rainbows", "1985", "1993"],
+				["Charleston RiverDogs", "1994", "now"],
+						],
+			"leagues" : [
+				["Carolina League", "1980", "2020"],
+				["South Atlantic League", "2021", "now"],
+						],
+			"coords": 	[
+				[[32.802363, -79.953673  ], "1980", "1996"],
+				[[32.790278, -79.961111  ], "1997", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Greenwood Pirates", "1981", "1983"],
+				["Savannah Cardinals", "1984", "1995"],
+				["Savannah Sand Gnats", "1996", "2015"],
+				["Columbia Fireflies", "2016", "now"],
+						],
+			"leagues" : [
+				["Carolina League", "1981", "2020"],
+				["South Atlantic League", "2021", "now"],
+						],
+			"coords": 	[
+				[[34.195278, -82.161667 ], "1981", "1983"],
+				[[32.044722, -81.078889 ], "1984", "2015"],
+				[[34.017417, -81.031397  ], "2016", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Spartanburg Phillies", "1963", "1980"],
+				["Spartanburg Traders", "1981", "1982"],
+				["Spartanburg Spinners", "1983", "1983"],
+				["Spartanburg Suns", "1984", "1985"],
+				["Spartanburg Phillies", "1986", "1994"],
+				["Piedmont Phillies", "1995", "1995"],
+				["Kannapolis Boll Weevils", "1996", "2000"],
+				["Kannapolis Intimidators", "2001", "2019"],
+				["Kannapolis Cannon Ballers", "2020", "now"],
+						],
+			"leagues" : [
+				["Western Carolinas League", "1963", "1979"],
+				["Carolina League", "1980", "2020"],
+				["South Atlantic League", "2021", "now"],
+						],
+			"coords": 	[
+				[[34.936493, -81.912818 ], "1963", "1994"],
+				[[35.507778, -80.566389  ], "1995", "2019"],
+				[[35.499167, -80.626667 ], "2020", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Gastonia Cardinals", "1977", "1982"],
+				["Gastonia Expos", "1983", "1984"],
+				["Gastonia Jets", "1983", "1983"],
+				["Gastonia Tigers", "1984", "1985"],
+				["Gastonia Rangers", "1986", "1992"],
+				["Hickory Crawdads", "1993", "now"],
+						],
+			"leagues" : [
+				["Western Carolinas League", "1977", "1979"],
+				["Carolina League", "1980", "2020"],
+				["South Atlantic League", "2021", "now"],
+						],
+			"coords": 	[
+				[[35.27981, -81.183813 ], "1977", "1992"],
+				[[35.749167, -81.378611  ], "1993", "now"]
+						]
+		},
+	]
+}
+	
