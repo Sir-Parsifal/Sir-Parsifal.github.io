@@ -60,6 +60,7 @@
 <script src="indyleagues/westernbaseballleague.json" type="text/javascript"></script> 
 <script src="indyleagues/unitedleaguebaseball.json" type="text/javascript"></script> 
 <script src="indyleagues/goldenbaseballleague.json" type="text/javascript"></script>
+<script src="indyleagues/northeastleague.json" type="text/javascript"></script>
 
 <div id="map" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
     <style>
@@ -133,6 +134,7 @@ var greenIcon 			= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-gree
 	darkblueIcon 		= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-darkblue.png'});
 	brownIcon 			= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-brown.png'});
 	brightorangeIcon 	= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-brightorange.png'});
+	hotpinkIcon		 	= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-hotpink.png'});
 
 var defunctIcon		= new L.Icon({iconUrl: 'defunct1.png', iconAnchor: [15, 35]});
 var birthIcon 		= new L.Icon({iconUrl: 'birthIcon.png'});
@@ -219,6 +221,8 @@ var NorthernLeague					= {"type": 'FeatureCollection', "features": []}
 var SouthCoastLeague				= {"type": 'FeatureCollection', "features": []}
 var WesternBaseballLeague			= {"type": 'FeatureCollection', "features": []}
 var GoldenBaseballLeague			= {"type": 'FeatureCollection', "features": []}
+var NortheastLeague 				= {"type": 'FeatureCollection', "features": []}
+var CanAmLeague 					= {"type": 'FeatureCollection', "features": []}
 
 //defunct
 var WesternLeague					= {"type": 'FeatureCollection', "features": []}
@@ -246,6 +250,7 @@ function addGeoJSONTeamsToLeagues (geoJSONTeam, league) {
 		case "Appalachian League": 				AppalachianLeague.features.push(geoJSONTeam); 				break;		
 		case "Big South League": 				BigSouthLeague.features.push(geoJSONTeam); 					break;			
 		case "CaliforniaLeague":				CaliforniaLeague.features.push(geoJSONTeam); 				break;
+		case "Can-Am League":					CanAmLeague.features.push(geoJSONTeam); 					break;
 		case "Carolina League":					CarolinaLeague.features.push(geoJSONTeam); 					break;
 		case "Central Baseball League":			CentralBaseballLeague.features.push(geoJSONTeam); 			break;
 		case "Central League":					CentralLeague.features.push(geoJSONTeam); 					break;
@@ -266,6 +271,7 @@ function addGeoJSONTeamsToLeagues (geoJSONTeam, league) {
 		case "North Atlantic League":			NorthAtlanticLeague.features.push(geoJSONTeam); 			break;	
 		case "North American League":			NorthAmericanLeague.features.push(geoJSONTeam); 			break;
 		case "Northern League":					NorthernLeague.features.push(geoJSONTeam); 					break;
+		case "Northeast League":				NortheastLeague.features.push(geoJSONTeam); 				break;
 		case "NorthwesternLeague":				NorthwesternLeague.features.push(geoJSONTeam); 				break;	
 		case "North Central League":			NorthCentralLeague.features.push(geoJSONTeam); 				break;
 		case "Pacific Coast League": 			PacificCoastLeague.features.push(geoJSONTeam); 				break;
@@ -530,6 +536,7 @@ loadTeams(goldenbaseballleague); //includes some North American League teams. al
 loadTeams(carolinaleague);
 loadTeams(southatlanticleague);
 loadTeams(appalachianleague);
+loadTeams(northeastleague);
 
 //these are camelcased and refer to the ARRAY
 //lowercase refers to the JSON file
@@ -556,7 +563,6 @@ addTeamToMap(IllinoisIndianaIowaLeague, violetIcon);
 addTeamToMap(SouthAtlanticLeague, violetIcon);
 addTeamToMap(PlayersLeague, blackIcon);
 addTeamToMap(CentralLeague, blueIcon);
-addTeamToMap(NorthAtlanticLeague, blueIcon);
 addTeamToMap(CarolinaLeague, brightorangeIcon);
 addTeamToMap(AppalachianLeague, pinkIcon);
 
@@ -566,7 +572,7 @@ addTeamToMap(GreatCentralLeague, aquamarineIcon);
 addTeamToMap(MidAmericaLeague, greenIcon);
 addTeamToMap(PrairieLeague, pinkIcon);
 addTeamToMap(BigSouthLeague, blackIcon);
-addTeamToMap(NorthAtlanticLeague, yellowIcon);
+addTeamToMap(NorthAtlanticLeague, hotpinkIcon);
 addTeamToMap(HeartlandLeague, darkblueIcon);
 addTeamToMap(TexasLouisianaLeague, brownIcon);
 addTeamToMap(CentralBaseballLeague, brownIcon);
@@ -578,6 +584,8 @@ addTeamToMap(WesternBaseballLeague, violetIcon);
 addTeamToMap(UnitedLeagueBaseball, greenIcon);
 addTeamToMap(GoldenBaseballLeague, blackIcon);
 addTeamToMap(NorthAmericanLeague, brownIcon);
+addTeamToMap(NortheastLeague, yellowIcon);
+addTeamToMap(CanAmLeague, yellowIcon); //slaps league       this baby can fit so many road teams
 
 //addFileToMap(greatcentralleague1994, redIcon);
 //addFileToMap(midamericaleague1995, greenIcon);

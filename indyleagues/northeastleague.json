@@ -1,0 +1,344 @@
+northeastleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Albany-Colonie Diamond Dogs", "1995", "2002"],
+						],
+			"leagues" : [
+				["Northeast League", "1995", "2002"]
+						],
+			"coords": 	[
+				[[42.740193, -73.816967 ], "1995", "2002"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Allentown Ambassadors", "1997", "2003"],
+						],
+			"leagues" : [
+				["Northeast League", "1997", "2003"]
+						],
+			"coords": 	[
+				[[40.587506, -75.475522  ], "1997", "2003"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Bangor Blue Ox", "1996", "2007"],
+						],
+			"leagues" : [
+				["Northeast League", "1996", "2007"]
+						],
+			"coords": 	[
+				[[44.904692, -68.669368 ], "1996", "1997"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Brockton Rox", "2002", "2024"],
+						],
+			"leagues" : [
+				["Northeast League", "2002", "2004"],
+				["Can-Am League", "2005", "2011"],
+				["Futures Collegiate Baseball League", "2012", "2024"],
+						],
+			"coords": 	[
+				[[42.069336, -71.042692  ], "2002", "2024"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Elmira Pioneers", "1996", "now"],
+						],
+			"leagues" : [
+				["Northeast League", "1996", "2004"],
+				["Can-Am League", "2005", "2005"],
+				["New York Collegiate Baseball League", "2006", "2010"],
+				["Perfect Game Collegiate Baseball League", "2011", "now"],
+						],
+			"coords": 	[
+				[[42.080296, -76.780674] , "1996", "2024"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Adirondack Lumberjacks", "1995", "2002"],
+				["Bangor Lumberjacks", "2003", "2004"],
+						],
+			"leagues" : [
+				["Northeast League", "1995", "2004"],
+						],
+			"coords": 	[
+				[[43.316861, -73.627362 ] , "1995", "2002"],
+				[[44.904692, -68.669368  ], "2003", "2004"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Mohawk Valley Landsharks", "1995", "1995"],
+						],
+			"leagues" : [
+				["Northeast League", "1995", "1995"]
+						],
+			"coords": 	[
+				[[43.041743, -74.841335  ], "1995", "1995"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["North Shore Spirit", "2003", "2007"],
+						],
+			"leagues" : [
+				["Northeast League", "2003", "2004"],
+				["Can-Am League", "2005", "2007"],
+						],
+			"coords": 	[
+				[[42.473744, -70.953518  ], "2003", "2007"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Sullivan County Mountain Lions", "1995", "1995"],
+						],
+			"leagues" : [
+				["Northeast League", "1995", "1995"]
+						],
+			"coords": 	[
+				[[41.689444, -74.531389 ], "1995", "1995"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Newburgh Night Hawks", "1995", "1996"],
+						],
+			"leagues" : [
+				["Northeast League", "1995", "1996"]
+						],
+			"coords": 	[
+				[[41.498889, -74.025278 ], "1995", "1996"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Berkshire Black Bears", "2002", "2003"],
+				["New Haven County Cutters", "2004", "2007"],
+						],
+			"leagues" : [
+				["Northeast League", "2002", "2004"],
+				["Can-Am League", "2005", "2007"]
+						],
+			"coords": 	[
+				[[42.462319, -73.252582  ], "2002", "2003"],
+				[[41.309286, -72.958939  ], "2004", "2007"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Les Capitales de Quebec", "1999", "now"],
+						],
+			"leagues" : [
+				["Northeast League", "1999", "2004"],
+				["Can-Am League", "2005", "2019"],
+				["Frontier League", "2020", "now"],
+						],
+			"coords": 	[
+				[[46.818611, -71.233497  ], "1999", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Waterbury Spirit", "1997", "2000"],
+						],
+			"leagues" : [
+				["Northeast League", "1997", "2000"]
+						],
+			"coords": 	[
+				[[41.577784, -73.070186  ], "1997", "2000"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Rhode Island Tiger Sharks", "1996", "1996"],
+						],
+			"leagues" : [
+				["Northeast League", "1996", "1996"]
+						],
+			"coords": 	[
+				[[41.717213, -71.515427 ], "1996", "1996"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Yonkers Hoot Owls", "1995", "1995"],
+						],
+			"leagues" : [
+				["Northeast League", "1995", "1995"]
+						],
+			"coords": 	[
+				[[40.931628, -73.882782 ], "1995", "1995"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["New Jersey Jackals", "1998", "now"],
+						],
+			"leagues" : [
+				["Northeast League", "1998", "2004"],
+				["Can-Am League", "2005", "2019"],
+				["Frontier League", "2020", "now"],
+						],
+			"coords": 	[
+				[[40.868734, -74.195247  ], "1998", "2022"],
+				[[40.918333, -74.181111 ], "2023", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Worcester Tornadoes", "2005", "2012"],
+						],
+			"leagues" : [
+				["Can-Am League", "2005", "2012"]
+						],
+			"coords": 	[
+				[[42.240528, -71.811222 ], "2005", "2012"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Sussex Skyhawks", "2006", "2010"],
+						],
+			"leagues" : [
+				["Can-Am League", "2006", "2010"]
+						],
+			"coords": 	[
+				[[41.125917, -74.710122 ], "2006", "2010"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Nashua Pride", "1998", "2008"],
+				["American Defenders of New Hampshire", "2009", "2009"],
+				["Pittsfield Colonials", "2010", "2011"]
+						],
+			"leagues" : [
+				["Atlantic League", "1998", "2005"],
+				["Can-Am League", "2006", "2011"],
+						],
+			"coords": 	[
+				[[42.769086, -71.473194  ], "1998", "2009"],
+				[[42.462319, -73.252582 ], "2010", "2011"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Atlantic City Surf", "1998", "2008"],
+						],
+			"leagues" : [
+				["Atlantic League", "1998", "2006"],
+				["Can-Am League", "2007", "2008"],
+						],
+			"coords": 	[
+				[[39.358614, -74.458642  ], "1998", "2008"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Ottawa Rapidz", "2008", "2008"],
+						],
+			"leagues" : [
+				["Can-Am League", "2008", "2008"],
+						],
+			"coords": 	[
+				[[45.420142, -75.653569  ], "2008", "2008"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Newark Bears", "1998", "2013"],
+						],
+			"leagues" : [
+				["Atlantic League", "1998", "2010"],
+				["Can-Am League", "2011", "2013"],
+						],
+			"coords": 	[
+				[[40.745833, -74.168333  ], "1998", "2013"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Rockland Boulders", "2011", "2019"],
+				["New York Boulders", "2020", "now"],
+						],
+			"leagues" : [
+				["Can-Am League", "2011", "2019"],
+				["Frontier League", "2020", "now"],
+						],
+			"coords": 	[
+				[[41.17, -74.037 ], "2011", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Trois-Rivières Aigles", "2013", "now"],
+						],
+			"leagues" : [
+				["Can-Am League", "2013", "2019"],
+				["Frontier League", "2020", "now"],
+						],
+			"coords": 	[
+				[[46.347778, -72.556389 ], "2013", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Sussex County Miners", "2015", "now"],
+						],
+			"leagues" : [
+				["Can-Am League", "2015", "2019"],
+				["Frontier League", "2020", "now"],
+						],
+			"coords": 	[
+				[[41.125917, -74.710122  ], "2015", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Ottawa Champions", "2015", "2019"],
+						],
+			"leagues" : [
+				["Can-Am League", "2015", "2019"],
+						],
+			"coords": 	[
+				[[45.420142, -75.653569 ], "2015", "2019"]
+						]
+		},
+	]
+}
+	
