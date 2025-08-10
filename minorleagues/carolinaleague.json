@@ -237,7 +237,7 @@ carolinaleague = {
 				["Kinston Expos", "1974", "1974"],
 						],
 			"leagues" : [
-				["Carolina League", "1974", "1974"]
+				["Carolina League", "1962", "1974"]
 						],
 			"coords": 	[
 				[[35.27, -77.574167 ], "1962", "1974"]
@@ -425,7 +425,7 @@ carolinaleague = {
 			"coords": 	[
 				[[36.002789, -78.902794  ], "1980", "1994"],
 				[[35.991689, -78.904186  ], "1995", "1997"],
-				[[36.575833, -79.3725 ], "1998", "1998"]
+				[[36.575833, -79.3725 ], "1998", "1998"],
 				[[33.711682, -78.8845 ], "1999", "now"]
 						]
 		},
@@ -502,8 +502,8 @@ carolinaleague = {
 				["Charleston RiverDogs", "1994", "now"],
 						],
 			"leagues" : [
-				["Carolina League", "1980", "2020"],
-				["South Atlantic League", "2021", "now"],
+				["South Atlantic League", "1980", "2020"],
+				["Carolina League", "2021", "now"],
 						],
 			"coords": 	[
 				[[32.802363, -79.953673  ], "1980", "1996"],
@@ -519,8 +519,8 @@ carolinaleague = {
 				["Columbia Fireflies", "2016", "now"],
 						],
 			"leagues" : [
-				["Carolina League", "1981", "2020"],
-				["South Atlantic League", "2021", "now"],
+				["South Atlantic League", "1981", "2020"],
+				["Carolina League", "2021", "now"],
 						],
 			"coords": 	[
 				[[34.195278, -82.161667 ], "1981", "1983"],
@@ -543,8 +543,8 @@ carolinaleague = {
 						],
 			"leagues" : [
 				["Western Carolinas League", "1963", "1979"],
-				["Carolina League", "1980", "2020"],
-				["South Atlantic League", "2021", "now"],
+				["South Atlantic League", "1980", "2020"],
+				["Carolina League", "2021", "now"],
 						],
 			"coords": 	[
 				[[34.936493, -81.912818 ], "1963", "1994"],
@@ -564,8 +564,8 @@ carolinaleague = {
 						],
 			"leagues" : [
 				["Western Carolinas League", "1977", "1979"],
-				["Carolina League", "1980", "2020"],
-				["South Atlantic League", "2021", "now"],
+				["South Atlantic League", "1980", "2024"],
+				["Carolina League", "2025", "now"],
 						],
 			"coords": 	[
 				[[35.27981, -81.183813 ], "1977", "1992"],
