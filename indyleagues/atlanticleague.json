@@ -1,0 +1,213 @@
+atlanticleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Bridgeport Bluefish", "1998", "2017"],
+						],
+			"leagues" : [
+				["Atlantic League", "1998", "2017"]
+						],
+			"coords": 	[
+				[[41.171944, -73.1875 ], "1998", "2017"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Newburgh Black Diamonds", "1998", "1998"]
+						],
+			"leagues" : [
+				["Atlantic League", "1998", "1998"]
+						],
+			"coords": 	[
+				[[41.498889, -74.025278 ], "1998", "1998"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Somerset Patriots", "1999", "now"]
+						],
+			"leagues" : [
+				["Atlantic League", "1999", "2020"],
+				["Eastern League", "2021", "now"],
+						],
+			"coords": 	[
+				[[40.560556, -74.553056  ], "1999", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Aberdeen Arsenal", "2000", "2000"]
+						],
+			"leagues" : [
+				["Atlantic League", "2000", "2000"]
+						],
+			"coords": 	[
+				[[39.560556, -76.283889 ], "2000", "2000"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Long Island Ducks", "2000", "now"]
+						],
+			"leagues" : [
+				["Atlantic League", "2000", "now"]
+						],
+			"coords": 	[
+				[[40.765, -73.192222 ], "2000", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Camden Riversharks", "2001", "2015"]
+						],
+			"leagues" : [
+				["Atlantic League", "2001", "2015"]
+						],
+			"coords": 	[
+				[[39.950245, -75.128306 ], "2001", "2015"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Lancaster Barnstormers", "2005", "2023"],
+				["Lancaster Stormers", "2024", "now"]
+						],
+			"leagues" : [
+				["Atlantic League", "2005", "now"]
+						],
+			"coords": 	[
+				[[40.048611, -76.310833 ], "2005", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["York Revolution", "2007", "now"]
+						],
+			"leagues" : [
+				["Atlantic League", "2007", "now"]
+						],
+			"coords": 	[
+				[[39.9675, -76.729167 ], "2007", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Southern Maryland Blue Crabs", "2008", "now"]
+						],
+			"leagues" : [
+				["Atlantic League", "2008", "now"]
+						],
+			"coords": 	[
+				[[38.5625, -76.903611  ], "2008", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["New Britain Bees", "2016", "now"]
+						],
+			"leagues" : [
+				["Atlantic League", "2016", "2019"],
+				["Futures Collegiate Baseball League", "2020", "now"],
+						],
+			"coords": 	[
+				[[41.648506, -72.775211  ], "2016", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["High Point Rockers", "2019", "now"]
+						],
+			"leagues" : [
+				["Atlantic League", "2019", "now"],
+						],
+			"coords": 	[
+				[[35.959444, -80.011944  ], "2019", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Gastonia Honey Hunters", "2021", "2023"]
+						],
+			"leagues" : [
+				["Atlantic League", "2021", "2023"],
+						],
+			"coords": 	[
+				[[35.26238, -81.19503  ], "2021", "2023"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Staten Island FerryHawks", "2021", "now"]
+						],
+			"leagues" : [
+				["Atlantic League", "2021", "now"],
+						],
+			"coords": 	[
+				[[40.645575, -74.076428  ], "2021", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Wild Health Genomes", "2022", "2022"]
+						],
+			"leagues" : [
+				["Atlantic League", "2022", "2022"],
+						],
+			"coords": 	[
+				[[38.06545, -84.47852 ], "2022", "2022"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Spire City Ghost Hounds", "2023", "2023"]
+						],
+			"leagues" : [
+				["Atlantic League", "2023", "2023"],
+						],
+			"coords": 	[
+				[[39.401389, -77.413333 ], "2023", "2023"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Hagerstown Flying Boxcars", "2024", "now"]
+						],
+			"leagues" : [
+				["Atlantic League", "2024", "now"],
+						],
+			"coords": 	[
+				[[39.640556, -77.723889 ], "2024", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Gastonia Ghost Peppers", "2024", "now"]
+						],
+			"leagues" : [
+				["Atlantic League", "2024", "now"],
+						],
+			"coords": 	[
+				[[35.26238, -81.19503   ], "2024", "now"],
+						]
+		},
+	]
+}
+	
