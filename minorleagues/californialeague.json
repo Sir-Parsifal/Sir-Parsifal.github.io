@@ -1,0 +1,139 @@
+californialeague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Anaheim Aces", "1941", "1941"],
+						],
+			"leagues" : [
+				["California League", "1941", "1941"]
+						],
+			"coords": 	[
+				[[33.84835, -117.92113 ], "1941", "1941"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Merced Bears", "1941", "1941"],
+						],
+			"leagues" : [
+				["California League", "1941", "1941"]
+						],
+			"coords": 	[
+				[[37.3, -120.483333 ], "1941", "1941"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Riverside Reds", "1941", "1941"],
+						],
+			"leagues" : [
+				["California League", "1941", "1941"]
+						],
+			"coords": 	[
+				[[33.948056, -117.396111 ], "1941", "1941"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["San Bernardino Stars", "1941", "1941"],
+						],
+			"leagues" : [
+				["California League", "1941", "1941"]
+						],
+			"coords": 	[
+				[[34.1, -117.3 ], "1941", "1941"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Stockton Flyers", "1941", "1941"],
+						],
+			"leagues" : [
+				["California League", "1941", "1941"]
+						],
+			"coords": 	[
+				[[37.983674, -121.29341 ], "1941", "1941"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Bakersfield Badgers", "1941", "1942"],
+						],
+			"leagues" : [
+				["California League", "1941", "1942"]
+						],
+			"coords": 	[
+				[[35.397556, -119.022384  ], "1941", "1942"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Fresno Cardinals", "1941", "1942"],
+						],
+			"leagues" : [
+				["California League", "1941", "1942"]
+						],
+			"coords": 	[
+				[[36.76785853117877, -119.78739465338603], "1941", "1942"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Santa Barbara Saints", "1941", "1942"],
+						],
+			"leagues" : [
+				["California League", "1941", "1942"]
+						],
+			"coords": 	[
+				[[34.416667, -119.7 ], "1941", "1942"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["San Jose Owls", "1942", "1942"],
+						],
+			"leagues" : [
+				["California League", "1942", "1942"]
+						],
+			"coords": 	[
+				[[37.320556, -121.862222 ], "1942", "1942"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Bakersfield Indians", "1946", "1955"],
+						],
+			"leagues" : [
+				["California League", "1946", "1955"]
+						],
+			"coords": 	[
+				[[35.397556, -119.022384 ], "1946", "1955"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Bakersfield Boosters", "1956", "1956"],
+				["Bakersfield Bears", "1957", "1967"],
+						],
+			"leagues" : [
+				["California League", "1956", "1967"]
+						],
+			"coords": 	[
+				[[35.397556, -119.022384 ], "1956", "1967"]
+						]
+		},
+	]
+}
+	

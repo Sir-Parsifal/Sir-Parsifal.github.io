@@ -199,7 +199,7 @@ pacificcoastleague = {
 						],
 			"leagues" : [
 				["Pacific Coast League", "1903", "1906"],
-				["CaliforniaLeague", "1907", "1908"],
+				["California League", "1907", "1908"],
 				["Pacific Coast League", "1909", "now"]
 						],
 			"coords": 	[

@@ -1,0 +1,178 @@
+threeileague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Des Moines Bruins", "1947", "1958"],
+				["Des Moines Demons", "1959", "1961"]
+						],
+			"leagues" : [
+				["Western League", "1947", "1958"],
+				["Illinois-Indiana-Iowa League", "1959", "1961"],
+						],
+			"coords": 	[
+				[[41.61828821780279, -93.62606378852206], "1947", "1961"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Lincoln A's", "1947", "1952"],
+				["Lincoln Chiefs", "1953", "1961"]
+						],
+			"leagues" : [
+				["Western League", "1947", "1958"],
+				["Illinois-Indiana-Iowa League", "1959", "1961"],
+						],
+			"coords": 	[
+				[[40.79087373745554, -96.71835411079893], "1947", "1961"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Sioux City Soos", "1947", "1960"],
+						],
+			"leagues" : [
+				["Western League", "1947", "1958"],
+				["Illinois-Indiana-Iowa League", "1959", "1960"],
+						],
+			"coords": 	[
+				[[42.498056, -96.395556 ], "1947", "1960"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Topeka Hawks", "1956", "1959"],
+				["Topeka Reds", "1960", "1961"],
+						],
+			"leagues" : [
+				["Western League", "1956", "1958"],
+				["Illinois-Indiana-Iowa League", "1959", "1961"],
+						],
+			"coords": 	[
+				[[39.034722, -95.695556 ], "1956", "1961"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Green Bay Bluejays", "1958", "1959"],
+				["Green Bay Dodgers", "1960", "1960"],
+						],
+			"leagues" : [
+				["Illinois-Indiana-Iowa League", "1958", "1960"],
+						],
+			"coords": 	[
+				[[44.504234, -87.99271  ], "1958", "1960"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Waterloo WhiteHawks", "1946", "1956"],
+				["Davenport DavSox", "1957", "1958"],
+						],
+			"leagues" : [
+				["Illinois-Indiana-Iowa League", "1946", "1958"],
+						],
+			"coords": 	[
+				[[42.510969, -92.35355 ], "1946", "1956"],
+				[[41.518669, -90.582242  ], "1957", "1958"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Rochester A's", "1958", "1958-06-28"],
+				["Winona A's", "1958-06-29", "1958"],
+						],
+			"leagues" : [
+				["Illinois-Indiana-Iowa League", "1958", "1958"],
+						],
+			"coords": 	[
+				[[44.025, -92.456667 ], "1958", "1958-06-28"],
+				[[44.04196144253042, -91.61449786220345], "1958-06-29", "1958"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Evansville Braves", "1946", "1957"],
+						],
+			"leagues" : [
+				["Illinois-Indiana-Iowa League", "1946", "1957"],
+						],
+			"coords": 	[
+				[[37.992778, -87.562222 ], "1946", "1957"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Peoria Chiefs", "1953", "1957"],
+						],
+			"leagues" : [
+				["Illinois-Indiana-Iowa League", "1953", "1957"],
+						],
+			"coords": 	[
+				[[40.70600937430697, -89.565875101629], "1953", "1957"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Davenport Cubs", "1946", "1947"],
+				["Davenport Pirates", "1948", "1949"],
+				["Davenport Quads", "1950", "1950"],
+				["Davenport Tigers", "1951", "1952"],
+						],
+			"leagues" : [
+				["Illinois-Indiana-Iowa League", "1946", "1952"],
+						],
+			"coords": 	[
+				[[41.518669, -90.582242 ], "1946", "1952"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Quincy Gems", "1946", "1956"],
+						],
+			"leagues" : [
+				["Illinois-Indiana-Iowa League", "1946", "1956"],
+						],
+			"coords": 	[
+				[[39.947517, -91.386253 ], "1946", "1956"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Terre Haute Phillies", "1946", "1954"],
+				["Terre Haute Tigers", "1955", "1956"],
+						],
+			"leagues" : [
+				["Illinois-Indiana-Iowa League", "1946", "1956"],
+						],
+			"coords": 	[
+				[[39.474722, -87.366944 ], "1946", "1956"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Decatur Commodores", "1946", "1950"],
+						],
+			"leagues" : [
+				["Illinois-Indiana-Iowa League", "1946", "1950"],
+						],
+			"coords": 	[
+				[[39.861518, -88.935893 ], "1946", "1950"]
+						]
+		},
+	]
+}
+	

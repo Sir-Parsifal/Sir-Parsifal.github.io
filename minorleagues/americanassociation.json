@@ -1,0 +1,33 @@
+americanassociationminor = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Kansas City Blues", "1901", "1954"],
+				["Denver Bears", "1955", "1983"],
+				["Denver Zephyrs", "1984", "1992"],
+				["New Orleans Zephyrs", "1993", "2016"],
+				["New Orleans Baby Cakes", "2017", "2019"],
+				["Wichita Wind Surge", "2020", "now"]
+						],
+			"leagues" : [
+				["Western League", "1901", "1901"],
+				["American Association", "1902", "1962"],
+				["Pacific Coast League", "1963", "1968"],
+				["American Association", "1969", "1997"],
+				["Pacific Coast League", "1998", "2020"],
+				["Texas League", "2021", "now"],
+						],
+			"coords": 	[
+				[[39.089002, -94.552975 ], "1901", "1922"],
+				[[39.087, -94.558  ], "1923", "1954"],
+				[[39.746111, -105.021667 ], "1955", "1992"],
+				[[30.03025, -90.047333  ], "1993", "1996"],
+				[[29.975442, -90.199742  ], "1997", "2019"],
+				[[37.681389, -97.345833 ], "2020", "now"]
+						]
+		},
+	]
+}
+	

@@ -156,19 +156,18 @@ midwestleague = {
 		{ 
 			"type": "team",
 			"names": 	[
-				["Decatur Commodores", "1946", "1974"],
+				["Decatur Commodores", "1952", "1974"],
 				["Wausau Mets", "1975", "1978"],
 				["Wausau Timbers", "1979", "1990"],
 				["Kane County Cougars", "1991", "now"]
 						],
 			"leagues" : [
-				["Illinois-Indiana-Iowa League", "1946", "1951"],
 				["Mississippi-Ohio Valley League", "1952", "1955"],
 				["Midwest League", "1956", "2020"],
 				["American Association", "2021", "now"]
 						],
 			"coords": 	[
-				[[39.861518, -88.935893], "1946", "1974"],
+				[[39.861518, -88.935893], "1952", "1974"],
 				[[44.974475, -89.626585], "1975", "1990"],
 				[[41.88065, -88.281756], "1991", "now"],
 						]
@@ -273,6 +272,7 @@ midwestleague = {
 		{ 
 			"type": "team",
 			"names": 	[
+				["Keokuk Kernels", "1952", "1957"],
 				["Keokuk Cardinals", "1958", "1961"],
 				["Keokuk Dodgers", "1962", "1962-08-01"],
 				["Midwest Dodgers", "1962-08-02", "1962"],
@@ -284,10 +284,11 @@ midwestleague = {
 
 						],
 			"leagues" : [
+				["Illinois-Indiana-Iowa League", "1952", "1957"],
 				["Midwest League", "1958", "now"]
 						],
 			"coords": 	[
-				[[40.408333, -91.387778], "1958", "1962-08-01"],
+				[[40.408333, -91.387778], "1952", "1962-08-01"],
 				[[42.499722, -90.723611], "1962-08-02", "1962"],
 				[[44.385493, -89.820621], "1963", "1983"],
 				[[39.817074, -89.6364], "1984", "1992"],
