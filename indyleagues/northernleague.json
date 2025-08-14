@@ -175,15 +175,19 @@ northernleague = {
 		{ 
 			"type": "team",
 			"names": 	[
+				["Portsmouth Explorers", "1993", "1995"],
+				["Springfield Capitals", "1996", "2001"],
 				["Rockford RiverHawks", "2002", "2012"],
 				["Rockford Aviators", "2013", "2015"],
 						],
 			"leagues" : [
-				["Frontier League", "2002", "2009"],
+				["Frontier League", "1993", "2009"],
 				["Northern League", "2010", "2010"],
 				["Frontier League", "2011", "2015"],
 						],
 			"coords": 	[
+				[[38.72831831671994, -82.97676391496452 ], "1993", "1995"],
+				[[39.817074, -89.6364  ], "1996", "2001"],
 				[[42.249555, -89.100924 ], "2002", "2005"],
 				[[42.324167, -88.955 ], "2006", "2015"]
 						]

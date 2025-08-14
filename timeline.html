@@ -66,6 +66,7 @@
 <script src="indyleagues/goldenbaseballleague.json" type="text/javascript"></script>
 <script src="indyleagues/northeastleague.json" type="text/javascript"></script>
 <script src="indyleagues/atlanticleague.json" type="text/javascript"></script>
+<script src="indyleagues/frontierleague.json" type="text/javascript"></script>
 
 <div id="map" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
     <style>
@@ -208,7 +209,7 @@ var CarolinaLeague					= {"type": 'FeatureCollection', "features": []}
 //extant indy
 var AppalachianLeague				= {"type": 'FeatureCollection', "features": []}
 var AtlanticLeague					= {"type": 'FeatureCollection', "features": []}
-
+var FrontierLeague					= {"type": 'FeatureCollection', "features": []}
 
 //defunct Indy 
 var NorthCentralLeague				= {"type": 'FeatureCollection', "features": []}
@@ -263,6 +264,7 @@ function addGeoJSONTeamsToLeagues (geoJSONTeam, league) {
 		case "Central Baseball League":			CentralBaseballLeague.features.push(geoJSONTeam); 			break;
 		case "Central League":					CentralLeague.features.push(geoJSONTeam); 					break;
 		case "Eastern League": 					EasternLeague.features.push(geoJSONTeam); 					break;
+		case "Frontier League": 				FrontierLeague.features.push(geoJSONTeam); 					break;
 		case "Great Central League": 			GreatCentralLeague.features.push(geoJSONTeam); 				break;
 		case "Golden Baseball League": 			GoldenBaseballLeague.features.push(geoJSONTeam); 			break;
 		case "Heartland League": 				HeartlandLeague.features.push(geoJSONTeam); 				break;
@@ -552,6 +554,7 @@ loadTeams(southatlanticleague);
 loadTeams(appalachianleague);
 loadTeams(northeastleague); //also has the Can-Am League
 loadTeams(threeileague);
+loadTeams(frontierleague);
 
 //these are camelcased and refer to the ARRAY
 //lowercase refers to the JSON file
@@ -580,6 +583,7 @@ addTeamToMap(PlayersLeague, blackIcon);
 addTeamToMap(CentralLeague, blueIcon);
 addTeamToMap(CarolinaLeague, brightorangeIcon);
 addTeamToMap(AppalachianLeague, pinkIcon);
+addTeamToMap(FrontierLeague, blueIcon);
 
 
 addTeamToMap(NorthCentralLeague, blueIcon);

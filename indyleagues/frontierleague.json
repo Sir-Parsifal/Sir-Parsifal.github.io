@@ -1,0 +1,342 @@
+frontierleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Chillicothe Paints", "1993", "now"],
+						],
+			"leagues" : [
+				["Frontier League", "1993", "2008"],
+				["Prospect League", "2009", "now"],
+						],
+			"coords": 	[
+				[[39.38924, -83.01765 ], "1993", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Kentucky Rifles", "1993", "1994"],
+						],
+			"leagues" : [
+				["Frontier League", "1993", "1994"],
+						],
+			"coords": 	[
+				[[37.476944, -82.524167 ], "1993", "1994"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Lancaster Scouts", "1993", "1994"],
+				["Evansville Otters", "1995", "now"],
+						],
+			"leagues" : [
+				["Frontier League", "1993", "now"],
+						],
+			"coords": 	[
+				[[39.74132421600451, -82.5887633943842 ], "1993", "1994"],
+				[[37.992778, -87.562222  ], "1995", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Ohio Valley Redcoats", "1993", "1998"],
+				["Dubois County Dragons", "1999", "2002"],
+				["Kenosha Mammoths", "2003", "2003"],
+				["Springfield/Ozark Ducks", "2004", "2004"],
+				["Ohio Valley Redcoats", "2005", "2005"],
+						],
+			"leagues" : [
+				["Frontier League", "1993", "2005"],
+						],
+			"coords": 	[
+				[[39.27174310418523, -81.52816153489039], "1993", "1998"],
+				[[38.290294, -86.945125  ], "1999", "2002"],
+				[[42.561963, -87.824686  ], "2003", "2003"],
+				[[37.06042, -93.22601  ], "2004", "2004"],
+				[[41.44, -82.168889  ], "2005", "2005"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Tri-State Tomahawks", "1993", "1993-06-15"],
+						],
+			"leagues" : [
+				["Frontier League", "1993", "1993-06-15"],
+						],
+			"coords": 	[
+				[[38.379, -82.703  ], "1993", "1993-06-15"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["West Virginia Coal Sox", "1993", "1993-06-15"],
+						],
+			"leagues" : [
+				["Frontier League", "1993", "1993-06-15"],
+						],
+			"coords": 	[
+				[[38.228333, -82.440556  ], "1993", "1993-06-15"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Zanesville Greys", "1993", "1996"],
+						],
+			"leagues" : [
+				["Frontier League", "1993", "1996"],
+						],
+			"coords": 	[
+				[[39.94445683099942, -82.02655579307428], "1993", "1996"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["River City Rascals", "1999", "2019"],
+						],
+			"leagues" : [
+				["Frontier League", "1999", "2019"],
+						],
+			"coords": 	[
+				[[38.820518, -90.680337 ], "1999", "2019"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Erie Sailors", "1994", "1994"],
+				["Johnstown Steal", "1995", "1998"],
+				["Johnstown Johnnies", "1999", "2002"],
+				["Florence Freedom", "2003", "2019"],
+				["Florence Y'alls", "2020", "now"],
+						],
+			"leagues" : [
+				["Frontier League", "1994", "now"],
+						],
+			"coords": 	[
+				[[42.104, -80.1023 ], "1994", "1994"],
+				[[40.329, -78.925  ], "1995", "2002"],
+				[[39.388611, -84.567222 ], "2003", "2003"],
+				[[38.982156, -84.638479  ], "2004", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Newark Buffalos", "1994", "1994"],
+				["Newark Bisons", "1995", "1995"],
+				["Kalamazoo Kodiaks", "1996", "1998"],
+				["London Werewolves", "1999", "2001"],
+				["Canton Coyotes", "2002", "2002"],
+				["Mid-Missouri Mavericks", "2003", "2005"],
+						],
+			"leagues" : [
+				["Frontier League", "1994", "2005"],
+						],
+			"coords": 	[
+				[[40.079167, -82.397222 ], "1994", "1995"],
+				[[42.290278, -85.5625 ], "1996", "1998"],
+				[[42.983611, -81.258667 ], "1999", "2001"],
+				[[40.771653, -81.382819  ], "2002", "2002"],
+				[[38.93557, -92.3386 ], "2003", "2005"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Richmond Roosters", "1995", "2005"],
+				["Richmond Roosters", "2006", "2018"],
+						],
+			"leagues" : [
+				["Frontier League", "1995", "2018"],
+						],
+			"coords": 	[
+				[[39.8321, -84.9198 ], "1995", "2005"],
+				[[44.68173, -85.660615  ], "2006", "2018"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Canton Crocodiles", "1997", "2001"],
+				["Washington Wild Things", "2002", "now"],
+						],
+			"leagues" : [
+				["Frontier League", "1997", "now"],
+						],
+			"coords": 	[
+				[[40.771653, -81.382819 ], "1997", "2001"],
+				[[40.154167, -80.283611 ], "2002", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Gateway Grizzlies", "2001", "now"],
+						],
+			"leagues" : [
+				["Frontier League", "2001", "now"],
+						],
+			"coords": 	[
+				[[38.586944, -90.166667 ], "2001", "2001"],
+				[[38.566111, -90.135833 ], "2002", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Kalamazoo Kings", "2001", "2010"],
+						],
+			"leagues" : [
+				["Frontier League", "2001", "2010"],
+						],
+			"coords": 	[
+				[[42.290278, -85.5625 ], "2001", "2010"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Slippery Rock Sliders", "2007", "2007"],
+				["Midwest Sliders", "2008", "2008"],
+				["Midwest Sliders of Ypsilanti", "2009", "2009"],
+				["Oakland County Cruisers", "2010", "2011"],
+				["London Rippers", "2012", "2012"],
+						],
+			"leagues" : [
+				["Frontier League", "2007", "2007"],
+				["road", "2008", "2008"],
+				["Frontier League", "2009", "2012"],
+						],
+			"coords": 	[
+				[[41.0609, -80.0385 ], "2007", "2008"],
+				[[42.257809, -83.648079 ], "2009", "2009"],
+				[[42.658333, -83.386111 ], "2010", "2011"],
+				[[42.983611, -81.258667 ], "2012", "2012"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Southern Illinois Miners", "2007", "2021"],
+						],
+			"leagues" : [
+				["Frontier League", "2007", "2021"],
+						],
+			"coords": 	[
+				[[37.745964, -88.960397 ], "2007", "2021"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Lake Erie Crushers", "2009", "now"],
+						],
+			"leagues" : [
+				["Frontier League", "2009", "now"],
+						],
+			"coords": 	[
+				[[41.459722, -82.061389  ], "2009", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Normal CornBelters", "2010", "now"],
+						],
+			"leagues" : [
+				["Frontier League", "2010", "2018"],
+				["Prospect League", "2019", "now"],
+						],
+			"coords": 	[
+				[[40.534251, -89.004148  ], "2010", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Schaumburg Boomers", "2012", "now"],
+						],
+			"leagues" : [
+				["Frontier League", "2012", "now"],
+						],
+			"coords": 	[
+				[[41.992828, -88.118089 ], "2012", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Ottawa Titans", "2021", "now"],
+						],
+			"leagues" : [
+				["Frontier League", "2021", "now"],
+						],
+			"coords": 	[
+				[[45.420142, -75.653569  ], "2021", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Little Falls Mets", "1977", "1988"],
+				["Pittsfield Mets", "1989", "2000"],
+				["Pittsfield Astros", "2001", "2001"],
+				["Tri-City Valley Cats", "2002", "now"],
+						],
+			"leagues" : [
+				["Frontier League", "2021", "now"],
+						],
+			"coords": 	[
+				[[43.041743, -74.841335  ], "1977", "1988"],
+				[[42.462319, -73.252582  ], "1989", "2001"],
+				[[42.695329, -73.680464  ], "2002", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["New England Knockouts", "2024", "2024"],
+				["Brockton Rox", "2025", "now"],
+						],
+			"leagues" : [
+				["Frontier League", "2024", "now"],
+						],
+			"coords": 	[
+				[[42.069336, -71.042692 ], "2024", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Down East Bird Dawgs", "2025", "now"],
+						],
+			"leagues" : [
+				["Frontier League", "2025", "now"],
+						],
+			"coords": 	[
+				[[35.27, -77.574167 ], "2025", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Mississippi Mud Monsters", "2025", "now"],
+						],
+			"leagues" : [
+				["Frontier League", "2025", "now"],
+						],
+			"coords": 	[
+				[[32.27391, -90.147969  ], "2025", "now"],
+						]
+		},
+	]
+}
+	
