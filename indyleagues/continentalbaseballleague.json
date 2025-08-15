@@ -1,0 +1,107 @@
+continentalbaseballleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Bay Area Toros", "2007", "2009"],
+						],
+			"leagues" : [
+				["Continental Baseball League", "2007", "2009"]
+						],
+			"coords": 	[
+				[[29.398240687060028, -94.93493090558648], "2007", "2009"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Tarrant County Blue Thunder", "2007", "2007"],
+				["McKinney Blue Thunder", "2008", "2008"],
+						],
+			"leagues" : [
+				["Continental Baseball League", "2007", "2008"]
+						],
+			"coords": 	[
+				[[32.887874975590755, -97.22578200527373], "2007", "2007"],
+				[[33.17183464632973, -96.70982772617567], "2008", "2008"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Lewisville Lizards", "2007", "2007"],
+						],
+			"leagues" : [
+				["Continental Baseball League", "2007", "2007"]
+						],
+			"coords": 	[
+				[[33.038333, -97.006111 ], "2007", "2007"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Corpus Christi Beach Dawgs", "2008", "2008"],
+						],
+			"leagues" : [
+				["Continental Baseball League", "2008", "2008"]
+						],
+			"coords": 	[
+				[[27.787985, -97.652836], "2008", "2008"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Texarkana Gunslingers", "2008", "2009"],
+						],
+			"leagues" : [
+				["Continental Baseball League", "2008", "2009"]
+						],
+			"coords": 	[
+				[[33.465371343647966, -94.0579993261935], "2008", "2009"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Big Bend Cowboys", "2009", "2010"],
+				["Alpine Cowboys", "2011", "now"],
+						],
+			"leagues" : [
+				["Continental Baseball League", "2009", "2010"],
+				["Pecos League", "2011", "now"],
+						],
+			"coords": 	[
+				[[30.373, -103.6645 ], "2009", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Las Cruces Vaqueros", "2010", "2012"],
+						],
+			"leagues" : [
+				["Continental Baseball League", "2010", "2010"],
+				["Pecos League", "2011", "2012"],
+						],
+			"coords": 	[
+				[[32.329539297203205, -106.77598882016257 ], "2010", "2012"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Desert Valley Mountain Lions", "2010", "2010"],
+						],
+			"leagues" : [
+				["Continental Baseball League", "2010", "2010"],
+						],
+			"coords": 	[
+				[[31.75497484980007, -106.37314832157395], "2010", "2010"],
+						]
+		},
+	]
+}
+	
