@@ -69,6 +69,8 @@
 <script src="indyleagues/frontierleague.json" type="text/javascript"></script>
 <script src="indyleagues/continentalbaseballleague.json" type="text/javascript"></script>
 
+<script src="collegiatesummerleagues/northwoodsleague.json" type="text/javascript"></script>
+
 <div id="map" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
     <style>
       .leaflet-bottom.leaflet-left {
@@ -212,6 +214,10 @@ var AppalachianLeague				= {"type": 'FeatureCollection', "features": []}
 var AtlanticLeague					= {"type": 'FeatureCollection', "features": []}
 var FrontierLeague					= {"type": 'FeatureCollection', "features": []}
 
+
+//extant summer collegiate
+var NorthwoodsLeague 				= {"type": 'FeatureCollection', "features": []}
+
 //defunct Indy 
 var NorthCentralLeague				= {"type": 'FeatureCollection', "features": []}
 var GreatCentralLeague				= {"type": 'FeatureCollection', "features": []}
@@ -286,6 +292,7 @@ function addGeoJSONTeamsToLeagues (geoJSONTeam, league) {
 		case "Northern League":					NorthernLeague.features.push(geoJSONTeam); 					break;
 		case "Northeast League":				NortheastLeague.features.push(geoJSONTeam); 				break;
 		case "NorthwesternLeague":				NorthwesternLeague.features.push(geoJSONTeam); 				break;	
+		case "Northwoods League":				NorthwoodsLeague.features.push(geoJSONTeam); 				break;
 		case "North Central League":			NorthCentralLeague.features.push(geoJSONTeam); 				break;
 		case "Pacific Coast League": 			PacificCoastLeague.features.push(geoJSONTeam); 				break;
 		case "PacificCoastInternationalLeague":	PacificCoastInternationalLeague.features.push(geoJSONTeam); break;	
@@ -548,6 +555,7 @@ loadTeams(westernbaseballleague);
 loadTeams(goldenbaseballleague); //includes some North American League teams. also, travel teams not included
 loadTeams(atlanticleague);
 loadTeams(americanassociationminor);
+loadTeams(northwoodsleague);
 
 //some code here to analyze the league arrays and make the map league names
 //console.log(PlayersLeague);
@@ -589,8 +597,9 @@ addTeamToMap(CarolinaLeague, brightorangeIcon);
 addTeamToMap(AppalachianLeague, pinkIcon);
 addTeamToMap(FrontierLeague, blueIcon);
 addTeamToMap(ContinentalBaseballLeague, brightorangeIcon);
+addTeamToMap(NorthwoodsLeague, yellowIcon);
 
-addTeamToMap(NorthCentralLeague, blueIcon);
+addTeamToMap(NorthCentralLeague, violetIcon);
 addTeamToMap(GreatCentralLeague, aquamarineIcon);
 addTeamToMap(MidAmericaLeague, greenIcon);
 addTeamToMap(PrairieLeague, pinkIcon);

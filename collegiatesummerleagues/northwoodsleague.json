@@ -1,0 +1,396 @@
+northwoodsleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Dubuque Mud Puppies", "1994", "1996"],
+				["St. Cloud River Bats", "1997", "2011"],
+				["St. Cloud Rox", "2012", "now"],
+						],
+			"leagues" : [
+				["Northwoods League", "1994", "now"]
+						],
+			"coords": 	[
+				[[42.499722, -90.723611 ], "1994", "1996"],
+				[[45.570298, -94.220273 ], "1997", "2007"],
+				[[45.570279, -94.220273 ], "2008", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Kenosha Kroakers", "1994", "1998"],
+						],
+			"leagues" : [
+				["Northwoods League", "1994", "1998"]
+						],
+			"coords": 	[
+				[[42.561963, -87.824686 ], "1994", "1998"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Manitowoc Skunks", "1994", "1997"],
+						],
+			"leagues" : [
+				["Northwoods League", "1994", "1997"]
+						],
+			"coords": 	[
+				[[44.096389, -87.675  ], "1994", "1997"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Rochester Honkers", "1994", "now"],
+						],
+			"leagues" : [
+				["Northwoods League", "1994", "now"]
+						],
+			"coords": 	[
+				[[44.025, -92.456667 ], "1994", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Wausau Woodchucks", "1994", "1998"],
+				["Wisconsin Woodchucks", "1999", "2021"],
+				["Wausau Woodchucks", "2022", "now"],
+						],
+			"leagues" : [
+				["Northwoods League", "1994", "now"]
+						],
+			"coords": 	[
+				[[44.974475, -89.626585  ], "1994", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Waterloo Bucks", "1995", "now"],
+						],
+			"leagues" : [
+				["Northwoods League", "1995", "now"]
+						],
+			"coords": 	[
+				[[42.510969, -92.35355 ], "1995", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Brainerd Mighty Gulls", "1998", "2002"],
+						],
+			"leagues" : [
+				["Northwoods League", "1998", "2002"]
+						],
+			"coords": 	[
+				[[46.358056, -94.200833  ], "1998", "2002"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Grand Forks Channel Cats", "1998", "2000"],
+						],
+			"leagues" : [
+				["Northwoods League", "1998", "2000"]
+						],
+			"coords": 	[
+				[[47.919595, -97.087328 ], "1998", "2000"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Mankato Mashers", "1999", "2001"],
+				["Mankato MoonDogs", "2002", "now"],
+						],
+			"leagues" : [
+				["Northwoods League", "1999", "now"]
+						],
+			"coords": 	[
+				[[44.17, -93.975833  ], "1999", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Alexandria Beetles", "2001", "2012"],
+				["Alexandria Blue Anchors", "2013", "2015"],
+						],
+			"leagues" : [
+				["Northwoods League", "2001", "2015"]
+						],
+			"coords": 	[
+				[[45.887443, -95.381166 ], "2001", "2015"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Mankato MoonDogs", "2001", "now"],
+						],
+			"leagues" : [
+				["Northwoods League", "2001", "now"]
+						],
+			"coords": 	[
+				[[43.131111, -89.366944 ], "2001", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Duluth Huskies", "2003", "now"],
+						],
+			"leagues" : [
+				["Northwoods League", "2003", "now"]
+						],
+			"coords": 	[
+				[[46.754444, -92.143611], "2003", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["La Crosse Loggers", "2003", "now"],
+						],
+			"leagues" : [
+				["Northwoods League", "2003", "now"]
+						],
+			"coords": 	[
+				[[43.836284, -91.251358 ], "2003", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Thunder Bay Border Cats", "2003", "now"],
+						],
+			"leagues" : [
+				["Northwoods League", "2003", "now"]
+						],
+			"coords": 	[
+				[[48.423333, -89.239722 ], "2003", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Brainerd Blue Thunder", "2005", "2008"],
+				["Brainerd Lakes Area Lunkers", "2009", "2011"],
+						],
+			"leagues" : [
+				["Northwoods League", "2005", "2011"]
+						],
+			"coords": 	[
+				[[46.358056, -94.200833  ], "2005", "2011"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Eau Claire Express", "2005", "now"],
+						],
+			"leagues" : [
+				["Northwoods League", "2005", "now"]
+						],
+			"coords": 	[
+				[[44.807759, -91.52048  ], "2005", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Battle Creek Bombers", "2007", "2021"],
+				["Battle Creek Battle Jacks", "2022", "now"],
+						],
+			"leagues" : [
+				["Northwoods League", "2007", "now"]
+						],
+			"coords": 	[
+				[[42.34160830947101, -85.15038236178611], "2007", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Green Bay Bullfrogs", "2007", "2018"],
+				["Green Bay Booyah", "2019", "2021"],
+				["Green Bay Rockers", "2022", "now"],
+						],
+			"leagues" : [
+				["Northwoods League", "2007", "now"]
+						],
+			"coords": 	[
+				[[44.504234, -87.99271 ], "2007", "2018"],
+				[[44.489444, -88.058333 ], "2019", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Willmar Stingers", "2010", "now"],
+						],
+			"leagues" : [
+				["Northwoods League", "2010", "now"]
+						],
+			"coords": 	[
+				[[45.108056, -95.071944 ], "2010", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Wisconsin Rapids Rafters", "2010", "now"],
+						],
+			"leagues" : [
+				["Northwoods League", "2010", "now"]
+						],
+			"coords": 	[
+				[[44.385493, -89.820621 ], "2010", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Lakeshore Chinooks", "2012", "now"],
+						],
+			"leagues" : [
+				["Northwoods League", "2012", "now"]
+						],
+			"coords": 	[
+				[[43.253611, -87.914444 ], "2012", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Kalamazoo Growlers", "2014", "now"],
+						],
+			"leagues" : [
+				["Northwoods League", "2014", "now"]
+						],
+			"coords": 	[
+				[[42.290278, -85.5625 ], "2014", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Kenosha Kingfish", "2014", "now"],
+						],
+			"leagues" : [
+				["Northwoods League", "2014", "now"]
+						],
+			"coords": 	[
+				[[42.561963, -87.824686 ], "2014", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Rockford Rivets", "2016", "now"],
+						],
+			"leagues" : [
+				["Northwoods League", "2016", "now"]
+						],
+			"coords": 	[
+				[[42.324167, -88.955 ], "2016", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Bismarck Larks", "2017", "now"],
+						],
+			"leagues" : [
+				["Northwoods League", "2017", "now"]
+						],
+			"coords": 	[
+				[[46.8038, -100.7958 ], "2017", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Fond du Lac Dock Spiders", "2017", "now"],
+						],
+			"leagues" : [
+				["Northwoods League", "2017", "now"]
+						],
+			"coords": 	[
+				[[43.777381, -88.408856 ], "2017", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Kokomo Jackrabbits", "2015", "2024"],
+						],
+			"leagues" : [
+				["Prospect League", "2015", "2018"],
+				["Northwoods League", "2019", "2024"]
+						],
+			"coords": 	[
+				[[40.482916, -86.12834  ], "2015", "2024"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Traverse City Pit Spitters", "2019", "now"],
+						],
+			"leagues" : [
+				["Northwoods League", "2019", "now"]
+						],
+			"coords": 	[
+				[[44.68173, -85.660615  ], "2019", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Traverse City Pit Spitters", "2023", "now"],
+						],
+			"leagues" : [
+				["Northwoods League", "2023", "now"]
+						],
+			"coords": 	[
+				[[48.231667, -101.275278  ], "2023", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Badlands Big Sticks", "2017", "now"],
+						],
+			"leagues" : [
+				["Expedition League", "2017", "2021"],
+				["Independence League", "2022", "2023"],
+				["Northwoods League", "2024", "now"]
+						],
+			"coords": 	[
+				[[46.873056, -102.786389 ], "2017", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Royal Oak Leprechauns", "2015", "now"],
+						],
+			"leagues" : [
+				["Great Lakes Summer Collegiate League", "2015", "2023"],
+				["Northwoods League", "2024", "now"]
+						],
+			"coords": 	[
+				[[42.519444, -83.184444 ], "2015", "now"],
+						]
+		},
+
+	]
+}
+	
