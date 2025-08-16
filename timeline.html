@@ -14,6 +14,11 @@
      crossorigin=""></script>
 <script src="https://skeate.dev/Leaflet.timeline/examples/leaflet.timeline.js"></script>
 <script src="leaflet.textpath.js"></script>
+<script src="L.Control.Layers.Tree.js"></script>
+
+<link rel="stylesheet" href="L.Control.Layers.Tree.css"/>
+
+
 <script src="greatcentralleague1994.geojson" type="text/javascript"></script>
 <script src="westernleague1893.geojson" type="text/javascript"></script>
 <script src="unionassociation1884.geojson" type="text/javascript"></script>
@@ -101,10 +106,21 @@ var map = L.map('map').setView([39.833333, -98.583333 ], 5);
 //    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 //}).addTo(map);
 
-L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+var CartoDB_DarkMatter = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+	subdomains: 'abcd',
+	maxZoom: 17
+});
+
+
+
+var CartoDB_LightMatter = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
     maxZoom: 17,
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
-}).addTo(map);
+});
+
+
+CartoDB_LightMatter.addTo(map);
 
 timelineControl = L.timelineSliderControl({
 "start": Date.parse("1832-09-17"),
@@ -174,7 +190,7 @@ var NLIcon = new L.Icon({
 var NorthwoodsIcon = new L.Icon({
   iconUrl: 'markericons/NorthwoodsIcon.png',
   shadowUrl: '',
-  iconSize: [50, 50],
+  iconSize: [0, 0],
   iconAnchor: [25, 25],
   popupAnchor: [1, -34],
   shadowSize: [41, 41]
@@ -255,7 +271,7 @@ var SouthAtlanticLeague				= {"type": 'FeatureCollection', "features": []}
 var NorthwesternLeague				= {"type": 'FeatureCollection', "features": []}
 var CentralLeague					= {"type": 'FeatureCollection', "features": []}
 
-
+var NoLeague						= {"type": 'FeatureCollection', "features": []}
 
 function addGeoJSONTeamsToLeagues (geoJSONTeam, league) {
 	switch (league) {
@@ -307,6 +323,7 @@ function addGeoJSONTeamsToLeagues (geoJSONTeam, league) {
 		case "Western Baseball League": 		WesternBaseballLeague.features.push(geoJSONTeam); 			break;			
 		case "WesternLeague": 					WesternLeague.features.push(geoJSONTeam); 					break;		
 		case "Western League": 					WesternLeague.features.push(geoJSONTeam); 					break;
+		case "noLeague": 						NoLeague.features.push(geoJSONTeam); 						break;
 		}}
 
 
@@ -392,7 +409,7 @@ var blankStyle = {
 };
 
 
-function addTeamToMap(team, ballIcon){
+function getLeagueTimeline(team, ballIcon){
 	teamTimeline = L.timeline(team, {
 			style:  function (feature, layer) {;
 				if (feature.geometry.properties.decoration == "leaguetext") {return blankStyle};
@@ -414,9 +431,22 @@ function addTeamToMap(team, ballIcon){
 							}		
 							
 							)
-	teamTimeline.addTo(map);
-	timelineControl.addTimelines(teamTimeline);
+	if (ballIcon == NorthwoodsIcon) { //if the ballicon is this placeholder then give it the fancy update UI list thing
+		return (teamTimeline).on('change', function() {rebuildLeagueUIList();}); }
+	return (teamTimeline)
 	}
+
+function getRebuildLeagueUIListDateMarks () {
+	for (let j = 1850; j < 2025; j++) {
+		placeholderMarker = { "type": "Feature",
+					"properties": 	{"start": cleanDates(j, "start"), "end": cleanDates(j, "end"), "name": "", marker: NorthwoodsIcon},
+					"geometry" : 	{"coordinates" : [0, 0], "type": "Point"}}
+					addGeoJSONTeamsToLeagues(placeholderMarker, "noLeague");
+	}
+}
+getRebuildLeagueUIListDateMarks()
+
+
 
 
 //make teams go defunct on december 30th?
@@ -568,76 +598,388 @@ loadTeams(threeileague);
 loadTeams(frontierleague);
 loadTeams(continentalbaseballleague);
 
+
+var LeagueLayerTree = L.control.layers.tree(baseTree, overlaysTree1, null)
+
+LeagueLayerTree.addTo(map);
+
+leagueLayerArray = [
+	[NationalLeagueLayer					= getLeagueTimeline(NationalLeague, NLIcon), "National League"],
+	[AmericanLeagueLayer					= getLeagueTimeline(AmericanLeague, ALIcon), "American League"],
+
+
+	[AppalachianLeagueLayer					= getLeagueTimeline(AppalachianLeague, pinkIcon), "Appalachian League"],
+	[NorthwoodsLeagueLayer					= getLeagueTimeline(NorthwoodsLeague, darkgreenIcon), "Northwoods League"],
+
+		
+		
+	[PacificCoastLeagueLayer				= getLeagueTimeline(PacificCoastLeague, greenIcon), "Pacific Coast League"],
+	[InternationalLeagueLayer				= getLeagueTimeline(InternationalLeague, redIcon), "International League"],	
+
+	[MidwestLeagueLayer 					= getLeagueTimeline(MidwestLeague, blueIcon), "Midwest League"],	
+	[CaliforniaLeagueLayer 					= getLeagueTimeline(CaliforniaLeague, blueIcon), "California League"],	
+	[CarolinaLeagueLayer 					= getLeagueTimeline(CarolinaLeague, brightorangeIcon), "Carolina League"],
+	[SouthAtlanticLeagueLayer 				= getLeagueTimeline(SouthAtlanticLeague, violetIcon), "South Atlantic League"],
+
+
+	[ThreeILeagueLayer 						= getLeagueTimeline(IllinoisIndianaIowaLeague, yellowIcon), "Three-I League"],
+	[WesternLeagueLayer 					= getLeagueTimeline(WesternLeague, orangeIcon), "Western League"],
+	[IllinoisStateLeagueLayer 				= getLeagueTimeline(IllinoisStateLeague, darkgreenIcon), "Illinois State League"],
+	[MississippiOhioValleyLeagueLayer 		= getLeagueTimeline(MississippiOhioValleyLeague, greenIcon), "Mississippi-Ohio Valley League"],
+
+	[AmericanAssociationLayer 				= getLeagueTimeline(AmericanAssociation, greyIcon), "American Association"],
+	[FrontierLeagueLayer 					= getLeagueTimeline(FrontierLeague, goldIcon), "Frontier League"],
+	[AtlanticLeagueLayer 					= getLeagueTimeline(AtlanticLeague, blackIcon), "Atlantic League"],
+	[CanAmLeagueLayer 						= getLeagueTimeline(CanAmLeague, yellowIcon), "Can-Am League"],
+	[NorthCentralLeagueLayer 				= getLeagueTimeline(NorthCentralLeague, blackIcon), "North Central League"],
+	[GreatCentralLeagueLayer 				= getLeagueTimeline(GreatCentralLeague, yellowIcon), "Great Central League"],
+	[MidAmericaLeagueLayer 					= getLeagueTimeline(MidAmericaLeague, brownIcon), "Mid-America League"],
+	[PrairieLeagueLayer 					= getLeagueTimeline(PrairieLeague, orangeIcon), "Prairie League"],
+	[BigSouthLeagueLayer 					= getLeagueTimeline(BigSouthLeague, aquamarineIcon), "Big South League"],
+	[NorthAtlanticLeagueLayer 				= getLeagueTimeline(NorthAtlanticLeague, darkblueIcon), "North Atlantic League"],
+	[HeartlandLeagueLayer 					= getLeagueTimeline(HeartlandLeague, orangeIcon), "Heartland League"],
+	[TexasLouisianaLeagueLayer 				= getLeagueTimeline(TexasLouisianaLeague, orangeIcon), "Texas-Louisiana League"],
+	[CentralBaseballLeagueLayer 			= getLeagueTimeline(CentralBaseballLeague, orangeIcon), "Central Baseball League"],
+	[SoutheasternLeagueLayer 				= getLeagueTimeline(SoutheasternLeague, orangeIcon), "Southeastern League"],
+	[AllAmericanAssociationLayer 			= getLeagueTimeline(AllAmericanAssociation, orangeIcon), "All-American Association League"],
+	[NorthernLeagueLayer 					= getLeagueTimeline(NorthernLeague, darkblueIcon), "Northern League"],
+	[SouthCoastLeagueLayer 					= getLeagueTimeline(SouthCoastLeague, orangeIcon), "South Coast League"],
+	[WesternBaseballLeagueLayer 			= getLeagueTimeline(WesternBaseballLeague, goldIcon), "Western Baseball League"],
+	[UnitedLeagueBaseballLayer 				= getLeagueTimeline(UnitedLeagueBaseball, orangeIcon), "United League Baseball"],
+	[GoldenBaseballLeagueLayer 				= getLeagueTimeline(GoldenBaseballLeague, goldIcon), "Golden Baseball League"],
+	[NorthAmericanLeagueLayer 				= getLeagueTimeline(NorthAmericanLeague, brownIcon), "North American League"],
+	[NortheastLeagueLayer 					= getLeagueTimeline(NortheastLeague, orangeIcon), "Northeast League"],
+	
+	
+	[NoLeagueLayer 							= getLeagueTimeline(NoLeague, NorthwoodsIcon), "noLeague"], //cheap quick hack to update the UI
+	
+
+]
+
+
+
+
+
+getLeagueTimeline(HeartlandLeague, darkblueIcon);
+getLeagueTimeline(TexasLouisianaLeague, brownIcon);
+getLeagueTimeline(CentralBaseballLeague, brownIcon);
+getLeagueTimeline(SoutheasternLeague, aquamarineIcon);
+getLeagueTimeline(AllAmericanAssociation, blueIcon);
+getLeagueTimeline(NorthernLeague, darkgreenIcon);
+getLeagueTimeline(SouthCoastLeague, blueIcon);
+getLeagueTimeline(WesternBaseballLeague, violetIcon);
+getLeagueTimeline(UnitedLeagueBaseball, greenIcon);
+getLeagueTimeline(GoldenBaseballLeague, blackIcon);
+getLeagueTimeline(NorthAmericanLeague, brownIcon);
+getLeagueTimeline(NortheastLeague, yellowIcon);
+
+
+
+
+
+function getLeagueLevel(leagueStr) {
+	switch (leagueStr) {
+		case 	"National League": return timeCheck([["1876", "now", 0]]);
+		case 	"American League": return timeCheck([["1900", "1900", 1, "Class A"], ["1901", "now", 0]]);
+		case	"Frontier League": return timeCheck([["1993", "now", 2]]);
+		case    "Carolina League": return timeCheck([["1945", "1948", 1, "Class C"], ["1949", "1962", 1, "Class B"], ["1963", "1989", 1, "Class A"], ["1990", "2020", 1, "Class A-Advanced"], ["2021", "now", 1, "Class A-"]]);
+		case    "Northwoods League": return timeCheck([["1994", "now", 3]]);
+		case    "Atlantic League": return timeCheck([["1998", "now", 2]]);
+		
+		
+		
+		case    "Illinois State League": return timeCheck([["1947", "1949", 1, "Class D"]]);
+		case    "Mississippi-Ohio Valley League": return timeCheck([["1950", "1955", 1, "Class D"]]);
+		case    "Midwest League": return timeCheck([["1956", "1962", 1, "Class D"], ["1963", "2020", 1, "Class A"], ["2021", "now", 1, "Class A+"]]);
+		
+		case    "Pacific Coast League": return timeCheck([	["1903", "1903", 2], 
+															["1904", "1911", 1, "Class A"],
+															["1912", "1945", 1, "Class AA"],
+															["1946", "1951", 1, "Class AAA"],
+															["1952", "1957", 1, "Open"],
+															["1958", "now", 1, "Class AAA"],
+															]);
+		case    "International League": return timeCheck([	["1912", "1945", 1, "Class AA"],
+															["1946", "now", 1, "Class AAA"],
+															]);
+		case    "American Association": return timeCheck([	["1882", "1891", 0], 
+															["1903", "1911", 1, "Class A"],
+															["1912", "1945", 1, "Class AA"],
+															["1946", "1962", 1, "Class AAA"],
+															["1969", "1997", 1, "Class AAA"],
+															["2006", "now", 2],
+															]);
+		}
+	return 1
+}	
+
+
+var overlaysTree1 = 	{
+    label: 'Leagues',
+    selectAllCheckbox: 'Un/select all',
+    children: [  {
+			label: 'leagues but again',
+            selectAllCheckbox: true,
+            children: [] }     ]
+			}
+
+
+
+
+
+for (let i = 0; i < leagueLayerArray.length; i++) {
+	leagueLayerArray[i][0].addTo(map);
+	timelineControl.addTimelines(leagueLayerArray[i][0]);
+	
+	
+} 
+
+// L.layerGroup(leagueLayerArray);
+//consolidatedLeagueLayers.addTo(map);
+//timelineControl.addTimelines(consolidatedLeagueLayers);
+
+
+//consolidatedLeagueLayers.on('change', function() {console.log("test")})
+
+
+
+
+var baseTree = {
+	children: [
+        {label: "Light Mode", layer: CartoDB_LightMatter},
+		{label: "Dark Mode", layer: CartoDB_DarkMatter},]}
+
+
+
+function rebuildLeagueUIList() {                //whenever I need to rebuild the UI list
+	var overlaysTree2 = 	{						//create an empty overlaysTree
+		label: 'Leagues',
+		selectAllCheckbox: 'Un/select all',
+		children: [  
+				{ label: 'Major Leagues', selectAllCheckbox: true, children: [] },
+				{ label: 'Minor Leagues', selectAllCheckbox: true, children: [] },
+				{ label: 'Independent', selectAllCheckbox: true, children: [] },
+				{ label: 'Collegiate Summer', selectAllCheckbox: true, children: [] },		
+				{ label: 'Sir-Not-Appearing-At-This-Time', selectAllCheckbox: true, collapsed: true, children: [] },					
+				]
+				}						
+	LeagueLayerTree.remove();                   //remove the old one from the map
+	if (((cleanDates("1890", "start")) <= timelineControl.time) && ((cleanDates("1901", "end")) >= timelineControl.time)) {
+		
+		overlaysTree2.children[1].children.push(
+			{ label: 'Class A', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class B', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class C', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class D', selectAllCheckbox: true, children: [] },
+			{ label: 'Class E', selectAllCheckbox: true, children: [] },
+			{ label: 'Class F', selectAllCheckbox: true, children: [] },			)
+	}
+	if (((cleanDates("1902", "start")) <= timelineControl.time) && ((cleanDates("1911", "end")) >= timelineControl.time)) {
+		
+		overlaysTree2.children[1].children.push(
+			{ label: 'Class A', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class B', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class C', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class D', selectAllCheckbox: true, children: [] }, )
+	}
+	if (((cleanDates("1912", "start")) <= timelineControl.time) && ((cleanDates("1935", "end")) >= timelineControl.time)) {
+		
+		overlaysTree2.children[1].children.push(
+			{ label: 'Class AA', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class A', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class B', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class C', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class D', selectAllCheckbox: true, children: [] }, )
+	}
+	if (((cleanDates("1936", "start")) <= timelineControl.time) && ((cleanDates("1936", "end")) >= timelineControl.time)) {
+		
+		overlaysTree2.children[1].children.push(
+			{ label: 'Class AA', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class A1', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class A', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class B', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class C', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class D', selectAllCheckbox: true, children: [] }, )
+	}
+	if (((cleanDates("1937", "start")) <= timelineControl.time) && ((cleanDates("1945", "end")) >= timelineControl.time)) {
+		
+		overlaysTree2.children[1].children.push(
+			{ label: 'Class AA', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class A1', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class A', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class B', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class C', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class D', selectAllCheckbox: true, children: [] },
+			{ label: 'Class E', selectAllCheckbox: true, children: [] },			)
+	}
+	if (((cleanDates("1946", "start")) <= timelineControl.time) && ((cleanDates("1951", "end")) >= timelineControl.time)) {
+		
+		overlaysTree2.children[1].children.push(
+			{ label: 'Class AAA', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class AA', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class A', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class B', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class C', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class D', selectAllCheckbox: true, children: [] },			)
+	}
+	if (((cleanDates("1952", "start")) <= timelineControl.time) && ((cleanDates("1957", "end")) >= timelineControl.time)) {
+		
+		overlaysTree2.children[1].children.push(
+			{ label: 'Open', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class AAA', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class AA', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class A', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class B', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class C', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class D', selectAllCheckbox: true, children: [] },			)
+	}
+	if (((cleanDates("1958", "start")) <= timelineControl.time) && ((cleanDates("1962", "end")) >= timelineControl.time)) {
+		
+		overlaysTree2.children[1].children.push(
+			{ label: 'Class AAA', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class AA', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class A', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class B', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class C', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class D', selectAllCheckbox: true, children: [] },			)
+	}
+	if (((cleanDates("1963", "start")) <= timelineControl.time) && ((cleanDates("1964", "end")) >= timelineControl.time)) {
+		
+		overlaysTree2.children[1].children.push(
+			{ label: 'Class AAA', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class AA', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class A', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Rookie', selectAllCheckbox: true, children: [] }, 			)
+	}
+	if (((cleanDates("1965", "start")) <= timelineControl.time) && ((cleanDates("1989", "end")) >= timelineControl.time)) {
+		
+		overlaysTree2.children[1].children.push(
+			{ label: 'Class AAA', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class AA', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class A', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class A-Short Season', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Rookie', selectAllCheckbox: true, children: [] }, 			)
+	}
+	if (((cleanDates("1990", "start")) <= timelineControl.time) && ((cleanDates("1990", "end")) >= timelineControl.time)) {
+		
+		overlaysTree2.children[1].children.push(
+			{ label: 'Class AAA', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class AA', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class A-Advanced', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class A', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class A-Short Season', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Rookie', selectAllCheckbox: true, children: [] }, 			)
+	}
+	if (((cleanDates("1991", "start")) <= timelineControl.time) && ((cleanDates("2020", "end")) >= timelineControl.time)) {
+		
+		overlaysTree2.children[1].children.push(
+			{ label: 'Class AAA', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class AA', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class A-Advanced', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class A', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class A-Short Season', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Rookie-Advanced', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Rookie', selectAllCheckbox: true, children: [] }, 			)
+	}
+	if (((cleanDates("2021", "start")) <= timelineControl.time) && ((cleanDates("now", "end")) >= timelineControl.time)) {
+		
+		overlaysTree2.children[1].children.push(
+			{ label: 'Class AAA', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class AA', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class A+', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Class A-', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Rookie', selectAllCheckbox: true, children: [] }, 			)
+	}
+	
+	for (let i = 0; i < leagueLayerArray.length; i++) { //iterate thru leagueLayerArray, which contains all the leagueLayers
+		leagueName = leagueLayerArray[i][1];
+		leagueLevelNum = getLeagueLevel(leagueName)[0];
+		subLeagueName = (getLeagueLevel(leagueName)[1]);
+		subLeagueNum = null
+		if (subLeagueName != null) {
+		for (let j = 0; j < overlaysTree2.children[1].children.length; j++) {
+			//console.log(j.label);
+			if (subLeagueName == overlaysTree2.children[1].children[j].label) {subLeagueNum = j}} } //do not think about this again, ever
+		if (leagueLevelNum <= 4) {
+			if (subLeagueNum != null) {
+			overlaysTree2.children[1].children[subLeagueNum].children.push({label:leagueLayerArray[i][1], layer:leagueLayerArray[i][0]})
+			}
+			else {
+			overlaysTree2.children[leagueLevelNum].children.push({label:leagueLayerArray[i][1], layer:leagueLayerArray[i][0]})
+			}
+		}}
+		
+	//console.log(overlaysTree);
+	LeagueLayerTree = L.control.layers.tree(baseTree, overlaysTree2, null)
+	LeagueLayerTree.addTo(map);
+	
+}
+
+
+					
+						
+						
+function timeCheck(timeArray) {
+for (let j = 0; j < timeArray.length; j++) {
+	if (((cleanDates(timeArray[j][0], "start")) <= timelineControl.time) && ((cleanDates(timeArray[j][1], "end")) >= timelineControl.time)) {
+		if (timeArray[j].length == 4 )
+			{ return [timeArray[j][2], timeArray[j][3]]}
+		return [timeArray[j][2], null]}
+	
+	}	
+
+
+return [4, null];			//if it doesn't pass any of the checks then it doesn't exist 	
+}
+
+
+function getArrayNumOfLeagueLevel (leagueLvlStr) {
+	console.log(overlaysTree2);
+	for (let j = 0; j < overlaysTree2.children[1].children.length; j++) {
+		if (leagueLvlStr == j.label) {return j}}}
+		
+
+	
+
 //these are camelcased and refer to the ARRAY
 //lowercase refers to the JSON file
-addTeamToMap(NationalLeague, NLIcon); 
-addTeamToMap(AmericanLeague, ALIcon);
-addTeamToMap(InternationalLeague, redIcon);
-addTeamToMap(InternationalAssociation, pinkIcon);
-addTeamToMap(AmericanAssociation, orangeIcon);
-addTeamToMap(WesternLeague, greenIcon);
-addTeamToMap(EasternLeague, goldIcon);
-addTeamToMap(NationalAssociation, blueIcon);
-addTeamToMap(NationalBaseBallAssociation, yellowIcon);
-addTeamToMap(InterstateAssociation, violetIcon);	
-addTeamToMap(PacificCoastLeague, goldIcon);	
-addTeamToMap(CaliforniaLeague, blueIcon);		
-addTeamToMap(NorthwesternLeague, darkgreenIcon);	
-addTeamToMap(TexasLeague, pinkIcon);	
-addTeamToMap(AlabamaTennesseeLeague, orangeIcon);
-addTeamToMap(PacificCoastInternationalLeague, aquamarineIcon);		
-addTeamToMap(IllinoisStateLeague, greyIcon);	
-addTeamToMap(MississippiOhioValleyLeague, greyIcon);	
-addTeamToMap(MidwestLeague, greyIcon);	
-addTeamToMap(IllinoisIndianaIowaLeague, violetIcon);		
-addTeamToMap(SouthAtlanticLeague, violetIcon);
-addTeamToMap(PlayersLeague, blackIcon);
-addTeamToMap(CentralLeague, blueIcon);
-addTeamToMap(CarolinaLeague, brightorangeIcon);
-addTeamToMap(AppalachianLeague, pinkIcon);
-addTeamToMap(FrontierLeague, blueIcon);
-addTeamToMap(ContinentalBaseballLeague, brightorangeIcon);
-addTeamToMap(NorthwoodsLeague, yellowIcon);
-
-addTeamToMap(NorthCentralLeague, violetIcon);
-addTeamToMap(GreatCentralLeague, aquamarineIcon);
-addTeamToMap(MidAmericaLeague, greenIcon);
-addTeamToMap(PrairieLeague, pinkIcon);
-addTeamToMap(BigSouthLeague, blackIcon);
-addTeamToMap(NorthAtlanticLeague, hotpinkIcon);
-addTeamToMap(HeartlandLeague, darkblueIcon);
-addTeamToMap(TexasLouisianaLeague, brownIcon);
-addTeamToMap(CentralBaseballLeague, brownIcon);
-addTeamToMap(SoutheasternLeague, aquamarineIcon);
-addTeamToMap(AllAmericanAssociation, blueIcon);
-addTeamToMap(NorthernLeague, darkgreenIcon);
-addTeamToMap(SouthCoastLeague, blueIcon);
-addTeamToMap(WesternBaseballLeague, violetIcon);
-addTeamToMap(UnitedLeagueBaseball, greenIcon);
-addTeamToMap(GoldenBaseballLeague, blackIcon);
-addTeamToMap(NorthAmericanLeague, brownIcon);
-addTeamToMap(NortheastLeague, yellowIcon);
-addTeamToMap(CanAmLeague, yellowIcon); //slaps league       this baby can fit so many road teams
-addTeamToMap(AtlanticLeague, greenIcon); //so many road teams
+getLeagueTimeline(NationalLeague, NLIcon); 
+getLeagueTimeline(AmericanLeague, ALIcon);
+getLeagueTimeline(InternationalLeague, redIcon);
+getLeagueTimeline(InternationalAssociation, pinkIcon);
+getLeagueTimeline(AmericanAssociation, orangeIcon);
+getLeagueTimeline(WesternLeague, greenIcon);
+getLeagueTimeline(EasternLeague, goldIcon);
+getLeagueTimeline(NationalAssociation, blueIcon);
+getLeagueTimeline(NationalBaseBallAssociation, yellowIcon);
+getLeagueTimeline(InterstateAssociation, violetIcon);	
+getLeagueTimeline(PacificCoastLeague, goldIcon);	
+getLeagueTimeline(NorthwesternLeague, darkgreenIcon);	
+getLeagueTimeline(TexasLeague, pinkIcon);	
+getLeagueTimeline(AlabamaTennesseeLeague, orangeIcon);
+getLeagueTimeline(PacificCoastInternationalLeague, aquamarineIcon);		
+getLeagueTimeline(IllinoisStateLeague, greyIcon);	
+getLeagueTimeline(MississippiOhioValleyLeague, greyIcon);	
+getLeagueTimeline(MidwestLeague, greyIcon);	
+getLeagueTimeline(IllinoisIndianaIowaLeague, violetIcon);		
+getLeagueTimeline(SouthAtlanticLeague, violetIcon);
+getLeagueTimeline(PlayersLeague, blackIcon);
+getLeagueTimeline(CentralLeague, blueIcon);
+//getLeagueTimeline(CarolinaLeague, brightorangeIcon);
+getLeagueTimeline(AppalachianLeague, pinkIcon);
+getLeagueTimeline(FrontierLeague, blueIcon);
+getLeagueTimeline(ContinentalBaseballLeague, brightorangeIcon);
 
 
-//addFileToMap(greatcentralleague1994, redIcon);
-//addFileToMap(midamericaleague1995, greenIcon);
-//addFileToMap(northcentralleague19941995, yellowIcon);
-//addFileToMap(prairieleague19951997, aquamarineIcon);
-//addFileToMap(heartlandleague19961998, redIcon);
-//addFileToMap(bigsouthleague19961997, orangeIcon);
-//addFileToMap(atlanticcoastleague1995, violetIcon);
-//addFileToMap(northatlanticleague19951996, greyIcon);
-//addFileToMap(northwoodsleague1994now, NorthwoodsIcon);
-//addFileToMap(northernleague19932010, blueIcon);
-//addFileToMap(allamericanassociation2001, greyIcon);
-//addFileToMap(frontierleague1993now, goldIcon);
-//addFileToMap(southcoastleague2007, redIcon);
-//addFileToMap(nationalleague1876now, NLIcon);
-//addFileToMap(notableBirths);
+
+getLeagueTimeline(NorthwoodsLeague, yellowIcon);
+
+
 
 timelineControl.addTo(map);
 timelineControl.setTime(cleanDates("now", "end"));
+
+
+
 
 </script> </body> </html>

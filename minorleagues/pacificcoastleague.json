@@ -260,7 +260,7 @@ pacificcoastleague = {
 				["Pacific Coast League", "1903", "1906"],
 				["NorthwesternLeague", "1907", "1918"],
 				["Pacific Coast League", "1919", "2020"],
-				["CaliforniaLeague", "2021", "now"],
+				["California League", "2021", "now"],
 						],
 			"coords": 	[
 				[[47.603889, -122.33], "1903", "1912"],
