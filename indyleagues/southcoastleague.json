@@ -4,73 +4,73 @@ southcoastleague = {
 		{ 
 			"type": "team",
 			"names": 	[
-				["South Georgia Peanuts", "1997", "1997"]
+				["South Georgia Peanuts", "2007", "2007"]
 						],
 			"leagues" : [
-				["South Coast League", "1997", "1997"]
+				["South Coast League", "2007", "2007"]
 						],
 			"coords": 	[
-				[[31.600944, -84.129878 ], "1997", "1997"]
+				[[31.600944, -84.129878 ], "2007", "2007"]
 						]
 		},
 		{ 
 			"type": "team",
 			"names": 	[
-				["Macon Music", "1997", "1997"]
+				["Macon Music", "2007", "2007"]
 						],
 			"leagues" : [
-				["South Coast League", "1997", "1997"]
+				["South Coast League", "2007", "2007"]
 						],
 			"coords": 	[
-				[[32.828889, -83.614167 ], "1997", "1997"]
+				[[32.828889, -83.614167 ], "2007", "2007"]
 						]
 		},
 		{ 
 			"type": "team",
 			"names": 	[
-				["Bradenton Juice", "1997", "1997"]
+				["Bradenton Juice", "2007", "2007"]
 						],
 			"leagues" : [
-				["South Coast League", "1997", "1997"]
+				["South Coast League", "2007", "2007"]
 						],
 			"coords": 	[
-				[[27.439069, -82.594421  ], "1997", "1997"]
+				[[27.439069, -82.594421  ], "2007", "2007"]
 						]
 		},
 		{ 
 			"type": "team",
 			"names": 	[
-				["Aiken Foxhounds", "1997", "1997"]
+				["Aiken Foxhounds", "2007", "2007"]
 						],
 			"leagues" : [
-				["South Coast League", "1997", "1997"]
+				["South Coast League", "2007", "2007"]
 						],
 			"coords": 	[
-				[[33.574958, -81.776197  ], "1997", "1997"]
+				[[33.574958, -81.776197  ], "2007", "2007"]
 						]
 		},
 		{ 
 			"type": "team",
 			"names": 	[
-				["Anderson Joes", "1997", "1997"]
+				["Anderson Joes", "2007", "2007"]
 						],
 			"leagues" : [
-				["South Coast League", "1997", "1997"]
+				["South Coast League", "2007", "2007"]
 						],
 			"coords": 	[
-				[[34.482759, -82.628619  ], "1997", "1997"]
+				[[34.482759, -82.628619  ], "2007", "2007"]
 						]
 		},
 		{ 
 			"type": "team",
 			"names": 	[
-				["Charlotte County Redfish", "1997", "1997"]
+				["Charlotte County Redfish", "2007", "2007"]
 						],
 			"leagues" : [
-				["South Coast League", "1997", "1997"]
+				["South Coast League", "2007", "2007"]
 						],
 			"coords": 	[
-				[[26.999167, -82.181667 ], "1997", "1997"]
+				[[26.999167, -82.181667 ], "2007", "2007"]
 						]
 		},
 	]

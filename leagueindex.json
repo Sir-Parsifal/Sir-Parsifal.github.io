@@ -1,0 +1,586 @@
+leagueIndex = {
+  "type": "leagueCollection",
+  "leagues": [
+		{ 	"name": "Pacific Coast League",
+			"properties" : {
+				"type": "league",
+				"loadName": "pacificcoastleague",
+				"loadName2": null,
+				"leagueGeoJSONArray" : {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "greenIcon",
+				"levels" : [["1903", "1903", 2], 
+							["1904", "1911", 1, "Class A"],
+							["1912", "1945", 1, "Class AA"],
+							["1946", "1951", 1, "Class AAA"],
+							["1952", "1957", 1, "Open"],
+							["1958", "now", 1, "Class AAA"],
+							]
+				}
+		},
+		{ 	"name": "American Association",
+			"properties": {
+				"type": "league",			
+				"loadName": "americanassociation",
+				"loadName2": "americanassociationminor",
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "greyIcon",
+				"levels" : [["1882", "1891", 0], 
+							["1903", "1911", 1, "Class A"],
+							["1912", "1945", 1, "Class AA"],
+							["1946", "1962", 1, "Class AAA"],
+							["1969", "1997", 1, "Class AAA"],
+							["2006", "now", 2],
+							]
+				}
+		},
+		{ 	"name": "International League",
+			"properties": {
+				"type": "league",			
+				"loadName": "internationalleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "redIcon",
+				"levels" : [["1912", "1945", 1, "Class AA"],
+							["1946", "now", 1, "Class AAA"],
+							]
+				}
+		},
+		{ 	"name": "South Atlantic League",
+			"properties": {
+				"type": "league",			
+				"loadName": "southatlanticleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "violetIcon",
+				"levels" : 	[["1904", "1917", 1, "Class C"], 
+							["1919", "1920", 1, "Class C"],
+							["1921", "1930", 1, "Class B"],
+							["1936", "1942", 1, "Class B"],
+							["1946", "1962", 1, "Class A"],
+							["1963", "1963", 1, "Class AA"],
+							["1980", "2020", 1, "Class A"],
+							["2021", "now", 1, "Class A+"],
+							]
+				}
+		},
+		{ 	"name": "Carolina League",
+			"properties": {
+				"type": "league",			
+				"loadName": "carolinaleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "brightorangeIcon",
+				"levels" : 	[["1945", "1948", 1, "Class C"], 
+							["1949", "1962", 1, "Class B"], 
+							["1963", "1989", 1, "Class A"], 
+							["1990", "2020", 1, "Class A-Advanced"], 
+							["2021", "now", 1, "Class A-"]]
+				}
+		},
+		{ 	"name": "Appalachian League",
+			"properties": {
+				"type": "league",			
+				"loadName": "appalachianleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "pinkIcon",
+				"levels" : 	[["1911", "1914", 1, "Class D"], 
+							["1921", "1925", 1, "Class D"],
+							["1937", "1955", 1, "Class D"],
+							["1957", "1962", 1, "Class D"],
+							["1963", "1990", 1, "Rookie"],
+							["1991", "2020", 1, "Rookie Advanced"],
+							["2021", "now", 3]]
+				}
+		},
+		{ 	"name": "Illinois-Indiana-Iowa League",
+			"properties": {
+				"type": "league",			
+				"loadName": "threeileague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "yellowIcon",
+				"levels" : 	[["1901", "1901", 1, "Class D"], 
+							["1902", "1917", 1, "Class B"],
+							["1919", "1932", 1, "Class B"],
+							["1935", "1935", 1, "Class B"],
+							["1937", "1942", 1, "Class B"],
+							["1946", "1961", 1, "Class B"],]
+				}
+		},
+		{ 	"name": "Northern League",
+			"properties": {
+				"type": "league",			
+				"loadName": "northernleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "darkblueIcon",
+				"levels" : 	[["1902", "1905", 1, "Class D"], 
+							["1908", "1908", 1, "Class D"],
+							["1913", "1916", 1, "Class C"],
+							["1917", "1917", 1, "Class D"],
+							["1933", "1940", 1, "Class D"],
+							["1941", "1942", 1, "Class C"],
+							["1946", "1964", 1, "Class C"],
+							["1965", "1971", 1, "Class A-Short Season"],
+							["1993", "2010", 2],]
+				}
+		},
+		{ 	"name": "Midwest League",
+			"properties": {
+				"type": "league",			
+				"loadName": "midwestleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "blueIcon",
+				"levels" : 	[["1956", "1962", 1, "Class D"], 
+							["1963", "2020", 1, "Class A"], 
+							["2021", "now", 1, "Class A+"]]
+				}
+		},
+		{ 	"name": "California League",
+			"properties": {
+				"type": "league",			
+				"loadName": "californialeague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "blueIcon",
+				"levels" : 	[["1879", "1891", 1], 
+							["1892", "1892", 1, "Class B"], 
+							["1893", "1897", 2],
+							["1898", "1898", 1, "Class D"], 
+							["1899", "1899", 1, "Class E"], 
+							["1900", "1909", 2], 
+							["1941", "1942", 1, "Class C"], 
+							["1946", "1962", 1, "Class C"], 
+							["1963", "1989", 1, "Class A"], 
+							["1990", "2020", 1, "Class A-Advanced"], 
+							["2021", "now", 1, "Class A-"], ]
+				}
+		},
+		{ 	"name": "Illinois State League",
+			"properties": {
+				"type": "league",			
+				"loadName": null,
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "darkgreenIcon",
+				"levels" : 	[["1947", "1949", 1, "Class D"]]
+				}
+		},
+		{ 	"name": "Mississippi-Ohio Valley League",
+			"properties": {
+				"type": "league",			
+				"loadName": null,
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "greenIcon",
+				"levels" : 	[["1950", "1955", 1, "Class D"]]
+				}
+		},
+		{ 	"name": "National League",
+			"properties": {
+				"type": "league",			
+				"loadName": "NLandALteams",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "NLIcon",
+				"levels" : [["1876", "now", 0]]
+				}
+		},
+		{ 	"name": "American League",
+			"properties": {
+				"type": "league",			
+				"loadName": null,
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "ALIcon",
+				"levels" : [["1900", "1900", 1, "Class A"], 
+							["1901", "now", 0]]
+				}
+		},
+		{ 	"name": "Western League",
+			"properties": {
+				"type": "league",			
+				"loadName": "westernleague1894",
+				"loadName2": "westernleague",
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "orangeIcon",
+				"levels" : [["1885", "1888", 2], 
+							["1892", "1892", 1, "Class B"], 
+							["1893", "1894", 2],
+							["1895", "1899", 1, "Class A"],
+							["1900", "1900", 1, "Class B"],
+							["1901", "1938", 1, "Class A"],
+							["1939", "1941", 1, "Class D"],
+							["1947", "1958", 1, "Class A"],
+							]
+				}
+		},
+		{ 	"name": "Northwoods League",
+			"properties": {
+				"type": "league",			
+				"loadName": "northwoodsleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "darkgreenIcon",
+				"levels" : [["1993", "now", 3]]
+				}
+		},
+		{ 	"name": "Frontier League",
+			"properties": {
+				"type": "league",			
+				"loadName": "frontierleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "lightpinkIcon",
+				"levels" : [["1993", "now", 2]]
+				}
+		},
+		{ 	"name": "Players League",
+			"properties": {
+				"type": "league",			
+				"loadName": "playersleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "blackIcon",
+				"levels" : [["1890", "1890", 0,]]
+				}
+		},
+		{ 	"name": "Texas League",
+			"properties": {
+				"type": "league",			
+				"loadName": null,
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "brownIcon",
+				"levels" : [["1902", "1903", 1, "Class D"],
+							["1904", "1905", 1, "Class C"],
+							["1906", "1906", 1, "Class D"],
+							["1907", "1910", 1, "Class C"],
+							["1911", "1920", 1, "Class B"],
+							["1921", "1935", 1, "Class A"],
+							["1936", "1942", 1, "Class A1"],
+							["1946", "now", 1, "Class AA"],]
+				}
+		},
+		{ 	"name": "Eastern League",
+			"properties": {
+				"type": "league",			
+				"loadName": null,
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "goldIcon",
+				"levels" : [["1884", "1887", 2],
+							["1892", "1894", 2],
+							["1895", "1911", 1, "Class A"],
+							["1916", "1918", 1, "Class B"],
+							["1919", "1932", 1, "Class B"],
+							["1938", "1962", 1, "Class A"],
+							["1963", "now", 1, "Class AA"],]
+				}
+		},
+		{ 	"name": "New York-Penn League",
+			"properties": {
+				"type": "league",			
+				"loadName": null,
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "orangeIcon",
+				"levels" : [["1890", "1891", 2],
+							["1923", "1932", 1, "Class B"],
+							["1933", "1937", 1, "Class A"],
+							["1957", "1962", 1, "Class D"],
+							["1963", "1966", 1, "Class A"],
+							["1967", "2020", 1, "Class A-Short Season"],
+							]
+				}
+		},
+		{ 	"name": "Atlantic League",
+			"properties": {
+				"type": "league",			
+				"loadName": "atlanticleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "blackIcon",
+				"levels" : [["1998", "now", 2]]
+				}
+		},
+		{ 	"name": "Can-Am League",
+			"properties": {
+				"type": "league",			
+				"loadName": null,
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "yellowIcon",
+				"levels" : [["1936", "1942", 1, "Class C"],
+							["1946", "1951", 1, "Class C"],
+							["1959", "1959", 2],
+							["2005", "2019", 2]]
+				}
+		},
+		{ 	"name": "Northeast League",
+			"properties": {
+				"type": "league",			
+				"loadName": "northeastleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "greenIcon",
+				"levels" : [["1995", "2004", 2]]
+				}
+		},
+		{ 	"name": "North Central League",
+			"properties": {
+				"type": "league",			
+				"loadName": "northcentralleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "aquamarineIcon",
+				"levels" : [["1994", "1995", 2]]
+				}
+		},
+		{ 	"name": "Great Central League",
+			"properties": {
+				"type": "league",			
+				"loadName": "greatcentralleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "hotpinkIcon",
+				"levels" : [["1994", "1994", 2]]
+				}
+		},
+		{ 	"name": "Prairie League",
+			"properties": {
+				"type": "league",			
+				"loadName": "prairieleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "brownIcon",
+				"levels" : [["1995", "1997", 2]]
+				}
+		},
+		{ 	"name": "Mid-America League",
+			"properties": {
+				"type": "league",			
+				"loadName": "midamericaleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "violetIcon",
+				"levels" : [["1995", "1995", 2]]
+				}
+		},
+		{ 	"name": "Heartland League",
+			"properties": {
+				"type": "league",			
+				"loadName": "heartlandleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "hotpinkIcon",
+				"levels" : [["1996", "1998", 2]]
+				}
+		},
+		{ 	"name": "Big South League",
+			"properties": {
+				"type": "league",			
+				"loadName": "heartlandleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "aquamarineIcon",
+				"levels" : [["1996", "1997", 2]]
+				}
+		},
+		{ 	"name": "North Atlantic League",
+			"properties": {
+				"type": "league",			
+				"loadName": "northatlanticleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "aquamarineIcon",
+				"levels" : [["1946", "1950", 1, "Class D"],
+							["1995", "1996", 2]]
+				}
+		},
+		{ 	"name": "Texas-Louisiana League",
+			"properties": {
+				"type": "league",			
+				"loadName": "texaslouisianaleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "orangeIcon",
+				"levels" : [["1994", "2001", 2]]
+				}
+		},
+		{ 	"name": "Central Baseball League",
+			"properties": {
+				"type": "league",			
+				"loadName": null,
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "pinkIcon",
+				"levels" : [["2002", "2005", 2]]
+				}
+		},
+		{ 	"name": "All-American Association",
+			"properties": {
+				"type": "league",			
+				"loadName": "allamericanassociation",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "blackIcon",
+				"levels" : [["2001", "2001", 2]]
+				}
+		},
+		{ 	"name": "Southeastern League",
+			"properties": {
+				"type": "league",			
+				"loadName": null,
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "hotpinkIcon",
+				"levels" : [
+							["1897", "1897", 2],
+							["1910", "1912", 1, "Class D"],
+							["1926", "1930", 1, "Class B"],
+							["1932", "1932", 1, "Class B"],
+							["1937", "1942", 1, "Class B"],
+							["1946", "1950", 1, "Class B"],
+							["2002", "2003", 2]
+							
+							
+							]
+				}
+		},
+		{ 	"name": "United League Baseball",
+			"properties": {
+				"type": "league",			
+				"loadName": "unitedleaguebaseball",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "orangeIcon",
+				"levels" : [["2006", "2010", 2], ["2013", "2014", 2]]
+				}
+		},
+		{ 	"name": "Golden Baseball League",
+			"properties": {
+				"type": "league",			
+				"loadName": "goldenbaseballleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "goldIcon",
+				"levels" : [["2004", "2010", 2]]
+				}
+		},
+		{ 	"name": "North American League",
+			"properties": {
+				"type": "league",			
+				"loadName": null,
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "yellowIcon",
+				"levels" : [["2011", "2012", 2]]
+				}
+		},
+		{ 	"name": "Western Baseball League",
+			"properties": {
+				"type": "league",			
+				"loadName": "westernbaseballleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "violetIcon",
+				"levels" : [["1995", "2002", 2]]
+				}
+		},
+		{ 	"name": "South Coast League",
+			"properties": {
+				"type": "league",			
+				"loadName": "southcoastleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "yellowIcon",
+				"levels" : [["2007", "2007", 2]]
+				}
+		},
+		{ 	"name": "Continental Baseball League",
+			"properties": {
+				"type": "league",			
+				"loadName": "continentalbaseballleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "blueIcon",
+				"levels" : [["2007", "2010", 2]]
+				}
+		},
+		{ 	"name": "Alabama-Tennessee League",
+			"properties": {
+				"type": "league",			
+				"loadName": "alabamatennesseeleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "aquamarineIcon",
+				"levels" : [["1921", "1921", 1, "Class D"]]
+				}
+		},
+		{ 	"name": "Central League",
+			"properties": {
+				"type": "league",			
+				"loadName": "centralleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "blueIcon",
+				"levels" : [["1900", "1900", 2],
+							["1903", "1917", 1, "Class B"],
+							["1920", "1922", 1, "Class B"],
+							["1926", "1926", 1, "Class C"],
+							["1928", "1930", 1, "Class B"],
+							["1932", "1932", 1, "Class B"],
+							["1934", "1934", 1, "Class B"],
+							["1948", "1951", 1, "Class A"],
+				]
+				}
+		},
+	]
+}
+	

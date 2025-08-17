@@ -18,7 +18,7 @@ NLandALteams = {
 			"fatetxt": "",
 			"leagues" : [
 				["NationalAssociation", "1871", "1875"],
-				["NationalLeague", "1876", "now"]],
+				["National League", "1876", "now"]],
 			"coords": 	[
 				[[42.3375, -71.086944], "1871", "1914"],
 				[[42.353333, -71.119167], "1915", "1952"],
@@ -40,7 +40,7 @@ NLandALteams = {
 			"fatetxt": "",
 			"leagues" : [
 				["NationalAssociation", "1871", "1875"],
-				["NationalLeague", "1876", "now"]],
+				["National League", "1876", "now"]],
 			"coords": 	[
 				[[41.875833, -87.618889], "1871", "1873"],
 				[[41.853101, -87.628326], "1874", "1877"],
@@ -60,7 +60,7 @@ NLandALteams = {
 			"fatetxt": "",
 			"leagues" : [
 				["NationalAssociation", "1871", "1875"],
-				["NationalLeague", "1876", "1876"]],
+				["National League", "1876", "1876"]],
 			"coords": 	[
 				[[40.703889, -73.952778], "1871", "1876"]
 						]
@@ -73,7 +73,7 @@ NLandALteams = {
 			"fate": "defunct",
 			"fatetxt": "",
 			"leagues" : [
-				["NationalLeague", "1876", "1879"]],
+				["National League", "1876", "1879"]],
 			"coords": 	[
 				[[39.143056, -84.546389], "1876", "1879"]
 						]
@@ -87,7 +87,7 @@ NLandALteams = {
 			"fatetxt": "",
 			"leagues" : [
 				["NationalAssociation", "1871", "1875"],
-				["NationalLeague", "1876", "1876"]],
+				["National League", "1876", "1876"]],
 			"coords": 	[
 				[[39.978056, -75.176389], "1871", "1876"]
 						]
@@ -101,7 +101,7 @@ NLandALteams = {
 			"fatetxt": "",
 			"leagues" : [
 				["NationalAssociation", "1875", "1875"],
-				["NationalLeague", "1876", "1877"]],
+				["National League", "1876", "1877"]],
 			"coords": 	[
 				[[38.658, -90.22], "1875", "1877"]
 						]
@@ -116,7 +116,7 @@ NLandALteams = {
 			"fatetxt": "",
 			"leagues" : [
 				["NationalAssociation", "1874", "1875"],
-				["NationalLeague", "1876", "1877"]],
+				["National League", "1876", "1877"]],
 			"coords": 	[
 				[[41.757465, -72.669252], "1876", "1876"],
 				[[40.703889, -73.952778], "1877", "1877"]
@@ -131,7 +131,7 @@ NLandALteams = {
 			"fatetxt": "",
 			"leagues" : [
 				["NationalAssociation", "1875", "1875"],
-				["NationalLeague", "1876", "1877"]],
+				["National League", "1876", "1877"]],
 			"coords": 	[
 				[[38.227778, -85.763333], "1876", "1877"]
 						]
@@ -144,7 +144,7 @@ NLandALteams = {
 			"fate": "defunct",
 			"fatetxt": "",
 			"leagues" : [
-				["NationalLeague", "1878", "1878"]],
+				["National League", "1878", "1878"]],
 			"coords": 	[
 				[[39.762222, -86.153889], "1878", "1878"]
 						]
@@ -158,7 +158,7 @@ NLandALteams = {
 			"fatetxt": "",
 			"leagues" : [
 				["LeagueAlliance", "1877", "1877"],
-				["NationalLeague", "1878", "1878"]
+				["National League", "1878", "1878"]
 						],
 			"coords": 	[
 				[[43.036667, -87.925], "1877", "1878"]
@@ -172,7 +172,7 @@ NLandALteams = {
 			"fate": "defunct",
 			"fatetxt": "",
 			"leagues" : [
-				["NationalLeague", "1878", "1878"]
+				["National League", "1878", "1878"]
 						],
 			"coords": 	[
 				[[41.813179, -71.437064], "1878", "1885"]
@@ -197,13 +197,13 @@ NLandALteams = {
 			"leagues" : [
 				["LeagueAlliance", "1877", "1877"],
 				["InternationalAssociation", "1878", "1878"],
-				["NationalLeague", "1879", "1885"],
+				["National League", "1879", "1885"],
 				["Eastern League", "1886", "1886"],
 				["International League", "1887", "1887"],
 				["InternationalAssociation", "1888", "1890"],
 				["Eastern League", "1891", "1898"],
-				["WesternLeague", "1899", "1899"],
-				["AmericanLeague", "1900", "1900"],
+				["Western League", "1899", "1899"],
+				["American League", "1900", "1900"],
 				["Eastern League", "1901", "1911"],
 				["International League", "1912", "now"]
 						],
@@ -230,7 +230,7 @@ NLandALteams = {
 			"fatetxt": "",
 			"leagues" : [
 				["InternationalAssociation", "1878", "1878"],
-				["NationalLeague", "1879", "1879"]
+				["National League", "1879", "1879"]
 						],
 			"coords": 	[
 				[[43.035, -76.148333], "1879", "1879"]
@@ -244,7 +244,7 @@ NLandALteams = {
 			"fate": "defunct",
 			"fatetxt": "",
 			"leagues" : [
-				["NationalLeague", "1879", "1882"]
+				["National League", "1879", "1882"]
 						],
 			"coords": 	[
 				[[42.76, -73.680833], "1879", "1879"],
@@ -260,7 +260,7 @@ NLandALteams = {
 			"fate": "defunct",
 			"fatetxt": "",
 			"leagues" : [
-				["NationalLeague", "1879", "1884"]
+				["National League", "1879", "1884"]
 						],
 			"coords": 	[
 				[[41.500833, -81.653889], "1879", "1884"]
@@ -275,7 +275,7 @@ NLandALteams = {
 			"fatetxt": "",
 			"leagues" : [
 				["NationalBaseBallAssociation", "1879", "1879"],
-				["NationalLeague", "1880", "1882"]
+				["National League", "1880", "1882"]
 						],
 			"coords": 	[
 				[[42.268889, -71.813056], "1879", "1882"]
@@ -289,7 +289,7 @@ NLandALteams = {
 			"fate": "defunct",
 			"fatetxt": "",
 			"leagues" : [
-				["NationalLeague", "1880", "1880"]
+				["National League", "1880", "1880"]
 						],
 			"coords": 	[
 				[[39.120281, -84.538187], "1880", "1880"]
@@ -303,7 +303,7 @@ NLandALteams = {
 			"fate": "defunct",
 			"fatetxt": "",
 			"leagues" : [
-				["NationalLeague", "1881", "1888"]
+				["National League", "1881", "1888"]
 						],
 			"coords": 	[
 				[[42.351389, -83.055], "1881", "1888"]
@@ -317,7 +317,7 @@ NLandALteams = {
 			"fate": "exists",
 			"fatetxt": "",
 			"leagues" : [
-				["NationalLeague", "1883", "now"]
+				["National League", "1883", "now"]
 						],
 			"coords": 	[
 				[[39.982222, -75.174722], "1883", "1886"],
@@ -337,7 +337,7 @@ NLandALteams = {
 			"fate": "exists",
 			"fatetxt": "",
 			"leagues" : [
-				["NationalLeague", "1883", "now"]
+				["National League", "1883", "now"]
 						],
 			"coords": 	[
 				[[40.798056, -73.950556], "1883", "1888"],
@@ -358,7 +358,7 @@ NLandALteams = {
 			"fatetxt": "",
 			"leagues" : [
 				["UnionAssociation", "1884", "1884"],
-				["NationalLeague", "1885", "1888"]
+				["National League", "1885", "1888"]
 						],
 			"coords": 	[
 				[[38.646389, -90.212222], "1884", "1886"],
@@ -373,7 +373,7 @@ NLandALteams = {
 			"fate": "defunct",
 			"fatetxt": "",
 			"leagues" : [
-				["NationalLeague", "1886", "1886"]
+				["National League", "1886", "1886"]
 						],
 			"coords": 	[
 				[[39.089002, -94.552975], "1886", "1886"]
@@ -387,7 +387,7 @@ NLandALteams = {
 			"fate": "defunct",
 			"fatetxt": "",
 			"leagues" : [
-				["NationalLeague", "1886", "1889"]
+				["National League", "1886", "1889"]
 						],
 			"coords": 	[
 				[[38.8973, -77.0075], "1886", "1889"]
@@ -404,7 +404,7 @@ NLandALteams = {
 			"fatetxt": "",
 			"leagues" : [
 				["American Association", "1882", "1886"],
-				["NationalLeague", "1887", "now"]
+				["National League", "1887", "now"]
 						],
 			"coords": 	[
 				[[40.446944, -80.010833], "1882", "1883"],
@@ -424,7 +424,7 @@ NLandALteams = {
 			"fatetxt": "",
 			"leagues" : [
 				["American Association", "1887", "1888"],
-				["NationalLeague", "1889", "1899"]
+				["National League", "1889", "1899"]
 						],
 			"coords": 	[
 				[[41.500833, -81.653889], "1887", "1890"],
@@ -443,7 +443,7 @@ NLandALteams = {
 			"fatetxt": "",
 			"leagues" : [
 				["American Association", "1882", "1889"],
-				["NationalLeague", "1890", "now"]
+				["National League", "1890", "now"]
 						],
 			"coords": 	[
 				[[39.120281, -84.538187], "1882", "1883"],
@@ -476,7 +476,7 @@ NLandALteams = {
 			"leagues" : [
 				["InterstateAssociation", "1883", "1883"],
 				["American Association", "1884", "1890"],
-				["NationalLeague", "1887", "now"]
+				["National League", "1887", "now"]
 						],
 			"coords": 	[
 			[[40.673972, -73.985722], "1883", "1890"],
@@ -498,7 +498,7 @@ NLandALteams = {
 				["American Association", "1882", "1889"],
 				["Atlantic Association", "1890", "1890-07-26"],
 				["American Association", "1890-07-27", "1891"],
-				["NationalLeague", "1892", "1899"]
+				["National League", "1892", "1899"]
 						],
 			"coords": 	[
 				[[39.307222, -76.640833], "1882", "1882"],
@@ -515,7 +515,7 @@ NLandALteams = {
 			"fatetxt": "",
 			"leagues" : [
 				["American Association", "1882", "1891"],
-				["NationalLeague", "1892", "1899"]
+				["National League", "1892", "1899"]
 						],
 			"coords": 	[
 				[[38.2405, -85.76496], "1882", "1899"]
@@ -531,7 +531,7 @@ NLandALteams = {
 			"fatetxt": "",
 			"leagues" : [
 				["American Association", "1891", "1891"],
-				["NationalLeague", "1892", "1899"]
+				["National League", "1892", "1899"]
 						],
 			"coords": 	[
 				[[38.9175, -77.020278], "1892", "1899"]
@@ -549,7 +549,7 @@ NLandALteams = {
 			"fatetxt": "",
 			"leagues" : [
 				["American Association", "1882", "1891"],
-				["NationalLeague", "1892", "now"]
+				["National League", "1892", "now"]
 						],
 			"coords": 	[
 				[[38.658, -90.22], "1882", "1892"],
@@ -568,8 +568,8 @@ NLandALteams = {
 			"fate": "exists",
 			"fatetxt": "",
 			"leagues" : [
-				["NationalLeague", "1962", "2012"],
-				["AmericanLeague", "2013", "now"]
+				["National League", "1962", "2012"],
+				["American League", "2013", "now"]
 						],
 			"coords": 	[
 				[[29.6883, -95.4086], "1962", "1964"],
@@ -585,7 +585,7 @@ NLandALteams = {
 			"fate": "exists",
 			"fatetxt": "",
 			"leagues" : [
-				["NationalLeague", "1962", "now"],
+				["National League", "1962", "now"],
 						],
 			"coords": 	[
 				[[40.831667, -73.937222], "1962", "1963"],
@@ -602,7 +602,7 @@ NLandALteams = {
 			"fate": "exists",
 			"fatetxt": "",
 			"leagues" : [
-				["NationalLeague", "1969", "now"]
+				["National League", "1969", "now"]
 						],
 			"coords": 	[
 				[[45.532778, -73.626944], "1969", "1976"],
@@ -619,7 +619,7 @@ NLandALteams = {
 			"fate": "exists",
 			"fatetxt": "",
 			"leagues" : [
-				["NationalLeague", "1969", "now"]
+				["National League", "1969", "now"]
 						],
 			"coords": 	[
 				[[32.783056, -117.119444], "1969", "2003"],
@@ -634,7 +634,7 @@ NLandALteams = {
 			"fate": "exists",
 			"fatetxt": "",
 			"leagues" : [
-				["NationalLeague", "1993", "now"]
+				["National League", "1993", "now"]
 						],
 			"coords": 	[
 				[[39.746111, -105.021667], "1993", "1994"],
@@ -650,7 +650,7 @@ NLandALteams = {
 			"fate": "exists",
 			"fatetxt": "",
 			"leagues" : [
-				["NationalLeague", "1993", "now"]
+				["National League", "1993", "now"]
 						],
 			"coords": 	[
 				[[25.958056, -80.238889], "1993", "2011"],
@@ -665,7 +665,7 @@ NLandALteams = {
 			"fate": "exists",
 			"fatetxt": "",
 			"leagues" : [
-				["NationalLeague", "1998", "now"]
+				["National League", "1998", "now"]
 						],
 			"coords": 	[
 				[[33.445278, -112.066944], "1998", "now"]
@@ -680,8 +680,8 @@ NLandALteams = {
 			"fate": "exists",
 			"fatetxt": "",
 			"leagues" : [
-				["AmericanLeague", "1969", "1997"],
-				["NationalLeague", "1998", "now"],
+				["American League", "1969", "1997"],
+				["National League", "1998", "now"],
 						],
 			"coords": 	[
 				[[47.58, -122.298], "1969", "1969"],
@@ -697,8 +697,8 @@ NLandALteams = {
 			"fate": "exists",
 			"fatetxt": "",
 			"leagues" : [
-				["WesternLeague", "1894", "1899"],
-				["AmericanLeague", "1900", "now"]
+				["Western League", "1894", "1899"],
+				["American League", "1900", "now"]
 						],
 			"coords": 	[
 				[[42.350434, -83.005620], "1894", "1895"],
@@ -719,8 +719,8 @@ NLandALteams = {
 			"fate": "exists",
 			"fatetxt": "",
 			"leagues" : [
-				["WesternLeague", "1894", "1899"],
-				["AmericanLeague", "1900", "now"]
+				["Western League", "1894", "1899"],
+				["American League", "1900", "now"]
 						],
 			"coords": 	[
 				[[42.498056, -96.395556], "1894", "1894"],
@@ -740,7 +740,7 @@ NLandALteams = {
 			"fate": "defunct",
 			"fatetxt": "",
 			"leagues" : [
-				["AmericanLeague", "1901", "1902"]
+				["American League", "1901", "1902"]
 						],
 			"coords": 	[
 				[[39.322778, -76.610278], "1901", "1902"]									
@@ -755,7 +755,7 @@ NLandALteams = {
 			"fate": "exists",
 			"fatetxt": "",
 			"leagues" : [
-				["AmericanLeague", "1901", "now"]
+				["American League", "1901", "now"]
 						],
 			"coords": 	[
 				[[42.338972, -71.088972], "1901", "1911"],
@@ -771,7 +771,7 @@ NLandALteams = {
 			"fate": "exists",
 			"fatetxt": "",
 			"leagues" : [
-				["AmericanLeague", "1903", "now"]
+				["American League", "1903", "now"]
 						],
 			"coords": 	[
 			[[40.840556, -73.942222], "1903", "1912"],
@@ -795,8 +795,8 @@ NLandALteams = {
 			"fate": "exists",
 			"fatetxt": "",
 			"leagues" : [
-				["WesternLeague", "1896", "1899"],
-				["AmericanLeague", "1900", "now"]
+				["Western League", "1896", "1899"],
+				["American League", "1900", "now"]
 						],
 			"coords": 	[
 			[[39.933541,-82.984389], "1896", "1899-07-18"],
@@ -816,8 +816,8 @@ NLandALteams = {
 			"fate": "exists",
 			"fatetxt": "",
 			"leagues" : [
-				["WesternLeague", "1894", "1899"],
-				["AmericanLeague", "1900", "now"]
+				["Western League", "1894", "1899"],
+				["American League", "1900", "now"]
 						],
 			"coords": 	[
 				[[43.058889, -87.933889], "1894", "1901"],
@@ -837,7 +837,7 @@ NLandALteams = {
 			"fate": "exists",
 			"fatetxt": "",
 			"leagues" : [
-				["AmericanLeague", "1901", "now"]
+				["American League", "1901", "now"]
 						],
 			"coords": 	[
 				[[39.981111, -75.182778], "1901", "1908"],
@@ -859,8 +859,8 @@ NLandALteams = {
 			"fate": "exists",
 			"fatetxt": "",
 			"leagues" : [
-				["WesternLeague", "1894", "1899"],
-				["AmericanLeague", "1900", "now"]
+				["Western League", "1894", "1899"],
+				["American League", "1900", "now"]
 						],
 			"coords": 	[
 				[[39.095556, -94.549722], "1894", "1900"],
@@ -884,7 +884,7 @@ NLandALteams = {
 			"fate": "exists",
 			"fatetxt": "",
 			"leagues" : [
-				["AmericanLeague", "1961-01-01", "now"]
+				["American League", "1961-01-01", "now"]
 						],
 			"coords": 	[
 				[[34.0075, -118.266111], "1961", "1961"],
@@ -901,7 +901,7 @@ NLandALteams = {
 			"fate": "exists",
 			"fatetxt": "",
 			"leagues" : [
-				["AmericanLeague", "1961-01-01", "now"]
+				["American League", "1961-01-01", "now"]
 						],
 			"coords": 	[
 				[[38.9175, -77.020278], "1961", "1961"],
@@ -919,7 +919,7 @@ NLandALteams = {
 			"fate": "exists",
 			"fatetxt": "",
 			"leagues" : [
-				["AmericanLeague", "1969", "now"]
+				["American League", "1969", "now"]
 						],
 			"coords": 	[
 				[[39.087, -94.558], "1969", "1972"],
@@ -934,7 +934,7 @@ NLandALteams = {
 			"fate": "exists",
 			"fatetxt": "",
 			"leagues" : [
-				["AmericanLeague", "1977", "now"]
+				["American League", "1977", "now"]
 						],
 			"coords": 	[
 				[[47.595278, -122.331389], "1977", "1999"],
@@ -949,7 +949,7 @@ NLandALteams = {
 			"fate": "exists",
 			"fatetxt": "",
 			"leagues" : [
-				["AmericanLeague", "1977", "now"]
+				["American League", "1977", "now"]
 						],
 			"coords": 	[
 				[[43.631944, -79.417778], "1977", "1989"],
@@ -965,7 +965,7 @@ NLandALteams = {
 			"fate": "exists",
 			"fatetxt": "",
 			"leagues" : [
-				["AmericanLeague", "1998", "now"]
+				["American League", "1998", "now"]
 						],
 			"coords": 	[
 				[[27.768333, -82.653333], "1998", "now"]		

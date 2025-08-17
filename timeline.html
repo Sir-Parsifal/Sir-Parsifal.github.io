@@ -12,6 +12,7 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
      crossorigin=""></script>
+	 
 <script src="https://skeate.dev/Leaflet.timeline/examples/leaflet.timeline.js"></script>
 <script src="leaflet.textpath.js"></script>
 <script src="L.Control.Layers.Tree.js"></script>
@@ -19,25 +20,7 @@
 <link rel="stylesheet" href="L.Control.Layers.Tree.css"/>
 
 
-<script src="greatcentralleague1994.geojson" type="text/javascript"></script>
-<script src="westernleague1893.geojson" type="text/javascript"></script>
-<script src="unionassociation1884.geojson" type="text/javascript"></script>
-<script src="midamericaleague1995.geojson" type="text/javascript"></script>
-<script src="northcentralleague19941995.geojson" type="text/javascript"></script>
-<script src="prairieleague19951997.geojson" type="text/javascript"></script>
-<script src="heartlandleague19961998.geojson" type="text/javascript"></script>
-<script src="bigsouthleague19961997.geojson" type="text/javascript"></script>
-<script src="atlanticcoastleague1995.geojson" type="text/javascript"></script>
-<script src="northatlanticleague19951996.geojson" type="text/javascript"></script>
-<script src="northwoodsleague1994now.geojson" type="text/javascript"></script>
-<script src="northernleague19932010.geojson" type="text/javascript"></script>
-<script src="allamericanassociation2001.geojson" type="text/javascript"></script>
-<script src="frontierleague1993now.geojson" type="text/javascript"></script>
-<script src="southcoastleague2007.geojson" type="text/javascript"></script>
-<script src="majorleagues/nationalleague1876now.geojson" type="text/javascript"></script>
-<script src="majorleagues/bravestest.json" type="text/javascript"></script>
-<script src="majorleagues/americanleague1901now.geojson" type="text/javascript"></script>
-<script src="notableBirths.geojson" type="text/javascript"></script>
+
 <script src="majorleagues/NLandALteams.json" type="text/javascript"></script>
 <script src="minorleagues/westernleague1894.json" type="text/javascript"></script>
 <script src="minorleagues/pacificcoastleague.json" type="text/javascript"></script>
@@ -73,6 +56,10 @@
 <script src="indyleagues/atlanticleague.json" type="text/javascript"></script>
 <script src="indyleagues/frontierleague.json" type="text/javascript"></script>
 <script src="indyleagues/continentalbaseballleague.json" type="text/javascript"></script>
+
+
+
+<script src="leagueindex.json" type="text/javascript"></script>
 
 <script src="collegiatesummerleagues/northwoodsleague.json" type="text/javascript"></script>
 
@@ -160,7 +147,8 @@ var greenIcon 			= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-gree
 	brownIcon 			= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-brown.png'});
 	brightorangeIcon 	= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-brightorange.png'});
 	hotpinkIcon		 	= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-hotpink.png'});
-
+	lightpinkIcon		 = new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-lightpink.png'});
+	
 var defunctIcon		= new L.Icon({iconUrl: 'defunct1.png', iconAnchor: [15, 35]});
 var birthIcon 		= new L.Icon({iconUrl: 'birthIcon.png'});
 var exclamationIcon = new L.Icon({iconUrl: 'exclamation.png'});
@@ -196,135 +184,15 @@ var NorthwoodsIcon = new L.Icon({
   shadowSize: [41, 41]
 });
 
-
-
-
-//these should always be camelcased! lowercase is the JSON objects
-//major leagues
-var NationalLeague 					= {"type": 'FeatureCollection', "features": []}
-var AmericanLeague 					= {"type": 'FeatureCollection', "features": []}
-var NationalAssociation 			= {"type": 'FeatureCollection', "features": []}
-var AmericanAssociation				= {"type": 'FeatureCollection', "features": []}
-var UnionAssociation				= {"type": 'FeatureCollection', "features": []}
-var PlayersLeague 					= {"type": 'FeatureCollection', "features": []}
-var FederalLeague					= {"type": 'FeatureCollection', "features": []}
-
-
-//minor leagues
-
-//extant AAA
-var PacificCoastLeague				= {"type": 'FeatureCollection', "features": []}
-var InternationalLeague				= {"type": 'FeatureCollection', "features": []}
-//extant AA
-var TexasLeague						= {"type": 'FeatureCollection', "features": []}
-var EasternLeague					= {"type": 'FeatureCollection', "features": []}
-//extant high-A 
-
-var MidwestLeague					= {"type": 'FeatureCollection', "features": []}
-//extant low-A
-var CaliforniaLeague				= {"type": 'FeatureCollection', "features": []}
-var CarolinaLeague					= {"type": 'FeatureCollection', "features": []}
-
-//extant indy
-var AppalachianLeague				= {"type": 'FeatureCollection', "features": []}
-var AtlanticLeague					= {"type": 'FeatureCollection', "features": []}
-var FrontierLeague					= {"type": 'FeatureCollection', "features": []}
-
-
-//extant summer collegiate
-var NorthwoodsLeague 				= {"type": 'FeatureCollection', "features": []}
-
-//defunct Indy 
-var NorthCentralLeague				= {"type": 'FeatureCollection', "features": []}
-var GreatCentralLeague				= {"type": 'FeatureCollection', "features": []}
-var MidAmericaLeague				= {"type": 'FeatureCollection', "features": []}
-var PrairieLeague					= {"type": 'FeatureCollection', "features": []}
-var BigSouthLeague					= {"type": 'FeatureCollection', "features": []}
-var NorthAtlanticLeague				= {"type": 'FeatureCollection', "features": []}
-var HeartlandLeague					= {"type": 'FeatureCollection', "features": []}
-var TexasLouisianaLeague			= {"type": 'FeatureCollection', "features": []}
-var CentralBaseballLeague			= {"type": 'FeatureCollection', "features": []}
-var UnitedLeagueBaseball			= {"type": 'FeatureCollection', "features": []}
-var NorthAmericanLeague				= {"type": 'FeatureCollection', "features": []}
-var AllAmericanAssociation			= {"type": 'FeatureCollection', "features": []}
-var SoutheasternLeague				= {"type": 'FeatureCollection', "features": []}
-var NorthernLeague					= {"type": 'FeatureCollection', "features": []}
-var SouthCoastLeague				= {"type": 'FeatureCollection', "features": []}
-var WesternBaseballLeague			= {"type": 'FeatureCollection', "features": []}
-var GoldenBaseballLeague			= {"type": 'FeatureCollection', "features": []}
-var NortheastLeague 				= {"type": 'FeatureCollection', "features": []}
-var CanAmLeague 					= {"type": 'FeatureCollection', "features": []}
-var ContinentalBaseballLeague 		= {"type": 'FeatureCollection', "features": []}
-
-//defunct
-var WesternLeague					= {"type": 'FeatureCollection', "features": []}
-var InternationalAssociation		= {"type": 'FeatureCollection', "features": []}
-var LeagueAlliance					= {"type": 'FeatureCollection', "features": []}
-var NationalBaseBallAssociation		= {"type": 'FeatureCollection', "features": []}
-var InterstateAssociation			= {"type": 'FeatureCollection', "features": []}
-var PacificCoastInternationalLeague	= {"type": 'FeatureCollection', "features": []}
-var AlabamaTennesseeLeague			= {"type": 'FeatureCollection', "features": []}
-var IllinoisIndianaIowaLeague		= {"type": 'FeatureCollection', "features": []}
-var IllinoisStateLeague				= {"type": 'FeatureCollection', "features": []}
-var MississippiOhioValleyLeague		= {"type": 'FeatureCollection', "features": []}
-var SouthAtlanticLeague				= {"type": 'FeatureCollection', "features": []}
-var NorthwesternLeague				= {"type": 'FeatureCollection', "features": []}
-var CentralLeague					= {"type": 'FeatureCollection', "features": []}
-
-var NoLeague						= {"type": 'FeatureCollection', "features": []}
+var NoLeague						= {"type": 'FeatureCollection', "features": []} //gotta keep this guy
 
 function addGeoJSONTeamsToLeagues (geoJSONTeam, league) {
-	switch (league) {
-		case "Alabama-Tennessee League":		AlabamaTennesseeLeague.features.push(geoJSONTeam); 			break;				
-		case "All-American Association":		AllAmericanAssociation.features.push(geoJSONTeam); 			break;			
-		case "AmericanLeague": 					AmericanLeague.features.push(geoJSONTeam); 					break;
-		case "American Association": 			AmericanAssociation.features.push(geoJSONTeam); 			break;
-		case "Appalachian League": 				AppalachianLeague.features.push(geoJSONTeam); 				break;		
-		case "Atlantic League": 				AtlanticLeague.features.push(geoJSONTeam); 					break;	
-		case "Big South League": 				BigSouthLeague.features.push(geoJSONTeam); 					break;			
-		case "California League":				CaliforniaLeague.features.push(geoJSONTeam); 				break;
-		case "Can-Am League":					CanAmLeague.features.push(geoJSONTeam); 					break;
-		case "Carolina League":					CarolinaLeague.features.push(geoJSONTeam); 					break;
-		case "Central Baseball League":			CentralBaseballLeague.features.push(geoJSONTeam); 			break;
-		case "Central League":					CentralLeague.features.push(geoJSONTeam); 					break;
-		case "Continental Baseball League":		ContinentalBaseballLeague.features.push(geoJSONTeam); 		break;
-		case "Eastern League": 					EasternLeague.features.push(geoJSONTeam); 					break;
-		case "Frontier League": 				FrontierLeague.features.push(geoJSONTeam); 					break;
-		case "Great Central League": 			GreatCentralLeague.features.push(geoJSONTeam); 				break;
-		case "Golden Baseball League": 			GoldenBaseballLeague.features.push(geoJSONTeam); 			break;
-		case "Heartland League": 				HeartlandLeague.features.push(geoJSONTeam); 				break;
-		case "Illinois-Indiana-Iowa League": 	IllinoisIndianaIowaLeague.features.push(geoJSONTeam); 		break;
-		case "Illinois State League": 			IllinoisStateLeague.features.push(geoJSONTeam); 			break;
-		case "InternationalAssociation": 		InternationalAssociation.features.push(geoJSONTeam); 		break;
-		case "International League": 			InternationalLeague.features.push(geoJSONTeam);				break;
-		case "InterstateAssociation": 			InterstateAssociation.features.push(geoJSONTeam); 			break;	
-		case "Mid-America League": 				MidAmericaLeague.features.push(geoJSONTeam); 				break;
-		case "Midwest League": 					MidwestLeague.features.push(geoJSONTeam); 					break;	
-		case "Mississippi-Ohio Valley League": 	MississippiOhioValleyLeague.features.push(geoJSONTeam); 	break;		
-		case "NationalAssociation": 			NationalAssociation.features.push(geoJSONTeam); 			break;
-		case "NationalLeague": 					NationalLeague.features.push(geoJSONTeam); 					break;
-		case "North Atlantic League":			NorthAtlanticLeague.features.push(geoJSONTeam); 			break;	
-		case "North American League":			NorthAmericanLeague.features.push(geoJSONTeam); 			break;
-		case "Northern League":					NorthernLeague.features.push(geoJSONTeam); 					break;
-		case "Northeast League":				NortheastLeague.features.push(geoJSONTeam); 				break;
-		case "NorthwesternLeague":				NorthwesternLeague.features.push(geoJSONTeam); 				break;	
-		case "Northwoods League":				NorthwoodsLeague.features.push(geoJSONTeam); 				break;
-		case "North Central League":			NorthCentralLeague.features.push(geoJSONTeam); 				break;
-		case "Pacific Coast League": 			PacificCoastLeague.features.push(geoJSONTeam); 				break;
-		case "PacificCoastInternationalLeague":	PacificCoastInternationalLeague.features.push(geoJSONTeam); break;	
-		case "Players League": 					PlayersLeague.features.push(geoJSONTeam);					break;
-		case "Prairie League": 					PrairieLeague.features.push(geoJSONTeam); 					break;
-		case "South Atlantic League":			SouthAtlanticLeague.features.push(geoJSONTeam); 			break;	
-		case "South Coast League":				SouthCoastLeague.features.push(geoJSONTeam); 				break;	
-		case "Southeastern League":				SoutheasternLeague.features.push(geoJSONTeam); 				break;
-		case "Texas League":					TexasLeague.features.push(geoJSONTeam); 					break;		
-		case "Texas-Louisiana League":			TexasLouisianaLeague.features.push(geoJSONTeam); 			break;
-		case "United League Baseball":			UnitedLeagueBaseball.features.push(geoJSONTeam); 			break;
-		case "Western Baseball League": 		WesternBaseballLeague.features.push(geoJSONTeam); 			break;			
-		case "WesternLeague": 					WesternLeague.features.push(geoJSONTeam); 					break;		
-		case "Western League": 					WesternLeague.features.push(geoJSONTeam); 					break;
-		case "noLeague": 						NoLeague.features.push(geoJSONTeam); 						break;
-		}}
+	for  (let i = 0; i < leagueIndex.leagues.length; i++) {
+		if (leagueIndex.leagues[i].name == league) {
+			leagueIndex.leagues[i].properties.leagueGeoJSONArray.features.push(geoJSONTeam);
+			}
+	}
+	switch (league) {case "noLeague": NoLeague.features.push(geoJSONTeam); break; }} //exists just to handle the leagues UI update
 
 
 function convertTeamToGeoJSON(team, nameArray, leagueArray, coordArray){ 
@@ -557,159 +425,24 @@ function loadTeams(teamFile){
 
 }	
 
-
-
-loadTeams(NLandALteams);
-loadTeams(westernleague1894);
-loadTeams(westernleague);
-loadTeams(pacificcoastleague);
-loadTeams(alabamatennesseeleague);
-loadTeams(midwestleague) //also contains the predecessor leagues Illinois State League and Mississippi-Ohio Valley League
-loadTeams(internationalleague)
-loadTeams(playersleague)
-loadTeams(americanassociation)
-loadTeams(centralleague);
-loadTeams(northcentralleague);
-loadTeams(greatcentralleague);
-loadTeams(midamericaleague);
-loadTeams(prairieleague);
-loadTeams(bigsouthleague);
-loadTeams(northatlanticleague);
-loadTeams(heartlandleague);
-loadTeams(texaslouisianaleague); //includes Central Baseball League
-loadTeams(allamericanassociation); //includes Southeastern League
-loadTeams(northernleague); //includes American Association (indy). 2 travel teams not represented
-loadTeams(unitedleaguebaseball); //includes some North American League teams. some travel teams not represented
-loadTeams(southcoastleague);
-loadTeams(westernbaseballleague);
-loadTeams(goldenbaseballleague); //includes some North American League teams. also, travel teams not included
-loadTeams(atlanticleague);
-loadTeams(americanassociationminor);
-loadTeams(northwoodsleague);
-
-//some code here to analyze the league arrays and make the map league names
-//console.log(PlayersLeague);
-loadTeams(californialeague);
-loadTeams(carolinaleague);
-loadTeams(southatlanticleague);
-loadTeams(appalachianleague);
-loadTeams(northeastleague); //also has the Can-Am League
-loadTeams(threeileague);
-loadTeams(frontierleague);
-loadTeams(continentalbaseballleague);
-
-
 var LeagueLayerTree = L.control.layers.tree(baseTree, overlaysTree1, null)
-
 LeagueLayerTree.addTo(map);
 
-leagueLayerArray = [
-	[NationalLeagueLayer					= getLeagueTimeline(NationalLeague, NLIcon), "National League"],
-	[AmericanLeagueLayer					= getLeagueTimeline(AmericanLeague, ALIcon), "American League"],
-
-
-	[AppalachianLeagueLayer					= getLeagueTimeline(AppalachianLeague, pinkIcon), "Appalachian League"],
-	[NorthwoodsLeagueLayer					= getLeagueTimeline(NorthwoodsLeague, darkgreenIcon), "Northwoods League"],
-
-		
-		
-	[PacificCoastLeagueLayer				= getLeagueTimeline(PacificCoastLeague, greenIcon), "Pacific Coast League"],
-	[InternationalLeagueLayer				= getLeagueTimeline(InternationalLeague, redIcon), "International League"],	
-
-	[MidwestLeagueLayer 					= getLeagueTimeline(MidwestLeague, blueIcon), "Midwest League"],	
-	[CaliforniaLeagueLayer 					= getLeagueTimeline(CaliforniaLeague, blueIcon), "California League"],	
-	[CarolinaLeagueLayer 					= getLeagueTimeline(CarolinaLeague, brightorangeIcon), "Carolina League"],
-	[SouthAtlanticLeagueLayer 				= getLeagueTimeline(SouthAtlanticLeague, violetIcon), "South Atlantic League"],
-
-
-	[ThreeILeagueLayer 						= getLeagueTimeline(IllinoisIndianaIowaLeague, yellowIcon), "Three-I League"],
-	[WesternLeagueLayer 					= getLeagueTimeline(WesternLeague, orangeIcon), "Western League"],
-	[IllinoisStateLeagueLayer 				= getLeagueTimeline(IllinoisStateLeague, darkgreenIcon), "Illinois State League"],
-	[MississippiOhioValleyLeagueLayer 		= getLeagueTimeline(MississippiOhioValleyLeague, greenIcon), "Mississippi-Ohio Valley League"],
-
-	[AmericanAssociationLayer 				= getLeagueTimeline(AmericanAssociation, greyIcon), "American Association"],
-	[FrontierLeagueLayer 					= getLeagueTimeline(FrontierLeague, goldIcon), "Frontier League"],
-	[AtlanticLeagueLayer 					= getLeagueTimeline(AtlanticLeague, blackIcon), "Atlantic League"],
-	[CanAmLeagueLayer 						= getLeagueTimeline(CanAmLeague, yellowIcon), "Can-Am League"],
-	[NorthCentralLeagueLayer 				= getLeagueTimeline(NorthCentralLeague, blackIcon), "North Central League"],
-	[GreatCentralLeagueLayer 				= getLeagueTimeline(GreatCentralLeague, yellowIcon), "Great Central League"],
-	[MidAmericaLeagueLayer 					= getLeagueTimeline(MidAmericaLeague, brownIcon), "Mid-America League"],
-	[PrairieLeagueLayer 					= getLeagueTimeline(PrairieLeague, orangeIcon), "Prairie League"],
-	[BigSouthLeagueLayer 					= getLeagueTimeline(BigSouthLeague, aquamarineIcon), "Big South League"],
-	[NorthAtlanticLeagueLayer 				= getLeagueTimeline(NorthAtlanticLeague, darkblueIcon), "North Atlantic League"],
-	[HeartlandLeagueLayer 					= getLeagueTimeline(HeartlandLeague, orangeIcon), "Heartland League"],
-	[TexasLouisianaLeagueLayer 				= getLeagueTimeline(TexasLouisianaLeague, orangeIcon), "Texas-Louisiana League"],
-	[CentralBaseballLeagueLayer 			= getLeagueTimeline(CentralBaseballLeague, orangeIcon), "Central Baseball League"],
-	[SoutheasternLeagueLayer 				= getLeagueTimeline(SoutheasternLeague, orangeIcon), "Southeastern League"],
-	[AllAmericanAssociationLayer 			= getLeagueTimeline(AllAmericanAssociation, orangeIcon), "All-American Association League"],
-	[NorthernLeagueLayer 					= getLeagueTimeline(NorthernLeague, darkblueIcon), "Northern League"],
-	[SouthCoastLeagueLayer 					= getLeagueTimeline(SouthCoastLeague, orangeIcon), "South Coast League"],
-	[WesternBaseballLeagueLayer 			= getLeagueTimeline(WesternBaseballLeague, goldIcon), "Western Baseball League"],
-	[UnitedLeagueBaseballLayer 				= getLeagueTimeline(UnitedLeagueBaseball, orangeIcon), "United League Baseball"],
-	[GoldenBaseballLeagueLayer 				= getLeagueTimeline(GoldenBaseballLeague, goldIcon), "Golden Baseball League"],
-	[NorthAmericanLeagueLayer 				= getLeagueTimeline(NorthAmericanLeague, brownIcon), "North American League"],
-	[NortheastLeagueLayer 					= getLeagueTimeline(NortheastLeague, orangeIcon), "Northeast League"],
-	
-	
-	[NoLeagueLayer 							= getLeagueTimeline(NoLeague, NorthwoodsIcon), "noLeague"], //cheap quick hack to update the UI
-	
-
-]
+leagueLayerArray = [[NoLeagueLayer 	= getLeagueTimeline(NoLeague, NorthwoodsIcon), "noLeague"],] //cheap quick hack to update the UI
 
 
 
-
-
-getLeagueTimeline(HeartlandLeague, darkblueIcon);
-getLeagueTimeline(TexasLouisianaLeague, brownIcon);
-getLeagueTimeline(CentralBaseballLeague, brownIcon);
-getLeagueTimeline(SoutheasternLeague, aquamarineIcon);
-getLeagueTimeline(AllAmericanAssociation, blueIcon);
-getLeagueTimeline(NorthernLeague, darkgreenIcon);
-getLeagueTimeline(SouthCoastLeague, blueIcon);
-getLeagueTimeline(WesternBaseballLeague, violetIcon);
-getLeagueTimeline(UnitedLeagueBaseball, greenIcon);
-getLeagueTimeline(GoldenBaseballLeague, blackIcon);
-getLeagueTimeline(NorthAmericanLeague, brownIcon);
-getLeagueTimeline(NortheastLeague, yellowIcon);
 
 
 
 
 
 function getLeagueLevel(leagueStr) {
-	switch (leagueStr) {
-		case 	"National League": return timeCheck([["1876", "now", 0]]);
-		case 	"American League": return timeCheck([["1900", "1900", 1, "Class A"], ["1901", "now", 0]]);
-		case	"Frontier League": return timeCheck([["1993", "now", 2]]);
-		case    "Carolina League": return timeCheck([["1945", "1948", 1, "Class C"], ["1949", "1962", 1, "Class B"], ["1963", "1989", 1, "Class A"], ["1990", "2020", 1, "Class A-Advanced"], ["2021", "now", 1, "Class A-"]]);
-		case    "Northwoods League": return timeCheck([["1994", "now", 3]]);
-		case    "Atlantic League": return timeCheck([["1998", "now", 2]]);
-		
-		
-		
-		case    "Illinois State League": return timeCheck([["1947", "1949", 1, "Class D"]]);
-		case    "Mississippi-Ohio Valley League": return timeCheck([["1950", "1955", 1, "Class D"]]);
-		case    "Midwest League": return timeCheck([["1956", "1962", 1, "Class D"], ["1963", "2020", 1, "Class A"], ["2021", "now", 1, "Class A+"]]);
-		
-		case    "Pacific Coast League": return timeCheck([	["1903", "1903", 2], 
-															["1904", "1911", 1, "Class A"],
-															["1912", "1945", 1, "Class AA"],
-															["1946", "1951", 1, "Class AAA"],
-															["1952", "1957", 1, "Open"],
-															["1958", "now", 1, "Class AAA"],
-															]);
-		case    "International League": return timeCheck([	["1912", "1945", 1, "Class AA"],
-															["1946", "now", 1, "Class AAA"],
-															]);
-		case    "American Association": return timeCheck([	["1882", "1891", 0], 
-															["1903", "1911", 1, "Class A"],
-															["1912", "1945", 1, "Class AA"],
-															["1946", "1962", 1, "Class AAA"],
-															["1969", "1997", 1, "Class AAA"],
-															["2006", "now", 2],
-															]);
-		}
+	for  (let i = 0; i < leagueIndex.leagues.length; i++) {
+		if (leagueIndex.leagues[i].name == leagueStr) {
+			return timeCheck(leagueIndex.leagues[i].properties.levels);
+			}
+	}
 	return 1
 }	
 
@@ -725,25 +458,6 @@ var overlaysTree1 = 	{
 
 
 
-
-
-for (let i = 0; i < leagueLayerArray.length; i++) {
-	leagueLayerArray[i][0].addTo(map);
-	timelineControl.addTimelines(leagueLayerArray[i][0]);
-	
-	
-} 
-
-// L.layerGroup(leagueLayerArray);
-//consolidatedLeagueLayers.addTo(map);
-//timelineControl.addTimelines(consolidatedLeagueLayers);
-
-
-//consolidatedLeagueLayers.on('change', function() {console.log("test")})
-
-
-
-
 var baseTree = {
 	children: [
         {label: "Light Mode", layer: CartoDB_LightMatter},
@@ -756,10 +470,10 @@ function rebuildLeagueUIList() {                //whenever I need to rebuild the
 		label: 'Leagues',
 		selectAllCheckbox: 'Un/select all',
 		children: [  
-				{ label: 'Major Leagues', selectAllCheckbox: true, children: [] },
-				{ label: 'Minor Leagues', selectAllCheckbox: true, children: [] },
-				{ label: 'Independent', selectAllCheckbox: true, children: [] },
-				{ label: 'Collegiate Summer', selectAllCheckbox: true, children: [] },		
+				{ label: '<b>Major Leagues</b>', selectAllCheckbox: true, children: [] },
+				{ label: '<b>Minor Leagues</b>', selectAllCheckbox: true, children: [] },
+				{ label: '<b>Independent</b>', selectAllCheckbox: true, collapsed: true, children: [] },
+				{ label: '<b>Collegiate Summer</b>', selectAllCheckbox: true, collapsed: true, children: [] },		
 				{ label: 'Sir-Not-Appearing-At-This-Time', selectAllCheckbox: true, collapsed: true, children: [] },					
 				]
 				}						
@@ -878,7 +592,7 @@ function rebuildLeagueUIList() {                //whenever I need to rebuild the
 			{ label: 'Class A-Advanced', selectAllCheckbox: true, children: [] }, 
 			{ label: 'Class A', selectAllCheckbox: true, children: [] }, 
 			{ label: 'Class A-Short Season', selectAllCheckbox: true, children: [] }, 
-			{ label: 'Rookie-Advanced', selectAllCheckbox: true, children: [] }, 
+			{ label: 'Rookie Advanced', selectAllCheckbox: true, children: [] }, 
 			{ label: 'Rookie', selectAllCheckbox: true, children: [] }, 			)
 	}
 	if (((cleanDates("2021", "start")) <= timelineControl.time) && ((cleanDates("now", "end")) >= timelineControl.time)) {
@@ -939,47 +653,36 @@ function getArrayNumOfLeagueLevel (leagueLvlStr) {
 		if (leagueLvlStr == j.label) {return j}}}
 		
 
-	
 
-//these are camelcased and refer to the ARRAY
-//lowercase refers to the JSON file
-getLeagueTimeline(NationalLeague, NLIcon); 
-getLeagueTimeline(AmericanLeague, ALIcon);
-getLeagueTimeline(InternationalLeague, redIcon);
-getLeagueTimeline(InternationalAssociation, pinkIcon);
-getLeagueTimeline(AmericanAssociation, orangeIcon);
-getLeagueTimeline(WesternLeague, greenIcon);
-getLeagueTimeline(EasternLeague, goldIcon);
-getLeagueTimeline(NationalAssociation, blueIcon);
-getLeagueTimeline(NationalBaseBallAssociation, yellowIcon);
-getLeagueTimeline(InterstateAssociation, violetIcon);	
-getLeagueTimeline(PacificCoastLeague, goldIcon);	
-getLeagueTimeline(NorthwesternLeague, darkgreenIcon);	
-getLeagueTimeline(TexasLeague, pinkIcon);	
-getLeagueTimeline(AlabamaTennesseeLeague, orangeIcon);
-getLeagueTimeline(PacificCoastInternationalLeague, aquamarineIcon);		
-getLeagueTimeline(IllinoisStateLeague, greyIcon);	
-getLeagueTimeline(MississippiOhioValleyLeague, greyIcon);	
-getLeagueTimeline(MidwestLeague, greyIcon);	
-getLeagueTimeline(IllinoisIndianaIowaLeague, violetIcon);		
-getLeagueTimeline(SouthAtlanticLeague, violetIcon);
-getLeagueTimeline(PlayersLeague, blackIcon);
-getLeagueTimeline(CentralLeague, blueIcon);
-//getLeagueTimeline(CarolinaLeague, brightorangeIcon);
-getLeagueTimeline(AppalachianLeague, pinkIcon);
-getLeagueTimeline(FrontierLeague, blueIcon);
-getLeagueTimeline(ContinentalBaseballLeague, brightorangeIcon);
+function loadLeaguesFromIndex() {	//sends all obj mentioned in leagueIndex into the geoJSON processor
+	for (let k = 0; k < leagueIndex.leagues.length; k++) 	{
+	if (leagueIndex.leagues[k].properties.loadName != null) {
+		loadTeams(eval(leagueIndex.leagues[k].properties.loadName)); }
+	if (leagueIndex.leagues[k].properties.loadName2 != null) {
+		loadTeams(eval(leagueIndex.leagues[k].properties.loadName2)); }
+															}
+processIndexGeoJSONintoTimelines()	
+								}
 
 
+function processIndexGeoJSONintoTimelines() {	
+	for (let i = 0; i < leagueIndex.leagues.length; i++) 	{
+		geoJSONArray = (leagueIndex.leagues[i].properties.leagueGeoJSONArray)
+		leagueIndex.leagues[i].properties.leagueTimeline = getLeagueTimeline(geoJSONArray, eval(leagueIndex.leagues[i].properties.icon));
+		leagueLayerArray.push([leagueIndex.leagues[i].properties.leagueTimeline, leagueIndex.leagues[i].name]);
+															}	
+	for (let i = 0; i < leagueLayerArray.length; i++) 	{
+		leagueLayerArray[i][0].addTo(map);
+		timelineControl.addTimelines(leagueLayerArray[i][0]);
+														} 
+											}									
 
-getLeagueTimeline(NorthwoodsLeague, yellowIcon);
+loadLeaguesFromIndex();
+
 
 
 
 timelineControl.addTo(map);
 timelineControl.setTime(cleanDates("now", "end"));
-
-
-
 
 </script> </body> </html>
