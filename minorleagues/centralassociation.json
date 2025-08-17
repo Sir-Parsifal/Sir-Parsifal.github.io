@@ -1,0 +1,81 @@
+centralassociation = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Clinton Cubs", "1947", "1948"],
+				["Clinton Steers", "1949", "1949"]
+						],
+			"leagues" : [
+				["Central Association", "1947", "1949"]
+						],
+			"coords": 	[
+				[[41.849265, -90.185394 ], "1947", "1949"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Hannibal Pilots", "1947", "1948"],
+						],
+			"leagues" : [
+				["Central Association", "1947", "1948"]
+						],
+			"coords": 	[
+				[[39.705, -91.359722 ], "1947", "1948"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Burlington Indians", "1947", "1949"],
+						],
+			"leagues" : [
+				["Central Association", "1947", "1949"]
+						],
+			"coords": 	[
+				[[40.827555, -91.136903 ], "1947", "1949"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Keokuk Pirates", "1947", "1949"],
+						],
+			"leagues" : [
+				["Central Association", "1947", "1949"]
+						],
+			"coords": 	[
+				[[40.41711428741143, -91.40471458965737], "1947", "1949"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Moline A's", "1947", "1948-06-18"],
+				["Kewanee A's", "1948-06-19", "1949"],
+						],
+			"leagues" : [
+				["Central Association", "1947", "1949"]
+						],
+			"coords": 	[
+				[[41.492081, -90.511776 ], "1947", "1948-06-18"],
+				[[41.2561274285338, -89.92441748262219], "1948-06-19", "1949"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Rockford Rox", "1947", "1949"],
+						],
+			"leagues" : [
+				["Central Association", "1947", "1949"]
+						],
+			"coords": 	[
+				[[42.250200404219136, -89.10118917473791], "1947", "1949"],
+						]
+		},
+	]
+}
+	

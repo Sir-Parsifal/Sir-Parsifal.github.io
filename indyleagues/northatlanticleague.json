@@ -96,3 +96,84 @@ northatlanticleague = {
 	]
 }
 	
+	
+pacificassociation = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Vallejo Admirals", "2013", "2020"]
+						],
+			"leagues" : [
+				["Pacific Association", "2013", "2020"],
+						],
+			"coords": 	[
+				[[38.096402307025855, -122.24442688798959], "2013", "2020"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["East Bay Lumberjacks", "2013", "2013"]
+						],
+			"leagues" : [
+				["Pacific Association", "2013", "2013"],
+						],
+			"coords": 	[
+				[[37.933993, -122.025898 ], "2013", "2013"]
+						]
+		},	
+		{ 
+			"type": "team",
+			"names": 	[
+				["Martinez Clippers", "2018", "2018"]
+						],
+			"leagues" : [
+				["Pacific Association", "2018", "2018"],
+						],
+			"coords": 	[
+				[[38.02245398991953, -122.1331199558281], "2018", "2018"]
+						]
+		},	
+		{ 
+			"type": "team",
+			"names": 	[
+				["Napa Silverados", "2018", "2019"]
+						],
+			"leagues" : [
+				["Pacific Association", "2018", "2019"],
+						],
+			"coords": 	[
+				[[38.274722, -122.275556 ], "2018", "2019"]
+						]
+		},	
+		{ 
+			"type": "team",
+			"names": 	[
+				["Pittsburg Mettle", "2014", "2014"],
+				["Pittsburg Diamonds", "2015", "2015"],
+						],
+			"leagues" : [
+				["Pacific Association", "2014", "2018"],
+						],
+			"coords": 	[
+				[[38.028056, -121.884722  ], "2014", "2018"]
+						]
+		},	
+		{ 
+			"type": "team",
+			"names": 	[
+				["Sonoma Stompers", "2014", "now"],
+						],
+			"leagues" : [
+				["Pacific Association", "2014", "2020"],
+				["California Collegiate League", "2021", "now"],
+						],
+			"coords": 	[
+				[[38.29709355746494, -122.45767045668902], "2014", "now"]
+						]
+		},			
+		
+	]
+}

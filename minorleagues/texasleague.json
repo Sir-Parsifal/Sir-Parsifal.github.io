@@ -1,0 +1,94 @@
+texasleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["El Paso Sun Dodgers", "1972", "1972"],
+				["El Paso Sun Kings", "1973", "1973"],
+				["El Paso Diablos", "1974", "2004"],
+				["Springfield Cardinals", "2005", "now"]
+						],
+			"leagues" : [
+				["Texas League", "1972", "now"]
+						],
+			"coords": 	[
+				[[31.768954, -106.445176 ], "1972", "2004"],
+				[[37.211111, -93.279722 ], "2005", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Midland Cubs", "1972", "1984"],
+				["Midland Angels", "1985", "1998"],
+				["Midland RockHounds", "1999", "now"],
+						],
+			"leagues" : [
+				["Texas League", "1972", "now"]
+						],
+			"coords": 	[
+				[[32.044414, -102.076131  ], "1972", "2001"],
+				[[31.987332, -102.155799  ], "2005", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Memphis Blues", "1968", "1973"],
+				["Victoria Toros", "1974", "1974"],
+				["Jackson Mets", "1975", "1990"],
+				["Jackson Generals", "1991", "1999"],
+				["Round Rock Express", "2000", "2004"],
+				["Corpus Christi Hooks", "2005", "now"],
+						],
+			"leagues" : [
+				["Texas League", "1968", "1970"],
+				["Dixie Association", "1971", "1971"],
+				["Texas League", "1972", "1970"]
+						],
+			"coords": 	[
+				[[35.123611, -89.98 ], "1968", "1973"],
+				[[28.81312, -97.02319  ], "1974", "1974"],
+				[[32.336401, -90.153943 ], "1975", "1999"],
+				[[30.5273, -97.6305  ], "2000", "2004"],
+				[[27.809583, -97.399694   ], "2005", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Arkansas Travelers", "1963", "now"],
+						],
+			"leagues" : [
+				["International League", "1963", "1963"],
+				["Pacific Coast League", "1964", "1965"],
+				["Texas League", "1966", "now"]
+						],
+			"coords": 	[
+				[[34.745278, -92.3275  ], "1963", "2006"],
+				[[34.755215, -92.272582 ], "2007", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["El Paso Sun Kings", "1961", "1970"],
+				["Shreveport Captains", "1971", "2000"],
+				["Shreveport Swamp Dragons", "2001", "2002"],
+				["Frisco RoughRiders", "2003", "now"],
+						],
+			"leagues" : [
+				["Sophmore Leaguee", "1961", "1961"],
+				["Texas League", "1962", "now"]
+						],
+			"coords": 	[
+				[[31.768954, -106.445176 ], "1961", "1970"],
+				[[32.496943, -93.765273  ], "1971", "1985"],
+				[[32.47835, -93.783057], "1986", "2002"],
+				[[33.098333, -96.82 ], "2003", "now"]
+						]
+		},
+	]
+}
+	

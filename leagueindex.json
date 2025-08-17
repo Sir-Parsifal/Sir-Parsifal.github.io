@@ -268,7 +268,7 @@ leagueIndex = {
 		{ 	"name": "Texas League",
 			"properties": {
 				"type": "league",			
-				"loadName": null,
+				"loadName": "texasleague",
 				"loadName2": null,
 				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
 				"leagueTimeline" : [],
@@ -281,6 +281,17 @@ leagueIndex = {
 							["1921", "1935", 1, "Class A"],
 							["1936", "1942", 1, "Class A1"],
 							["1946", "now", 1, "Class AA"],]
+				}
+		},
+		{ 	"name": "Dixie Association",
+			"properties": {
+				"type": "league",			
+				"loadName": null,
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "goldIcon",
+				"levels" : [["1971", "1971", 1, "Class AA"],]
 				}
 		},
 		{ 	"name": "Eastern League",
@@ -351,6 +362,17 @@ leagueIndex = {
 				"leagueTimeline" : [],
 				"icon" : "greenIcon",
 				"levels" : [["1995", "2004", 2]]
+				}
+		},
+		{ 	"name": "Pacific Association",
+			"properties": {
+				"type": "league",			
+				"loadName": "pacificassociation",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "pinkIcon",
+				"levels" : [["2013", "2019", 2]]
 				}
 		},
 		{ 	"name": "North Central League",
@@ -579,6 +601,18 @@ leagueIndex = {
 							["1934", "1934", 1, "Class B"],
 							["1948", "1951", 1, "Class A"],
 				]
+				}
+		},
+		{ 	"name": "Central Association",
+			"properties": {
+				"type": "league",			
+				"loadName": "centralassociation",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "redIcon",
+				"levels" : [["1908", "1917", 1, "Class D"],
+							["1947", "1949", 1, "Class C"],]
 				}
 		},
 	]
