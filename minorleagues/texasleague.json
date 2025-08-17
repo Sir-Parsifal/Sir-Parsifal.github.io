@@ -20,14 +20,18 @@ texasleague = {
 		{ 
 			"type": "team",
 			"names": 	[
+				["San Antonio Missions", "1968", "1971"],
 				["Midland Cubs", "1972", "1984"],
 				["Midland Angels", "1985", "1998"],
 				["Midland RockHounds", "1999", "now"],
 						],
 			"leagues" : [
+				["Texas League", "1968", "1970"],
+				["Dixie Association", "1971", "1971"],
 				["Texas League", "1972", "now"]
 						],
 			"coords": 	[
+				[[29.452762, -98.567051  ], "1968", "1971"],
 				[[32.044414, -102.076131  ], "1972", "2001"],
 				[[31.987332, -102.155799  ], "2005", "now"]
 						]
@@ -45,7 +49,7 @@ texasleague = {
 			"leagues" : [
 				["Texas League", "1968", "1970"],
 				["Dixie Association", "1971", "1971"],
-				["Texas League", "1972", "1970"]
+				["Texas League", "1972", "now"]
 						],
 			"coords": 	[
 				[[35.123611, -89.98 ], "1968", "1973"],
@@ -63,7 +67,9 @@ texasleague = {
 			"leagues" : [
 				["International League", "1963", "1963"],
 				["Pacific Coast League", "1964", "1965"],
-				["Texas League", "1966", "now"]
+				["Texas League", "1966", "1970"],
+				["Dixie Association", "1971", "1971"],
+				["Texas League", "1972", "now"],
 						],
 			"coords": 	[
 				[[34.745278, -92.3275  ], "1963", "2006"],
@@ -80,13 +86,74 @@ texasleague = {
 						],
 			"leagues" : [
 				["Sophmore Leaguee", "1961", "1961"],
-				["Texas League", "1962", "now"]
+				["Texas League", "1962", "1970"],
+				["Dixie Association", "1971", "1971"],
+				["Texas League", "1972", "now"],
 						],
 			"coords": 	[
 				[[31.768954, -106.445176 ], "1961", "1970"],
 				[[32.496943, -93.765273  ], "1971", "1985"],
 				[[32.47835, -93.783057], "1986", "2002"],
 				[[33.098333, -96.82 ], "2003", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Alexandria Aces", "1972", "1975"],
+				["Amarillo Gold Sox", "1976", "1982"],
+				["Beaumont Golden Gators", "1983", "1986"],
+				["Wichita Pilots", "1987", "1988"],
+				["Wichita Wranglers", "1989", "2007"],
+				["Northwest Arkansas Naturals", "2008", "now"],
+						],
+			"leagues" : [
+				["Texas League", "1972", "now"],
+						],
+			"coords": 	[
+				[[31.286615, -92.458556 ], "1972", "1975"],
+				[[35.206334, -101.799649  ], "1976", "1982"],
+				[[30.034944, -94.075 ], "1983", "1988"],
+				[[37.681389, -97.345833 ], "1989", "2007"],
+				[[36.159167, -94.195 ], "2008", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Amarillo Sonics", "1965", "1967"],
+				["Amarillo Giants", "1968", "1974"],
+				["Lafayette Drillers", "1975", "1976"],
+				["Tulsa Drillers", "1977", "now"],
+						],
+			"leagues" : [
+				["Texas League", "1965", "1970"],
+				["Dixie Association", "1971", "1971"],
+				["Texas League", "1972", "now"],
+						],
+			"coords": 	[
+				[[35.206334, -101.799649  ], "1965", "1974"],
+				[[30.23393071169666, -92.00672377666037], "1975", "1976"],
+				[[36.139722, -95.926944  ], "1977", "1980"],
+				[[36.139647, -95.923667  ], "1981", "2009"],
+				[[36.159722, -95.988056 ], "2010", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["San Antonio Brewers", "1972", "1976"],
+				["San Antonio Dodgers", "1977", "1987"],
+				["San Antonio Missions", "1988", "2018"],
+				["Amarillo Sod Poodles", "2019", "now"],
+						],
+			"leagues" : [
+				["Texas League", "1972", "now"],
+						],
+			"coords": 	[
+				[[29.452762, -98.567051 ], "1972", "1993"],
+				[[29.409131, -98.601114 ], "1994", "2018"],
+				[[35.205778, -101.830972 ], "2019", "now"],
 						]
 		},
 	]
