@@ -280,6 +280,7 @@ var blankStyle = {
 
 
 function getLeagueTimeline(team, ballIcon){
+	let weight = 0
 	teamTimeline = L.timeline(team, {
 			style:  function (feature, layer) {;
 				if (feature.geometry.properties.decoration == "leaguetext") {return blankStyle};
@@ -295,9 +296,12 @@ function getLeagueTimeline(team, ballIcon){
 													},
 				pointToLayer : function(feature, latlng) {
 							if (feature.properties.marker) {
-								return L.marker(latlng, {icon:feature.properties.marker}).setZIndexOffset(1000)}
-														
-							return L.marker(latlng, {icon:ballIcon}).bindPopup(feature.properties.name + "<br>" + feature.properties.league)}
+								return L.marker(latlng, {icon:feature.properties.marker}).setZIndexOffset(weight)}
+							switch (feature.properties.league) {
+								case "National League" : weight = 950;
+								case "American League" : weight = 800
+								}
+							return L.marker(latlng, {icon:ballIcon}).bindPopup(feature.properties.name + "<br>" + feature.properties.league).setZIndexOffset(weight)}
 							}		
 							
 							)

@@ -176,7 +176,7 @@ leagueIndex = {
 				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
 				"leagueTimeline" : [],
 				"icon" : "darkgreenIcon",
-				"levels" : 	[["1947", "1949", 1, "Class D"]]
+				"levels" : 	[["1947", "1948", 1, "Class D"]]
 				}
 		},
 		{ 	"name": "Mississippi-Ohio Valley League",
@@ -187,7 +187,7 @@ leagueIndex = {
 				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
 				"leagueTimeline" : [],
 				"icon" : "greenIcon",
-				"levels" : 	[["1950", "1955", 1, "Class D"]]
+				"levels" : 	[["1949", "1955", 1, "Class D"]]
 				}
 		},
 		{ 	"name": "National League",
