@@ -1,0 +1,78 @@
+interamericanleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Miami Amigos", "1979", "1979-06-30"],
+						],
+			"leagues" : [
+				["Inter-American League", "1979", "1979-06-30"]
+						],
+			"coords": 	[
+				[[25.79907, -80.210978] , "1979", "1979-06-30"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Petroleros de Zulia", "1979", "1979-06-30"],
+						],
+			"leagues" : [
+				["Inter-American League", "1979", "1979-06-30"]
+						],
+			"coords": 	[
+				[[10.633333, -71.633333]  , "1979", "1979-06-30"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Caracas Metropolitanos", "1979", "1979-06-30"],
+						],
+			"leagues" : [
+				["Inter-American League", "1979", "1979-06-30"]
+						],
+			"coords": 	[
+				[[10.480556, -66.903611 ]  , "1979", "1979-06-30"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Santo Domingo Azucareros", "1979", "1979-06-30"],
+						],
+			"leagues" : [
+				["Inter-American League", "1979", "1979-06-30"]
+						],
+			"coords": 	[
+				[[18.4625, -69.936111  ]  , "1979", "1979-06-30"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Santo Domingo Azucareros", "1979", "1979-06-17"],
+						],
+			"leagues" : [
+				["Inter-American League", "1979", "1979-06-17"]
+						],
+			"coords": 	[
+				[[8.971111, -79.534722 ]  , "1979", "1979-06-17"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Puerto  Rico Boricuas", "1979", "1979-06-17"],
+						],
+			"leagues" : [
+				["Inter-American League", "1979", "1979-06-17"]
+						],
+			"coords": 	[
+				[[18.406389, -66.063889 ]  , "1979", "1979-06-17"],
+						]
+		},
+	]
+}
+	

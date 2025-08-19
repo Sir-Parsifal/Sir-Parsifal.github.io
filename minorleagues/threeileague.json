@@ -173,6 +173,54 @@ threeileague = {
 				[[39.861518, -88.935893 ], "1946", "1950"]
 						]
 		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Decatur Commodores", "1937", "1942"],
+						],
+			"leagues" : [
+				["Illinois-Indiana-Iowa League", "1937", "1942"],
+						],
+			"coords": 	[
+				[[39.861518, -88.935893 ], "1937", "1942"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Bloomington Bengals", "1937", "1937-06-03"],
+						],
+			"leagues" : [
+				["Illinois-Indiana-Iowa League", "1937", "1937-06-03"],
+						],
+			"coords": 	[
+				[[40.462932, -88.991484 ], "1937", "1937-06-03"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Terre Haute Tots", "1937", "1937-06-03"],
+						],
+			"leagues" : [
+				["Illinois-Indiana-Iowa League", "1937", "1937-06-03"],
+						],
+			"coords": 	[
+				[[39.474722, -87.366944  ], "1937", "1937-06-03"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Bloomington Bloomers", "1938", "1939"],
+						],
+			"leagues" : [
+				["Illinois-Indiana-Iowa League", "1938", "1939"],
+						],
+			"coords": 	[
+				[[40.462932, -88.991484], "1938", "1939"]
+						]
+		},
 	]
 }
 	

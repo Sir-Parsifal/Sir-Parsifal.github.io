@@ -615,6 +615,52 @@ leagueIndex = {
 							["1947", "1949", 1, "Class C"],]
 				}
 		},
+		{ 	"name": "Alabama-Florida League",
+			"properties": {
+				"type": "league",			
+				"loadName": null,
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "redIcon",
+				"levels" : [["1936", "1939", 1, "Class D"],
+							["1951", "1962", 1, "Class D"],]
+				}
+		},
+		{ 	"name": "Alabama-Mississippi League",
+			"properties": {
+				"type": "league",			
+				"loadName": null,
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "redIcon",
+				"levels" : [["1936", "1936", 1, "Class D"],]
+				}
+		},
+		{ 	"name": "Alabama State League",
+			"properties": {
+				"type": "league",			
+				"loadName": null,
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "redIcon",
+				"levels" : [["1940", "1941", 1, "Class D"],
+							["1946", "1950", 1, "Class D"],]
+				}
+		},
+		{ 	"name": "Inter-American League",
+			"properties": {
+				"type": "league",			
+				"loadName": "interamericanleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "yellowIcon",
+				"levels" : [["1979", "1979", 1, "Class AAA"],]
+				}
+		},
 	]
 }
 	
