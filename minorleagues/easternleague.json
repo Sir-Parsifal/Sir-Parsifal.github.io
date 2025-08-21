@@ -1,0 +1,257 @@
+easternleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Reading Phillies", "1967", "2012"],
+				["Reading Fightin' Phils", "2013", "now"]
+						],
+			"leagues" : [
+				["Eastern League", "1967", "now"]
+						],
+			"coords": 	[
+				[[40.365833, -75.933611] , "1967", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Portland Sea Dogs", "1994", "now"]
+						],
+			"leagues" : [
+				["Eastern League", "1994", "now"]
+						],
+			"coords": 	[
+				[[43.656944, -70.278333 ] , "1994", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["New Haven Ravens", "1994", "2003"],
+				["New Hampshire Fisher Cats", "2004", "now"],
+						],
+			"leagues" : [
+				["Eastern League", "1994", "now"]
+						],
+			"coords": 	[
+				[[41.309286, -72.958939 ] , "1994", "2003"],
+				[[42.981944, -71.454444 ] , "2004", "2004"],
+				[[42.980833, -71.466667  ] , "2005", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Altoona Curve", "1999", "now"],
+						],
+			"leagues" : [
+				["Eastern League", "1999", "now"]
+						],
+			"coords": 	[
+				[[40.473611, -78.394722   ] , "1999", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Binghamton Triplets", "1923", "1968"],
+				["Manchester Yankees", "1969", "1971"],
+				["West Haven Yankees", "1972", "1979"],
+				["Lynn Sailors", "1980", "1982"],
+				["Lynn Pirates", "1983", "1983"],
+				["Vermont Reds", "1984", "1987"],
+				["Vermont Mariners", "1988", "1988"],
+				["Canton-Akron Indians", "1989", "1996"],
+				["Akron Aeros", "1997", "2013"],
+				["Akron RubberDucks", "2014", "now"],
+						],
+			"leagues" : [
+				["New York-Penn League", "1923", "1937"],
+				["Eastern League", "1938", "1963"],
+				["New York-Penn League", "1964", "1966"],
+				["Eastern League", "1967", "now"],
+						],
+			"coords": 	[
+				[[42.098889, -75.910833  ], "1923", "1968"],
+				[[42.981944, -71.454444  ], "1969", "1971"],
+				[[41.293479, -72.955961  ], "1972", "1979"],
+				[[42.473678, -70.953431  ], "1980", "1983"],
+				[[44.481667, -73.187778  ], "1984", "1988"],
+				[[40.771653, -81.382819  ], "1989", "1996"],
+				[[41.077924, -81.522202  ], "1997", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[	
+				["Pittsfield Senators", "1970", "1971"],
+				["Pittsfield Rangers", "1972", "1975"],
+				["Berkshire Brewers", "1976", "1976"],
+				["Holyoke Millers", "1977", "1982"],
+				["Nashua Angels", "1983", "1983"],
+				["Nashua Pirates", "1984", "1986"],
+				["Harrisburg Senators", "1987", "now"],
+						],
+			"leagues" : [
+				["Eastern League", "1970", "now"],
+						],
+			"coords": 	[
+				[[40.365833, -75.933611   ], "1970", "1964"],
+				[[42.462319, -73.252582   ], "1965", "1976"],
+				[[42.200487, -72.621925   ], "1977", "1982"],
+				[[42.769086, -71.473194  ], "1983", "1986"],
+				[[40.256428, -76.889977  ], "1987", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Springfield Giants", "1957", "1965"],
+				["Waterbury Giants", "1966", "1967"],
+				["Waterbury Indians", "1968", "1971"],
+				["Sherbrooke Pirates", "1972", "1973"],
+				["Thetford Mines Pirates", "1974", "1974"],
+				["Thetford Mines Miners", "1975", "1975"],
+				["Williamsport Tomahawks", "1976", "1976"],
+				["Jersey City Indians", "1977", "1977"],
+				["Jersey City A's", "1978", "1978"],
+				["Buffalo Bisons", "1979", "1984"],
+				["Pittsfield Cubs", "1985", "1988"],
+				["Williamsport Bills", "1989", "1991"],
+				["Binghamton Mets", "1992", "2016"],
+				["Binghamton Rumble Ponies", "2017", "now"],
+						],
+			"leagues" : [
+				["Eastern League", "1957", "now"],
+						],
+			"coords": 	[
+				[[42.1102, -72.6103 ], "1957", "1965"],
+				[[41.577784, -73.070186 ], "1966", "1971"],
+				[[45.413443, -71.887896  ], "1972", "1973"],
+				[[46.1, -71.3  ], "1974", "1975"],
+				[[41.242347, -77.047067  ], "1976", "1976"],
+				[[40.706389, -74.105 ], "1977", "1978"],
+				[[42.905, -78.856 ], "1979", "1984"],
+				[[42.462319, -73.252582   ], "1985", "1988"],
+				[[41.242347, -77.047067  ], "1989", "1991"],
+				[[42.102769, -75.904988  ], "1992", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Elmira Pioneers", "1957", "1970"],
+				["Elmira Royals", "1971", "1971"],
+				["Elmira Pioneers", "1972", "1972"],
+				["Waterbury Dodgers", "1973", "1976"],
+				["Waterbury Giants", "1977", "1978"],
+				["Waterbury A's", "1979", "1979"],
+				["Waterbury Reds", "1980", "1983"],
+				["Waterbury Angels", "1984", "1984"],
+				["Waterbury Indians", "1985", "1986"],
+				["Williamsport Bills", "1987", "1988"],
+				["Hagerstown Suns", "1989", "1992"],
+				["Bowie Baysox", "1993", "2024"],
+				["Chesapeake Baysox", "2025", "now"],
+						],
+			"leagues" : [
+				["New York-Penn League", "1957", "1961"],
+				["Eastern League", "1962", "now"],
+						],
+			"coords": 	[
+				[[42.080296, -76.780674 ], "1957", "1972"],
+				[[41.577784, -73.070186  ], "1973", "1986"],
+				[[41.242347, -77.047067  ], "1987", "1988"],
+				[[39.632778, -77.7125 ], "1989", "1992"],
+				[[39.329444, -76.601389  ], "1993", "1993"],
+				[[38.945556, -76.709167 ], "1994", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Watertown Pirates", "1983", "1988"],
+				["Welland Pirates", "1989", "1994"],
+				["Erie SeaWolves", "1995", "now"],
+						],
+			"leagues" : [
+				["New York-Penn League", "1983", "1998"],
+				["Eastern League", "1999", "now"],
+						],
+			"coords": 	[
+				[[43.985353, -75.927721  ], "1983", "1988"],
+				[[43.024753, -79.246037 ], "1989", "1994"],
+				[[42.126944, -80.08  ], "1995", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Reading Red Sox", "1963", "1964"],
+				["Pittsfield Red Sox", "1965", "1969"],
+				["Pawtucket Red Sox", "1970", "1972"],
+				["Bristol Red Sox", "1973", "1982"],
+				["New Britain Red Sox", "1983", "1994"],
+				["Hardware City Rock Cats", "1995", "1996"],
+				["New Britain Rock Cats", "1997", "2015"],
+				["Hartford Yard Goats", "2016", "now"],
+						],
+			"leagues" : [
+				["Eastern League", "1963", "now"],
+						],
+			"coords": 	[
+				[[40.365833, -75.933611   ], "1963", "1964"],
+				[[42.462319, -73.252582   ], "1965", "1969"],
+				[[41.873164, -71.370039   ], "1970", "1972"],
+				[[41.673176, -72.959459 ], "1973", "1982"],
+				[[41.64778298888352, -72.77674494724809], "1983", "1995"],
+				[[41.648506, -72.775211 ], "1996", "2015"],
+				[[41.573875, -72.107072 ], "2016", "2016"],
+				[[41.771389, -72.673889 ], "2017", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["West Haven Whitecaps", "1980", "1980"],
+				["West Haven A's", "1981", "1982"],
+				["Albany A's", "1983", "1983"],
+				["Albany-Colonie A's", "1984", "1984"],
+				["Albany-Colonie Yankees", "1985", "1994"],
+				["Norwich Navigators", "1995", "2005"],
+				["Connecticut Defenders", "2006", "2009"],
+				["Richmond Flying Squirrels", "2010", "now"],
+						],
+			"leagues" : [
+				["Eastern League", "1980", "now"],
+						],
+			"coords": 	[
+				[[41.293479, -72.955961 ], "1980", "1982"],
+				[[42.740193, -73.816967 ], "1983", "1994"],
+				[[41.573875, -72.107072 ], "1995", "2009"],
+				[[37.571806, -77.463733  ], "2010", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Glens Falls White Sox", "1980", "1985"],
+				["Glens Falls Tigers", "1986", "1988"],
+				["London Tigers", "1989", "1993"],
+				["Trenton Thunder", "1994", "now"],
+						],
+			"leagues" : [
+				["Eastern League", "1980", "2020"],
+				["MLB Draft League", "2021", "now"],
+						],
+			"coords": 	[
+				[[43.316861, -73.627362 ], "1980", "1988"],
+				[[42.983611, -81.258667 ], "1989", "1993"],
+				[[40.2032, -74.7609 ], "1994", "now"],
+						]
+		},
+	]
+}
+	

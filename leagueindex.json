@@ -297,7 +297,7 @@ leagueIndex = {
 		{ 	"name": "Eastern League",
 			"properties": {
 				"type": "league",			
-				"loadName": null,
+				"loadName": "easternleague",
 				"loadName2": null,
 				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
 				"leagueTimeline" : [],
