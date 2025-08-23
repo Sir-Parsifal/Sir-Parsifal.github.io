@@ -314,7 +314,7 @@ leagueIndex = {
 		{ 	"name": "New York-Penn League",
 			"properties": {
 				"type": "league",			
-				"loadName": null,
+				"loadName": "newyorkpennleague",
 				"loadName2": null,
 				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
 				"leagueTimeline" : [],
@@ -659,6 +659,17 @@ leagueIndex = {
 				"leagueTimeline" : [],
 				"icon" : "yellowIcon",
 				"levels" : [["1979", "1979", 1, "Class AAA"],]
+				}
+		},
+		{ 	"name": "MLB Draft League",
+			"properties": {
+				"type": "league",			
+				"loadName": "mlbdraftleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "brownIcon",
+				"levels" : [["2021", "now", 3],]
 				}
 		},
 	]

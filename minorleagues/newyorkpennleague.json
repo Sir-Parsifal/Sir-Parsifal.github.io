@@ -1,0 +1,22 @@
+newyorkpennleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Watertown Pirates", "1983", "1988"],
+				["Watertown Indians", "1989", "1998"],
+				["Staten Island Yankees", "1999", "2020"],
+						],
+			"leagues" : [
+				["New York-Penn League", "1983", "2020"]
+						],
+			"coords": 	[
+				[[43.985353, -75.927721] , "1983", "1998"],
+				[[40.6, -74.15 ], "1999", "2000"],
+				[[40.645575, -74.076428 ], "2001", "2020"],
+						]
+		},
+	]
+}
+	

@@ -108,8 +108,12 @@ easternleague = {
 		{ 
 			"type": "team",
 			"names": 	[
-				["Springfield Giants", "1957", "1965"],
-				["Waterbury Giants", "1966", "1967"],
+				["Wilkes-Barre Barons", "1923", "1947"],
+				["Wilkes-Barre Indians", "1948", "1951"],
+				["Reading Indians", "1952", "1961"],
+				["Charleston Indians", "1962", "1964"],
+				["Reading Indians", "1965", "1965"],
+				["Pawtucket Indians", "1966", "1967"],
 				["Waterbury Indians", "1968", "1971"],
 				["Sherbrooke Pirates", "1972", "1973"],
 				["Thetford Mines Pirates", "1974", "1974"],
@@ -124,11 +128,16 @@ easternleague = {
 				["Binghamton Rumble Ponies", "2017", "now"],
 						],
 			"leagues" : [
-				["Eastern League", "1957", "now"],
+				["New York-Penn League", "1923", "1937"],
+				["Eastern League", "1938", "now"],
 						],
 			"coords": 	[
-				[[42.1102, -72.6103 ], "1957", "1965"],
-				[[41.577784, -73.070186 ], "1966", "1971"],
+				[[41.252586, -75.892755  ], "1923", "1951"],
+				[[40.365833, -75.933611 ], "1952", "1961"],
+				[[38.327778, -81.6  ], "1962", "1964"],
+				[[40.365833, -75.933611  ], "1965", "1965"],
+				[[41.873164, -71.370039 ], "1966", "1967"],
+				[[41.577784, -73.070186 ], "1968", "1971"],
 				[[45.413443, -71.887896  ], "1972", "1973"],
 				[[46.1, -71.3  ], "1974", "1975"],
 				[[41.242347, -77.047067  ], "1976", "1976"],
@@ -137,6 +146,20 @@ easternleague = {
 				[[42.462319, -73.252582   ], "1985", "1988"],
 				[[41.242347, -77.047067  ], "1989", "1991"],
 				[[42.102769, -75.904988  ], "1992", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Springfield Giants", "1957", "1965"],
+				["Waterbury Giants", "1966", "1967"],
+						],
+			"leagues" : [
+				["Eastern League", "1957", "1967"],
+						],
+			"coords": 	[
+				[[42.1102, -72.6103 ], "1957", "1965"],
+				[[41.577784, -73.070186 ], "1966", "1967"],
 						]
 		},
 		{ 
@@ -172,23 +195,48 @@ easternleague = {
 		{ 
 			"type": "team",
 			"names": 	[
-				["Watertown Pirates", "1983", "1988"],
-				["Welland Pirates", "1989", "1994"],
-				["Erie SeaWolves", "1995", "now"],
+				["Erie SeaWolves", "1999", "now"],
 						],
 			"leagues" : [
-				["New York-Penn League", "1983", "1998"],
 				["Eastern League", "1999", "now"],
 						],
 			"coords": 	[
-				[[43.985353, -75.927721  ], "1983", "1988"],
-				[[43.024753, -79.246037 ], "1989", "1994"],
-				[[42.126944, -80.08  ], "1995", "now"],
+				[[42.126944, -80.08  ], "1999", "now"],
 						]
 		},
 		{ 
 			"type": "team",
 			"names": 	[
+				["Watertown Pirates", "1983", "1988"],
+				["Welland Pirates", "1989", "1994"],
+				["Erie SeaWolves", "1995", "1998"],
+				["Mahoning Valley Scrappers", "1999", "now"],
+						],
+			"leagues" : [
+				["New York-Penn League", "1983", "2020"],
+				["MLB Draft League", "2021", "now"],
+						],
+			"coords": 	[
+				[[43.985353, -75.927721  ], "1983", "1988"],
+				[[43.024753, -79.246037 ], "1989", "1994"],
+				[[42.126944, -80.08  ], "1995", "1998"],
+				[[41.218453, -80.755241   ], "1999", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Elmira Red Jackets", "1923", "1923"],
+				["Elmira Colonels", "1924", "1931"],
+				["Elmira Red Wings", "1932", "1934"],
+				["Elmira Pioneers", "1935", "1936"],
+				["Elmira Colonels", "1937", "1937"],
+				["Elmira Pioneers", "1938", "1955"],
+				["Syracuse Chiefs", "1956", "1957-07-12"],
+				["Allentown Chiefs", "1957-07-13", "1957"],
+				["Allentown Red Sox", "1958", "1960"],
+				["Johnstown Red Sox", "1961", "1961"],
+				["York White Roses", "1962", "1962"],
 				["Reading Red Sox", "1963", "1964"],
 				["Pittsfield Red Sox", "1965", "1969"],
 				["Pawtucket Red Sox", "1970", "1972"],
@@ -199,9 +247,15 @@ easternleague = {
 				["Hartford Yard Goats", "2016", "now"],
 						],
 			"leagues" : [
-				["Eastern League", "1963", "now"],
+				["New York-Penn League", "1923", "1937"],
+				["Eastern League", "1938", "now"],
 						],
 			"coords": 	[
+				[[42.080296, -76.780674 ], "1923", "1955"],
+				[[43.076657, -76.162959  ], "1956", "1957-07-12"],
+				[[40.629722, -75.483333 ], "1957-07-13", "1960"],
+				[[40.329, -78.925  ], "1961", "1961"],
+				[[39.962778, -76.728056  ], "1962", "1962"],
 				[[40.365833, -75.933611   ], "1963", "1964"],
 				[[42.462319, -73.252582   ], "1965", "1969"],
 				[[41.873164, -71.370039   ], "1970", "1972"],
@@ -250,6 +304,257 @@ easternleague = {
 				[[43.316861, -73.627362 ], "1980", "1988"],
 				[[42.983611, -81.258667 ], "1989", "1993"],
 				[[40.2032, -74.7609 ], "1994", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["York White Roses", "1963", "1967"],
+				["York Pirates", "1968", "1969"],
+						],
+			"leagues" : [
+				["Eastern League", "1963", "1969"],
+						],
+			"coords": 	[
+				[[39.962778, -76.728056  ], "1963", "1969"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Quebec Carnavals", "1971", "1975"],
+				["Quebec Metros", "1976", "1977"],
+						],
+			"leagues" : [
+				["Eastern League", "1971", "1977"],
+						],
+			"coords": 	[
+				[[46.818611, -71.233497 ], "1971", "1977"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Trois-Rivières Aigles", "1971", "1977"],
+						],
+			"leagues" : [
+				["Eastern League", "1971", "1977"],
+						],
+			"coords": 	[
+				[[46.347778, -72.556389 ], "1971", "1977"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Williamsport Mets", "1964", "1967"],
+						],
+			"leagues" : [
+				["Eastern League", "1964", "1967"],
+						],
+			"coords": 	[
+				[[41.242347, -77.047067 ], "1964", "1967"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Williamsport Billies", "1923", "1923"],
+				["Williamsport Grays", "1924", "1942"],
+						],
+			"leagues" : [
+				["New York-Penn League", "1923", "1937"],
+				["Eastern League", "1938", "1942"],
+						],
+			"coords": 	[
+				[[41.244444, -77.018611  ], "1923", "1925"],
+				[[41.242347, -77.047067 ], "1926", "1942"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Williamsport Grays", "1944", "1946"],
+				["Williamsport Tigers", "1947", "1949"],
+				["Williamsport Grays", "1950", "1950"],
+				["Williamsport Tigers", "1951", "1952"],
+				["Williamsport Athletics", "1953", "1953"],
+				["Williamsport Grays", "1954", "1956"],
+						],
+			"leagues" : [
+				["Eastern League", "1944", "1956"],
+						],
+			"coords": 	[
+				[[41.242347, -77.047067 ], "1944", "1956"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Williamsport Grays", "1958", "1962"],
+						],
+			"leagues" : [
+				["Eastern League", "1958", "1962"],
+						],
+			"coords": 	[
+				[[41.242347, -77.047067 ], "1958", "1962"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Lancaster Red Roses", "1958", "1961"],
+						],
+			"leagues" : [
+				["Eastern League", "1958", "1961"],
+						],
+			"coords": 	[
+				[[40.058611, -76.313611 ], "1958", "1961"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["York White Roses", "1958", "1959"],
+						],
+			"leagues" : [
+				["Eastern League", "1958", "1959"],
+						],
+			"coords": 	[
+				[[39.962778, -76.728056 ], "1958", "1959"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Albany Senators", "1937", "1959"],
+						],
+			"leagues" : [
+				["New York-Penn League", "1937", "1937"],
+				["Eastern League", "1938", "1959"],
+						],
+			"coords": 	[
+				[[42.681864003438626, -73.73283329034341 ], "1937", "1959"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Schenectady Blue Jays", "1946", "1957"],
+						],
+			"leagues" : [
+				["Can-Am League", "1946", "1950"],
+				["Eastern League", "1951", "1957"],
+						],
+			"coords": 	[
+				[[42.814167, -73.937222 ], "1946", "1957"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Utica Braves", "1939", "1943"],
+				["Utica Blue Sox", "1942", "1950"],
+						],
+			"leagues" : [
+				["Can-Am League", "1939", "1942"],
+				["Eastern League", "1943", "1950"],
+						],
+			"coords": 	[
+				[[43.100833, -75.2325  ], "1939", "1950"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Hartford Laurels", "1938", "1938"],
+				["Hartford Bees", "1939", "1943"],
+				["Hartford Laurels", "1944", "1944"],
+				["Hartford Bees", "1945", "1945"],
+				["Hartford Chiefs", "1946", "1952"],
+						],
+			"leagues" : [
+				["Eastern League", "1938", "1952"],
+						],
+			"coords": 	[
+				[[41.732139, -72.677278  ], "1938", "1952"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Wilkes-Barre Barons", "1953", "1955-06-30"],
+				["Johnstown Johnnies", "1955-07-01", "1956"],
+						],
+			"leagues" : [
+				["Eastern League", "1953", "1956"],
+						],
+			"coords": 	[
+				[[41.252586, -75.892755 ], "1953", "1955-06-30"],
+				[[40.329, -78.925 ], "1955-07-01", "1956"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Scranton Red Sox", "1939", "1943"],
+				["Scranton Miners", "1944", "1945"],
+				["Scranton Red Sox", "1946", "1951"],
+				["Scranton Miners", "1952", "1953"],
+						],
+			"leagues" : [
+				["Eastern League", "1939", "1953"],
+						],
+			"coords": 	[
+				[[41.410556, -75.6675  ], "1939", "1953"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Allentown Cardinals", "1954", "1956"],
+						],
+			"leagues" : [
+				["Eastern League", "1954", "1956"],
+						],
+			"coords": 	[
+				[[40.629722, -75.483333  ], "1954", "1956"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Hazleton Mountaineers", "1934", "1936"],
+				["Hazleton Red Sox", "1937", "1938"],
+				["Hazleton Mountaineers", "1939", "1940"],
+						],
+			"leagues" : [
+				["New York-Penn League", "1934", "1937"],
+				["Eastern League", "1938", "1938"],
+				["Interstate League", "1939", "1940"],
+						],
+			"coords": 	[
+				[[40.958889, -75.974444 ], "1934", "1940"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Harrisburg Senators", "1924", "1935"],
+				["York White Roses", "1936", "1936-07-01"],
+				["Trenton Senators", "1936-07-02", "1938"],
+				["Springfield Nationals", "1939", "1941"],
+				["Springfield Rifles", "1942", "1943"],
+						],
+			"leagues" : [
+				["New York-Penn League", "1924", "1937"],
+				["Eastern League", "1938", "1943"],
+						],
+			"coords": 	[
+				[[40.269722, -76.875556 ], "1924", "1935"],
+				[[39.962778, -76.728056 ],  "1936", "1936-07-01"],
+				[[40.220278, -74.765833 ], "1936-07-02", "1938"],
+				[[42.101389, -72.590278 ], "1939", "1943"],
 						]
 		},
 	]

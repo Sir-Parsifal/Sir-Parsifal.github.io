@@ -41,6 +41,7 @@
 <script src="minorleagues/centralassociation.json" type="text/javascript"></script> 
 <script src="minorleagues/interamericanleague.json" type="text/javascript"></script> 
 <script src="minorleagues/easternleague.json" type="text/javascript"></script> 
+<script src="minorleagues/newyorkpennleague.json" type="text/javascript"></script> 
 
 <script src="indyleagues/northcentralleague.json" type="text/javascript"></script> 
 <script src="indyleagues/greatcentralleague.json" type="text/javascript"></script> 
@@ -66,6 +67,9 @@
 <script src="leagueindex.json" type="text/javascript"></script>
 
 <script src="collegiatesummerleagues/northwoodsleague.json" type="text/javascript"></script>
+<script src="collegiatesummerleagues/mlbdraftleague.json" type="text/javascript"></script> 
+
+
 
 <div id="map" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
     <style>
@@ -304,7 +308,7 @@ function getLeagueTimeline(team, ballIcon){
 								case "National League" : weight = 950;
 								case "American League" : weight = 800
 								}
-							return L.marker(latlng, {icon:ballIcon}).bindPopup(feature.properties.name + "<br>" + feature.properties.league).setZIndexOffset(weight)}
+							return L.marker(latlng, {icon:ballIcon}).bindPopup((feature.properties.name + "<br>" + feature.properties.league),{closeOnClick : false, autoClose: false}).setZIndexOffset(weight)}
 							}		
 							
 							)
