@@ -64,24 +64,14 @@ internationalleague = {
 		{ 
 			"type": "team",
 			"names": 	[
-				["Asheville Tourists", "1959", "1971"],
-				["Asheville Orioles", "1972", "1975"],
-				["Charlotte Orioles", "1976", "1987"],
-				["Charlotte Knights", "1988", "now"]
+				["Charlotte Knights", "1993", "now"]
 						],
 			"leagues" : [
-				["South Atlantic League", "1959", "1963"],
-				["Southern League", "1964", "1966"],
-				["Carolina League", "1967", "1967"],
-				["Southern League", "1968", "1970"],
-				["Dixie Association", "1971", "1971"],
-				["Southern League", "1972", "1992"],
 				["International League", "1993", "now"]
 						],
 			"coords": 	[
-				[[35.587222, -82.549167], "1959", "1975"],
-				[[35.203611, -80.858889], "1976", "1987"],
-				[[35.0525, -80.954444 ], "1988", "now"]
+				[[35.0525, -80.954444 ], "1993", "2013"],
+				[[35.227988, -80.849011 ], "2014", "now"]
 						]
 		},
 		{ 

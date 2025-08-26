@@ -1,0 +1,110 @@
+southernleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Knoxville Sox", "1972", "1979"],
+				["Knoxville Blue Jays", "1980", "1992"],
+				["Knoxville Smokies", "1993", "1999"],
+				["Tennessee Smokies", "2000", "2024"],
+				["Knoxville Smokies", "2025", "now"],
+						],
+			"leagues" : [
+				["Southern League", "1972", "now"]
+						],
+			"coords": 	[
+				[[35.980446, -83.913837 ], "1972", "1999"],
+				[[35.988889, -83.604444 ], "2000", "2024"],
+				[[35.972213, -83.914381 ], "2025", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Asheville Tourists", "1959", "1971"],
+				["Asheville Orioles", "1972", "1975"],
+				["Charlotte Orioles", "1976", "1987"],
+				["Charlotte Knights", "1988", "1992"],
+				["Nashville Xpress", "1993", "1994"],
+				["Port City Roosters", "1995", "1996"],
+				["Mobile BayBears", "1997", "2019"],
+				["Rocket City Trash Pandas", "2020", "now"],
+						],
+			"leagues" : [
+				["South Atlantic League", "1959", "1963"],
+				["Southern League", "1964", "1966"],
+				["Carolina League", "1967", "1967"],
+				["Southern League", "1968", "1970"],
+				["Dixie Association", "1971", "1971"],
+				["Southern League", "1972", "now"],
+						],
+			"coords": 	[
+				[[35.587222, -82.549167], "1959", "1975"],
+				[[35.203611, -80.858889], "1976", "1988"],
+				[[35.0525, -80.954444 ], "1989", "1992"],
+				[[36.143333, -86.773611  ], "1993", "1994"],
+				[[34.221942, -77.873301  ], "1995", "1996"],
+				[[30.64574, -88.11687  ], "1997", "2019"],
+				[[34.683883, -86.724288  ], "2020", "now"],
+
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Nashville Sounds", "1978", "1984"],
+				["Huntsville Stars", "1985", "2014"],
+				["Biloxi Shuckers", "2015", "now"],
+						],
+			"leagues" : [
+				["Southern League", "1978", "now"],
+						],
+			"coords": 	[
+				[[36.143333, -86.773611  ], "1978", "1984"],
+				[[34.699581, -86.588497 ], "1985", "2014"],
+				[[30.395741, -88.893463  ], "2015", "now"],
+
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Memphis Chicks", "1978", "1997"],
+				["West Tenn Diamond Jaxx", "1998", "2010"],
+				["Jackson Generals", "2011", "2020"],
+						],
+			"leagues" : [
+				["Southern League", "1978", "2020"],
+						],
+			"coords": 	[
+				[[35.123611, -89.98  ], "1978", "1997"],
+				[[35.676192, -88.769303 ], "1998", "2020"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Savannah Senators", "1968", "1969"],
+				["Savannah Indians", "1970", "1970"],
+				["Savannah Braves", "1971", "1983"],
+				["Greenville Braves", "1984", "2004"],
+				["Mississippi Braves", "2005", "2024"],
+				["Columbus Clingstones", "2025", "now"],
+						],
+			"leagues" : [
+				["Southern League", "1968", "1970"],
+				["Dixie Association", "1971", "1971"],
+				["Southern League", "1972", "now"],
+						],
+			"coords": 	[
+				[[32.044722, -81.078889  ], "1968", "1983"],
+				[[34.779884, -82.351263 ], "1984", "2004"],
+				[[32.27391, -90.147969  ], "2005", "2024"],
+				[[32.452348, -84.991541  ], "2025", "now"],
+						]
+		},
+
+	]
+}
+	

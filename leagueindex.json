@@ -136,7 +136,8 @@ leagueIndex = {
 		},
 		{ 	"name": "Midwest League",
 			"properties": {
-				"type": "league",			
+				"type": "league",	
+				"textImg" : "",
 				"loadName": "midwestleague",
 				"loadName2": null,
 				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
@@ -659,6 +660,17 @@ leagueIndex = {
 				"leagueTimeline" : [],
 				"icon" : "yellowIcon",
 				"levels" : [["1979", "1979", 1, "Class AAA"],]
+				}
+		},
+		{ 	"name": "Southern League",
+			"properties": {
+				"type": "league",			
+				"loadName": "southernleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "darkblueIcon",
+				"levels" : [["1964", "now", 1, "Class AA"],]
 				}
 		},
 		{ 	"name": "MLB Draft League",

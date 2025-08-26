@@ -42,6 +42,7 @@
 <script src="minorleagues/interamericanleague.json" type="text/javascript"></script> 
 <script src="minorleagues/easternleague.json" type="text/javascript"></script> 
 <script src="minorleagues/newyorkpennleague.json" type="text/javascript"></script> 
+<script src="minorleagues/southernleague.json" type="text/javascript"></script> 
 
 <script src="indyleagues/northcentralleague.json" type="text/javascript"></script> 
 <script src="indyleagues/greatcentralleague.json" type="text/javascript"></script> 
@@ -83,7 +84,7 @@
         margin-bottom: 15px;
       }
     </style>
-	
+
 
 
 </head>
@@ -156,6 +157,7 @@ var greenIcon 			= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-gree
 	brightorangeIcon 	= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-brightorange.png'});
 	hotpinkIcon		 	= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-hotpink.png'});
 	lightpinkIcon		 = new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-lightpink.png'});
+	
 	
 var defunctIcon		= new L.Icon({iconUrl: 'defunct1.png', iconAnchor: [15, 35]});
 var birthIcon 		= new L.Icon({iconUrl: 'birthIcon.png'});
@@ -275,7 +277,8 @@ function getDetailColor(colorIcon) {
 				case violetIcon: 		return 	{color: "#A55DF0"};
 				case blueIcon: 			return 	{color: "#5D67F0"}; 
 				case yellowIcon: 		return 	{color: "#E3DD4B"}; 
-				case aquamarineIcon: 	return 	{color: "#65E0C9"}; 
+				case aquamarineIcon: 	return 	{color: "#65E0C9"};
+				case brownIcon: 	return 	{color: "#654321"}; 				
 				case brightorangeIcon: 	return 	{color: "#FFAB36"};}}
 
 
@@ -284,6 +287,11 @@ var blankStyle = {
     "weight": 0,
     "opacity": 0
 };
+
+
+
+
+
 
 
 function getLeagueTimeline(team, ballIcon){
@@ -639,7 +647,6 @@ function rebuildLeagueUIList() {                //whenever I need to rebuild the
 	//console.log(overlaysTree);
 	LeagueLayerTree = L.control.layers.tree(baseTree, overlaysTree2, null)
 	LeagueLayerTree.addTo(map);
-	
 }
 
 
@@ -654,8 +661,6 @@ for (let j = 0; j < timeArray.length; j++) {
 		return [timeArray[j][2], null]}
 	
 	}	
-
-
 return [4, null];			//if it doesn't pass any of the checks then it doesn't exist 	
 }
 
@@ -690,9 +695,48 @@ function processIndexGeoJSONintoTimelines() {
 														} 
 											}									
 
+//so, here's the plan for drawing images. we toss in some extra code into processIndexGeoJSONintoTimelines, which iterates through the leagues. 
+
+
+function buildFancyTextOnMap() {
+	for (let i = 0; i < leagueIndex.leagues.length; i++) 	{                                     //iterates through the leagues
+		//console.log(leagueIndex.leagues[i].name, leagueIndex.leagues[i].properties.leagueGeoJSONArray);
+		//console.log(leagueIndex.leagues[i].properties.leagueTimeline.times[0]);
+		if (leagueIndex.leagues[i].properties.textImg) {
+			for (let j = 0; j < leagueIndex.leagues[i].properties.leagueTimeline.times.length; j++) { 				//iterates through the timeline update points
+				//console.log(leagueIndex.leagues[i].name, leagueIndex.leagues[i].properties.leagueTimeline.times[j]) //so we can only draw new text whenever it updates
+				for (let k = 0; k < leagueIndex.leagues[i].properties.leagueGeoJSONArray.features.length; k++) { 			//iterates through the geoJSON array
+					let currentTeamGeoJSON = leagueIndex.leagues[i].properties.leagueGeoJSONArray.features[k];
+					if (currentTeamGeoJSON.type == "Feature") {
+						console.log(currentTeamGeoJSON);
+						}
+				}
+			}
+		}
+	}
+}		
+
+
+
+
+
+imageOverlayFactor = 1.5
+overlayLat = 33.89
+overlayLon = -104.75
+var imageOverlay = L.imageOverlay("texasleague.png", [[overlayLat, overlayLon], [overlayLat + imageOverlayFactor, overlayLon + (10*imageOverlayFactor)]], {opacity: 0.5})
+
+overlay2Lat = 41.90093422126158, 
+overlay2Lon = -95.83573141245431
+var imageOverlay2 = L.imageOverlay("midwestleague.png", [[overlay2Lat, overlay2Lon], [overlay2Lat + imageOverlayFactor, overlay2Lon + (10*imageOverlayFactor)]], {opacity: 0.5})
+
+
+imageOverlay.addTo(map);
+imageOverlay2.addTo(map);
+
+
+
 loadLeaguesFromIndex();
-
-
+//buildFancyTextOnMap();
 
 
 timelineControl.addTo(map);
