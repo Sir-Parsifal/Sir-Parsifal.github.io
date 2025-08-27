@@ -83,7 +83,9 @@ internationalleague = {
 				["Jacksonville Jumbo Shrimp", "2017", "now"]
 						],
 			"leagues" : [
-				["Southern League", "1970", "2020"],
+				["Southern League", "1970", "1970"],
+				["Dixie Association", "1971", "1971"],
+				["Southern League", "1972", "2020"],
 				["International League", "2021", "now"]
 						],
 			"coords": 	[
