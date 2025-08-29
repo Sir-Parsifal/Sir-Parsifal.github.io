@@ -1,0 +1,97 @@
+northernleagueminor = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Mankato Mets", "1967", "1968"],
+						],
+			"leagues" : [
+				["Northern League", "1967", "1968"],
+						],
+			"coords": 	[
+				[[44.17, -93.975833 ], "1967", "1968"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Aberdeen Pheasants", "1946", "1971"],
+						],
+			"leagues" : [
+				["Northern League", "1946", "1971"],
+						],
+			"coords": 	[
+				[[45.45035275436189, -98.48074348252139 ], "1946", "1971"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["St. Cloud Rox", "1946", "1971"],
+						],
+			"leagues" : [
+				["Northern League", "1946", "1971"],
+						],
+			"coords": 	[
+				[[45.552222, -94.189167  ], "1946", "1971"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Crookston Pirates", "1933", "1941"],
+						],
+			"leagues" : [
+				["Northern League", "1933", "1941"],
+						],
+			"coords": 	[
+				[[47.77803122645168, -96.58872526655601 ], "1933", "1941"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Sioux Falls Canaries", "1933", "1953"],
+						],
+			"leagues" : [
+				["Nebraska State League", "1933", "1938"],
+				["Western League", "1939", "1941"],
+				["Northern League", "1942", "1942"],
+				["WW2", "1943", "1945"],
+				["Northern League", "1946", "1953"],
+						],
+			"coords": 	[
+				[[43.536389, -96.731667 ], "1933", "1940"],
+				[[43.559721, -96.7492  ], "1941", "1953"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Winnipeg Goldeyes", "1969", "1969"],
+				["Watertown Expos", "1970", "1971"],
+						],
+			"leagues" : [
+				["Northern League", "1969", "1971"],
+						],
+			"coords": 	[
+				[[49.88957, -97.19832  ], "1969", "1969"],
+				[[44.901958, -97.139558  ], "1970", "1971"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Sioux Falls Packers", "1966", "1971"],
+						],
+			"leagues" : [
+				["Northern League", "1966", "1971"],
+						],
+			"coords": 	[
+				[[43.559721, -96.7492 ], "1966", "1971"],
+						]
+		},
+	]
+}
+	

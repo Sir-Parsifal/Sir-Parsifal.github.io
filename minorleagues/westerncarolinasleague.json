@@ -1,0 +1,18 @@
+westerncarolinasleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Hickory Rebels", "1960", "1960"],
+						],
+			"leagues" : [
+				["Western Carolina League", "1960", "1960"],
+						],
+			"coords": 	[
+				[[35.740556, -81.322222 ], "1960", "1960"],
+						]
+		}
+	]
+}
+	

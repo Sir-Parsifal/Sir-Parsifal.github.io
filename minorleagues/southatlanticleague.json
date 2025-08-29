@@ -175,6 +175,22 @@ southatlanticleague = {
 				[[41.527911, -73.961067  ], "1994", "now"],
 						]
 		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Greensboro Hornets", "1979", "1993"],
+				["Greensboro Bats", "1994", "2004"],
+				["Greensboro Grasshoppers", "2005", "now"],
+						],
+			"leagues" : [
+				["Western Carolinas League", "1979", "1979"],
+				["South Atlantic League", "1980", "now"]
+						],
+			"coords": 	[
+				[[36.079722, -79.777222  ], "1979", "2004"],
+				[[36.076667, -79.794722  ], "2005", "now"],
+						]
+		},
 	]
 }
 	

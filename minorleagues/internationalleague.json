@@ -238,8 +238,10 @@ internationalleague = {
 				["Louisville Bats", "2002", "now"]
 						],
 			"leagues" : [
-				["WesternLeague", "1919", "1932"],
-				["Texas League", "1933", "1965"],
+				["Western League", "1919", "1932"],
+				["Texas League", "1933", "1942"],
+				["WW2", "1943", "1945"],
+				["Texas League", "1946", "1965"],
 				["Pacific Coast League", "1966", "1968"],
 				["American Association", "1969", "1997"],
 				["International League", "1998", "now"]
@@ -339,15 +341,13 @@ internationalleague = {
 		{ 
 			"type": "team",
 			"names": 	[
-				["Durham Bulls", "1980", "now"]
+				["Durham Bulls", "1998", "now"]
 						],
 			"leagues" : [
-				["Carolina League", "1980", "1997"],
 				["International League", "1998", "now"]
 						],
 			"coords": 	[
-				[[36.002789, -78.902794 ], "1980", "1994"],
-				[[35.991689, -78.904186 ], "1995", "now"],
+				[[35.991689, -78.904186 ], "1998", "now"],
 						]
 		},
 		{ 

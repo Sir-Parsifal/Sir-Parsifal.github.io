@@ -119,7 +119,7 @@ leagueIndex = {
 			"properties": {
 				"type": "league",			
 				"loadName": "northernleague",
-				"loadName2": null,
+				"loadName2": "northernleagueminor",
 				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
 				"leagueTimeline" : [],
 				"icon" : "darkblueIcon",
@@ -129,8 +129,9 @@ leagueIndex = {
 							["1917", "1917", 1, "Class D"],
 							["1933", "1940", 1, "Class D"],
 							["1941", "1942", 1, "Class C"],
-							["1946", "1964", 1, "Class C"],
-							["1965", "1971", 1, "Class A-Short Season"],
+							["1946", "1962", 1, "Class C"],
+							["1963", "1965", 1, "Class A"],
+							["1966", "1971", 1, "Class A-Short Season"],
 							["1993", "2010", 2],]
 				}
 		},
@@ -682,6 +683,34 @@ leagueIndex = {
 				"leagueTimeline" : [],
 				"icon" : "brownIcon",
 				"levels" : [["2021", "now", 3],]
+				}
+		},
+		{ 	"name": "Pioneer League",
+			"properties": {
+				"type": "league",			
+				"loadName": "pioneerleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "blackIcon",
+				"levels" : [["1939", "1942", 1, "Class C"],
+							["1946", "1962", 1, "Class C"],
+							["1963", "1963", 1, "Class A"],
+							["1963", "2019", 1, "Rookie"],
+							["2020", "now", 2],
+							]
+				}
+		},
+		{ 	"name": "Western Carolinas League",
+			"properties": {
+				"type": "league",			
+				"loadName": "westerncarolinasleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "greenIcon",
+				"levels" : [["1963", "1979", 1, "Class A"],
+							]
 				}
 		},
 	]

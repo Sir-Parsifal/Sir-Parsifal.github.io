@@ -1,0 +1,50 @@
+pioneerleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Lewiston Indians", "1939", "1939"],
+				["Idaho Falls Russets", "1940", "1961"],
+				["Idaho Falls Yankees", "1962", "1965"],
+				["Idaho Falls Angels", "1966", "1981"],
+				["Idaho Falls A's", "1982", "1984"],
+				["Idaho Falls Eagles", "1985", "1985"],
+				["Idaho Falls Braves", "1986", "1991"],
+				["Idaho Falls Gems", "1992", "1992"],
+				["Idaho Falls Braves", "1993", "1999"],
+				["Idaho Falls Padres", "2000", "2003"],
+				["Idaho Falls Chukars", "2004", "now"],
+						],
+			"leagues" : [
+				["Pioneer League", "1939", "1942"],
+				["WW2", "1943", "1945"],
+				["Pioneer League", "1946", "now"],
+						],
+			"coords": 	[
+				[[46.409, -117.011 ], "1939", "1939"],
+				[[43.505, -112.038  ], "1940", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Pocatello Cardinals", "1939", "1951"],
+				["Pocatello Bannocks", "1952", "1956"],
+				["Pocatello A's", "1957", "1959"],
+				["Pocatello Giants", "1960", "1960"],
+				["Pocatello Bannocks", "1961", "1961"],
+				["Pocatello Chiefs", "1962", "1965"],
+						],
+			"leagues" : [
+				["Pioneer League", "1939", "1942"],
+				["WW2", "1943", "1945"],
+				["Pioneer League", "1946", "1965"],
+						],
+			"coords": 	[
+				[[42.862222, -112.450556  ], "1939", "1965"],
+						]
+		},
+	]
+}
+	

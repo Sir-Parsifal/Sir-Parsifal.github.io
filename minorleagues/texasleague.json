@@ -156,6 +156,55 @@ texasleague = {
 				[[35.205778, -101.830972 ], "2019", "now"],
 						]
 		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Dallas Griffins", "1902", "1902"],
+				["Dallas Giants", "1903", "1916"],
+				["Dallas Submarines", "1917", "1918"],
+				["Dallas Marines", "1919", "1922"],
+				["Dallas Steers", "1923", "1938"],
+				["Dallas Rebels", "1939", "1948"],
+				["Dallas Eagles", "1949", "1957"],
+				["Dallas Rangers", "1958", "1959"],
+				["Dallas-Fort Worth Rangers", "1960", "1963"],
+				["Dallas Rangers", "1964", "1964"],
+				["Dallas-Fort Worth Spurs", "1965", "1971"],
+						],
+			"leagues" : [
+				["Texas League", "1902", "1942"],
+				["ww2", "1943", "1945"],
+				["Texas League", "1946", "1958"],
+				["American Association", "1959", "1962"],
+				["Pacific Coast League", "1963", "1964"],
+				["Texas League", "1965", "1971"],
+						],
+			"coords": 	[
+				[[32.759875, -96.811208  ], "1902", "1964"],
+				[[32.756389, -97.084722  ], "1965", "1971"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Fort Worth Panthers", "1902", "1935"],
+				["Fort Worth Cats", "1936", "1959"],
+				["Dallas-Fort Worth Rangers", "1960", "1963"],
+				["Forth Worth Cats", "1964", "1964"],
+						],
+			"leagues" : [
+				["Texas League", "1902", "1942"],
+				["WW2", "1943", "1945"],
+				["Texas League", "1946", "1958"],
+				["American Association", "1959", "1962"],
+				["Pacific Coast League", "1963", "1963"],
+				["Texas League", "1964", "1964"],
+						],
+			"coords": 	[
+				[[32.756389, -97.3325 ], "1902", "1925"],
+				[[32.769022, -97.33675  ], "1926", "1964"],
+						]
+		},
 	]
 }
 	
