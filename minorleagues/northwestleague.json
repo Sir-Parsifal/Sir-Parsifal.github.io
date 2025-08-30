@@ -1,0 +1,337 @@
+northwestleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Eugene Emeralds", "1955", "1968"],
+						],
+			"leagues" : [
+				["Northwest League", "1955", "1968"],
+						],
+			"coords": 	[
+				[[44.064687962062955, -123.14612274780642], "1955", "1968"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Eugene Emeralds", "1974", "now"],
+						],
+			"leagues" : [
+				["Northwest League", "1974", "now"],
+						],
+			"coords": 	[
+				[[44.037, -123.091 ], "1974", "2009"],
+				[[44.059, -123.066 ], "2010", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Lewiston Broncs", "1952", "1974"],
+						],
+			"leagues" : [
+				["Western International League", "1952", "1954"],
+				["Northwest League", "1955", "1974"],
+						],
+			"coords": 	[
+				[[46.409, -117.011  ], "1952", "1974"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Salem Senators", "1940", "1960"],
+				["Salem Dodgers", "1961", "1965"],
+						],
+			"leagues" : [
+				["Western International League", "1940", "1942"],
+				["WW2", "1943", "1945"],
+				["Western International League", "1946", "1954"],
+				["Northwest League", "1955", "1965"],
+						],
+			"coords": 	[
+				[[44.92383029433755, -123.01054294811293 ], "1940", "1965"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Bremerton Bluejackets", "1946", "1949"],
+				["Wenatchee Chiefs", "1950", "1965"],
+						],
+			"leagues" : [
+				["Western International League", "1946", "1954"],
+				["Northwest League", "1955", "1965"],
+						],
+			"coords": 	[
+				[[47.576997110761475, -122.63452525296569], "1946", "1949"],
+				[[47.414770482926606, -120.32127135855553], "1950", "1965"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Spokane Hawks", "1937", "1939"],
+				["Spokane Indians", "1940", "1956"],
+						],
+			"leagues" : [
+				["Western International League", "1937", "1942"],
+				["WW2", "1943", "1945"],
+				["Western International League", "1946", "1954"],
+				["Northwest League", "1955", "1956"],
+						],
+			"coords": 	[
+				[[47.66, -117.37 ], "1937", "1956"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Wenatchee Chiefs", "1937", "1949"],
+				["Tri-City Braves", "1950", "1960"],
+				["Tri-City Atoms", "1961", "1961"],
+				["Tri-City Braves", "1962", "1962"],
+				["Tri-City Angels", "1963", "1964"],
+				["Tri-City Atoms", "1965", "1968"],
+				["Tri-City A's", "1969", "1969"],
+				["Tri-City Padres", "1970", "1972"],
+				["Tri-City Triplets", "1973", "1973"],
+				["Tri-City Ports", "1974", "1974"],
+						],
+			"leagues" : [
+				["Western International League", "1950", "1954"],
+				["Northwest League", "1955", "1974"],
+						],
+			"coords": 	[
+				[[47.414770482926606, -120.32127135855553], "1937", "1949"],
+				[[46.21476190123917, -119.17012480072573  ], "1950", "1974"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Yakima Pippins", "1937", "1941"],
+				["Yakima Stars", "1946", "1947"],
+				["Yakima Packers", "1948", "1948"],
+				["Yakima Bears", "1949", "1957"],
+				["Yakima Braves", "1958", "1966"],
+						],
+			"leagues" : [
+				["Western International League", "1937", "1941"],
+				["WW2", "1942", "1945"],
+				["Western International League", "1946", "1954"],
+				["Northwest League", "1955", "1966"],
+						],
+			"coords": 	[
+				[[46.586, -120.527  ], "1937", "1966"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Medford Giants", "1967", "1968"],
+				["Rogue Valley Dodgers", "1969", "1969"],
+				["Medford Dodgers", "1970", "1971"],
+						],
+			"leagues" : [
+				["Northwest League", "1967", "1971"],
+						],
+			"coords": 	[
+				[[42.31, -122.857 ], "1967", "1971"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Bend Rainbows", "1970", "1971"],
+				["Seattle Rainiers", "1972", "1976"],
+						],
+			"leagues" : [
+				["Northwest League", "1970", "1976"],
+						],
+			"coords": 	[
+				[[44.043, -121.299  ], "1970", "1971"],
+				[[47.58, -122.298 ], "1972", "1976"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Coos Bay-North Bend A's", "1970", "1972"],
+						],
+			"leagues" : [
+				["Northwest League", "1970", "1972"],
+						],
+			"coords": 	[
+				[[43.4075, -124.236389  ], "1970", "1972"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Spokane Indians", "1972", "1972"],
+						],
+			"leagues" : [
+				["Northwest League", "1972", "1972"],
+						],
+			"coords": 	[
+				[[47.662, -117.345  ], "1972", "1972"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Bellingham Dodgers", "1973", "1976"],
+				["Bellingham Mariners", "1977", "1994"],
+				["Bellingham Giants", "1995", "1996"],
+				["Salem-Keizer Volcanoes", "1997", "now"],
+						],
+			"leagues" : [
+				["Northwest League", "1973", "2020"],
+				["Mavericks Independent Baseball League", "2021", "now"],
+						],
+			"coords": 	[
+				[[48.747, -122.46  ], "1973", "1996"],
+				[[45.015, -122.994 ], "1997", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Portland Mavericks", "1973", "1977"],
+						],
+			"leagues" : [
+				["Northwest League", "1973", "1977"],
+						],
+			"coords": 	[
+				[[45.521389, -122.691667  ], "1973", "1977"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Grays Harbor Ports", "1976", "1976"],
+				["Grays Harbor Loggers", "1977", "1978"],
+				["Grays Harbor Mets", "1979", "1979"],
+				["Grays Harbor Loggers", "1980", "1980"],
+						],
+			"leagues" : [
+				["Northwest League", "1976", "1980"],
+						],
+			"coords": 	[
+				[[46.978056, -123.858889 ], "1976", "1980"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Salem Senators", "1977", "1981"],
+				["Salem Angels", "1982", "1987"],
+				["Salem Dodgers", "1988", "1989"],
+				["Yakima Bears", "1990", "2012"],
+				["Hillsboro Hops", "2013", "now"],
+						],
+			"leagues" : [
+				["Northwest League", "1977", "now"],
+						],
+			"coords": 	[
+				[[44.978056, -122.976944 ], "1977", "1989"],
+				[[46.586, -120.527 ], "1990", "1992"],
+				[[46.591, -120.486 ], "1993", "2012"],
+				[[45.554, -122.9085  ], "2013", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Boise Buckskins", "1978", "1978"],
+						],
+			"leagues" : [
+				["Northwest League", "1978", "1978"],
+						],
+			"coords": 	[
+				[[43.597, -116.258  ], "1978", "1978"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Victoria Mussels", "1978", "1979"],
+				["Victoria Blues", "1980", "1980"],
+						],
+			"leagues" : [
+				["Northwest League", "1978", "1980"],
+						],
+			"coords": 	[
+				[[48.4312, -123.3541  ], "1978", "1980"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Bend Timber Hawks", "1978", "1978"],
+				["Medford A's", "1979", "1987"],
+				["Southern Oregon A's", "1988", "1995"],
+				["Southern Oregon Timberjacks", "1996", "1999"],
+				["Vancouver Canadians", "2000", "now"],
+						],
+			"leagues" : [
+				["Northwest League", "1978", "now"],
+						],
+			"coords": 	[
+				[[44.043, -121.299   ], "1978", "1978"],
+				[[42.31, -122.857  ], "1979", "1999"],
+				[[49.2431, -123.1063 ], "2000", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Central Oregon Phillies", "1979", "1980"],
+				["Bend Phillies", "1981", "1986"],
+				["Bend Bucks", "1987", "1991"],
+				["Bend Rockies", "1992", "1994"],
+				["Portland Rockies", "1995", "2000"],
+				["Tri-City Dust Devils", "2001", "now"],
+						],
+			"leagues" : [
+				["Northwest League", "1979", "now"],
+						],
+			"coords": 	[
+				[[44.043, -121.299   ], "1979", "1995"],
+				[[45.521389, -122.691667   ], "1996", "2000"],
+				[[46.267, -119.172 ], "2001", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Blue Mountain Bears", "1983", "1983"],
+				["Everett Giants", "1984", "1994"],
+				["Everett AquaSox", "1995", "now"],
+						],
+			"leagues" : [
+				["Northwest League", "1983", "now"],
+						],
+			"coords": 	[
+				[[46.077, -118.336 ], "1983", "1983"],
+				[[47.967, -122.203   ], "1984", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Spokane Indians", "1983", "now"],
+						],
+			"leagues" : [
+				["Northwest League", "1983", "now"],
+						],
+			"coords": 	[
+				[[47.662, -117.345  ], "1983", "now"],
+						]
+		},
+	]
+}
+	

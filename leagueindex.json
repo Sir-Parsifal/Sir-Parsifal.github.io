@@ -713,6 +713,36 @@ leagueIndex = {
 							]
 				}
 		},
+		{ 	"name": "Northwest League",
+			"properties": {
+				"type": "league",			
+				"loadName": "northwestleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "redIcon",
+				"levels" : [["1955", "1962", 1, "Class B"],
+							["1963", "1965", 1, "Class A"],
+							["1966", "2020", 1, "Class A-Short Season"],
+							["2021", "now", 1, "Class A+"],
+							]
+				}
+		},
+		{ 	"name": "Western International League",
+			"properties": {
+				"type": "league",			
+				"loadName": null,
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "brightorangeIcon",
+				"levels" : [["1922", "1922", 1, "Class B"],
+							["1937", "1942", 1, "Class B"],
+							["1946", "1951", 1, "Class B"],
+							["1952", "1954", 1, "Class A"],
+							]
+				}
+		},
 	]
 }
 	
