@@ -10,20 +10,16 @@ pioneerleague = {
 				["Idaho Falls Angels", "1966", "1981"],
 				["Idaho Falls A's", "1982", "1984"],
 				["Idaho Falls Eagles", "1985", "1985"],
-				["Idaho Falls Braves", "1986", "1991"],
-				["Idaho Falls Gems", "1992", "1992"],
-				["Idaho Falls Braves", "1993", "1999"],
-				["Idaho Falls Padres", "2000", "2003"],
-				["Idaho Falls Chukars", "2004", "now"],
+				
 						],
 			"leagues" : [
 				["Pioneer League", "1939", "1942"],
 				["WW2", "1943", "1945"],
-				["Pioneer League", "1946", "now"],
+				["Pioneer League", "1946", "1985"],
 						],
 			"coords": 	[
 				[[46.409, -117.011 ], "1939", "1939"],
-				[[43.505, -112.038  ], "1940", "now"],
+				[[43.505, -112.038  ], "1940", "1985"],
 						]
 		},
 		{ 
@@ -43,6 +39,382 @@ pioneerleague = {
 						],
 			"coords": 	[
 				[[42.862222, -112.450556  ], "1939", "1965"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Ogden Reds", "1939", "1955"],
+						],
+			"leagues" : [
+				["Pioneer League", "1939", "1942"],
+				["WW2", "1943", "1945"],
+				["Pioneer League", "1946", "1955"],
+						],
+			"coords": 	[
+				[[41.201, -111.981 ], "1939", "1955"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Missoula Timberjacks", "1956", "1960"],
+						],
+			"leagues" : [
+				["Pioneer League", "1956", "1960"],
+						],
+			"coords": 	[
+				[[46.848390753247514, -113.99672072680912 ], "1956", "1960"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Boise Pilots", "1939", "1951"],
+				["Boise Yankees", "1952", "1953"],
+				["Boise Pilots", "1954", "1954"],
+				["Boise Braves", "1955", "1963"],
+						],
+			"leagues" : [
+				["Pioneer League", "1939", "1942"],
+				["WW2", "1943", "1945"],
+				["Pioneer League", "1946", "1963"],
+						],
+			"coords": 	[
+				[[43.602, -116.186  ], "1939", "1963"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Twin Falls Cowboys", "1939", "1951"],
+				["Magic Valley Cowboys", "1952", "1958"],
+						],
+			"leagues" : [
+				["Pioneer League", "1939", "1942"],
+				["WW2", "1943", "1945"],
+				["Pioneer League", "1946", "1958"],
+						],
+			"coords": 	[
+				[[42.55545034181355, -114.45105419843625], "1939", "1958"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Magic Valley Cowboys", "1961", "1966"],
+						],
+			"leagues" : [
+				["Pioneer League", "1961", "1966"],
+						],
+			"coords": 	[
+				[[42.55545034181355, -114.45105419843625], "1961", "1966"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Magic Valley Cowboys", "1968", "1971"],
+						],
+			"leagues" : [
+				["Pioneer League", "1968", "1971"],
+						],
+			"coords": 	[
+				[[42.55545034181355, -114.45105419843625], "1968", "1971"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Salt Lake City Bees", "1939", "1957-12-30"],
+						],
+			"leagues" : [
+				["Pioneer League", "1939", "1942"],
+				["WW2", "1943", "1945"],
+				["Pioneer League", "1946", "1957-12-30"],
+						],
+			"coords": 	[
+				[[40.741, -111.893 ], "1939", "1957-12-30"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Salt Lake City Giants", "1967", "1969"],
+						],
+			"leagues" : [
+				["Pioneer League", "1967", "1969"],
+						],
+			"coords": 	[
+				[[40.741, -111.893  ], "1967", "1969"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Billings Mustangs", "1948", "1963"],
+						],
+			"leagues" : [
+				["Pioneer League", "1948", "1963"],
+						],
+			"coords": 	[
+				[[45.791103, -108.510531 ], "1948", "1963"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Billings Mustangs", "1969", "now"],
+						],
+			"leagues" : [
+				["Pioneer League", "1969", "now"],
+						],
+			"coords": 	[
+				[[45.791103, -108.510531 ], "1969", "2007"],
+				[[45.790278, -108.511111 ], "2008", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Great Falls Electrics", "1948", "1948"],
+				["Great Falls Selectrics", "1949", "1950"],
+				["Great Falls Electrics", "1951", "1963"],
+						],
+			"leagues" : [
+				["Pioneer League", "1948", "1963"],
+						],
+			"coords": 	[
+				[[47.516919, -111.259467  ], "1948", "1963"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Treasure Valley Cubs", "1964", "1966"],
+				["Caldwell Cubs", "1967", "1971"],
+						],
+			"leagues" : [
+				["Pioneer League", "1964", "1971"],
+						],
+			"coords": 	[
+				[[43.653889, -116.670833   ], "1964", "1971"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Ogden Dodgers", "1966", "1973"],
+				["Ogden Spikers", "1974", "1974"],
+						],
+			"leagues" : [
+				["Pioneer League", "1966", "1974"],
+						],
+			"coords": 	[
+				[[41.227778, -111.968333  ], "1966", "1974"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Lethbridge Expos", "1975", "1976"],
+				["Lethbridge Dodgers", "1977", "1983"],
+				["Pocatello Gems", "1984", "1985"],
+				["Idaho Falls Braves", "1986", "1991"],
+				["Idaho Falls Gems", "1992", "1992"],
+				["Idaho Falls Braves", "1993", "1999"],
+				["Idaho Falls Padres", "2000", "2003"],
+				["Idaho Falls Chukars", "2004", "now"],
+						],
+			"leagues" : [
+				["Pioneer League", "1975", "now"],
+						],
+			"coords": 	[
+				[[49.689739, -112.80545 ], "1975", "1983"],
+				[[42.89219, -112.473521 ], "1984", "1985"],
+				[[43.505, -112.038  ], "1986", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Pocatello Giants", "1987", "1989"],
+				["Gate City Pioneers", "1990", "1990"],
+				["Pocatello Pioneers", "1991", "1991"],
+				["Lethbridge Mounties", "1992", "1995"],
+				["Lethbridge Black Diamonds", "1996", "1998"],
+				["Missoula Osprey", "1999", "2019"],
+				["Missoula PaddleHeads", "2020", "now"],
+						],
+			"leagues" : [
+				["Pioneer League", "1987", "now"],
+						],
+			"coords": 	[
+				[[42.89219, -112.473521  ], "1987", "1991"],
+				[[49.689739, -112.80545   ], "1992", "1998"],
+				[[46.857, -114.062   ], "1999", "2003"],
+				[[46.873, -114.007  ], "2004", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Great Falls Giants", "1969", "1983"],
+				["Great Falls Dodgers", "1984", "2002"],
+				["Great Falls White Sox", "2003", "2007"],
+				["Great Falls Voyagers", "2008", "now"],
+						],
+			"leagues" : [
+				["Pioneer League", "1969", "now"],
+						],
+			"coords": 	[
+				[[47.516919, -111.259467  ], "1969", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Calgary Cardinals", "1977", "1978"],
+				["Calgary Expos", "1979", "1984"],
+				["Salt Lake City Trappers", "1985", "1992"],
+				["Pocatello Posse", "1993", "1993"],
+				["Ogden Raptors", "1994", "now"],
+						],
+			"leagues" : [
+				["Pioneer League", "1977", "now"],
+						],
+			"coords": 	[
+				[[51.073436, -114.120636  ], "1977", "1984"],
+				[[40.741, -111.893  ], "1985", "1992"],
+				[[42.89219, -112.473521  ], "1993", "1993"],
+				[[41.227778, -111.968333 ], "1994", "1996"],
+				[[41.224, -111.975  ], "1997", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["New Westminster Frasers", "1974", "1974"],
+				["Boise A's", "1975", "1976"],
+				["Medicine Hat A's", "1977", "1977"],
+				["Medicine Hat Blue Jays", "1978", "2002"],
+				["Helena Brewers", "2003", "2018"],
+				["Rocky Mountain Vibes", "2019", "now"],
+						],
+			"leagues" : [
+				["Northwest League", "1974", "1976"],
+				["Pioneer League", "1977", "now"],
+						],
+			"coords": 	[
+				[[49.206944, -122.911111  ], "1974", "1974"],
+				[[43.597, -116.258  ], "1975", "1976"],
+				[[50.044849, -110.666206  ], "1977", "2002"],
+				[[46.599167, -112.027222 ], "2003", "2018"],
+				[[38.894172, -104.710311 ], "2019", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Helena Phillies", "1978", "1983"],
+				["Helena Gold Sox", "1984", "1986"],
+				["Helena Brewers", "1987", "2000"],
+				["Provo Angels", "1978", "2002"],
+				["Orem Owlz", "2003", "2018"],
+				["Northern Colorado Owlz", "2019", "2025-06-30"],
+						],
+			"leagues" : [
+				["Northwest League", "1974", "1976"],
+				["Pioneer League", "1977", "2020"],
+				["inactive", "2021", "2021"],
+				["Pioneer League", "2021", "2025-06-30"],
+						],
+			"coords": 	[
+				[[46.599167, -112.027222  ], "1978", "2000"],
+				[[40.255, -111.6525  ], "2001", "2004"],
+				[[40.277, -111.717  ], "2005", "2020"],
+				[[40.408801, -104.686968 ], "2021", "2022"],
+				[[40.471389, -104.878889  ], "2023", "2025-06-30"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Butte Copper Kings", "1978", "2000"],
+				["Casper Rockies", "2001", "2007"],
+				["Casper Ghosts", "2008", "2011"],
+				["Grand Junction Rockies", "2012", "2022"],
+				["Grand Junction Jackalopes", "2023", "now"],
+						],
+			"leagues" : [
+				["Pioneer League", "1978", "1985"],
+				["inactive", "1986", "1986"],
+				["Pioneer League", "1986", "now"],
+						],
+			"coords": 	[
+				[[46.011, -112.56   ], "1978", "2000"],
+				[[42.861944, -106.305278  ], "2001", "2001"],
+				[[42.860473, -106.329712   ], "2002", "2011"],
+				[[39.077, -108.55   ], "2012", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Walla Walla Bears", "1969", "1969"],
+				["Walla Walla Phillies", "1970", "1971"],
+				["Walla Walla Islanders", "1972", "1972"],
+				["Walla Walla Padres", "1973", "1982"],
+				["Tri-Cities Triplets", "1983", "1986"],
+				["Boise Hawks", "1987", "now"],
+						],
+			"leagues" : [
+				["Northwest League", "1969", "2020"],
+				["Pioneer League", "2021", "now"],
+						],
+			"coords": 	[
+				[[46.077, -118.336   ], "1969", "1982"],
+				[[46.276, -119.286 ], "1983", "1986"],
+				[[43.597, -116.258  ], "1987", "1988"],
+				[[43.656, -116.279 ], "1989", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Glacier Range Riders", "2022", "now"],
+						],
+			"leagues" : [
+				["Pioneer League", "2022", "now"],
+						],
+			"coords": 	[
+				[[48.2974, -114.3378  ], "2022", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Oakland Ballers", "2024", "now"],
+						],
+			"leagues" : [
+				["Pioneer League", "2024", "now"],
+						],
+			"coords": 	[
+				[[37.805, -122.294 ], "2024", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Yolo High Wheelers", "2024", "2024"],
+				["Yolo High Wheelers", "2025", "now"],
+						],
+			"leagues" : [
+				["Pioneer League", "2024", "now"],
+						],
+			"coords": 	[
+				[[38.54195, -121.75752  ], "2024", "2024"],
+				[[39.1509, -121.5881  ], "2025", "now"],
 						]
 		},
 	]

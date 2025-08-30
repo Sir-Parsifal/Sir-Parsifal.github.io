@@ -749,6 +749,20 @@ NLandALteams = {
 		{ 
 			"type": "team",
 			"names": 	[
+				["Indianapolis Hoosiers", "1900", "1900"],
+						],
+			"fate": "defunct",
+			"fatetxt": "",
+			"leagues" : [
+				["American League", "1900", "1900"]
+						],
+			"coords": 	[
+				[[39.768611, -86.158056 ], "1900", "1900"]									
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
 				["Boston Americans", "1901", "1907"],
 				["Boston Red Sox", "1908", "now"]
 						],

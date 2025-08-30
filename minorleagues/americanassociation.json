@@ -47,13 +47,17 @@ americanassociationminor = {
 		{ 
 			"type": "team",
 			"names": 	[
-				["Minneapolis Millers", "1902", "1960"],
+				["Minneapolis Millers", "1894", "1960"],
 						],
 			"leagues" : [
+				["Western League", "1894", "1899"],
+				["American League", "1900", "1900"],
+				["Western League", "1901", "1901"],
 				["American Association", "1902", "1960"],
 						],
 			"coords": 	[
-				[[44.9475, -93.278611 ], "1902", "1955"],
+				[[44.979622, -93.274886 ], "1894", "1895"],
+				[[44.9475, -93.278611 ], "1896", "1955"],
 				[[44.854444, -93.241944  ], "1956", "1960"],
 						]
 		},
