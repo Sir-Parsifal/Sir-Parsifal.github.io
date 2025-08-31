@@ -4,28 +4,34 @@ westernleague = {
 		{ 
 			"type": "team",
 			"names": 	[
-				["Amarillo Gold Sox", "1946", "1963"],
+				["Amarillo Gold Sox", "1939", "1963"],
 						],
 			"leagues" : [
+				["West Texas-New Mexico League", "1939", "1942"],
+				["WW2", "1943", "1945"],
 				["West Texas-New Mexico League", "1946", "1955"],
 				["Western League", "1956", "1958"],
 				["Texas League", "1959", "1963"],
 						],
 			"coords": 	[
-				[[35.199167, -101.845278 ], "1946", "1963"],
+				[[35.199167, -101.845278 ], "1939", "1963"],
 						]
 		},
 		{ 
 			"type": "team",
 			"names": 	[
-				["Albuquerque Dukes", "1946", "1958"],
+				["Pampa Oilers", "1939", "1941"],
+				["Albuquerque Dukes", "1942", "1958"],
 						],
 			"leagues" : [
+				["West Texas-New Mexico League", "1939", "1942"],
+				["WW2", "1943", "1945"],
 				["West Texas-New Mexico League", "1946", "1955"],
 				["Western League", "1956", "1958"]
 						],
 			"coords": 	[
-				[[35.078, -106.659  ], "1946", "1958"],
+				[[35.547778, -100.965  ], "1939", "1941"],
+				[[35.078, -106.659  ], "1942", "1958"],
 						]
 		},
 		{ 

@@ -435,7 +435,7 @@ leagueIndex = {
 		{ 	"name": "Big South League",
 			"properties": {
 				"type": "league",			
-				"loadName": "heartlandleague",
+				"loadName": "bigsouthleague",
 				"loadName2": null,
 				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
 				"leagueTimeline" : [],
@@ -740,6 +740,20 @@ leagueIndex = {
 							["1937", "1942", 1, "Class B"],
 							["1946", "1951", 1, "Class B"],
 							["1952", "1954", 1, "Class A"],
+							]
+				}
+		},
+		{ 	"name": "West Texas-New Mexico League",
+			"properties": {
+				"type": "league",			
+				"loadName": "westtexasnewmexicoleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "pinkIcon",
+				"levels" : [["1937", "1942", 1, "Class D"],
+							["1946", "1954", 1, "Class C"],
+							["1955", "1955", 1, "Class B"],
 							]
 				}
 		},

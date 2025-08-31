@@ -320,14 +320,12 @@ pioneerleague = {
 				["Helena Gold Sox", "1984", "1986"],
 				["Helena Brewers", "1987", "2000"],
 				["Provo Angels", "1978", "2002"],
-				["Orem Owlz", "2003", "2018"],
-				["Northern Colorado Owlz", "2019", "2025-06-30"],
+				["Orem Owlz", "2003", "2020"],
+				["Northern Colorado Owlz", "2021", "2025-06-30"],
 						],
 			"leagues" : [
 				["Northwest League", "1974", "1976"],
-				["Pioneer League", "1977", "2020"],
-				["inactive", "2021", "2021"],
-				["Pioneer League", "2021", "2025-06-30"],
+				["Pioneer League", "1977", "2025-06-30"],
 						],
 			"coords": 	[
 				[[46.599167, -112.027222  ], "1978", "2000"],

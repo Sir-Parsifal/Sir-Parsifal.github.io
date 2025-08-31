@@ -1,0 +1,180 @@
+westtexasnewmexicoleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Hobbs Drillers", "1937", "1937"],
+				["Midland Cardinals", "1938", "1938"],
+				["Abilene Apaches", "1939", "1939-07-06"],
+				["Borger Gassers", "1939-07-07", "1954"],
+						],
+			"leagues" : [
+				["West Texas-New Mexico League", "1937", "1942"],
+				["WW2", "1943", "1945"],
+				["West Texas-New Mexico League", "1946", "1954"],
+						],
+			"coords": 	[
+				[[32.696926829062704, -103.14898836370878], "1937", "1937"],
+				[[32, -102.1 ], "1938", "1938"],
+				[[32.45, -99.75 ], "1939", "1939-07-06"],
+				[[35.654049007393546, -101.3955748406924 ], "1939-07-07", "1954"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Midland Cowboys", "1939", "1940"],
+				["Wichita Falls Spudders", "1941", "1942-05-09"],
+				["Big Spring Pirates", "1942-05-10", "1942"],
+						],
+			"leagues" : [
+				["West Texas-New Mexico League", "1939", "1942"],
+						],
+			"coords": 	[
+				[[32, -102.1 ], "1939", "1940"],
+				[[33.912167, -98.49475  ], "1941", "1942-05-09"],
+				[[32.243333, -101.475278  ], "1942-05-10", "1942"],
+						]
+		},	
+		{ 
+			"type": "team",
+			"names": 	[
+				["Odessa Oilers", "1937", "1937-06-17"],
+						],
+			"leagues" : [
+				["West Texas-New Mexico League", "1937", "1937-06-17"],
+						],
+			"coords": 	[
+				[[31.863333, -102.365556 ], "1937", "1937-06-17"],
+						]
+		},	
+		{ 
+			"type": "team",
+			"names": 	[
+				["Wink Spudders", "1937", "1938"],
+						],
+			"leagues" : [
+				["West Texas-New Mexico League", "1937", "1938"],
+						],
+			"coords": 	[
+				[[31.752817973922284, -103.16064805434857 ], "1937", "1938"],
+						]
+		},	
+		{ 
+			"type": "team",
+			"names": 	[
+				["Roswell Sunshiners", "1937", "1937"],
+				["Hobbs Boosters", "1938", "1938"],
+						],
+			"leagues" : [
+				["West Texas-New Mexico League", "1937", "1938"],
+						],
+			"coords": 	[
+				[[33.394167, -104.522778 ], "1937", "1937"],
+				[[32.696926829062704, -103.14898836370878], "1938", "1938"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Midland Cardinals", "1937", "1937-07-11"],
+						],
+			"leagues" : [
+				["West Texas-New Mexico League", "1937", "1937-07-11"],
+						],
+			"coords": 	[
+				[[32, -102.1 ], "1937", "1937-07-11"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Monahans Trojans", "1937", "1937"],
+				["Big Spring Barons", "1938", "1940-06-18"],
+				["Odessa Oilers", "1940-06-19", "1940"],
+				["Big Spring Bombers", "1941", "1941"],
+				["Lamesa Dodgers", "1942", "1943"],
+				["Lamesa Lobos", "1944", "1952"],
+				["Plainview Ponies", "1953", "1957"],
+				["Plainview Athletics", "1958", "1959"],
+						],
+			"leagues" : [
+				["West Texas-New Mexico League", "1937", "1942"],
+				["WW2", "1943", "1945"],
+				["West Texas-New Mexico League", "1946", "1955"],
+				["Southwestern League", "1956", "1957"],
+				["Sophomore League", "1958", "1959"],
+						],
+			"coords": 	[
+				[[31.598895590420362, -102.88386378434875 ], "1937", "1937"],
+				[[32.243333, -101.475278 ], "1938", "1940-06-18"],
+				[[31.863333, -102.365556  ], "1940-06-19", "1940"],
+				[[32.243333, -101.475278  ], "1941", "1941"],
+				[[32.734444, -101.958056  ], "1942", "1952"],
+				[[34.1769, -101.7016  ], "1953", "1959"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Clovis Pioneers", "1938", "1957"],
+						],
+			"leagues" : [
+				["West Texas-New Mexico League", "1938", "1942"],
+				["WW2", "1943", "1945"],
+				["West Texas-New Mexico League", "1946", "1955"],
+				["Southwestern League", "1956", "1957"],
+						],
+			"coords": 	[
+				[[34.404722, -103.205278  ], "1938", "1957"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Lubbock Hubbers", "1938", "1956"],
+						],
+			"leagues" : [
+				["West Texas-New Mexico League", "1938", "1942"],
+				["WW2", "1943", "1945"],
+				["West Texas-New Mexico League", "1946", "1955"],
+				["Big State League", "1956", "1956"],
+						],
+			"coords": 	[
+				[[33.585, -101.845  ], "1938", "1956"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Lamesa Lobos", "1939", "1941"],
+				["Pampa Oilers", "1942", "1957"],
+						],
+			"leagues" : [
+				["West Texas-New Mexico League", "1942", "1942"],
+				["WW2", "1943", "1945"],
+				["West Texas-New Mexico League", "1946", "1955"],
+				["Southwestern League", "1956", "1957"],
+						],
+			"coords": 	[
+				[[32.734444, -101.958056  ], "1939", "1941"],
+				[[35.547778, -100.965  ], "1942", "1957"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Abilene Blue Sox", "1942", "1957"],
+						],
+			"leagues" : [
+				["West Texas-New Mexico League", "1946", "1955"],
+				["Big State League", "1956", "1957"],
+						],
+			"coords": 	[
+				[[32.45, -99.75  ], "1946", "1957"],
+						]
+		},
+	]
+}
+	

@@ -177,7 +177,8 @@ texasleague = {
 				["Texas League", "1946", "1958"],
 				["American Association", "1959", "1962"],
 				["Pacific Coast League", "1963", "1964"],
-				["Texas League", "1965", "1971"],
+				["Texas League", "1965", "1970"],
+				["Dixie Association", "1971", "1971"],
 						],
 			"coords": 	[
 				[[32.759875, -96.811208  ], "1902", "1964"],
@@ -190,7 +191,7 @@ texasleague = {
 				["Fort Worth Panthers", "1902", "1935"],
 				["Fort Worth Cats", "1936", "1959"],
 				["Dallas-Fort Worth Rangers", "1960", "1963"],
-				["Forth Worth Cats", "1964", "1964"],
+				["Fort Worth Cats", "1964", "1964"],
 						],
 			"leagues" : [
 				["Texas League", "1902", "1942"],
