@@ -1,0 +1,169 @@
+soonerstateleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Ada Herefords", "1947", "1954-08-02"],
+				["Ada Cementers", "1954-08-03", "1954"],
+						],
+			"leagues" : [
+				["Sooner State League", "1947", "1954"],
+						],
+			"coords": 	[
+				[[34.790516035394894, -96.67814115037392], "1947", "1954"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Lawton Giants", "1947", "1951"],
+				["Lawton Reds", "1952", "1953"],
+				["Lawton Braves", "1954", "1957"],
+						],
+			"leagues" : [
+				["Sooner State League", "1947", "1957"],
+						],
+			"coords": 	[
+				[[34.600527383118454, -98.41652582925728], "1947", "1954"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["McAlester Rockets", "1947", "1956"],
+						],
+			"leagues" : [
+				["Sooner State League", "1947", "1956"],
+						],
+			"coords": 	[
+				[[34.94273878111319, -95.75931782031653], "1947", "1956"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Greenville Majors", "1957", "1957"],
+						],
+			"leagues" : [
+				["Sooner State League", "1957", "1957"],
+						],
+			"coords": 	[
+				[[33.14113247545549, -96.10213905220718], "1957", "1957"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Ardmore Indians", "1947", "1951"],				
+				["Sherman Twins", "1952", "1952"],
+				["Sherman-Denison Twins", "1953", "1953"],
+				["Seminole Oilers", "1954", "1957"],
+						],
+			"leagues" : [
+				["Sooner State League", "1947", "1957"],
+						],
+			"coords": 	[
+				[[34.289444, -97.166389 ], "1947", "1951"],
+				[[33.627222, -96.622222 ], "1952", "1953"],
+				[[35.235, -96.649444  ], "1954", "1957"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Seminole Oilers", "1947", "1949"],
+				["Seminole Ironmen", "1950", "1951"],
+						],
+			"leagues" : [
+				["Sooner State League", "1947", "1951"],
+						],
+			"coords": 	[
+				[[35.235, -96.649444  ], "1947", "1951"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Ardmore Indians", "1952", "1952"],				
+				["Ardmore Cardinals", "1953", "1957"],
+						],
+			"leagues" : [
+				["Sooner State League", "1952", "1957"],
+						],
+			"coords": 	[
+				[[34.289444, -97.166389 ], "1952", "1957"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Duncan Cementers", "1947", "1948"],	
+				["Duncan Uttmen", "1949", "1950-08-18"],					
+				["Shawnee Hawks", "1950-08-19", "1957"],
+						],
+			"leagues" : [
+				["Sooner State League", "1947", "1957"],
+						],
+			"coords": 	[
+				[[34.536111, -97.9725  ], "1947", "1950-08-18"],
+				[[35.3425, -96.933889  ], "1950-08-19", "1957"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Chickasha Chiefs", "1948", "1952"],	
+				["Gainesville Owls", "1953", "1955-05-19"],					
+				["Ponca City Cubs", "1955-05-20", "1957"],
+						],
+			"leagues" : [
+				["Sooner State League", "1948", "1957"],
+						],
+			"coords": 	[
+				[[35.050307997889135, -97.95647514577279  ], "1948", "1952"],
+				[[33.6212, -97.1489   ], "1953", "1955-05-19"],
+				[[36.69492949380173, -97.09109243286905 ], "1955-05-20", "1957"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Pauls Valley Raiders", "1948", "1954"],	
+						],
+			"leagues" : [
+				["Sooner State League", "1948", "1954"],
+						],
+			"coords": 	[
+				[[34.737778, -97.230833  ], "1948", "1954"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Muskogee Reds", "1946", "1950"],	
+				["Muskogee Giants", "1951", "1957"],	
+						],
+			"leagues" : [
+				["Western Association", "1946", "1954"],
+				["Sooner State League", "1955", "1957"],
+						],
+			"coords": 	[
+				[[35.747784587683206, -95.37386084200298  ], "1946", "1957"],
+						]
+		},	
+		{ 
+			"type": "team",
+			"names": 	[
+				["Paris Orioles", "1955", "1957"],	
+						],
+			"leagues" : [
+				["Sooner State League", "1955", "1957"],
+						],
+			"coords": 	[
+				[[33.638889, -95.546111  ], "1955", "1957"],
+						]
+		},			
+	]
+}
+	

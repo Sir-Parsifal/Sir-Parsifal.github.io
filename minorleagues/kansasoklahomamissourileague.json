@@ -1,0 +1,136 @@
+kansasoklahomamissourileague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Bartlesville Oilers", "1946", "1947"],
+				["Bartlesville Pirates", "1948", "1952-07-06"],
+				["Pittsburg Pirates", "1952-07-07", "1952"],
+						],
+			"leagues" : [
+				["Kansas-Oklahoma-Missouri League", "1946", "1952"],
+						],
+			"coords": 	[
+				[[36.747222, -95.959444 ], "1946", "1952-07-06"],
+				[[37.418269364430465, -94.71976919423062], "1952-07-07", "1952"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Chanute Owls", "1946", "1946"],
+				["Chanute A's", "1947", "1947"],
+				["Chanute Giants", "1948", "1948"],
+				["Chanute A's", "1949", "1950"],
+						],
+			"leagues" : [
+				["Kansas-Oklahoma-Missouri League", "1946", "1950"],
+						],
+			"coords": 	[
+				[[37.6779213152221, -95.44335668008205 ], "1946", "1950"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Miami Blues", "1946", "1946"],
+				["Miami Owls", "1947", "1949"],
+				["Miami Eagles", "1950", "1952"],
+						],
+			"leagues" : [
+				["Kansas-Oklahoma-Missouri League", "1946", "1952"],
+						],
+			"coords": 	[
+				[[36.8636, -94.8754 ], "1946", "1952"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Iola Cubs", "1946", "1947"],
+				["Iola Indians", "1948", "1952"],
+						],
+			"leagues" : [
+				["Kansas-Oklahoma-Missouri League", "1946", "1952"],
+						],
+			"coords": 	[
+				[[37.9164876157284, -95.41247968942352], "1946", "1952"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Pittsburg Browns", "1946", "1952"],
+						],
+			"leagues" : [
+				["Kansas-Oklahoma-Missouri League", "1946", "1951"],
+						],
+			"coords": 	[
+				[[37.418269364430465, -94.71976919423062], "1946", "1951"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Carthage Cardinals", "1946", "1948"],
+				["Carthage Cubs", "1949", "1951"],
+						],
+			"leagues" : [
+				["Kansas-Oklahoma-Missouri League", "1946", "1951"],
+						],
+			"coords": 	[
+				[[37.17368993877688, -94.33609685985365], "1946", "1951"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Ponca City Dodgers", "1947", "1952"],
+						],
+			"leagues" : [
+				["Kansas-Oklahoma-Missouri League", "1947", "1952"],
+						],
+			"coords": 	[
+				[[36.69492949380173, -97.09109243286905], "1947", "1952"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Blackwell Broncos", "1952", "1952"],
+						],
+			"leagues" : [
+				["Kansas-Oklahoma-Missouri League", "1952", "1952"],
+						],
+			"coords": 	[
+				[[36.795358288558255, -97.2822236531971], "1952", "1952"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Independence Yankees", "1947", "1950"],
+						],
+			"leagues" : [
+				["Kansas-Oklahoma-Missouri League", "1947", "1950"],
+						],
+			"coords": 	[
+				[[37.2395, -95.7036 ], "1947", "1950"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Independence Browns", "1952", "1952"],
+						],
+			"leagues" : [
+				["Kansas-Oklahoma-Missouri League", "1952", "1952"],
+						],
+			"coords": 	[
+				[[37.2395, -95.7036 ], "1952", "1952"],
+						]
+		},
+	]
+}
+	

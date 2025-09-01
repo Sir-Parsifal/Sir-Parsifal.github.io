@@ -757,6 +757,30 @@ leagueIndex = {
 							]
 				}
 		},
+		{ 	"name": "Kansas-Oklahoma-Missouri League",
+			"properties": {
+				"type": "league",			
+				"loadName": "kansasoklahomamissourileague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "aquamarineIcon",
+				"levels" : [["1946", "1952", 1, "Class D"],
+							]
+				}
+		},
+		{ 	"name": "Sooner State League",
+			"properties": {
+				"type": "league",			
+				"loadName": "soonerstateleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "goldIcon",
+				"levels" : [["1947", "1957", 1, "Class D"],
+							]
+				}
+		},
 	]
 }
 	
