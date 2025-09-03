@@ -781,6 +781,35 @@ leagueIndex = {
 							]
 				}
 		},
+		{ 	"name": "Nebraska State League",
+			"properties": {
+				"type": "league",			
+				"loadName": "nebraskastateleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "redIcon",
+				"levels" : [["1892", "1892", 1, "Class B"],
+							["1910", "1915", 1, "Class D"],
+							["1922", "1923", 1, "Class D"],
+							["1928", "1938", 1, "Class D"],
+							["1956", "1959", 1, "Class D"],
+							]
+				}
+		},
+		{ 	"name": "Mountain State League",
+			"properties": {
+				"type": "league",			
+				"loadName": "mountainstateleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "aquamarineIcon",
+				"levels" : [["1937", "1941", 1, "Class D"],
+							["1942", "1942", 1, "Class C"],
+							]
+				}
+		},
 	]
 }
 	

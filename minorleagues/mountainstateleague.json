@@ -1,0 +1,95 @@
+mountainstateleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Beckley Bengals", "1937", "1938"],
+						],
+			"leagues" : [
+				["Mountain State League", "1937", "1938"],
+						],
+			"coords": 	[
+				[[37.774167, -81.181111 ], "1937", "1938"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Ashland Colonels", "1939", "1942"],
+						],
+			"leagues" : [
+				["Mountain State League", "1939", "1942"],
+						],
+			"coords": 	[
+				[[38.463889, -82.641667  ], "1939", "1942"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Bluefield Blue-Grays", "1937", "1942"],
+						],
+			"leagues" : [
+				["Mountain State League", "1937", "1942"],
+						],
+			"coords": 	[
+				[[37.244167, -81.275   ], "1937", "1942"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Huntington Boosters", "1937", "1937"],
+				["Huntington Bees", "1938", "1938"],
+				["Huntington Boosters", "1939", "1939"],
+				["Huntington Aces", "1940", "1941"],
+				["Huntington Jewels", "1942", "1942"],
+						],
+			"leagues" : [
+				["Mountain State League", "1937", "1942"],
+						],
+			"coords": 	[
+				[[38.41925, -82.445153 ], "1937", "1942"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Logan Indians", "1937", "1942"],
+						],
+			"leagues" : [
+				["Mountain State League", "1937", "1942"],
+						],
+			"coords": 	[
+				[[37.848333, -81.987778  ], "1937", "1942"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Welch Miners", "1937", "1942"],
+						],
+			"leagues" : [
+				["Mountain State League", "1937", "1942"],
+						],
+			"coords": 	[
+				[[37.439669599301055, -81.57690666435059 ], "1937", "1942"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Williamson Colts", "1937", "1938"],
+				["Williamson Red Birds", "1939", "1942"],
+						],
+			"leagues" : [
+				["Mountain State League", "1937", "1942"],
+						],
+			"coords": 	[
+				[[37.673889, -82.279722 ], "1937", "1942"],
+						]
+		},
+	]
+}
+	

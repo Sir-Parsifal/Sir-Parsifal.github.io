@@ -1,0 +1,365 @@
+nebraskastateleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Beatrice Blues", "1928", "1928"],
+				["Norton Jayhawks", "1929", "1930-08-25"],
+						],
+			"leagues" : [
+				["Nebraska State League", "1928", "1930-08-25"],
+						],
+			"coords": 	[
+				[[40.268333, -96.743056 ], "1928", "1928"],
+				[[39.836111, -99.891667 ], "1929", "1930-08-25"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Fairbury Jeffersons", "1928", "1930"],
+						],
+			"leagues" : [
+				["Nebraska State League", "1928", "1930"],
+						],
+			"coords": 	[
+				[[40.145, -97.176389 ], "1928", "1930"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Grand Island Champs", "1928", "1928"],
+				["Grand Island Islanders", "1929", "1932"],
+						],
+			"leagues" : [
+				["Nebraska State League", "1928", "1932"],
+						],
+			"coords": 	[
+				[[40.921667, -98.358611 ], "1928", "1932"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Lincoln Links", "1928", "1935"],
+				["Lincoln Red Links", "1936", "1936-07-16"],
+						],
+			"leagues" : [
+				["Nebraska State League", "1928", "1936-07-16"],
+						],
+			"coords": 	[
+				[[40.809167, -96.678056 ], "1928", "1936-07-16"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["McCook Generals", "1928", "1932"],
+						],
+			"leagues" : [
+				["Nebraska State League", "1928", "1932"],
+						],
+			"coords": 	[
+				[[40.205278, -100.626111  ], "1928", "1932"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Norfolk Elks", "1928", "1939"],
+				["Norfolk Yankees", "1940", "1941"],
+						],
+			"leagues" : [
+				["Nebraska State League", "1928", "1938"],
+				["Western League", "1939", "1941"],
+						],
+			"coords": 	[
+				[[42.028056, -97.429167  ], "1928", "1941"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["North Platte Buffaloes", "1928", "1932"],
+						],
+			"leagues" : [
+				["Nebraska State League", "1928", "1932"],
+						],
+			"coords": 	[
+				[[41.136111, -100.763056 ], "1928", "1932"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["York Dukes", "1928", "1931"],
+						],
+			"leagues" : [
+				["Nebraska State League", "1928", "1931"],
+						],
+			"coords": 	[
+				[[40.87, -97.592778 ], "1928", "1931"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Beatrice Blues", "1932", "1938"],
+						],
+			"leagues" : [
+				["Nebraska State League", "1932", "1938"],
+						],
+			"coords": 	[
+				[[40.268333, -96.743056 ], "1932", "1938"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Mitchell Kernels", "1936", "1937"],
+						],
+			"leagues" : [
+				["Nebraska State League", "1936", "1937"],
+						],
+			"coords": 	[
+				[[43.729444, -98.033611 ], "1936", "1937"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Fairbury Jeffs", "1936", "1937"],
+						],
+			"leagues" : [
+				["Nebraska State League", "1936", "1937"],
+						],
+			"coords": 	[
+				[[40.145, -97.176389 ], "1936", "1937"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Grand Island Red Birds", "1937", "1937"],
+				["Grand Island Cardinals", "1938", "1938"],
+						],
+			"leagues" : [
+				["Nebraska State League", "1937", "1938"],
+						],
+			"coords": 	[
+				[[40.921667, -98.358611], "1937", "1938"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Sioux City Cowboys", "1934", "1939"],
+				["Sioux City Soos", "1940", "1940-07-20"],
+						],
+			"leagues" : [
+				["Western League", "1934", "1937"],
+				["Nebraska State League", "1938", "1938"],
+				["Western League", "1939", "1940-07-20"],
+						],
+			"coords": 	[
+				[[42.498056, -96.395556 ], "1934", "1940-07-20"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Lincoln Links", "1938", "1939"],
+						],
+			"leagues" : [
+				["Nebraska State League", "1938", "1938"],
+				["Western League", "1939", "1939"],
+						],
+			"coords": 	[
+				[[40.809167, -96.678056 ], "1938", "1939"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Mitchell Kernels", "1939", "1939"],
+						],
+			"leagues" : [
+				["Western League", "1939", "1939"],
+						],
+			"coords": 	[
+				[[43.729444, -98.033611 ], "1939", "1939"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Mitchell Kernels", "1940-07-21", "1940"],
+						],
+			"leagues" : [
+				["Western League", "1940-07-21", "1940"],
+						],
+			"coords": 	[
+				[[43.729444, -98.033611 ], "1940-07-21", "1940"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Worthington Cardinals", "1939", "1940"],
+						],
+			"leagues" : [
+				["Western League", "1939", "1940"],
+						],
+			"coords": 	[
+				[[43.627967, -95.599322  ], "1939", "1940"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Sioux City Soos", "1941", "1941"],
+						],
+			"leagues" : [
+				["Western League", "1941", "1941"],
+						],
+			"coords": 	[
+				[[42.498056, -96.395556 ], "1941", "1941"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Cheyenne Indians", "1941", "1941"],
+						],
+			"leagues" : [
+				["Western League", "1941", "1941"],
+						],
+			"coords": 	[
+				[[41.14, -104.820278 ], "1941", "1941"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Denver Bears", "1941", "1941"],
+						],
+			"leagues" : [
+				["Western League", "1941", "1941"],
+						],
+			"coords": 	[
+				[[39.7392, -104.9849 ], "1941", "1941"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Pueblo Rollers", "1941", "1941"],
+						],
+			"leagues" : [
+				["Western League", "1941", "1941"],
+						],
+			"coords": 	[
+				[[38.266944, -104.620278  ], "1941", "1941"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Lexington Red Sox", "1956", "1958"],
+						],
+			"leagues" : [
+				["Nebraska State League", "1956", "1958"],
+						],
+			"coords": 	[
+				[[40.76619780136153, -99.73698479903446], "1956", "1958"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Grand Island A's", "1956", "1959"],
+						],
+			"leagues" : [
+				["Nebraska State League", "1956", "1959"],
+						],
+			"coords": 	[
+				[[40.919281952536465, -98.3702578447821], "1956", "1959"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Hastings Giants", "1956", "1959"],
+						],
+			"leagues" : [
+				["Nebraska State League", "1956", "1959"],
+						],
+			"coords": 	[
+				[[40.58365929157762, -98.375454703747], "1956", "1959"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Holdrege White Sox", "1956", "1959"],
+						],
+			"leagues" : [
+				["Nebraska State League", "1956", "1959"],
+						],
+			"coords": 	[
+				[[40.432881416564214, -99.36315248223188], "1956", "1959"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Kearney Yankees", "1956", "1959"],
+						],
+			"leagues" : [
+				["Nebraska State League", "1956", "1959"],
+						],
+			"coords": 	[
+				[[40.70913, -99.09262 ], "1956", "1959"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["McCook Braves", "1956", "1959"],
+						],
+			"leagues" : [
+				["Nebraska State League", "1956", "1959"],
+						],
+			"coords": 	[
+				[[40.21074772646749, -100.63816910872305 ], "1956", "1959"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["North Platte Indians", "1956", "1959"],
+						],
+			"leagues" : [
+				["Nebraska State League", "1956", "1959"],
+						],
+			"coords": 	[
+				[[41.151808742979156, -100.76225664208228 ], "1956", "1959"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Superior Senators", "1956", "1958"],
+						],
+			"leagues" : [
+				["Nebraska State League", "1956", "1958"],
+						],
+			"coords": 	[
+				[[40.02014512386812, -98.0774795590261], "1956", "1958"],
+						]
+		},
+	]
+}
+	
