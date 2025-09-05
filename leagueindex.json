@@ -138,7 +138,8 @@ leagueIndex = {
 		{ 	"name": "Midwest League",
 			"properties": {
 				"type": "league",	
-				"textImg" : "",
+				"textImg" : [["1956", "1999", "midwestleague.png", [41.90, -92.84], 1.3],
+							 ["2000", "now", "midwestleague.png", [41.90, -92.84], 1.5]],
 				"loadName": "midwestleague",
 				"loadName2": null,
 				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},

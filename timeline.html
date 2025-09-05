@@ -330,7 +330,10 @@ function getLeagueTimeline(team, ballIcon){
 							
 							)
 	if (ballIcon == NorthwoodsIcon) { //if the ballicon is this placeholder then give it the fancy update UI list thing
-		return (teamTimeline).on('change', function() {rebuildLeagueUIList();}); }
+		return (teamTimeline).on('change', function() {
+			rebuildLeagueUIList();
+			drawLeagueText();
+			}); }
 	return (teamTimeline)
 	}
 
@@ -729,7 +732,33 @@ function buildFancyTextOnMap() {
 	}
 }		
 
+var textLayer = L.layerGroup([]);
 
+function drawLeagueText() {
+	
+	textLayer.clearLayers();
+	//console.log(timelineControl.time);
+	for (let i = 0; i < leagueIndex.leagues.length; i++) 	{                                     //iterates through the leagues
+		if (leagueIndex.leagues[i].properties.textImg) {
+			
+			//console.log(leagueIndex.leagues[i])
+			for (let j = 0; j < leagueIndex.leagues[i].properties.textImg.length; j++)  {
+				//console.log(leagueIndex.leagues[i].properties)
+				currentImg = leagueIndex.leagues[i].properties.textImg[j];
+			
+				if ((cleanDates(currentImg[0], "start") <= timelineControl.time) && (cleanDates(currentImg[1], "end") >= timelineControl.time)) {
+					let lat = currentImg[3][0];
+					let lon = currentImg[3][1];
+					let factor = currentImg[4];
+					imgOverlay = L.imageOverlay(currentImg[2], [[lat, lon], [lat+factor, lon+(10*factor)]], {opacity: 0.5});
+					imgOverlay.addTo(textLayer);
+					break;
+					}
+			}		
+		}
+	}
+	map.addLayer(textLayer);
+}
 
 
 
@@ -738,14 +767,14 @@ overlayLat = 33.89
 overlayLon = -104.75
 var imageOverlay = L.imageOverlay("texasleague.png", [[overlayLat, overlayLon], [overlayLat + imageOverlayFactor, overlayLon + (10*imageOverlayFactor)]], {opacity: 0.5})
 
-imageOverlayFactor2 = 1.3
-overlay2Lat = 41.90093422126158, 
-overlay2Lon = -92.83573141245431
-var imageOverlay2 = L.imageOverlay("midwestleague.png", [[overlay2Lat, overlay2Lon], [overlay2Lat + imageOverlayFactor2, overlay2Lon + (10*imageOverlayFactor2)]], {opacity: 0.5})
+//imageOverlayFactor2 = 1.3
+//overlay2Lat = 41.90093422126158, 
+//overlay2Lon = -92.83573141245431
+//var imageOverlay2 = L.imageOverlay("midwestleague.png", [[overlay2Lat, overlay2Lon], [overlay2Lat + imageOverlayFactor2, overlay2Lon + (10*imageOverlayFactor2)]], {opacity: 0.5})
 
 
 imageOverlay.addTo(map);
-imageOverlay2.addTo(map);
+//imageOverlay2.addTo(map);
 
 
 
