@@ -1,0 +1,274 @@
+floridastateleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Miami Marlins", "1962", "1970"],
+				["Miami Orioles", "1971", "1981"],
+				["Miami Marlins", "1982", "1988"],
+				["Miami Miracle", "1989", "1991"],
+				["Fort Myers Miracle", "1992", "2019"],
+				["Fort Myers Mighty Mussels", "2020", "now"],
+						],
+			"leagues" : [
+				["Florida State League", "1962", "now"],
+						],
+			"coords": 	[
+				[[25.79907, -80.210978  ], "1962", "1988"],
+				[[25.7545, -80.3808 ], "1989", "1989"],
+				[[26.239713, -80.107265 ], "1990", "1991"],
+				[[26.538333, -81.841944 ], "1992", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Winter Haven Red Sox", "1969", "1992"],
+				["Fort Lauderdale Red Sox", "1993", "1993"],
+				["Sarasota Red Sox", "1994", "2004"],
+				["Sarasota Reds", "2005", "2009"],
+				["Bradenton Marauders", "2010", "now"],
+						],
+			"leagues" : [
+				["Florida State League", "1962", "now"],
+						],
+			"coords": 	[
+				[[28.000556, -81.7275  ], "1969", "1992"],
+				[[26.195556, -80.161111  ], "1993", "1993"],
+				[[27.347778, -82.517222  ], "1994", "2009"],
+				[[27.485833, -82.570278  ], "2010", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Tampa Tarpons", "1957", "1970"],
+				["Sarasota White Sox", "1971", "1993"],
+				["Brevard County Manatees", "1994", "2016"],
+				["Florida Fire Frogs", "2017", "2020"],
+						],
+			"leagues" : [
+				["Florida State League", "1957", "2020"],
+						],
+			"coords": 	[
+				[[27.975833, -82.503333 ], "1957", "1988"],
+				[[27.33407, -82.529068  ], "1989", "1989"],
+				[[27.347778, -82.517222  ], "1990", "1993"],
+				[[28.256944, -80.739444  ], "1994", "2016"],
+				[[28.298333, -81.363889   ], "2017", "2019"],
+				[[27.033728, -82.319887 ], "2020", "2020"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Clearwater Phillies", "1985", "2003"],
+				["Clearwater Threshers", "2004", "now"],
+						],
+			"leagues" : [
+				["Florida State League", "1985", "now"],
+						],
+			"coords": 	[
+				[[27.974444, -82.789167 ], "1985", "2003"],
+				[[27.971667, -82.731667   ], "2004", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Daytona Beach Islanders", "1977", "1977"],
+				["Fort Myers Royals", "1978", "1987"],
+				["Baseball City Royals", "1988", "1992"],
+				["Daytona Cubs", "1993", "2014"],
+				["Daytona Tortugas", "2015", "now"],
+						],
+			"leagues" : [
+				["Florida State League", "1977", "now"],
+						],
+			"coords": 	[
+				[[29.209444, -81.016667 ], "1977", "1977"],
+				[[26.65709, -81.84199   ], "1978", "1987"],
+				[[28.228256, -81.641313  ], "1988", "1992"],
+				[[29.209444, -81.016667  ], "1993", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Tampa Yankees", "1994", "2017"],
+				["Tampa Tarpons", "2018", "now"],
+						],
+			"leagues" : [
+				["Florida State League", "1994", "now"],
+						],
+			"coords": 	[
+				[[28.059391, -82.404751 ], "1994", "1995"],
+				[[27.980278, -82.506667 ], "1996", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Dunedin Blue Jays", "1987", "now"],
+						],
+			"leagues" : [
+				["Florida State League", "1987", "now"],
+						],
+			"coords": 	[
+				[[28.003611, -82.786389  ], "1987", "1989"],
+				[[28.003611, -82.786389  ], "1990", "2018"],
+				[[27.974444, -82.789167 ], "2019", "2019"],
+				[[28.003611, -82.786389 ], "2020", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["West Palm Beach Braves", "1965", "1968"],
+				["West Palm Beach Expos", "1969", "1997"],
+				["Jupiter Hammerheads", "1998", "now"],
+						],
+			"leagues" : [
+				["Florida State League", "1965", "now"],
+						],
+			"coords": 	[
+				[[26.7215, -80.0795  ], "1965", "1997"],
+				[[26.891111, -80.116389  ], "1998", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Vero Beach Dodgers", "1980", "2006"],
+				["Vero Beach Devil Rays", "2007", "2008"],
+				["Charlotte Stone Crabs", "2009", "2020"],
+						],
+			"leagues" : [
+				["Florida State League", "1980", "2020"],
+						],
+			"coords": 	[
+				[[27.644444, -80.426667 ], "1980", "2008"],
+				[[26.999167, -82.181667  ], "2009", "2020"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Lakeland Giants", "1962", "1962"],
+				["Lakeland Tigers", "1963", "2006"],
+				["Lakeland Flying Tigers", "2007", "now"],
+						],
+			"leagues" : [
+				["Florida State League", "1962", "now"],
+						],
+			"coords": 	[
+				[[28.056667, -81.956389 ], "1962", "1965"],
+				[[28.074722, -81.950833  ], "1966", "2001"],
+				[[28.056667, -81.956389 ], "2002", "2002"],
+				[[28.074722, -81.950833  ], "2003", "2015"],
+				[[28.056667, -81.956389 ], "2016", "2016"],
+				[[28.074722, -81.950833  ], "2017", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Daytona Beach Admirals", "1987", "1987"],
+				["St. Lucie Mets", "1988", "now"],
+						],
+			"leagues" : [
+				["Florida State League", "1987", "now"],
+						],
+			"coords": 	[
+				[[29.209444, -81.016667  ], "1987", "1987"],
+				[[27.325281, -80.404494  ], "1988", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Daytona Beach Admirals", "1987", "1987"],
+				["St. Lucie Mets", "1988", "now"],
+						],
+			"leagues" : [
+				["Florida State League", "1987", "now"],
+						],
+			"coords": 	[
+				[[29.209444, -81.016667  ], "1987", "1987"],
+				[[27.325281, -80.404494  ], "1988", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Daytona Beach Islanders", "1985", "1986"],
+				["Charlotte Rangers", "1987", "2002"],
+				["Palm Beach Cardinals", "2003", "now"],
+						],
+			"leagues" : [
+				["Florida State League", "1987", "now"],
+						],
+			"coords": 	[
+				[[29.209444, -81.016667 ], "1985", "1986"],
+				[[26.999167, -82.181667 ], "1987", "2002"],
+				[[26.89103536101235, -80.12055847685929 ], "2003", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Daytona Beach Astros", "1978", "1984"],
+				["Osceola Astros", "1985", "1994"],
+				["Kissimmee Cobras", "1995", "2000"],
+						],
+			"leagues" : [
+				["Florida State League", "1978", "now"],
+						],
+			"coords": 	[
+				[[29.209444, -81.016667  ], "1978", "1984"],
+				[[28.298333, -81.363889  ], "1985", "2000"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Cocoa Astros", "1977", "1977"],
+						],
+			"leagues" : [
+				["Florida State League", "1977", "1977"],
+						],
+			"coords": 	[
+				[[28.363004, -80.802861  ], "1977", "1977"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["St. Petersburg Saints", "1947", "1965"],
+				["St. Petersburg Cardinals", "1966", "1996"],
+				["St. Petersburg Devil Rays", "1997", "2000"],
+						],
+			"leagues" : [
+				["Florida International League", "1947", "1954"],
+				["Florida State League", "1955", "2000"],
+						],
+			"coords": 	[
+				[[27.7681, -82.6331 ], "1947", "2000"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Fort Lauderdale Yankees", "1962", "1992"],
+						],
+			"leagues" : [
+				["Florida State League", "1962", "1992"],
+						],
+			"coords": 	[
+				[[26.195556, -80.161111  ], "1962", "1992"],
+						]
+		},
+	]
+}
+	

@@ -811,6 +811,37 @@ leagueIndex = {
 							]
 				}
 		},
+		{ 	"name": "Florida State League",
+			"properties": {
+				"type": "league",			
+				"loadName": "floridastateleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "aquamarineIcon",
+				"levels" : [["1919", "1924", 1, "Class C"],
+							["1925", "1928", 1, "Class D"],
+							["1936", "1941", 1, "Class D"],
+							["1946", "1962", 1, "Class D"],
+							["1963", "1989", 1, "Class A"],
+							["1963", "1989", 1, "Class A-Advanced"],
+							["1963", "1989", 1, "Class A-"],
+							]
+				}
+		},
+		{ 	"name": "Florida International League",
+			"properties": {
+				"type": "league",			
+				"loadName": null,
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "orangeIcon",
+				"levels" : [["1946", "1949", 1, "Class C"],
+							["1950", "1954", 1, "Class B"],
+							]
+				}
+		},
 	]
 }
 	
