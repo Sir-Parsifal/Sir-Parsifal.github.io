@@ -1,0 +1,155 @@
+northatlanticleagueminor = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Carbondale Pioneers", "1946", "1950"],
+						],
+			"leagues" : [
+				["North Atlantic League", "1946", "1950"],
+						],
+			"coords": 	[
+				[[41.56374447348351, -75.50174016949117], "1946", "1950"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Bloomingdale Troopers", "1946", "1948"],
+						],
+			"leagues" : [
+				["North Atlantic League", "1946", "1948"],
+						],
+			"coords": 	[
+				[[41.03526, -74.333737 ], "1946", "1948"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Nyack Rocklands", "1946", "1948"],
+				["Bangor Pickers", "1949", "1949-08-07"],
+				["Berwick Pickers", "1949-08-08", "1949"],
+				["Berwick Slaters", "1950", "1950"],
+						],
+			"leagues" : [
+				["North Atlantic League", "1946", "1950"],
+						],
+			"coords": 	[
+				[[41.09629806742179, -73.92427184194972 ], "1946", "1948"],
+				[[40.866667, -75.210833 ], "1949", "1949-08-07"],
+				[[41.054722, -76.233611  ], "1949-08-08", "1950"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Mahonoy City Bluebirds", "1946", "1947"],
+				["Mahonoy City Brewers", "1948", "1950"],
+						],
+			"leagues" : [
+				["North Atlantic League", "1946", "1950"],
+						],
+			"coords": 	[
+				[[40.8126410079257, -76.14080668280704 ], "1946", "1950"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Nazareth Cement Dusters", "1946", "1946"],
+				["Nazareth Barons", "1947", "1950"],
+						],
+			"leagues" : [
+				["North Atlantic League", "1946", "1950"],
+						],
+			"coords": 	[
+				[[40.74, -75.311111  ], "1946", "1950"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Newburgh Hummingbirds", "1946", "1946-06-09"],
+				["Walden Hummingbirds", "1946-06-10", "1946"],
+				["Berwick Slaters", "1950", "1950"],
+						],
+			"leagues" : [
+				["North Atlantic League", "1946", "1950"],
+						],
+			"coords": 	[
+				[[41.498889, -74.025278  ], "1946", "1946-06-09"],
+				[[41.56, -74.189722  ], "1946-06-10", "1946"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Newburgh Hummingbirds", "1946", "1946-06-09"],
+				["Walden Hummingbirds", "1946-06-10", "1946"],
+						],
+			"leagues" : [
+				["North Atlantic League", "1946", "1946"],
+						],
+			"coords": 	[
+				[[41.498889, -74.025278  ], "1946", "1946-06-09"],
+				[[41.56, -74.189722  ], "1946-06-10", "1946"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Kingston Dodgers", "1947", "1947"],
+				["Lansdale Dukes", "1948", "1948"],
+				["Hazleton Mountaineers", "1949", "1949"],
+				["Hazleton Dodgers", "1950", "1950"],
+						],
+			"leagues" : [
+				["North Atlantic League", "1947", "1950"],
+						],
+			"coords": 	[
+				[[41.9346, -74.027586  ], "1947", "1947"],
+				[[40.241944, -75.284167 ], "1948", "1948"],
+				[[40.958889, -75.974444 ], "1949", "1950"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Lebanon Chix", "1949", "1950"],
+						],
+			"leagues" : [
+				["North Atlantic League", "1949", "1950"],
+						],
+			"coords": 	[
+				[[40.442292993603004, -76.42560750715359  ], "1949", "1950"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Peekskill Highlanders", "1946", "1950"],
+						],
+			"leagues" : [
+				["North Atlantic League", "1946", "1950"],
+						],
+			"coords": 	[
+				[[41.283333, -73.916667  ], "1946", "1950"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Stroudsburg Poconos", "1946", "1950"],
+						],
+			"leagues" : [
+				["North Atlantic League", "1946", "1950"],
+						],
+			"coords": 	[
+				[[40.985833, -75.195278   ], "1946", "1950"],
+						]
+		},
+	]
+}
+	

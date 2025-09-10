@@ -5,16 +5,16 @@ template = {
 			"type": "team",
 			"names": 	[
 				["Los Angeles Angels", "1903", "1957"],
-				["El Paso Chihuahuas", "2014", "now"]
+				["El Paso Chihuahuas", "2014", "now"],
 						],
 			"leagues" : [
-				["PacificCoastLeague", "1903", "now"]
+				["PacificCoastLeague", "1903", "now"],
 						],
 			"coords": 	[
 				[[34.030773, 0], "1903", "1910"],
-				[[0, -106.492667], "2014", "now"]
+				[[0, -106.492667], "2014", "now"],
 						]
-		}
+		},
 	]
 }
 	

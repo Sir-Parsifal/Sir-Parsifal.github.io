@@ -1,0 +1,187 @@
+ponyleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Batavia Clippers", "1939", "1953"],
+						],
+			"leagues" : [
+				["Pennsylvania-Ontario-New York League", "1939", "1953"],
+						],
+			"coords": 	[
+				[[43.00921908321625, -78.17871673557053], "1939", "1953"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Bradford Bees", "1939", "1942"],
+						],
+			"leagues" : [
+				["Pennsylvania-Ontario-New York League", "1939", "1942"],
+						],
+			"coords": 	[
+				[[41.959167, -78.644722 ], "1939", "1942"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Hamilton Red Wings", "1939", "1942"],
+						],
+			"leagues" : [
+				["Pennsylvania-Ontario-New York League", "1939", "1942"],
+						],
+			"coords": 	[
+				[[43.242778, -79.989444 ], "1939", "1942"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Jamestown Jaguars", "1939", "1939"],
+				["London Pirates", "1940", "1941"],
+				["Hornell Maples", "1942", "1947"],
+				["Hornell Maple Leafs", "1948", "1949"],
+				["Hornell Dodgers", "1950", "1956"],
+						],
+			"leagues" : [
+				["Pennsylvania-Ontario-New York League", "1939", "1956"],
+						],
+			"coords": 	[
+				[[42.106667, -79.281389  ], "1939", "1939"],
+				[[42.983611, -81.258667  ], "1940", "1941"],
+				[[42.316667, -77.666667  ], "1942", "1956"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Niagara Falls Rainbows", "1939", "1940-07-18"],
+				["Jamestown Falcons", "1940-07-19", "1957-06-25"],
+						],
+			"leagues" : [
+				["Pennsylvania-Ontario-New York League", "1939", "1956"],
+				["New York-Penn League", "1957", "1957-06-25"],
+						],
+			"coords": 	[
+				[[43.100317, -79.024948  ], "1939", "1940-07-18"],
+				[[42.106667, -79.281389   ], "1940-07-19", "1940"],
+				[[42.112737, -79.219274  ], "1941", "1957"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Olean Oilers", "1939", "1951"],
+				["Olean Yankees", "1952", "1953"],
+				["Olean Giants", "1954", "1954"],
+				["Olean Oilers", "1955", "1958"],
+				["Olean A's", "1959", "1959"],
+						],
+			"leagues" : [
+				["Pennsylvania-Ontario-New York League", "1939", "1956"],
+				["New York-Penn League", "1957", "1959"],
+						],
+			"coords": 	[
+				[[42.077187, -78.420576  ], "1939", "1959"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Wellsville Yankees", "1942", "1946"],
+				["Wellsville Nitros", "1947", "1949"],
+				["Wellsville Senators", "1950", "1950"],
+				["Wellsville Rockets", "1951", "1952"],
+				["Wellsville Braves", "1953", "1961"],
+						],
+			"leagues" : [
+				["Pennsylvania-Ontario-New York League", "1942", "1956"],
+				["New York-Penn League", "1957", "1961"],
+						],
+			"coords": 	[
+				[[42.11844367112829, -77.94385040466344 ], "1942", "1961"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Lockport White Sox", "1942", "1942"],
+				["Lockport Cubs", "1943", "1944"],
+				["Lockport White Sox", "1945", "1945"],
+				["Lockport Cubs", "1946", "1946"],
+				["Lockport Reds", "1947", "1950"],
+				["Corning A's", "1951", "1952"],
+				["Corning Independents", "1953", "1953"],
+				["Corning Red Sox", "1954", "1958"],
+				["Corning Cor-Sox", "1959", "1959"],
+				["Corning Red Sox", "1960", "1960"],
+						],
+			"leagues" : [
+				["Pennsylvania-Ontario-New York League", "1942", "1956"],
+				["New York-Penn League", "1957", "1960"],
+						],
+			"coords": 	[
+				[[43.169722, -78.691111  ], "1942", "1950"],
+				[[42.146239, -77.04639 ], "1951", "1960"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Erie Sailors", "1944", "1951"],
+						],
+			"leagues" : [
+				["Pennsylvania-Ontario-New York League", "1944", "1945"],
+				["Middle Atlantic League", "1946", "1951"],
+						],
+			"coords": 	[
+				[[42.104, -80.1023 ], "1944", "1951"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Hamilton Cardinals", "1946", "1955"],
+				["Hamilton Red Wings", "1956", "1956-05-18"],
+						],
+			"leagues" : [
+				["Pennsylvania-Ontario-New York League", "1946", "1956-05-18"],
+						],
+			"coords": 	[
+				[[43.242778, -79.989444  ], "1946", "1956-05-18"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Bradford Blue Wings", "1944", "1949"],
+				["Bradford Phillies", "1950", "1955"],
+				["Bradford Yankees", "1956", "1956-05-18"],
+						],
+			"leagues" : [
+				["Pennsylvania-Ontario-New York League", "1944", "1956-05-18"],
+						],
+			"coords": 	[
+				[[41.959167, -78.644722  ], "1946", "1956-05-18"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Erie Senators", "1954", "1956"],
+				["Erie Sailors", "1957", "1963"],
+						],
+			"leagues" : [
+				["Pennsylvania-Ontario-New York League", "1954", "1956"],
+				["New York-Penn League", "1957", "1963"],
+						],
+			"coords": 	[
+				[[42.104, -80.1023  ], "1954", "1963"],
+						]
+		},
+	]
+}
+	

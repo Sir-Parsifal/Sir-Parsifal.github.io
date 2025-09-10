@@ -448,7 +448,7 @@ leagueIndex = {
 			"properties": {
 				"type": "league",			
 				"loadName": "northatlanticleague",
-				"loadName2": null,
+				"loadName2": "northatlanticleagueminor",
 				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
 				"leagueTimeline" : [],
 				"icon" : "aquamarineIcon",
@@ -839,6 +839,45 @@ leagueIndex = {
 				"icon" : "orangeIcon",
 				"levels" : [["1946", "1949", 1, "Class C"],
 							["1950", "1954", 1, "Class B"],
+							]
+				}
+		},
+		{ 	"name": "Border League",
+			"properties": {
+				"type": "league",			
+				"loadName": "borderleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "blackIcon",
+				"levels" : [["1912", "1913", 1, "Class D"],
+							["1946", "1951", 1, "Class C"],
+							]
+				}
+		},
+		{ 	"name": "Colonial League",
+			"properties": {
+				"type": "league",			
+				"loadName": "colonialleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "pinkIcon",
+				"levels" : [["1914", "1914", 1, "Class C"],
+							["1915", "1915", 2],
+							["1947", "1950", 1, "Class B"],
+							]
+				}
+		},
+		{ 	"name": "Pennsylvania-Ontario-New York League",
+			"properties": {
+				"type": "league",			
+				"loadName": "ponyleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "brownIcon",
+				"levels" : [["1939", "1956", 1, "Class D"],
 							]
 				}
 		},

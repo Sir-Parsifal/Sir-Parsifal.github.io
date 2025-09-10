@@ -1,0 +1,98 @@
+colonialleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Bridgeport Bees", "1947", "1950"],
+						],
+			"leagues" : [
+				["Colonial League", "1947", "1950"],
+						],
+			"coords": 	[
+				[[41.19817106453911, -73.19024262779627], "1947", "1950"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["New London Raiders", "1947", "1947"],
+				["New Brunswick Hubs", "1948", "1948-07-07"],
+				["Kingston Colonials", "1948-08-08", "1950"],
+						],
+			"leagues" : [
+				["Colonial League", "1947", "1950"],
+						],
+			"coords": 	[
+				[[41.355556, -72.099444 ], "1947", "1947"],
+				[[40.486678, -74.444414 ], "1948", "1948-07-07"],
+				[[41.9346, -74.027586  ], "1948-08-08", "1950"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Port Chester Clippers", "1947", "1948"],
+				["Bristol Owls", "1949", "1950"],
+						],
+			"leagues" : [
+				["Colonial League", "1947", "1950"],
+						],
+			"coords": 	[
+				[[41.005, -73.668889  ], "1947", "1948"],
+				[[41.673176, -72.959459 ], "1949", "1950"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Poughkeepsie Giants", "1947", "1947"],
+				["Poughkeepsie Chiefs", "1948", "1950"],
+						],
+			"leagues" : [
+				["Colonial League", "1947", "1950"],
+						],
+			"coords": 	[
+				[[41.69831707931475, -73.93347777235385], "1947", "1950"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Waterbury Timers", "1947", "1950"],
+						],
+			"leagues" : [
+				["Colonial League", "1947", "1950"],
+						],
+			"coords": 	[
+				[[41.577784, -73.070186 ], "1947", "1950"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Stamford Bombers", "1947", "1947"],
+				["Stamford Pioneers", "1948", "1949"],
+						],
+			"leagues" : [
+				["Colonial League", "1947", "1949"],
+						],
+			"coords": 	[
+				[[41.04376199488402, -73.52564552750239 ], "1947", "1950"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Torrington Braves", "1950", "1950"],
+						],
+			"leagues" : [
+				["Colonial League", "1950", "1950"],
+						],
+			"coords": 	[
+				[[41.797958, -73.119067  ], "1950", "1950"],
+						]
+		},
+	]
+}
+	

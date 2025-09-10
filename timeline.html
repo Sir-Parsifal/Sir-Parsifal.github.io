@@ -53,6 +53,10 @@
 <script src="minorleagues/nebraskastateleague.json" type="text/javascript"></script> 
 <script src="minorleagues/mountainstateleague.json" type="text/javascript"></script> 
 <script src="minorleagues/floridastateleague.json" type="text/javascript"></script> 
+<script src="minorleagues/borderleague.json" type="text/javascript"></script> 
+<script src="minorleagues/northatlanticleague.json" type="text/javascript"></script> 
+<script src="minorleagues/colonialleague.json" type="text/javascript"></script> 
+<script src="minorleagues/ponyleague.json" type="text/javascript"></script> 
 
 <script src="indyleagues/northcentralleague.json" type="text/javascript"></script> 
 <script src="indyleagues/greatcentralleague.json" type="text/javascript"></script> 
@@ -710,33 +714,12 @@ function processIndexGeoJSONintoTimelines() {
 		leagueLayerArray[i][0].addTo(map);
 		timelineControl.addTimelines(leagueLayerArray[i][0]);
 														} 
-											}									
+											}		
 
-//so, here's the plan for drawing images. we toss in some extra code into processIndexGeoJSONintoTimelines, which iterates through the leagues. 
-
-
-function buildFancyTextOnMap() {
-	for (let i = 0; i < leagueIndex.leagues.length; i++) 	{                                     //iterates through the leagues
-		//console.log(leagueIndex.leagues[i].name, leagueIndex.leagues[i].properties.leagueGeoJSONArray);
-		//console.log(leagueIndex.leagues[i].properties.leagueTimeline.times[0]);
-		if (leagueIndex.leagues[i].properties.textImg) {
-			for (let j = 0; j < leagueIndex.leagues[i].properties.leagueTimeline.times.length; j++) { 				//iterates through the timeline update points
-				//console.log(leagueIndex.leagues[i].name, leagueIndex.leagues[i].properties.leagueTimeline.times[j]) //so we can only draw new text whenever it updates
-				for (let k = 0; k < leagueIndex.leagues[i].properties.leagueGeoJSONArray.features.length; k++) { 			//iterates through the geoJSON array
-					let currentTeamGeoJSON = leagueIndex.leagues[i].properties.leagueGeoJSONArray.features[k];
-					if (currentTeamGeoJSON.type == "Feature") {
-						console.log(currentTeamGeoJSON);
-						}
-				}
-			}
-		}
-	}
-}		
-
+											
 var textLayer = L.layerGroup([]);
 
 function drawLeagueText() {
-	
 	textLayer.clearLayers();
 	//console.log(timelineControl.time);
 	for (let i = 0; i < leagueIndex.leagues.length; i++) 	{                                     //iterates through the leagues
@@ -763,24 +746,14 @@ function drawLeagueText() {
 
 
 
-imageOverlayFactor = 1.5
-overlayLat = 33.89
-overlayLon = -104.75
-var imageOverlay = L.imageOverlay("texasleague.png", [[overlayLat, overlayLon], [overlayLat + imageOverlayFactor, overlayLon + (10*imageOverlayFactor)]], {opacity: 0.5})
-
-//imageOverlayFactor2 = 1.3
-//overlay2Lat = 41.90093422126158, 
-//overlay2Lon = -92.83573141245431
-//var imageOverlay2 = L.imageOverlay("midwestleague.png", [[overlay2Lat, overlay2Lon], [overlay2Lat + imageOverlayFactor2, overlay2Lon + (10*imageOverlayFactor2)]], {opacity: 0.5})
-
-
-imageOverlay.addTo(map);
-//imageOverlay2.addTo(map);
+//imageOverlayFactor = 1.5
+//overlayLat = 33.89
+//overlayLon = -104.75
+//var imageOverlay = L.imageOverlay("texasleague.png", [[overlayLat, overlayLon], [overlayLat + imageOverlayFactor, overlayLon + (10*imageOverlayFactor)]], {opacity: 0.5})
 
 
 
 loadLeaguesFromIndex();
-//buildFancyTextOnMap();
 
 
 timelineControl.addTo(map);
