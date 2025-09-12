@@ -1,0 +1,198 @@
+canamleagueminor = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Brockville Pirates", "1936", "1936"],
+				["Brockville Blues", "1937", "1937"],
+				["Gloversville-Johnstown Glovers", "1938", "1951"],
+						],
+			"leagues" : [
+				["Can-Am League", "1936", "1942"],
+				["WW2", "1943", "1945"],
+				["Can-Am League", "1946", "1951"],
+						],
+			"coords": 	[
+				[[44.583333, -75.683333 ], "1936", "1937"],
+				[[43.05, -74.35 ], "1938", "1951"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Ogdensburg Colts", "1936", "1939"],
+				["Auburn Colts", "1940", "1940"],
+						],
+			"leagues" : [
+				["Can-Am League", "1936", "1940"],
+						],
+			"coords": 	[
+				[[44.7, -75.483333  ], "1936", "1939"],
+				[[42.9416, -76.585232  ], "1940", "1940"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Oswego Netherlands", "1936", "1939"],
+				["Pittsfield Electrics", "1941", "1948"],
+				["Pittsfield Indians", "1949", "1950"],
+				["Pittsfield Phillies", "1951", "1951"],
+						],
+			"leagues" : [
+				["Can-Am League", "1936", "1942"],
+				["WW2", "1943", "1945"],
+				["Can-Am League", "1946", "1951"],
+						],
+			"coords": 	[
+				[[43.454722, -76.506667  ], "1936", "1939"],
+				[[42.462319, -73.252582  ], "1940", "1951"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Ottawa Senators", "1936", "1936"],
+				["Ottawa Braves", "1937", "1938"],
+				["Ottawa Senators", "1939", "1939"],
+				["Ottawa-Ogdensburg Senators", "1940", "1940"],
+						],
+			"leagues" : [
+				["Can-Am League", "1936", "1940"],
+						],
+			"coords": 	[
+				[[45.399, -75.683  ], "1936", "1940"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Perth Blue Cats", "1936", "1936"],
+				["Perth-Cornwall Bisons", "1937", "1937"],
+				["Cornwall Bisons", "1938", "1938"],
+				["Cornwall Maple Leafs", "1939", "1939"],
+				["Oneonta Indians", "1940", "1942"],
+				["Oneonta Red Sox", "1943", "1951"],
+						],
+			"leagues" : [
+				["Can-Am League", "1936", "1951"],
+						],
+			"coords": 	[
+				[[44.9, -76.25  ], "1936", "1937"],
+				[[45.0275, -74.74 ], "1938", "1939"],
+				[[42.451716, -75.058299  ], "1940", "1951"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Watertown Bucks", "1936", "1936-07-29"],
+				["Massena Grays", "1936-07-30", "1936"],
+				["Gloversville Glovers", "1937", "1937"],
+				["Amsterdam Rugmakers", "1938", "1951"],
+						],
+			"leagues" : [
+				["Can-Am League", "1936", "1942"],
+				["WW2", "1943", "1945"],
+				["Can-Am League", "1946", "1951"],
+						],
+			"coords": 	[
+				[[43.985353, -75.927721  ], "1936", "1936-07-29"],
+				[[44.960833, -74.833889   ], "1936-07-30", "1936"],
+				[[43.05, -74.35 ], "1937", "1937"],
+				[[42.959528, -74.171417  ], "1938", "1951"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Rome Colonels", "1937", "1951"],
+						],
+			"leagues" : [
+				["Can-Am League", "1937", "1942"],
+				["WW2", "1943", "1945"],
+				["Can-Am League", "1946", "1951"],
+						],
+			"coords": 	[
+				[[43.22363268793184, -75.44340287070946 ], "1937", "1951"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Smiths Falls Beavers", "1937", "1937"],
+						],
+			"leagues" : [
+				["Can-Am League", "1937", "1937"],
+						],
+			"coords": 	[
+				[[44.9, -76.016667  ], "1937", "1937"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Auburn Bouleys", "1938", "1938"],
+						],
+			"leagues" : [
+				["Can-Am League", "1938", "1938"],
+						],
+			"coords": 	[
+				[[42.9416, -76.585232   ], "1938", "1938"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Trois-Rivieres Foxes", "1939", "1939"],
+				["Trois-Rivieres Renards", "1940", "1942"],
+				["Trois-Rivieres Royals", "1943", "1951"],
+				["Trois-Rivieres Yankees", "1952", "1953"],
+				["Trois-Rivieres Phillies", "1954", "1955"],
+						],
+			"leagues" : [
+				["Provincial League", "1939", "1940"],
+				["Can-Am League", "1941", "1942"],
+				["WW2", "1943", "1945"],
+				["Can-Am League", "1946", "1950"],
+				["Provincial League", "1951", "1955"],
+						],
+			"coords": 	[
+				[[46.347778, -72.556389 ], "1939", "1955"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Quebec Athletics", "1939", "1942"],
+				["Quebec Alouettes", "1943", "1948"],
+				["Quebec Braves", "1949", "1955"],
+						],
+			"leagues" : [
+				["Provincial League", "1939", "1940"],
+				["Can-Am League", "1941", "1942"],
+				["WW2", "1943", "1945"],
+				["Can-Am League", "1946", "1950"],
+				["Provincial League", "1951", "1955"],
+						],
+			"coords": 	[
+				[[46.818611, -71.233497 ], "1939", "1955"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Kingston Colonials", "1951", "1951"],
+						],
+			"leagues" : [
+				["Can-Am League", "1951", "1951"],
+						],
+			"coords": 	[
+				[[41.9346, -74.027586  ], "1951", "1951"],
+						]
+		},
+
+	]
+}
+	

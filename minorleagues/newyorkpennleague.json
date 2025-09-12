@@ -17,6 +17,197 @@ newyorkpennleague = {
 				[[40.645575, -74.076428 ], "2001", "2020"],
 						]
 		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Bradford Beagles", "1957", "1957-05-23"],
+				["Hornell Redlegs", "1957-05-24", "1957"],
+				["Geneva Redlegs", "1958", "1962"],
+				["Geneva Senators", "1963", "1968"],
+				["Geneva Pirates", "1969", "1969"],
+				["Geneva Senators", "1970", "1972"],
+				["Geneva Twins", "1973", "1973"],
+						],
+			"leagues" : [
+				["New York-Penn League", "1957", "1973"]
+						],
+			"coords": 	[
+				[[41.959167, -78.644722 ] , "1957", "1957-05-23"],
+				[[42.316667, -77.666667  ], "1957-05-24", "1957"],
+				[[42.868388, -77.001103  ], "1958", "1973"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Batavia Indians", "1957", "1959"],
+						],
+			"leagues" : [
+				["New York-Penn League", "1957", "1959"]
+						],
+			"coords": 	[
+				[[43.009174, -78.178722 ] , "1957", "1959"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Batavia Pirates", "1961", "1965"],
+				["Batavia Trojans", "1966", "1987"],
+				["Batavia Clippers", "1988", "1997"],
+				["Batavia Muckdogs", "1998", "now"],
+						],
+			"leagues" : [
+				["New York-Penn League", "1961", "2020"],
+				["Perfect Game Collegiate Baseball League", "2021", "now"],
+						],
+			"coords": 	[
+				[[43.009174, -78.178722 ] , "1961", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Jamestown Tigers", "1961", "1965"],
+				["Jamestown Dodgers", "1966", "1966"],
+				["Jamestown Braves", "1967", "1967"],
+				["Jamestown Falcons", "1968", "1972"],
+				["Jamestown Expos", "1973", "1973"],
+						],
+			"leagues" : [
+				["New York-Penn League", "1961", "1973"],
+						],
+			"coords": 	[
+				[[42.112737, -79.219274  ] , "1961", "1973"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Olean Red Sox", "1961", "1962"],
+						],
+			"leagues" : [
+				["New York-Penn League", "1961", "1962"],
+						],
+			"coords": 	[
+				[[42.077187, -78.420576 ] , "1961", "1962"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Wellsville Red Sox", "1963", "1965"],
+						],
+			"leagues" : [
+				["New York-Penn League", "1963", "1965"],
+						],
+			"coords": 	[
+				[[42.120833, -77.945833  ] , "1963", "1965"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Oneonta Red Sox", "1966", "1966"],
+				["Oneonta Yankees", "1967", "1998"],
+				["Oneonta Tigers", "1999", "2009"],
+				["Connecticut Tigers", "2010", "2019"],
+				["Norwich Sea Unicorns", "2020", "now"],
+						],
+			"leagues" : [
+				["New York-Penn League", "1966", "2020"],
+				["Futures Collegiate Baseball League", "2021", "now"],
+						],
+			"coords": 	[
+				[[42.451716, -75.058299  ] , "1966", "2009"],
+				[[41.573875, -72.107072   ] , "2010", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Erie Tigers", "1967", "1967"],
+				["Williamsport Astros", "1968", "1970"],
+				["Williamsport Red Sox", "1971", "1972"],
+				["Elmira Pioneers", "1973", "1995"],
+				["Lowell Spinners", "1996", "2020"],
+						],
+			"leagues" : [
+				["New York-Penn League", "1967", "2020"],
+						],
+			"coords": 	[
+				[[42.104, -80.1023   ] , "1967", "1967"],
+				[[41.242347, -77.047067  ] , "1968", "1972"],
+				[[42.080296, -76.780674 ] , "1973", "1995"],
+				[[42.65327, -71.318114  ] , "1996", "2020"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Corning Royals", "1968", "1969"],
+						],
+			"leagues" : [
+				["New York-Penn League", "1968", "1969"],
+						],
+			"coords": 	[
+				[[42.146239, -77.04639  ] , "1968", "1969"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Newark Co-Pilots", "1968", "1979"],
+						],
+			"leagues" : [
+				["New York-Penn League", "1968", "1979"],
+						],
+			"coords": 	[
+				[[43.047861, -77.074167  ] , "1968", "1979"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Niagara Falls Pirates", "1970", "1979"],
+						],
+			"leagues" : [
+				["New York-Penn League", "1970", "1979"],
+						],
+			"coords": 	[
+				[[43.100317, -79.024948  ] , "1970", "1979"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Jamestown Expos", "1977", "1993"],
+				["Vermont Expos", "1994", "2005"],
+				["Vermont Lake Monsters", "2006", "now"],
+						],
+			"leagues" : [
+				["New York-Penn League", "1977", "2020"],
+				["Futures Collegiate Baseball League", "2021", "now"],
+						],
+			"coords": 	[
+				[[42.112737, -79.219274  ], "1977", "1993"],
+				[[44.481667, -73.187778 ], "1994", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Auburn Astros", "1982", "1995"],
+				["Auburn Doubledays", "1996", "now"],
+						],
+			"leagues" : [
+				["New York-Penn League", "1982", "2020"],
+				["Perfect Game Collegiate Baseball League", "2021", "now"],
+						],
+			"coords": 	[
+				[[42.9416, -76.585232 ] , "1982", "now"],
+						]
+		},
 	]
 }
 	

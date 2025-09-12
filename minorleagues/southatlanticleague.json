@@ -142,16 +142,18 @@ southatlanticleague = {
 		{ 
 			"type": "team",
 			"names": 	[
+				["Niagara Falls Sox", "1982", "1985"],
 				["St. Catherines Blue Jays", "1986", "1994"],
 				["St. Catherines Stompers", "1995", "1999"],
 				["Queens Kings", "2000", "2000"],
 				["Brooklyn Cyclones", "2001", "now"],
 						],
 			"leagues" : [
-				["New York-Penn League", "1986", "2020"],
+				["New York-Penn League", "1982", "2020"],
 				["South Atlantic League", "2021", "now"],
 						],
 			"coords": 	[
+				[[43.100317, -79.024948 ], "1982", "1985"],
 				[[43.143078, -79.212574 ], "1986", "1999"],
 				[[40.723647, -73.791704 ], "2000", "2000"],
 				[[40.574444, -73.984167  ], "2001", "now"],

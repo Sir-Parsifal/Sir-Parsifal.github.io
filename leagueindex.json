@@ -345,7 +345,7 @@ leagueIndex = {
 		{ 	"name": "Can-Am League",
 			"properties": {
 				"type": "league",			
-				"loadName": null,
+				"loadName": "canamleagueminor",
 				"loadName2": null,
 				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
 				"leagueTimeline" : [],
