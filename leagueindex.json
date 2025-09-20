@@ -881,6 +881,20 @@ leagueIndex = {
 							]
 				}
 		},
+		{ 	"name": "Evangeline League",
+			"properties": {
+				"type": "league",			
+				"loadName": "evangelineleague",
+				"loadName2": null,
+				"leagueGeoJSONArray": {"type": "FeatureCollection", "features": []},
+				"leagueTimeline" : [],
+				"icon" : "blueIcon",
+				"levels" : [["1934", "1942", 1, "Class D"],
+							["1946", "1948", 1, "Class D"],
+							["1949", "1957", 1, "Class C"],
+							]
+				}
+		},
 	]
 }
 	

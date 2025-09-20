@@ -1,0 +1,116 @@
+evangelineleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Alexandria Aces", "1934", "1957"],
+						],
+			"leagues" : [
+				["Evangeline League", "1934", "1942"],
+				["WW2", "1943", "1945"],
+				["Evangeline League", "1946", "1957"],
+						],
+			"coords": 	[
+				[[31.286615, -92.458556 ], "1934", "1957"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Lafayette White Sox", "1934", "1942"],
+						],
+			"leagues" : [
+				["Evangeline League", "1934", "1942"],
+						],
+			"coords": 	[
+				[[30.230683667639525, -92.00758079088224 ], "1934", "1942"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Lake Charles Explorers", "1934", "1934-06-01"],
+				["Jeanerette Blues", "1934-06-02", "1939"],
+						],
+			"leagues" : [
+				["Evangeline League", "1934", "1942"],
+						],
+			"coords": 	[
+				[[30.221154049010426, -93.20094254503299 ], "1934", "1934-06-01"],
+				[[29.915833, -91.675833  ], "1934-06-02", "1939"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["New Iberia Cardinals", "1934", "1947"],
+				["New Iberia Pelicans", "1948", "1948"],
+				["New Iberia Cardinals", "1949", "1949"],
+				["New Iberia Rebels", "1950", "1950"],
+				["New Iberia Pelicans", "1951", "1952"],
+				["New Iberia Cardinals", "1953", "1953"],
+				["New Iberia Pelicans", "1954", "1954"],
+				["New Iberia Indians", "1955", "1956"],
+						],
+			"leagues" : [
+				["Evangeline League", "1934", "1942"],
+				["WW2", "1943", "1945"],
+				["Evangeline League", "1946", "1956"],
+						],
+			"coords": 	[
+				[[30.021389, -91.826389  ], "1934", "1956"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Opelousas Indians", "1934", "1941"],
+						],
+			"leagues" : [
+				["Evangeline League", "1934", "1941"],
+						],
+			"coords": 	[
+				[[30.504167, -92.079444  ], "1934", "1941"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Rayne Red Sox", "1934", "1934"],
+				["Rayne Rice Birds", "1935", "1941"],
+						],
+			"leagues" : [
+				["Evangeline League", "1934", "1941"],
+						],
+			"coords": 	[
+				[[30.245833, -92.247222   ], "1934", "1941"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Abbeville A's", "1935", "1939"],
+						],
+			"leagues" : [
+				["Evangeline League", "1935", "1939"],
+						],
+			"coords": 	[
+				[[29.976197330021954, -92.12413459561643 ], "1935", "1939"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Lake Charles Skippers", "1935", "1942"],
+						],
+			"leagues" : [
+				["Evangeline League", "1935", "1942"],
+						],
+			"coords": 	[
+				[[30.221154049010426, -93.20094254503299 ], "1935", "1942"],
+						]
+		},
+	]
+}
+	

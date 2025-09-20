@@ -58,6 +58,7 @@
 <script src="minorleagues/colonialleague.json" type="text/javascript"></script> 
 <script src="minorleagues/ponyleague.json" type="text/javascript"></script> 
 <script src="minorleagues/canamleague.json" type="text/javascript"></script> 
+<script src="minorleagues/evangelineleague.json" type="text/javascript"></script> 
 
 <script src="indyleagues/northcentralleague.json" type="text/javascript"></script> 
 <script src="indyleagues/greatcentralleague.json" type="text/javascript"></script> 
@@ -735,7 +736,8 @@ function drawLeagueText() {
 					let lat = currentImg[3][0];
 					let lon = currentImg[3][1];
 					let factor = currentImg[4];
-					imgOverlay = L.imageOverlay(currentImg[2], [[lat, lon], [lat+factor, lon+(10*factor)]], {opacity: 0.5});
+					imgOverlay = L.imageOverlay(currentImg[2], [[lat, lon], [lat+factor, lon+(10*factor)]], {opacity: 0.5, interactive: true});
+					imgOverlay.on('dblclick', function() {leagueZoomMode(leagueIndex.leagues[i].name)});
 					imgOverlay.addTo(textLayer);
 					break;
 					}
@@ -745,6 +747,22 @@ function drawLeagueText() {
 	map.addLayer(textLayer);
 }
 
+function leagueZoomMode(league) {
+	let firstVar = 0
+	map.eachLayer(function(layer) {
+		if (firstVar == 0) {
+		firstVar = 1
+		
+		}
+		else {
+		console.log(layer);
+		map.removeLayer(layer)
+		}
+			});
+	
+	//CartoDB_LightMatter.addTo(map);
+	console.log(league);
+	}
 
 
 //imageOverlayFactor = 1.5
